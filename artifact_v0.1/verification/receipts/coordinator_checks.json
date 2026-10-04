@@ -1,0 +1,16 @@
+{
+  "candidate": "C001",
+  "executed_utc": "2026-10-03T18:44:22.830386+00:00",
+  "status": "PASS",
+  "root_bracket": [
+    "49623653310338602742797954334447644475598971466021241877248575123/16455045573212060421549691825573505049827358656335798633486090240",
+    "12405913327584650685699488583611911118899742866505310469312143781/4113761393303015105387422956393376262456839664083949658371522560"
+  ],
+  "bisections": 210,
+  "displayed_decimal_digits": 48,
+  "certified_truncated_prefix": "3.015710475522673285523983801961043281714038985152",
+  "analytic_monotonicity_interface": "p prime=t^3(30t^2-260)+288t+96>0 for t>=3, proven by all factors lower bounds",
+  "smallest_derivative_lower_bound_on_t_ge_3": 1230,
+  "scientific_inputs_unchanged": true,
+  "evidence_type": "coordinator exact SELF_CHECK; not theorem reconstruction"
+}

@@ -1,0 +1,13 @@
+# Local publishing material; not part of the public repository tree.
+/release_assets/
+/.publish/
+
+# Reproduction outputs.
+**/__pycache__/
+*.pyc
+encoding_current.json
+sos_current.json
+gram_current.json
+statement_current.json
+KILL_TESTS.json
+.local/

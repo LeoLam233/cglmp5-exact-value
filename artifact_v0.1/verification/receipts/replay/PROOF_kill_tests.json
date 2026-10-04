@@ -1,0 +1,78 @@
+{
+  "status": "ALL_TESTS_PASSED",
+  "tests": [
+    {
+      "test": "one integer in H changed",
+      "expected": "reject",
+      "result": "PASS",
+      "reason": "nonzero exact Bell SOS word residual: [((2, 1), (0, 2), (1, 3), (3, 4)), ((2, 1), (0, 1), (3, 3)), ((2, 3), (0, 2), (3, 1), (1, 4))]"
+    },
+    {
+      "test": "one E coefficient changed",
+      "expected": "reject",
+      "result": "PASS",
+      "reason": "nonzero exact Bell SOS word residual: [((2, 3), (1, 1), (3, 1)), ((0, 1), (1, 4)), ((2, 3), (1, 4), (3, 3))]"
+    },
+    {
+      "test": "extra positive block1 incorrectly dropped",
+      "expected": "reject",
+      "result": "PASS",
+      "reason": "nonzero exact Bell SOS word residual: [((2, 1), (0, 2), (1, 3), (3, 4)), ((2, 1), (0, 1), (3, 3)), ((2, 3), (0, 2), (3, 1), (1, 4))]"
+    },
+    {
+      "test": "consistent negative H/LDL sign flip",
+      "expected": "reject",
+      "result": "PASS",
+      "reason": "block9 pivot0 not certified positive"
+    },
+    {
+      "test": "wrong sqrt5 branch",
+      "expected": "reject",
+      "result": "PASS",
+      "reason": "sqrt5 branch not enclosed"
+    },
+    {
+      "test": "wrong mu root interval",
+      "expected": "reject",
+      "result": "PASS",
+      "reason": "mu not isolated on largest-root branch"
+    },
+    {
+      "test": "wraparound Fourier phase sign reversed",
+      "expected": "reject",
+      "result": "PASS",
+      "reason": "nonzero exact Bell SOS word residual: [((0, 3), (3, 2)), ((0, 2), (3, 3)), ((0, 1), (3, 4))]"
+    },
+    {
+      "test": "claimed upper bound lowered by 10^-12",
+      "expected": "reject",
+      "result": "PASS",
+      "reason": "nonzero exact Bell SOS word residual: [()]"
+    },
+    {
+      "test": "maximally entangled state substituted for optimizer",
+      "expected": "reject",
+      "result": "PASS",
+      "reason": "full 25-coordinate Bell eigenvector failure"
+    },
+    {
+      "test": "physical wraparound phase corrupted",
+      "expected": "reject",
+      "result": "PASS",
+      "reason": "Fourier-projector/unitary bridge failed"
+    },
+    {
+      "test": "stored PASS flags ignored",
+      "expected": "mathematical checks still pass",
+      "result": "PASS"
+    },
+    {
+      "test": "same-party noncommutativity and cross-party commutativity",
+      "result": "PASS"
+    }
+  ],
+  "count": 12,
+  "mutated_source_files": false,
+  "elapsed_seconds": 1.8280000000013388,
+  "scope": "Same-agent adversarial verifier tests, not external audit or proof of verifier infallibility."
+}

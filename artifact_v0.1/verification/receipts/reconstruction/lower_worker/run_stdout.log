@@ -1,0 +1,57 @@
+{
+  "input_sha256": "0480e476fde75b9cdc540066ad1bcfc36f2f6375a04afbf848396f24bdc5b61d",
+  "outcome": "PARTIAL",
+  "independent_numeric_root": "3.01571047552267328552398380196104328171403898515229484763032473159262435836466072450730232",
+  "measurement_alpha": [
+    0,
+    0.5
+  ],
+  "measurement_beta": [
+    0.25,
+    -0.25
+  ],
+  "norm_psi_error": 0.0,
+  "basis_unitarity_errors": [
+    3.944179491628262e-16,
+    1.1055977161546098e-15,
+    1.2381760838569055e-15,
+    2.1938431671552335e-15
+  ],
+  "probability_normalization_errors": [
+    [
+      3.3306690738754696e-16,
+      2.220446049250313e-16
+    ],
+    [
+      0.0,
+      1.1102230246251565e-16
+    ]
+  ],
+  "minimum_probability": 0.007425942394998971,
+  "direct_I5": 3.015710475522672,
+  "direct_I5_minus_numeric_root": -1.3322676295501878e-15,
+  "bell_expectation": 3.015710475522672,
+  "bell_hermiticity_error": 6.126115397273499e-16,
+  "bell_eigenvector_residual": 2.01873535147014e-15,
+  "diagonal_subspace_leakage": 1.6795230437401885e-15,
+  "restriction_vs_cosine_error": 3.112259022853998e-15,
+  "cosine_vs_closed_form_error": 4.1540741810552243e-16,
+  "toeplitz_eigenvector_residual": 3.1401849173675503e-16,
+  "toeplitz_eigenvalues": [
+    -1.7143332500273878,
+    -0.5217347274724018,
+    -0.49904659282291136,
+    -0.2805959051999728,
+    3.015710475522673
+  ],
+  "exact_sturm_counts": {
+    "in_interval": 1,
+    "above_interval": 0
+  },
+  "root_interval": [
+    "301571/100000",
+    "75393/25000"
+  ],
+  "limitations": "An attainable lower bound is proved. No bound for other POVMs, dimensions, or states is proved. Full exposed supremum theorem remains unproved by this worker."
+}
+all asserted exact and numerical checks passed

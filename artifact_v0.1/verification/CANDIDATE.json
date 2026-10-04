@@ -1,0 +1,443 @@
+{
+  "candidate_id": "C001",
+  "parent_id": null,
+  "historical_declaration": "SUCCESS",
+  "intake_declaration": "PROVISIONAL_SUCCESS",
+  "central_claim_ids": [
+    "T1"
+  ],
+  "central_statement": "sup standard local-bound-2 five-result CGLMP over arbitrary tensor-product Hilbert states and local five-result POVMs equals the largest real root of 5t^6-65t^4+144t^2+96t+16, attained in C5 tensor C5",
+  "novelty_claim": "complete exact positive SOS upper certificate for known numerical candidate; no new-constant or absolute-first claim",
+  "dependency_nodes": [
+    {
+      "id": "N1",
+      "meaning": "standard probability functional, relabeling, local normalization",
+      "claims": [
+        "T6"
+      ],
+      "depends_on": []
+    },
+    {
+      "id": "N2",
+      "meaning": "largest root, actual embedding and scalar conversion",
+      "claims": [
+        "T3"
+      ],
+      "depends_on": []
+    },
+    {
+      "id": "N3",
+      "meaning": "exact compact SOS and full Gram identity",
+      "claims": [
+        "T2"
+      ],
+      "depends_on": [
+        "N1",
+        "N2"
+      ]
+    },
+    {
+      "id": "N4",
+      "meaning": "strict positive real weights and exact LDL",
+      "claims": [
+        "T3"
+      ],
+      "depends_on": [
+        "N2"
+      ]
+    },
+    {
+      "id": "N5",
+      "meaning": "all bounded representations and simultaneous local POVM bridge",
+      "claims": [
+        "T4"
+      ],
+      "depends_on": [
+        "N1",
+        "N3",
+        "N4"
+      ]
+    },
+    {
+      "id": "N6",
+      "meaning": "legal Fourier state/measurements and exact attainment",
+      "claims": [
+        "T5"
+      ],
+      "depends_on": [
+        "N1",
+        "N2"
+      ]
+    },
+    {
+      "id": "N7",
+      "meaning": "unrestricted exact supremum composition",
+      "claims": [
+        "T1"
+      ],
+      "depends_on": [
+        "N5",
+        "N6"
+      ]
+    },
+    {
+      "id": "S1",
+      "meaning": "strict serialized syntax preflight, non-load-bearing hardening",
+      "claims": [],
+      "depends_on": []
+    }
+  ],
+  "lifecycle": "FROZEN_V0_1",
+  "stage": "ASSEMBLY",
+  "execution": "COMPLETED",
+  "mathematical_assessment": "NOT_REFUTED_BY_RECORDED_CHECKS",
+  "novelty_gate": "CLEAR",
+  "provenance_gate": "CLEAR",
+  "confirmed_vetoes": [],
+  "open_required_issues": [],
+  "claims_reconciled": true,
+  "reasonable_work_done": true,
+  "publication": "NOT_REQUESTED",
+  "evidence_index": [
+    {
+      "id": "E-IN",
+      "type": "identity",
+      "target_candidate": "C001",
+      "target_nodes": [],
+      "exact_input_identity": {
+        "POST_ONESHOT_VERIFICATION_TO_V0_1_SKILL.md": {
+          "sha256": "4739f9f94efcdbacade4b48fc2920ace5ae6d3999dbea8cfd3f9f07f7cec08ca",
+          "bytes": 34352
+        },
+        "SELECTION_LEDGER_FROZEN.md": {
+          "sha256": "12b60ef7e56a94b9b8f0b880d9548509542fc4b34a1358abdb1ce07590b2bf56",
+          "bytes": 20354
+        },
+        "P2_5_CGLMP5_REPRODUCTION_RECEIPT.json": {
+          "sha256": "4a2080d207cd313657bace97eb1607374be7297a9b8e79ce555e9703e5b5ea3c",
+          "bytes": 8258
+        },
+        "P2_5_CGLMP5_v1_FULL.zip": {
+          "sha256": "8e44ec7b85547de90587878fafce0a46a0cbf7038fd4a279cd40937f453f4507",
+          "bytes": 2103160
+        },
+        "P2_5_CGLMP5_v1_PROOF.zip": {
+          "sha256": "98a71c225b913b722d548b8e41edb4f803d21ad564eb461e1c0ca58d56587896",
+          "bytes": 358316
+        },
+        "PROOF_attached.md": {
+          "sha256": "a2080e3685bfdc8e899d471f39a15a4ed6cf87767a9357703d2c065a8dd2b4ee",
+          "bytes": 13360
+        }
+      },
+      "exposure": "all user supplied attachments",
+      "actor_context": "coordinator current context",
+      "executed": true,
+      "result": "two archives/attached proof/ledger and manifests match",
+      "artifact": "verification/receipts/packaging_identity.json",
+      "limitations": "hash does not authenticate timestamp, isolation or theorem",
+      "successor_applicability": "none; unchanged C001 only"
+    },
+    {
+      "id": "E-NOV",
+      "type": "bounded_novelty",
+      "target_candidate": "C001",
+      "target_nodes": [],
+      "exact_input_identity": {
+        "source_metadata_sha256": "52f67802edd4c48b14d4234249cc74de65cb89150fddaef3894a86c44744fc3e"
+      },
+      "exposure": "current browser sources and prior novelty report",
+      "actor_context": "coordinator current context",
+      "executed": true,
+      "result": "CLEAR within recorded cutoff/scope",
+      "artifact": "verification/RECORD.md#1-先例主张查询渠道版本与截止",
+      "limitations": "not absolute priority; direct Zenodo inaccessible; limited OSF/index coverage",
+      "successor_applicability": "none; unchanged C001 only"
+    },
+    {
+      "id": "E-PROV",
+      "type": "provenance",
+      "target_candidate": "C001",
+      "target_nodes": [
+        "N1",
+        "N2",
+        "N3",
+        "N4",
+        "N5",
+        "N6",
+        "N7"
+      ],
+      "exact_input_identity": {
+        "PROOF.md": "a2080e3685bfdc8e899d471f39a15a4ed6cf87767a9357703d2c065a8dd2b4ee",
+        "ROOT_EMBEDDING.md": "81d1c2ba6bd17bdf358c24f61ef569774e9b8916149221d76c139a89f1e5a119",
+        "SOS14.json": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+        "EXACT_KERNELS.json": "6e08746bf5a58addb6bb46beb00c7bdab29638b9290802bca5114bc47ae957a5",
+        "EXACT_SOS_CANDIDATE.json": "14324f3ea10a3b1304a02ce48b5572be7080b519c242f5802ed599f60325c649",
+        "POSITIVITY_CERTIFICATE.json": "22ba8a09e433fe269b805f9979f574e37e3262a33fdae5a71927b748a860e8de",
+        "verify_sos14.py": "90bef7e72619c99222a08003ba5d0ab204b08cde021daf28cdc86aaa09281094",
+        "verify_independent.py": "8aa54411ec9bbc79245e6e42db79a698dfcd11eb9853f331ac8221a662244fc3",
+        "verify_statement.py": "b94e281b07a63224b95fa2ece2482f5ed774c99fa461d51a37f0a61c8ac76d37",
+        "kill_tests.py": "ba178151141acaf84891ef0610b2d3027c135e08a057c62b53151f373ecac8f7"
+      },
+      "exposure": "current science, FULL generation scripts/records; missing raw earlier notes disclosed",
+      "actor_context": "coordinator current context",
+      "executed": true,
+      "result": "CLEAR for actual evidentiary premises",
+      "artifact": "verification/RECORD.md#2-实际输入角色及证据依赖替换",
+      "limitations": "complete generation ancestry cannot be recovered; discovery influence retained",
+      "successor_applicability": "none; unchanged C001 only"
+    },
+    {
+      "id": "E-ALG",
+      "type": "AI_audit_and_exact_computation",
+      "target_candidate": "C001",
+      "target_nodes": [
+        "N2",
+        "N3",
+        "N4"
+      ],
+      "exact_input_identity": {
+        "EXACT_KERNELS.json": "6e08746bf5a58addb6bb46beb00c7bdab29638b9290802bca5114bc47ae957a5",
+        "EXACT_SOS_CANDIDATE.json": "14324f3ea10a3b1304a02ce48b5572be7080b519c242f5802ed599f60325c649",
+        "POSITIVITY_CERTIFICATE.json": "22ba8a09e433fe269b805f9979f574e37e3262a33fdae5a71927b748a860e8de",
+        "PROOF.md": "41737b9607c945ba3be463383a1b0bcb96e43404c326f6e114a6bb6dc6d88ff7",
+        "ROOT_EMBEDDING.md": "81d1c2ba6bd17bdf358c24f61ef569774e9b8916149221d76c139a89f1e5a119",
+        "SOS14.json": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+        "verify_independent.py": "8aa54411ec9bbc79245e6e42db79a698dfcd11eb9853f331ac8221a662244fc3",
+        "verify_sos14.py": "90bef7e72619c99222a08003ba5d0ab204b08cde021daf28cdc86aaa09281094",
+        "verify_statement.py": "b94e281b07a63224b95fa2ece2482f5ed774c99fa461d51a37f0a61c8ac76d37"
+      },
+      "exposure": "audit_view and all supplied checkers; no old PASS or other reviews",
+      "actor_context": "audit_algebra; fresh context; model inherited; shared filesystem",
+      "executed": true,
+      "result": "273 compact/1681 Gram exact residuals zero; 14 positive weights/pivots; ALG-01 non-load-bearing",
+      "artifact": "verification/receipts/audit_algebra/REPORT.md",
+      "limitations": "same supplied relations and tower ancestry; no certificate rediscovery, formal verification or human audit",
+      "successor_applicability": "none; unchanged C001 only"
+    },
+    {
+      "id": "E-PHYS",
+      "type": "analytic_AI_audit_and_exact_computation",
+      "target_candidate": "C001",
+      "target_nodes": [
+        "N1",
+        "N2",
+        "N5",
+        "N6"
+      ],
+      "exact_input_identity": {
+        "EXACT_KERNELS.json": "6e08746bf5a58addb6bb46beb00c7bdab29638b9290802bca5114bc47ae957a5",
+        "EXACT_SOS_CANDIDATE.json": "14324f3ea10a3b1304a02ce48b5572be7080b519c242f5802ed599f60325c649",
+        "POSITIVITY_CERTIFICATE.json": "22ba8a09e433fe269b805f9979f574e37e3262a33fdae5a71927b748a860e8de",
+        "PROOF.md": "41737b9607c945ba3be463383a1b0bcb96e43404c326f6e114a6bb6dc6d88ff7",
+        "ROOT_EMBEDDING.md": "81d1c2ba6bd17bdf358c24f61ef569774e9b8916149221d76c139a89f1e5a119",
+        "SOS14.json": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+        "verify_independent.py": "8aa54411ec9bbc79245e6e42db79a698dfcd11eb9853f331ac8221a662244fc3",
+        "verify_sos14.py": "90bef7e72619c99222a08003ba5d0ab204b08cde021daf28cdc86aaa09281094",
+        "verify_statement.py": "b94e281b07a63224b95fa2ece2482f5ed774c99fa461d51a37f0a61c8ac76d37"
+      },
+      "exposure": "proof excerpt/root/SOS14; other scientific files byte-only; no supplied imports",
+      "actor_context": "audit_physics; fresh context; model inherited; shared filesystem",
+      "executed": true,
+      "result": "625 matrix entries, 25 eigenvector coordinates, 28 annihilations; analytic arbitrary-Hilbert local dilation",
+      "artifact": "verification/receipts/audit_physics/REPORT_FIRST.md",
+      "limitations": "universal SOS and weight positivity not covered by this report; finite Naimark diagnostic is floating point",
+      "successor_applicability": "none; unchanged C001 only"
+    },
+    {
+      "id": "E-REC",
+      "type": "reconstruction",
+      "target_candidate": "C001",
+      "target_nodes": [
+        "N1",
+        "N2",
+        "N6"
+      ],
+      "exact_input_identity": {
+        "TARGET.md": "0480e476fde75b9cdc540066ad1bcfc36f2f6375a04afbf848396f24bdc5b61d"
+      },
+      "exposure": "definitions and exposed exact target only; no candidate proof/witness/certificate or hints",
+      "actor_context": "reconstruct_lower; fresh context; model inherited; shared filesystem",
+      "executed": true,
+      "result": "PARTIAL; independently reconstructed attaining lower bound without method hint",
+      "artifact": "verification/receipts/reconstruction/lower_worker/REPORT_FROZEN.md",
+      "limitations": "no unrestricted upper or COMPLETE_UNGUIDED theorem reconstruction; supplied value not independently discovered; numerics diagnostic",
+      "successor_applicability": "none; unchanged C001 only"
+    },
+    {
+      "id": "E-REP",
+      "type": "computation_replay",
+      "target_candidate": "C001",
+      "target_nodes": [
+        "N1",
+        "N2",
+        "N3",
+        "N4",
+        "N6"
+      ],
+      "exact_input_identity": {
+        "PROOF.md": "a2080e3685bfdc8e899d471f39a15a4ed6cf87767a9357703d2c065a8dd2b4ee",
+        "ROOT_EMBEDDING.md": "81d1c2ba6bd17bdf358c24f61ef569774e9b8916149221d76c139a89f1e5a119",
+        "SOS14.json": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+        "EXACT_KERNELS.json": "6e08746bf5a58addb6bb46beb00c7bdab29638b9290802bca5114bc47ae957a5",
+        "EXACT_SOS_CANDIDATE.json": "14324f3ea10a3b1304a02ce48b5572be7080b519c242f5802ed599f60325c649",
+        "POSITIVITY_CERTIFICATE.json": "22ba8a09e433fe269b805f9979f574e37e3262a33fdae5a71927b748a860e8de",
+        "verify_sos14.py": "90bef7e72619c99222a08003ba5d0ab204b08cde021daf28cdc86aaa09281094",
+        "verify_independent.py": "8aa54411ec9bbc79245e6e42db79a698dfcd11eb9853f331ac8221a662244fc3",
+        "verify_statement.py": "b94e281b07a63224b95fa2ece2482f5ed774c99fa461d51a37f0a61c8ac76d37",
+        "kill_tests.py": "ba178151141acaf84891ef0610b2d3027c135e08a057c62b53151f373ecac8f7"
+      },
+      "exposure": "all submitted checkers and original reports; raw historical PASS ignored",
+      "actor_context": "coordinator Windows CPython3.12.14",
+      "executed": true,
+      "result": "8/8 entrypoints pass in fresh archive copies",
+      "artifact": "verification/receipts/replay/REPLAY_RECEIPT.json",
+      "limitations": "reuses supplied code; Linux original receipt only reported; no numeric optimizer rerun",
+      "successor_applicability": "none; unchanged C001 only"
+    },
+    {
+      "id": "E-DIRECT",
+      "type": "computation_negative_controls",
+      "target_candidate": "C001",
+      "target_nodes": [
+        "N3",
+        "N4"
+      ],
+      "exact_input_identity": {
+        "SOS14.json": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2"
+      },
+      "exposure": "submitted compact checker infrastructure",
+      "actor_context": "coordinator current context",
+      "executed": true,
+      "result": "all 5 new corruptions rejected",
+      "artifact": "verification/receipts/direct_mutations.json",
+      "limitations": "not another independent arithmetic system",
+      "successor_applicability": "none; unchanged C001 only"
+    },
+    {
+      "id": "E-SELF",
+      "type": "computation_SELF_CHECK",
+      "target_candidate": "C001",
+      "target_nodes": [
+        "N2"
+      ],
+      "exact_input_identity": {
+        "PROOF.md": "a2080e3685bfdc8e899d471f39a15a4ed6cf87767a9357703d2c065a8dd2b4ee"
+      },
+      "exposure": "submitted root polynomial and display",
+      "actor_context": "coordinator current context",
+      "executed": true,
+      "result": "48 decimal digits certified by rational brackets",
+      "artifact": "verification/receipts/coordinator_checks.json",
+      "limitations": "not independent discovery or theorem reconstruction",
+      "successor_applicability": "none; unchanged C001 only"
+    },
+    {
+      "id": "E-ADJ",
+      "type": "finding_adjudication",
+      "target_candidate": "C001",
+      "target_nodes": [
+        "N3",
+        "S1"
+      ],
+      "exact_input_identity": {
+        "SOS14.json": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+        "guard_sha256": "d4f9c72acbc54acbbedc21132848c52260cc2aaba0b3301f0237459bef4ffb6b"
+      },
+      "exposure": "sealed algebra report, saved malformed mutant, original science",
+      "actor_context": "coordinator current context",
+      "executed": true,
+      "result": "ALG-01 CONFIRMED_NONLOAD_BEARING; strict guard rejects; original1524 scalars valid",
+      "artifact": "verification/receipts/parser_adjudication.json",
+      "limitations": "original permissive parser remains byte-preserved; guard validates syntax only",
+      "successor_applicability": "none; unchanged C001 only"
+    },
+    {
+      "id": "E-FORMAL",
+      "type": "formal_verification",
+      "target_candidate": "C001",
+      "target_nodes": [],
+      "exact_input_identity": {},
+      "exposure": "none",
+      "actor_context": "no actor",
+      "executed": false,
+      "result": "NOT_PERFORMED",
+      "artifact": null,
+      "limitations": "no proof assistant/interpreter verification",
+      "successor_applicability": "none; unchanged C001 only"
+    },
+    {
+      "id": "E-HUMAN",
+      "type": "human_review",
+      "target_candidate": "C001",
+      "target_nodes": [],
+      "exact_input_identity": {},
+      "exposure": "none",
+      "actor_context": "no actor",
+      "executed": false,
+      "result": "NOT_PERFORMED",
+      "artifact": null,
+      "limitations": "no human peer review or expert endorsement",
+      "successor_applicability": "none; unchanged C001 only"
+    }
+  ],
+  "non_veto_limitations": [
+    "incomplete generation history",
+    "no complete unguided theorem reconstruction",
+    "AI audits with shared filesystem and inherited model",
+    "no human review",
+    "no formal verification",
+    "bounded novelty and limited direct Zenodo/OSF access",
+    "no universal cross-platform numeric reconstruction"
+  ],
+  "revalidation": {
+    "scientific_revision": false,
+    "unchanged_core_hashes": {
+      "PROOF.md": "a2080e3685bfdc8e899d471f39a15a4ed6cf87767a9357703d2c065a8dd2b4ee",
+      "ROOT_EMBEDDING.md": "81d1c2ba6bd17bdf358c24f61ef569774e9b8916149221d76c139a89f1e5a119",
+      "SOS14.json": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+      "EXACT_KERNELS.json": "6e08746bf5a58addb6bb46beb00c7bdab29638b9290802bca5114bc47ae957a5",
+      "EXACT_SOS_CANDIDATE.json": "14324f3ea10a3b1304a02ce48b5572be7080b519c242f5802ed599f60325c649",
+      "POSITIVITY_CERTIFICATE.json": "22ba8a09e433fe269b805f9979f574e37e3262a33fdae5a71927b748a860e8de",
+      "verify_sos14.py": "90bef7e72619c99222a08003ba5d0ab204b08cde021daf28cdc86aaa09281094",
+      "verify_independent.py": "8aa54411ec9bbc79245e6e42db79a698dfcd11eb9853f331ac8221a662244fc3",
+      "verify_statement.py": "b94e281b07a63224b95fa2ece2482f5ed774c99fa461d51a37f0a61c8ac76d37",
+      "kill_tests.py": "ba178151141acaf84891ef0610b2d3027c135e08a057c62b53151f373ecac8f7"
+    },
+    "nonload_bearing_addition": "validate_integer_encoding.py addresses ALG-01; all original science evidence retained",
+    "formatting_normalization": "report local prefixes only; source/curated hashes mapped",
+    "publication_authorization": "none requested"
+  },
+  "selected_claims_and_roles": "verification/RECORD.md section6",
+  "final_decision_basis": "skill release_route: novelty and provenance CLEAR, no V3, no unresolved mandatory question, claims reconciled and reasonable actual work complete",
+  "artifact_version": "0.1",
+  "artifact_revision": "r1",
+  "scientific_manifest": "MANIFEST.sha256",
+  "scientific_paths": [
+    "PROOF.md",
+    "ROOT_EMBEDDING.md",
+    "SOS14.json",
+    "EXACT_KERNELS.json",
+    "EXACT_SOS_CANDIDATE.json",
+    "POSITIVITY_CERTIFICATE.json",
+    "verify_sos14.py",
+    "verify_independent.py",
+    "verify_statement.py",
+    "kill_tests.py"
+  ],
+  "frozen_at_private_utc": "2026-10-03T18:57:02.274931+00:00",
+  "timestamp_authentication": "none",
+  "manifest_coverage": "all package regular files except MANIFEST.sha256 itself; generated replay outputs outside package",
+  "scientific_hashes": {
+    "PROOF.md": "a2080e3685bfdc8e899d471f39a15a4ed6cf87767a9357703d2c065a8dd2b4ee",
+    "ROOT_EMBEDDING.md": "81d1c2ba6bd17bdf358c24f61ef569774e9b8916149221d76c139a89f1e5a119",
+    "SOS14.json": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+    "EXACT_KERNELS.json": "6e08746bf5a58addb6bb46beb00c7bdab29638b9290802bca5114bc47ae957a5",
+    "EXACT_SOS_CANDIDATE.json": "14324f3ea10a3b1304a02ce48b5572be7080b519c242f5802ed599f60325c649",
+    "POSITIVITY_CERTIFICATE.json": "22ba8a09e433fe269b805f9979f574e37e3262a33fdae5a71927b748a860e8de",
+    "verify_sos14.py": "90bef7e72619c99222a08003ba5d0ab204b08cde021daf28cdc86aaa09281094",
+    "verify_independent.py": "8aa54411ec9bbc79245e6e42db79a698dfcd11eb9853f331ac8221a662244fc3",
+    "verify_statement.py": "b94e281b07a63224b95fa2ece2482f5ed774c99fa461d51a37f0a61c8ac76d37",
+    "kill_tests.py": "ba178151141acaf84891ef0610b2d3027c135e08a057c62b53151f373ecac8f7"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "frozen_at_utc": "2026-10-03T18:48:51.432999+00:00",
+  "input_hashes_rechecked": {
+    "EXACT_KERNELS.json": "6e08746bf5a58addb6bb46beb00c7bdab29638b9290802bca5114bc47ae957a5",
+    "EXACT_SOS_CANDIDATE.json": "14324f3ea10a3b1304a02ce48b5572be7080b519c242f5802ed599f60325c649",
+    "POSITIVITY_CERTIFICATE.json": "22ba8a09e433fe269b805f9979f574e37e3262a33fdae5a71927b748a860e8de",
+    "PROOF.md": "41737b9607c945ba3be463383a1b0bcb96e43404c326f6e114a6bb6dc6d88ff7",
+    "ROOT_EMBEDDING.md": "81d1c2ba6bd17bdf358c24f61ef569774e9b8916149221d76c139a89f1e5a119",
+    "SOS14.json": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+    "verify_independent.py": "8aa54411ec9bbc79245e6e42db79a698dfcd11eb9853f331ac8221a662244fc3",
+    "verify_sos14.py": "90bef7e72619c99222a08003ba5d0ab204b08cde021daf28cdc86aaa09281094",
+    "verify_statement.py": "b94e281b07a63224b95fa2ece2482f5ed774c99fa461d51a37f0a61c8ac76d37"
+  },
+  "artifacts": {
+    "attack_results.json": "c01ac85d0ee735f0c4aed8835067c2f1a94bd341d05572174679879f23463fc9",
+    "attacks.log": "8bf4808f224ee2db3d4f559114c9c383f1de318d82229fb2c13d8e42984eb39a",
+    "audit_attacks.py": "9d8397e9f1ebda006ad41f2655df0af85e0dd2482fe064949c257536e0d37b25",
+    "audit_exact.py": "0d6f4f59a2dad96dbc3529d5a2b6a6680d5b0e7e34364bf986d3ecff12c3d851",
+    "independent_exact.log": "4c05bfca785c7274ba0efd24db6782838d83499309959223d6f595f6b7dd7e15",
+    "independent_results.json": "08b06452f7296aaf7fa3e331a1c5a13d698cef5ca86c1a14c6da97bd9f843466",
+    "mutants\\coefficient_plus_one\\SOS14.json": "2bb6fa94a82df9f3c171c9a991288bcc02bf72f4444a7bce89c1fac1be229a7e",
+    "mutants\\dropped_term\\SOS14.json": "8336d73defd67b7127133b1445319fe4663ddfa949156ccf2d2de8c7a142dae0",
+    "mutants\\imaginary_weight\\SOS14.json": "bb07ce16d4a75513333253b2afb38fb78d4256edd31d61337092072ff1a6e420",
+    "mutants\\negative_sqrt5_branch\\SOS14.json": "f4f6c06184d0c3a1143eb6438d5f9df85258b8973677b80299f73d2aa089ece2",
+    "mutants\\negative_weight\\SOS14.json": "a25c208bb28b9fdfb268308a4e43493ef51c1ab167ce8b69fc5634cd3866507a",
+    "mutants\\nonintegral_n_accepted\\SOS14.json": "0f73c47832f286e8b637efe11bcd3865092786925a97bee17924bce8cb4dc513",
+    "mutants\\same_party_generator_relabel\\SOS14.json": "63cde2332ca049d5698fd3287d542470b98d295d48c6cc3f9cee8b3443247ecf",
+    "mutants\\wrong_root_box\\SOS14.json": "0a6c257ef54fee1db79bd87c7e290bac40c4e753a4b0f34830b40274b7c42c2f",
+    "REPORT.md": "a4875314b3ce9542ede3b1e48b9be46f3d52adf2c0713cc1c12100342ecbe7d5",
+    "supplied_independent.log": "5156474dc113efea24e852519cb87ca249d83a96f698f2b8f4dcc9fe532f7a38",
+    "supplied_independent_result.json": "08abc470f800820c2c792014a9ce154d0e90ed55d28b17e57fd5be7fca4ec6a6",
+    "supplied_sos.log": "bf3daeea83f0eda408f61fb43ebc81bb23e7ffb707b0139ee845d06a84b4c214",
+    "supplied_sos_result.json": "328ca270b15f824f734e70a8d0838e9908a92b5bafdae5be85b5f23d52cb85c8",
+    "supplied_statement.log": "38f146fea0a4be449191bee89f5880e6ec011613f09d810d6bff53c315e5165a",
+    "supplied_statement_result.json": "04a5a8dd6f1f9d81de8a9235537472e9e71ce7d3a433283be116b93a34e639c0"
+  },
+  "first_report_sha256": "a4875314b3ce9542ede3b1e48b9be46f3d52adf2c0713cc1c12100342ecbe7d5"
+}

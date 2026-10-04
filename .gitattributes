@@ -1,0 +1,3 @@
+# Evidence directories are byte-preserved. Do not apply line-ending normalization.
+/artifact_v0.1/** -text
+/audits/** -text

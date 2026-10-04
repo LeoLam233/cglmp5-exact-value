@@ -1,0 +1,2 @@
+4940510ce8f7325b21f36515ce853942396fd119a7ea1a24fba3ceddc1dffd45  CGLMP5_v0.1_C001.zip
+e69679a00fb8bb92b69459b5a365d3e1c5200c8ab3709854bec700e1754c25fd  CGLMP5_independent_audit_results.zip

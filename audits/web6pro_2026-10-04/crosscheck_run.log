@@ -1,0 +1,29 @@
+0.04s Fresh 300-step root boxes and all 14 weight bounds > 1/3000
+0.31s Radical-tower expansion 1:0
+0.37s Radical-tower expansion 1:1
+0.40s Radical-tower expansion 6:0
+0.59s Radical-tower expansion 6:1
+0.75s Radical-tower expansion 6:2
+0.76s Radical-tower expansion 6:3
+1.02s Radical-tower expansion 7:0
+1.34s Radical-tower expansion 7:1
+1.37s Radical-tower expansion 7:2
+1.46s Radical-tower expansion 8:0
+1.59s Radical-tower expansion 8:1
+1.59s Radical-tower expansion 8:2
+1.85s Radical-tower expansion 9:0
+1.91s Radical-tower expansion 9:1
+{
+  "arithmetic": "radical tower; four direct polynomial relations; integer numerators and common positive denominator",
+  "word_reduction": "adjacent interchange only for Bob-followed-by-Alice; adjacent identical-generator merging modulo 5",
+  "Bell_target": "inverse spectral-projector transform of original 100 signed event coefficients; not the f(z) formula",
+  "root_boxes": "fresh 300 bisections; serialized embedding boxes not read",
+  "all_14_weights_strictly_greater_than": "1/3000",
+  "terms": 14,
+  "raw_products": 4320,
+  "active_word_positions": 273,
+  "all_positions_including_zero_fourier_targets": 337,
+  "nonzero_exact_residual_words": 0,
+  "elapsed_seconds": 1.9056055009999682
+}
+SECOND STANDALONE EXACT CHECK PASSED

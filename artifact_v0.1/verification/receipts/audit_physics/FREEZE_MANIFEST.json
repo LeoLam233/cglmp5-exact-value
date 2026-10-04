@@ -1,0 +1,11 @@
+{
+  "frozen_at_utc": "2026-10-03T18:45:00.0144976Z",
+  "status": "first report frozen before reconciliation",
+  "files": {
+    "audit_exact.py": "5b45b102311e2e9e270b38e19e829b8ba087f6ac7b0af59adc5e04bf43f0ca6b",
+    "REPORT_FIRST.md": "5d001e0f78bf18d92b8f925905450bebd2560dc2238a21b902cccd659e8f6ef7",
+    "executed.log": "8d1f9db8d597e9c1f58f515de0382f1111d0d6c24193f216e8adedc798d5f1b4",
+    "results.json": "633fd7fea554880167cd7ff72ee15ec58fb2b744aa8101cfb96b85d564b5e9af",
+    "input_hashes.json": "2adadf9d59633b24eef5b61f580f98117d710dbebd0d8a4c031dcf90d8dd910e"
+  }
+}
