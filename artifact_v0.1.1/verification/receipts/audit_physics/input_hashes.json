@@ -1,0 +1,46 @@
+[
+  {
+    "Name": "AUDIT_CONTRACT.md",
+    "SHA256": "ef893832dafe600a240cbc86e2770e08634db0a78ddcbc51fd5750eda280b045"
+  },
+  {
+    "Name": "EXACT_KERNELS.json",
+    "SHA256": "6e08746bf5a58addb6bb46beb00c7bdab29638b9290802bca5114bc47ae957a5"
+  },
+  {
+    "Name": "EXACT_SOS_CANDIDATE.json",
+    "SHA256": "14324f3ea10a3b1304a02ce48b5572be7080b519c242f5802ed599f60325c649"
+  },
+  {
+    "Name": "INPUT_IDENTITY.json",
+    "SHA256": "e924170208c76a57fb5dbb3416df9fe3213fd573b17af9c189eed8acf40184eb"
+  },
+  {
+    "Name": "POSITIVITY_CERTIFICATE.json",
+    "SHA256": "22ba8a09e433fe269b805f9979f574e37e3262a33fdae5a71927b748a860e8de"
+  },
+  {
+    "Name": "PROOF.md",
+    "SHA256": "41737b9607c945ba3be463383a1b0bcb96e43404c326f6e114a6bb6dc6d88ff7"
+  },
+  {
+    "Name": "ROOT_EMBEDDING.md",
+    "SHA256": "81d1c2ba6bd17bdf358c24f61ef569774e9b8916149221d76c139a89f1e5a119"
+  },
+  {
+    "Name": "SOS14.json",
+    "SHA256": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2"
+  },
+  {
+    "Name": "verify_independent.py",
+    "SHA256": "8aa54411ec9bbc79245e6e42db79a698dfcd11eb9853f331ac8221a662244fc3"
+  },
+  {
+    "Name": "verify_sos14.py",
+    "SHA256": "90bef7e72619c99222a08003ba5d0ab204b08cde021daf28cdc86aaa09281094"
+  },
+  {
+    "Name": "verify_statement.py",
+    "SHA256": "b94e281b07a63224b95fa2ece2482f5ed774c99fa461d51a37f0a61c8ac76d37"
+  }
+]

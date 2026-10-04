@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "anticommutators": 14,
+  "explicit_polynomial_coefficients": 164,
+  "expanded_word_support": 273,
+  "upper_bound_exact": true,
+  "weights_strictly_positive": true,
+  "physical_lower_bound": {
+    "full_Bell_eigenvector_coordinates": 25,
+    "projector_to_unitary_entries": 100,
+    "deterministic_normalization_tests": 625,
+    "pairwise_probability_coefficients": 100,
+    "local_bound": 2,
+    "dimension_for_attainment": [
+      5,
+      5
+    ],
+    "state_positive_and_normalizable": true
+  },
+  "elapsed_seconds": 3.7340000000040163
+}

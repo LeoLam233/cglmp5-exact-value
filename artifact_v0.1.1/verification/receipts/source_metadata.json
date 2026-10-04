@@ -1,0 +1,58 @@
+{
+  "retrieved_utc": "2026-10-03T18:38:19.582179+00:00",
+  "requests": [
+    {
+      "name": "woodhead_readme_history",
+      "url": "https://api.github.com/repos/ewoodhead/npa-hierarchy/commits?path=README.md&per_page=1",
+      "http_status": 200,
+      "response_sha256": "0b26fbbd9ed988bbb7d57d762922417a68f46d874d941ed259d32bdf02ff6540",
+      "latest_path_commit": {
+        "sha": "e3417a0655b7409ae22a1612cd94867a47b85eed",
+        "html_url": "https://github.com/ewoodhead/npa-hierarchy/commit/e3417a0655b7409ae22a1612cd94867a47b85eed",
+        "author_date": "2019-10-21T15:27:31Z",
+        "committer_date": "2019-10-21T15:27:31Z"
+      },
+      "result": "RETRIEVED"
+    },
+    {
+      "name": "npo_tree",
+      "url": "https://api.github.com/repos/marieio/NPOsym/contents/",
+      "http_status": 200,
+      "response_sha256": "25333960c86158a0c949b94cc5e1929ff97ff7c0bc1c7acc9a5730475681708e",
+      "items": [
+        {
+          "name": "CHSH_Steps1To5.nb",
+          "type": "file",
+          "sha": "c2dc76e1b984cfee618cc60b2128a2e4b4a87e8c",
+          "html_url": "https://github.com/marieio/NPOsym/blob/main/CHSH_Steps1To5.nb"
+        },
+        {
+          "name": "d=4",
+          "type": "dir",
+          "sha": "15d958e7550793c748f3a5b570534efdee9c0eb9",
+          "html_url": "https://github.com/marieio/NPOsym/tree/main/d=4"
+        }
+      ],
+      "result": "RETRIEVED"
+    },
+    {
+      "name": "sparkdoc_companion_history",
+      "url": "https://api.github.com/repos/sparkdoc/bell-chsh-paper/commits?path=paper/companion.tex&per_page=1",
+      "http_status": 200,
+      "response_sha256": "228abd9040c4549adf516af7d22a58157c06de82fd57aabbfab5b67312e0aadf",
+      "latest_path_commit": {
+        "sha": "d76f4711ffde3d5b8f25b182d36083ab0605a664",
+        "html_url": "https://github.com/sparkdoc/bell-chsh-paper/commit/d76f4711ffde3d5b8f25b182d36083ab0605a664",
+        "author_date": "2026-09-03T16:03:02Z",
+        "committer_date": "2026-09-03T16:15:28Z"
+      },
+      "result": "RETRIEVED"
+    },
+    {
+      "name": "zenodo_search",
+      "url": "https://zenodo.org/api/records?q=CGLMP&size=100",
+      "result": "ACCESS_FAILURE",
+      "error": "HTTP Error 400: BAD REQUEST"
+    }
+  ]
+}

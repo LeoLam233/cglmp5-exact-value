@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "root_bridge_polynomial_exact": true,
+  "printed_Schmidt_formulas_match_certificate": true,
+  "denominator_strictly_greater_than_4": true,
+  "reduced_eigenvector_equations": 5,
+  "Fourier_orthonormality_pairs": 25,
+  "scope": "Printed-statement/data correspondence; reuses independent checker arithmetic, not a separate external audit.",
+  "elapsed_seconds": 0.0
+}

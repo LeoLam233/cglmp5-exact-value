@@ -1,0 +1,13 @@
+{
+  "finding": "ALG-01",
+  "disposition": "CONFIRMED_NONLOAD_BEARING",
+  "original_valid_scalars": 1524,
+  "supplied_mutant_status": "PASS",
+  "strict_guard_mutant": "REJECTED",
+  "rejection": "SOS14.json.terms[0].polynomial[4].coefficient.n[1]: expected integer or integer string",
+  "rebuttal_verified": "The sole changed malformed literal int(0.5) is decoded as original zero, so no false bound is established. All original encodings strictly satisfy the declared integer schema.",
+  "scientific_repair": false,
+  "successor_candidate_required": false,
+  "hardening": "new validate_integer_encoding.py preflight; original scientific verifier bytes unchanged",
+  "guard_sha256": "d4f9c72acbc54acbbedc21132848c52260cc2aaba0b3301f0237459bef4ffb6b"
+}

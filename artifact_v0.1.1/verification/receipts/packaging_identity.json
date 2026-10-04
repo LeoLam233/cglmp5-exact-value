@@ -1,0 +1,57 @@
+{
+  "original_input_hashes": {
+    "POST_ONESHOT_VERIFICATION_TO_V0_1_SKILL.md": {
+      "sha256": "4739f9f94efcdbacade4b48fc2920ace5ae6d3999dbea8cfd3f9f07f7cec08ca",
+      "bytes": 34352
+    },
+    "SELECTION_LEDGER_FROZEN.md": {
+      "sha256": "12b60ef7e56a94b9b8f0b880d9548509542fc4b34a1358abdb1ce07590b2bf56",
+      "bytes": 20354
+    },
+    "P2_5_CGLMP5_REPRODUCTION_RECEIPT.json": {
+      "sha256": "4a2080d207cd313657bace97eb1607374be7297a9b8e79ce555e9703e5b5ea3c",
+      "bytes": 8258
+    },
+    "P2_5_CGLMP5_v1_FULL.zip": {
+      "sha256": "8e44ec7b85547de90587878fafce0a46a0cbf7038fd4a279cd40937f453f4507",
+      "bytes": 2103160
+    },
+    "P2_5_CGLMP5_v1_PROOF.zip": {
+      "sha256": "98a71c225b913b722d548b8e41edb4f803d21ad564eb461e1c0ca58d56587896",
+      "bytes": 358316
+    },
+    "PROOF_attached.md": {
+      "sha256": "a2080e3685bfdc8e899d471f39a15a4ed6cf87767a9357703d2c065a8dd2b4ee",
+      "bytes": 13360
+    }
+  },
+  "normalization": "local personal path prefixes in reports/logs only; scientific files, scripts and input view bytes untouched",
+  "normalized_files": [
+    {
+      "path": "verification/receipts/audit_physics/executed.log",
+      "source_sha256": "8d1f9db8d597e9c1f58f515de0382f1111d0d6c24193f216e8adedc798d5f1b4",
+      "curated_sha256": "72c44fc00be55b2c90fbce1922deba5869c5f17ffc026dfd20af2c76576d5793"
+    },
+    {
+      "path": "verification/receipts/audit_physics/REPORT_FIRST.md",
+      "source_sha256": "5d001e0f78bf18d92b8f925905450bebd2560dc2238a21b902cccd659e8f6ef7",
+      "curated_sha256": "17bea8f706bba96c932bc68770c20d2a89198344958636c93108bad4040feae3"
+    },
+    {
+      "path": "verification/receipts/replay/REPLAY_RECEIPT.json",
+      "source_sha256": "c65f27119cb8bceaf8e2aeef5595f36445036df4afcb9f30ef2b9fa4a16ae5f9",
+      "curated_sha256": "0d5734c9340a6c63df97b41dad5264685be89787ea001d50517375bba08d1e10"
+    },
+    {
+      "path": "verification/receipts/reconstruction/lower_worker/ENVIRONMENT_AND_COMMANDS.md",
+      "source_sha256": "7a259e28d809b9defd3e31663da47e04b84f289b04c723c80b15ffdb6c926e62",
+      "curated_sha256": "5bf9385d6c8192012c903b2928e1cb7055dfa274a77a94b3a6faa7c34f529708"
+    },
+    {
+      "path": "verification/receipts/reconstruction/lower_worker/REPORT_FROZEN.md",
+      "source_sha256": "4529b88d90ef183e3c6f55c67291ce767022a2d2ddf6759e4f4c1d3bc4ad4ae7",
+      "curated_sha256": "9a10cb83a19022aeb1b6c4be971ccd1df4550f4d439204e579f5b599bec4fdde"
+    }
+  ],
+  "raw_receipts_retained_privately": true
+}
