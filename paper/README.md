@@ -8,6 +8,11 @@ data, strict rational positivity, the fixed-common-embedding local-POVM bridge,
 the explicit five-dimensional attaining strategy, reproducibility discussion,
 limitations, and AI-assistance disclosure. AI systems are not academic authors.
 
+Current-main bibliography maintenance (2026-10-04) adds Acin--Durt--Gisin--Latorre
+without changing the theorem or certificate. The earlier validation files retain
+their original build identities; the current build and source hashes are in
+[the dated maintenance receipt](validation/BIBLIOGRAPHY_ORCID_2026-10-04.json).
+
 ## Clean build
 
 Requirements: a complete TeX Live installation (pdfLaTeX, Latin Modern, AMS,
