@@ -1,0 +1,18 @@
+{
+  "EXACT_KERNELS.json": {
+    "phase_b_sha256": "6e08746bf5a58addb6bb46beb00c7bdab29638b9290802bca5114bc47ae957a5",
+    "release_sha256": "6e08746bf5a58addb6bb46beb00c7bdab29638b9290802bca5114bc47ae957a5"
+  },
+  "EXACT_SOS_CANDIDATE.json": {
+    "phase_b_sha256": "14324f3ea10a3b1304a02ce48b5572be7080b519c242f5802ed599f60325c649",
+    "release_sha256": "14324f3ea10a3b1304a02ce48b5572be7080b519c242f5802ed599f60325c649"
+  },
+  "POSITIVITY_CERTIFICATE.json": {
+    "phase_b_sha256": "22ba8a09e433fe269b805f9979f574e37e3262a33fdae5a71927b748a860e8de",
+    "release_sha256": "22ba8a09e433fe269b805f9979f574e37e3262a33fdae5a71927b748a860e8de"
+  },
+  "SOS14.json": {
+    "phase_b_sha256": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+    "release_sha256": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2"
+  }
+}

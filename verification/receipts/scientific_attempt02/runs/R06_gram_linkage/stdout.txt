@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "arithmetic": "Q[mu]/p plus u\u00b2=10+2A/B and i\u00b2=-1, Fraction-only",
+  "input_sha256": {
+    "SOS14.json": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+    "POSITIVITY_CERTIFICATE.json": "22ba8a09e433fe269b805f9979f574e37e3262a33fdae5a71927b748a860e8de",
+    "EXACT_SOS_CANDIDATE.json": "14324f3ea10a3b1304a02ce48b5572be7080b519c242f5802ed599f60325c649",
+    "EXACT_KERNELS.json": "6e08746bf5a58addb6bb46beb00c7bdab29638b9290802bca5114bc47ae957a5"
+  },
+  "blocks": [
+    {
+      "block": "1",
+      "size": 2,
+      "LDL_entries": 4,
+      "all_pivots_strictly_positive": true,
+      "EL_to_compact_columns": 2
+    },
+    {
+      "block": "6",
+      "size": 4,
+      "LDL_entries": 16,
+      "all_pivots_strictly_positive": true,
+      "EL_to_compact_columns": 4
+    },
+    {
+      "block": "7",
+      "size": 3,
+      "LDL_entries": 9,
+      "all_pivots_strictly_positive": true,
+      "EL_to_compact_columns": 3
+    },
+    {
+      "block": "8",
+      "size": 3,
+      "LDL_entries": 9,
+      "all_pivots_strictly_positive": true,
+      "EL_to_compact_columns": 3
+    },
+    {
+      "block": "9",
+      "size": 2,
+      "LDL_entries": 4,
+      "all_pivots_strictly_positive": true,
+      "EL_to_compact_columns": 2
+    }
+  ],
+  "exact_LDL_entry_checks": 42,
+  "exact_E_L_compact_coefficient_checks": 1134,
+  "negative_controls": [
+    "H00+1 differs",
+    "H00 sign flip differs"
+  ],
+  "Gram_role": "Small H blocks positive definite; arbitrary E embeddings yield only positive semidefinite 81-dimensional Gram. Sign tests reuse field Fraction oracle, not independent extra positivity votes.",
+  "elapsed_seconds": 1.1191089153289795
+}

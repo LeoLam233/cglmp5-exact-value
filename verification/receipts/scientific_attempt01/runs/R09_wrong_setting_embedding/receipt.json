@@ -1,0 +1,28 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/scientific_attempt01/stage/outputs/INDEPENDENT_CHECKS/bridge/a07_fixed_embedding_attack.py"
+  ],
+  "cwd": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/scientific_attempt01/runs/R09_wrong_setting_embedding",
+  "elapsed_seconds": 0.13069737199839437,
+  "name": "R09_wrong_setting_embedding",
+  "optimize": 0,
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "returncode": 0,
+  "script_sha256": "d98df690b671d49faf511c4a1aa4c33556f242f13a4120be254f8fecfa1b9abb",
+  "semantic_result": {
+    "d6_rank_one_generator_normalization_error": 0.999897271578863,
+    "interpretation": "Same ambient space alone does not establish a common-state strategy. This invalidates A07 E-01b numerical bridge evidence, not the frozen PROOF section5 construction.",
+    "one_fixed_embedded_entangled_state_max_probability_error": 0.17417492006012592,
+    "one_fixed_embedding_setting1_compression_error": 0.40138907189525397,
+    "setting_dependent_state_max_probability_error": 2.636779683484747e-16,
+    "source": "work/expanded/A07_SpaceBunny_ExternalPrompt/AUDIT_OUTPUT/INDEPENDENT_CHECKS/e_povm_bridge.py",
+    "source_sha256": "c76521fededf959a1d8e84b4b20d5af033f0a3b54058316b7c1ead23fdef1def",
+    "status": "AUDITOR_OR_HARNESS_DEFECT_REPRODUCED"
+  },
+  "semantic_status": "PASS",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "cb7a33739975ad87c65dbaf3a13687808e2b0eb706197911c704ea77eef42ef2",
+  "unchanged_source_replay": true
+}

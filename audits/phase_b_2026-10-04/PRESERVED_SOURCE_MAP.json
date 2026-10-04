@@ -1,0 +1,57 @@
+{
+  "scope": "Unchanged selected controlling Phase-B outputs. Original complete evidence is the separately attached immutable archive.",
+  "archive_name": "CGLMP5_PhaseB_checkpoint_20261004T092328Z_FINAL_COMPLETE.zip",
+  "archive_sha256": "12e2864ed19d99500b72d4aefe6e2b27939fb67c05aa355b38b997456a55fc43",
+  "files": [
+    {
+      "original_path": "outputs/FINAL_PHASE_B_REPORT.md",
+      "repository_path": "audits/phase_b_2026-10-04/FINAL_PHASE_B_REPORT.md",
+      "sha256": "287a2dbe4956338788d6e4dbdd0224a0844f3fdfb6923226f4bf474894df68d4"
+    },
+    {
+      "original_path": "outputs/CONSOLIDATED_REVISION_PLAN.md",
+      "repository_path": "audits/phase_b_2026-10-04/CONSOLIDATED_REVISION_PLAN.md",
+      "sha256": "8b6e51e280ea03afd0fbaa73b5f0afd9e055f5d480c9f36e1b9e5a10cb1d4edf"
+    },
+    {
+      "original_path": "outputs/REGRESSION_TEST_PLAN.md",
+      "repository_path": "audits/phase_b_2026-10-04/REGRESSION_TEST_PLAN.md",
+      "sha256": "8261ab7c15003512daf04c759832f53a8ea8a32ecc95264f18f766c60d4168fe"
+    },
+    {
+      "original_path": "outputs/MASTER_FINDINGS_LEDGER.md",
+      "repository_path": "audits/phase_b_2026-10-04/MASTER_FINDINGS_LEDGER.md",
+      "sha256": "5332a453d212f48f5d487d073d885808c76f10f3b7a6d3eeed9f49f9e0b49280"
+    },
+    {
+      "original_path": "outputs/MASTER_FINDINGS_LEDGER.json",
+      "repository_path": "audits/phase_b_2026-10-04/MASTER_FINDINGS_LEDGER.json",
+      "sha256": "40e9d054823ae46adce7719df6a9be7c65f73692643b4ce131f2fa35e69c3ae3"
+    },
+    {
+      "original_path": "outputs/AUDITOR_COVERAGE_MATRIX.md",
+      "repository_path": "audits/phase_b_2026-10-04/AUDITOR_COVERAGE_MATRIX.md",
+      "sha256": "f4660f2a9e83704d25fd39abae5ac7712bbd2ef2afc011c3c533a5fad3e7edab"
+    },
+    {
+      "original_path": "outputs/AUDITOR_COVERAGE_MATRIX.json",
+      "repository_path": "audits/phase_b_2026-10-04/AUDITOR_COVERAGE_MATRIX.json",
+      "sha256": "fe0fab1586c6ad2f979c5d833952131d3c5ff3d3430a30fc6a6134b9ab4d4aec"
+    },
+    {
+      "original_path": "outputs/CORRELATED_FAILURE_REPORT.md",
+      "repository_path": "audits/phase_b_2026-10-04/CORRELATED_FAILURE_REPORT.md",
+      "sha256": "edc5b36b8d8cc71e3bc8d319d0e6e2015fc5333426643005725625ef34dda245"
+    },
+    {
+      "original_path": "outputs/SOURCE_FINDING_CROSSWALK.json",
+      "repository_path": "audits/phase_b_2026-10-04/SOURCE_FINDING_CROSSWALK.json",
+      "sha256": "93f3ef48825053fe9a9765c832571cf2c53b45c60b2485880fc9ec1245d5ecbf"
+    },
+    {
+      "original_path": "outputs/NEW_ATTACK_LEDGER.json",
+      "repository_path": "audits/phase_b_2026-10-04/NEW_ATTACK_LEDGER.json",
+      "sha256": "adfcb1df2b5f9a5f71c291a2fc484dc8914826b6c9f580010532db72bef7eec6"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/scientific_attempt02/stage/outputs/INDEPENDENT_CHECKS/bridge/compression_product_attack.py"
+  ],
+  "cwd": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/scientific_attempt02/runs/R09_compression_not_multiplicative",
+  "elapsed_seconds": 0.523627309994481,
+  "name": "R09_compression_not_multiplicative",
+  "optimize": 0,
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "returncode": 0,
+  "script_sha256": "e25f050ee86b9ef49abf02fd7dbb240ce81bde167fb62608eaac0a18611d3bb8",
+  "semantic_result": {
+    "case": {
+      "compressed_square_is_not_square_of_compression": true,
+      "compression_is_not_multiplicative": true,
+      "exact_defect_factorization": true,
+      "outcomes": [
+        0,
+        0
+      ],
+      "positive_defect_determinant": "2287179890739237505540858946282907548023875188586752458769194884248064/197215226305252951352932141320696557418301608777255751192569732666015625",
+      "positive_defect_trace": "86272774519239781749915119657896670734805897908448816888166457202736/315544362088404722164691426113114491869282574043609201908111572265625"
+    },
+    "interpretation": "Apply SOS in enlarged space, then compress/expect; do not substitute arbitrary POVM Fourier effects into polynomial words.",
+    "source_helper_sha256": "2b1cad53a8acac603b1655ae0a29363cb2dbe73d096da4003891713c0c3e463c",
+    "status": "PASS_NEGATIVE_ROUTE_REJECTED"
+  },
+  "semantic_status": "PASS",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "e4f60d2fc2859df42da33444a45648e809e2372b254039bb3562ecb2e20cd6b3",
+  "unchanged_source_replay": true
+}

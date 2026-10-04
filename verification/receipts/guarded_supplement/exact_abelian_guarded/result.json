@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "characteristic": 0,
+  "baseline_NC_nonzero_residuals": 0,
+  "baseline_abelian_nonzero_residuals": 0,
+  "commutator_mutant_NC_nonzero_residuals": 101,
+  "commutator_mutant_abelian_nonzero_residuals": 0,
+  "control": "Add U0U2-U2U0 to the first square in memory; correct abelianization hides it, NC characteristic-zero arithmetic rejects it.",
+  "input_sha256": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+  "script_sha256": "46bc9c39c470a489abfc7183cec7a41ccd178274c807865d720d708035cbbf64",
+  "source_sha256": {
+    "strict_schema.py": "12c8d6d0867a31f48610d879c0aaefe3c9ccc04d6fdd3c62d94104b78a1ddd0b",
+    "verify_independent.py": "ea9be28959de0412e4c47f33eab0c16f9bfb8f31cd4774a7b0c0add5a255fad4",
+    "verify_statement.py": "29c98cc47f3419985de474af7c7962bcfbd60b0ce87b28a80eec2d0ba03b36d2",
+    "kill_tests.py": "db14847bb09df888daefa444f56d831b12d97bcfd48db0c0a6daa18bbc9dd511",
+    "verification_receipt.py": "81b28999c492a858815f933cee4d7551d8239841bfd54a5cc9ece0d89d87d767",
+    "verify_sos14.py": "25b39226dddb11c9689846e686edb8307fdfb23f2d9776777a93b43928b5f8b2",
+    "validate_integer_encoding.py": "e7cd9a7c482696cee1427a5f3d1e98311033ae1e08af3135869050ca9070878a"
+  },
+  "scope": "Reuses published cyclotomic arithmetic; complements independent A04 exact compact/Gram replay."
+}

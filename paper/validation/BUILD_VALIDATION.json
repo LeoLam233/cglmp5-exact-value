@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "utc_recorded": "2026-10-04T10:19:34.512410+00:00",
+  "manuscript_version": "0.1.1",
+  "page_count": 23,
+  "paper_pdf_sha256": "3b1f512aae295dba43acef3b75b6aa82186201a1748798b17f628b465f9ac37d",
+  "paper_pdf_bytes": 476940,
+  "source_sha256": {
+    "main.tex": "3284a967e877b0235fe3bb33ee7836578a4196e3457d54740550c392432b4673",
+    "references.bib": "dae5f2917539c0a690241613f0069687ddcd3a1f14046c3d39f41f18ada535f9",
+    "phase_supports.tex": "88a732ac89e5fa4680e6c728adfc9a844f3807b5a5a8363e12cb384bd8260580",
+    "kernel_data.tex": "7c1d9d753fb7ee70375028cea9b5edf4abd50487ac4d5168d47d166bfe70f681",
+    "parameter_assignments.tex": "cd58d75feb750529879cc905f1cfdf28af91e13eacee67716a61fcc38c9c1413",
+    "parameter_data.tex": "ded1dcbcb7d84137793680eb629c93b69d44b225451064261e52e1c936bb2f78",
+    "minor_bounds.tex": "67ab64997964600f69e532ff147a404b7859a2618227304a5f322bad85dea00b",
+    "check_paper_data.py": "09c6bb94d02fdc560d6c9e6cd335e26d785060b92e466279eb96e991223bc73a",
+    "build.sh": "f5ec72615f8702e4ec709f85fb3036002457c740fc5a284d472dc88292e8148f",
+    "README.md": "0eff5ee909ffd5c653bb1e9aa1579fd7dfe0bc50cfd06ce443b5ba5540732c4b"
+  },
+  "build_command": "bash paper/build.sh",
+  "build_cwd": "repository root",
+  "source_date_epoch": 1791072000,
+  "force_source_date": 1,
+  "clean_build": {
+    "inputs": "only paper/*.tex, references.bib, build.sh copied to previously empty validation/clean_build; caches reconstructed locally",
+    "pdf_sha256": "3b1f512aae295dba43acef3b75b6aa82186201a1748798b17f628b465f9ac37d",
+    "matches_main_pdf": true,
+    "log": "clean_build.txt"
+  },
+  "toolchain": {
+    "pdflatex": "pdfTeX 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian)",
+    "latexmk": "Latexmk, John Collins, 11 Dec. 2024. Version 4.86",
+    "bibtex": "BibTeX 0.99d (TeX Live 2025/dev/Debian)",
+    "pdftoppm": "pdftoppm version 26.05.0"
+  },
+  "visual_inspection": {
+    "status": "PASS",
+    "scope": "All 23 pages individually displayed at 1400-pixel page height and inspected for math, data legibility, layout, clipping, overlaps, footer placement, references, and blank pages.",
+    "final_edit_reinspection": "Only page 1 changed after typographic nonbreaking standard edit; it was individually re-inspected. Pages 2-23 raster SHA-256s match the previously inspected images exactly.",
+    "page_png_sha256": {
+      "page-01.png": "378da3c41e4ef480e3fda64a3c71b19653f1811d9d66483191d9bdbc173bcca8",
+      "page-02.png": "8c450467105136ebf89894ad39030bdd6728cf989e0e89e66c88e433024b6b20",
+      "page-03.png": "78826f67a887089ced9917495e53f7dfd9a0e7e35e7638fdca4f1792ff014a80",
+      "page-04.png": "90e155bc8e1b42a5dbb76765f723807d18b40085d91b93767240ad5f048d81eb",
+      "page-05.png": "b91cd663879ffe0eeb2a248a1e82a82a11c28eae8d7a98f75b742f3c2098435b",
+      "page-06.png": "b5681a32756fe41fda05c73b6a03dece979025b9b5440bba88b9eb7fcd358c93",
+      "page-07.png": "5d45719a0495c8c32c3b5360d60c8634fe19052328cbf02a49516f37a78c96c5",
+      "page-08.png": "8044ee54c69db35dfad3a572103e9e37d5a1baed8e4ccc3d4a5f86f8e9b2d416",
+      "page-09.png": "7da77dadb9f0adc4ddf2ef6e6ae2fa7c1ce2772f64602f944d2affcbad9f6f37",
+      "page-10.png": "e2e2cb8805833598ef18161ba2e8fd3720b4cdbdea7e67019310c52a24acad2d",
+      "page-11.png": "3779d618903a204533bdc7bfcc73387aee84870f7b0ce618944269f10c04b3f3",
+      "page-12.png": "474c94e46074476b7b0f5b62d7251a22fc61bf71d250206713c2a0d6b8a7dd96",
+      "page-13.png": "1285a91a2a94e90072fc8bd97c30a4f27a0d0895846152632e2416647f32d712",
+      "page-14.png": "c3e072a5f97d83e84a765b5e1ec91cb4d57abb9949fedaf2978a009ade16e152",
+      "page-15.png": "a8a85ab253bff47ea9f1344ba09793d009b9a66375e3b386fb20741d09752a76",
+      "page-16.png": "dbd14eb13cb501afd150d6e53dbbda6338e82c0c50f8b69531d55f1da69f28ff",
+      "page-17.png": "17fbc8ff3a3a40e000eca369d20464617a0e9d174f3b876478ac21db1f7c8b71",
+      "page-18.png": "092d58ca714acc56fb33dd018ae9e58a2668e90fcc9176c20fc479cd2f2db03a",
+      "page-19.png": "50cf77da16575eadf1929b937f05240a4d68c21b577bf696ad06058965ec92b1",
+      "page-20.png": "8c8b8998722f0c5428cfe6dbe59853363569d11da1a0ef400d997e258725d55c",
+      "page-21.png": "9c9ea312a45ced1bef5e0394ec970cbe9dd0ea440a5388c9810c5359bb27bd21",
+      "page-22.png": "51dd198de0ff7a694c99be84b5fafbdf3b5a1e2b3b84dd4c18a4036ed291ddfb",
+      "page-23.png": "aff2c5167abfe623e2ee0f6b99666849e70a88d8975b2f73affd1ce30118419f"
+    },
+    "overfull_hboxes": 0,
+    "unresolved_references_or_citations": 0,
+    "all_fonts_embedded": true,
+    "type3_fonts": false
+  },
+  "data_verification_receipt": "data_correspondence.json",
+  "data_verification_sha256": "8991580827d3229c37f7493674d778da560b74dd709e353aa5704082a0181bbb"
+}

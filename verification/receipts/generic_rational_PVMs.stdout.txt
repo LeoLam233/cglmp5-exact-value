@@ -1,0 +1,192 @@
+{
+  "status": "PASS",
+  "seed": 2026100410,
+  "arithmetic": "SymPy rational matrices",
+  "sympy_version": "1.14.0",
+  "rows": [
+    {
+      "dimensions": [
+        2,
+        3
+      ],
+      "parties": [
+        {
+          "dimension": 2,
+          "settings": 2,
+          "outcomes_per_setting": 5,
+          "all_columns_grouped": true,
+          "exact_completeness": true,
+          "exact_orthogonal_projections": true,
+          "PSD_witness": "each effect is an explicitly summed outer product of rational orthonormal columns",
+          "ranks": [
+            [
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          "nonzero_setting_commutators": 4
+        },
+        {
+          "dimension": 3,
+          "settings": 2,
+          "outcomes_per_setting": 5,
+          "all_columns_grouped": true,
+          "exact_completeness": true,
+          "exact_orthogonal_projections": true,
+          "PSD_witness": "each effect is an explicitly summed outer product of rational orthonormal columns",
+          "ranks": [
+            [
+              1,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              1,
+              0,
+              0
+            ]
+          ],
+          "nonzero_setting_commutators": 9
+        }
+      ]
+    },
+    {
+      "dimensions": [
+        6,
+        7
+      ],
+      "parties": [
+        {
+          "dimension": 6,
+          "settings": 2,
+          "outcomes_per_setting": 5,
+          "all_columns_grouped": true,
+          "exact_completeness": true,
+          "exact_orthogonal_projections": true,
+          "PSD_witness": "each effect is an explicitly summed outer product of rational orthonormal columns",
+          "ranks": [
+            [
+              2,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              2,
+              1,
+              1,
+              1,
+              1
+            ]
+          ],
+          "nonzero_setting_commutators": 25
+        },
+        {
+          "dimension": 7,
+          "settings": 2,
+          "outcomes_per_setting": 5,
+          "all_columns_grouped": true,
+          "exact_completeness": true,
+          "exact_orthogonal_projections": true,
+          "PSD_witness": "each effect is an explicitly summed outer product of rational orthonormal columns",
+          "ranks": [
+            [
+              2,
+              2,
+              1,
+              1,
+              1
+            ],
+            [
+              2,
+              2,
+              1,
+              1,
+              1
+            ]
+          ],
+          "nonzero_setting_commutators": 25
+        }
+      ]
+    },
+    {
+      "dimensions": [
+        5,
+        8
+      ],
+      "parties": [
+        {
+          "dimension": 5,
+          "settings": 2,
+          "outcomes_per_setting": 5,
+          "all_columns_grouped": true,
+          "exact_completeness": true,
+          "exact_orthogonal_projections": true,
+          "PSD_witness": "each effect is an explicitly summed outer product of rational orthonormal columns",
+          "ranks": [
+            [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          ],
+          "nonzero_setting_commutators": 25
+        },
+        {
+          "dimension": 8,
+          "settings": 2,
+          "outcomes_per_setting": 5,
+          "all_columns_grouped": true,
+          "exact_completeness": true,
+          "exact_orthogonal_projections": true,
+          "PSD_witness": "each effect is an explicitly summed outer product of rational orthonormal columns",
+          "ranks": [
+            [
+              2,
+              2,
+              2,
+              1,
+              1
+            ],
+            [
+              2,
+              2,
+              2,
+              1,
+              1
+            ]
+          ],
+          "nonzero_setting_commutators": 25
+        }
+      ]
+    }
+  ],
+  "measurement_families": 12,
+  "exact_five_outcome_effects": 60,
+  "scope": "Finite generic same-party noncommutation and exact physical admissibility controls; no finite-dimensional restriction or global-bound inference.",
+  "script_sha256": "160599bdd0f55c3946b7dfca3e57802f2f6a07a5ca5c67c6e7a351e65662bd76"
+}

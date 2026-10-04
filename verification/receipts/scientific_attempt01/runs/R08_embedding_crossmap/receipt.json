@@ -1,0 +1,36 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/scientific_attempt01/stage/outputs/INDEPENDENT_CHECKS/field/review_attainment_field.py"
+  ],
+  "cwd": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/scientific_attempt01/runs/R08_embedding_crossmap",
+  "elapsed_seconds": 1.3333252490047016,
+  "name": "R08_embedding_crossmap",
+  "optimize": 0,
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "result_path": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/scientific_attempt01/stage/outputs/RUN_RECEIPTS/field/attainment_field_crossreview.json",
+  "result_sha256": "b13f8dce3cfe57ee95f9a446a68aaf20cc5dd9bfd84add9227e8a897e203c499",
+  "returncode": 0,
+  "script_sha256": "53e940158512212fe928e6ffd034f8a405cee55a35ea710b1dbc1efd290cec87",
+  "semantic_result": {
+    "actual_embedding_link": "largest p-root in (3,31/10); positive s=A/B and u; |z|=1, z^5=i, Im(z)>0, Re(z)>1/sqrt(2)",
+    "all_five_cleared_components_positive": true,
+    "attainer_denominator_d_gt_4": true,
+    "basis_product_crosschecks": 576,
+    "cleared_norm_strictly_positive": true,
+    "conjugation_crosschecks": 24,
+    "elapsed_seconds": 1.301877498626709,
+    "general_algebraic_inversions_in_test_object": false,
+    "limitations": "Same Fraction runtime and mathematical target relations remain shared. Parser malformed-input scope is separate. Test-object assertions require normal Python execution.",
+    "oracle": "Fraction-only Q[t]/p with s=A/B and u\u00b2=10+2s; distinct from quartic-u basis under test",
+    "reviewed_source_sha256": "05834b3e38e790e0fc70969b454616a808b85f10c4809ba71b7ade716b83f585",
+    "serialized_basis_crosschecks": 24,
+    "source": "outputs/INDEPENDENT_CHECKS/attainment/exact_linkage.py",
+    "status": "PASS"
+  },
+  "semantic_status": "PASS",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "b13f8dce3cfe57ee95f9a446a68aaf20cc5dd9bfd84add9227e8a897e203c499",
+  "unchanged_source_replay": true
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS_NEGATIVE_ROUTE_REJECTED",
+  "case": {
+    "outcomes": [
+      0,
+      0
+    ],
+    "compression_is_not_multiplicative": true,
+    "compressed_square_is_not_square_of_compression": true,
+    "positive_defect_trace": "86272774519239781749915119657896670734805897908448816888166457202736/315544362088404722164691426113114491869282574043609201908111572265625",
+    "positive_defect_determinant": "2287179890739237505540858946282907548023875188586752458769194884248064/197215226305252951352932141320696557418301608777255751192569732666015625",
+    "exact_defect_factorization": true
+  },
+  "source_helper_sha256": "2b1cad53a8acac603b1655ae0a29363cb2dbe73d096da4003891713c0c3e463c",
+  "interpretation": "Apply SOS in enlarged space, then compress/expect; do not substitute arbitrary POVM Fourier effects into polynomial words."
+}

@@ -1,0 +1,13 @@
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+.tex-cache/
+.tex-config/
+__pycache__/
+validation/render/
+validation/inspection/
+validation/clean_build/

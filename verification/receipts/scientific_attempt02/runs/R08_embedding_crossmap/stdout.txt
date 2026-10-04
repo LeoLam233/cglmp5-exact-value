@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "reviewed_source_sha256": "05834b3e38e790e0fc70969b454616a808b85f10c4809ba71b7ade716b83f585",
+  "source": "outputs/INDEPENDENT_CHECKS/attainment/exact_linkage.py",
+  "oracle": "Fraction-only Q[t]/p with s=A/B and u\u00b2=10+2s; distinct from quartic-u basis under test",
+  "basis_product_crosschecks": 576,
+  "conjugation_crosschecks": 24,
+  "serialized_basis_crosschecks": 24,
+  "actual_embedding_link": "largest p-root in (3,31/10); positive s=A/B and u; |z|=1, z^5=i, Im(z)>0, Re(z)>1/sqrt(2)",
+  "attainer_denominator_d_gt_4": true,
+  "all_five_cleared_components_positive": true,
+  "cleared_norm_strictly_positive": true,
+  "general_algebraic_inversions_in_test_object": false,
+  "limitations": "Same Fraction runtime and mathematical target relations remain shared. Parser malformed-input scope is separate. Test-object assertions require normal Python execution.",
+  "elapsed_seconds": 1.3541896343231201
+}

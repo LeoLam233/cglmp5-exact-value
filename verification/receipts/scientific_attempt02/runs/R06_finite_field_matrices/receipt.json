@@ -1,0 +1,2505 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/scientific_attempt02/stage/outputs/INDEPENDENT_CHECKS/nc/finite_field_matrix_attack.py",
+    "--payload",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/scientific_attempt02/stage/work/expanded/CGLMP5_PHASE_A_INPUT_v1.2/PHASE_A_BLIND_AUDIT/scientific_payload",
+    "--output",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/scientific_attempt02/stage/outputs/RUN_RECEIPTS/nc/finite_field_matrix.json"
+  ],
+  "cwd": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/scientific_attempt02/runs/R06_finite_field_matrices",
+  "elapsed_seconds": 2.0034205299962196,
+  "name": "R06_finite_field_matrices",
+  "optimize": 0,
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "result_path": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/scientific_attempt02/stage/outputs/RUN_RECEIPTS/nc/finite_field_matrix.json",
+  "result_sha256": "79dd42ad61a483efa25eabf1c690e3fd102b207f59717b54cffefd545634eec4",
+  "returncode": 0,
+  "script_sha256": "0f95bf95784a37088110795385bdf3ba5a98702d645f9dd50293ae48424b1b40",
+  "semantic_result": {
+    "UTC": "2026-10-04T10:04:17.353400+00:00",
+    "ancestry": "No imported auditor or author code. Literal-event spectral-projector target; Fp2 Hermitian matrix arithmetic; Cayley orthogonal generators; no NC reduction or scalar quotient reducer.",
+    "case_count": 102,
+    "cases": [
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 69
+        },
+        "prime": 79,
+        "s_x_u": [
+          20,
+          61,
+          34
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610047902
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 137,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 286
+        },
+        "prime": 79,
+        "s_x_u": [
+          20,
+          61,
+          34
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610047903
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 98,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 198
+        },
+        "prime": 79,
+        "s_x_u": [
+          20,
+          61,
+          34
+        ],
+        "same_party_commutator_nonzero_entries": [
+          38,
+          2
+        ],
+        "seed": 202610047905
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 79,
+        "s_x_u": [
+          20,
+          61,
+          45
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610047912
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 284
+        },
+        "prime": 79,
+        "s_x_u": [
+          20,
+          61,
+          45
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          22
+        ],
+        "seed": 202610047913
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 120,
+          "first_coefficient_plus_one": 99,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 199
+        },
+        "prime": 79,
+        "s_x_u": [
+          20,
+          61,
+          45
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610047915
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 79,
+        "s_x_u": [
+          59,
+          45,
+          7
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610047922
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 143,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 284
+        },
+        "prime": 79,
+        "s_x_u": [
+          59,
+          45,
+          7
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610047923
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 126,
+          "first_coefficient_plus_one": 94,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 196
+        },
+        "prime": 79,
+        "s_x_u": [
+          59,
+          45,
+          7
+        ],
+        "same_party_commutator_nonzero_entries": [
+          34,
+          2
+        ],
+        "seed": 202610047925
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 79,
+        "s_x_u": [
+          59,
+          45,
+          72
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610047932
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 286
+        },
+        "prime": 79,
+        "s_x_u": [
+          59,
+          45,
+          72
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610047933
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 200
+        },
+        "prime": 79,
+        "s_x_u": [
+          59,
+          45,
+          72
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610047935
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 34,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 66
+        },
+        "prime": 139,
+        "s_x_u": [
+          12,
+          3,
+          27
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610053902
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 143,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 284
+        },
+        "prime": 139,
+        "s_x_u": [
+          12,
+          3,
+          27
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610053903
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 198
+        },
+        "prime": 139,
+        "s_x_u": [
+          12,
+          3,
+          27
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610053905
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 139,
+        "s_x_u": [
+          12,
+          3,
+          112
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610053912
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 288
+        },
+        "prime": 139,
+        "s_x_u": [
+          12,
+          3,
+          112
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          22
+        ],
+        "seed": 202610053913
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 198
+        },
+        "prime": 139,
+        "s_x_u": [
+          12,
+          3,
+          112
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610053915
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 71
+        },
+        "prime": 139,
+        "s_x_u": [
+          12,
+          64,
+          27
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610053922
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 143,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 284
+        },
+        "prime": 139,
+        "s_x_u": [
+          12,
+          64,
+          27
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610053923
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 198
+        },
+        "prime": 139,
+        "s_x_u": [
+          12,
+          64,
+          27
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610053925
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 139,
+        "s_x_u": [
+          12,
+          64,
+          112
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610053932
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 288
+        },
+        "prime": 139,
+        "s_x_u": [
+          12,
+          64,
+          112
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610053933
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 198
+        },
+        "prime": 139,
+        "s_x_u": [
+          12,
+          64,
+          112
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610053935
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 139,
+        "s_x_u": [
+          12,
+          132,
+          27
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610053942
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 285
+        },
+        "prime": 139,
+        "s_x_u": [
+          12,
+          132,
+          27
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610053943
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 200
+        },
+        "prime": 139,
+        "s_x_u": [
+          12,
+          132,
+          27
+        ],
+        "same_party_commutator_nonzero_entries": [
+          38,
+          2
+        ],
+        "seed": 202610053945
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 139,
+        "s_x_u": [
+          12,
+          132,
+          112
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610053952
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 288
+        },
+        "prime": 139,
+        "s_x_u": [
+          12,
+          132,
+          112
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610053953
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 196
+        },
+        "prime": 139,
+        "s_x_u": [
+          12,
+          132,
+          112
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610053955
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 139,
+        "s_x_u": [
+          127,
+          90,
+          60
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          10
+        ],
+        "seed": 202610053962
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 286
+        },
+        "prime": 139,
+        "s_x_u": [
+          127,
+          90,
+          60
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610053963
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 124,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 200
+        },
+        "prime": 139,
+        "s_x_u": [
+          127,
+          90,
+          60
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610053965
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 139,
+        "s_x_u": [
+          127,
+          90,
+          79
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610053972
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 286
+        },
+        "prime": 139,
+        "s_x_u": [
+          127,
+          90,
+          79
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610053973
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 199
+        },
+        "prime": 139,
+        "s_x_u": [
+          127,
+          90,
+          79
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610053975
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 34,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 70
+        },
+        "prime": 179,
+        "s_x_u": [
+          30,
+          136,
+          41
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610057902
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 124,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 288
+        },
+        "prime": 179,
+        "s_x_u": [
+          30,
+          136,
+          41
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610057903
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 196
+        },
+        "prime": 179,
+        "s_x_u": [
+          30,
+          136,
+          41
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610057905
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 179,
+        "s_x_u": [
+          30,
+          136,
+          138
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610057913
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 284
+        },
+        "prime": 179,
+        "s_x_u": [
+          30,
+          136,
+          138
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610057913
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 200
+        },
+        "prime": 179,
+        "s_x_u": [
+          30,
+          136,
+          138
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610057915
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 34,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 199,
+        "s_x_u": [
+          76,
+          191,
+          19
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610059902
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 286
+        },
+        "prime": 199,
+        "s_x_u": [
+          76,
+          191,
+          19
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610059903
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 200
+        },
+        "prime": 199,
+        "s_x_u": [
+          76,
+          191,
+          19
+        ],
+        "same_party_commutator_nonzero_entries": [
+          38,
+          2
+        ],
+        "seed": 202610059905
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 199,
+        "s_x_u": [
+          76,
+          191,
+          180
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610059912
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 142,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 288
+        },
+        "prime": 199,
+        "s_x_u": [
+          76,
+          191,
+          180
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          22
+        ],
+        "seed": 202610059913
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 200
+        },
+        "prime": 199,
+        "s_x_u": [
+          76,
+          191,
+          180
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610059915
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 239,
+        "s_x_u": [
+          208,
+          181,
+          67
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610063902
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 143,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 286
+        },
+        "prime": 239,
+        "s_x_u": [
+          208,
+          181,
+          67
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610063903
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 128,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 199
+        },
+        "prime": 239,
+        "s_x_u": [
+          208,
+          181,
+          67
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610063905
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 239,
+        "s_x_u": [
+          208,
+          181,
+          172
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610063912
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 287
+        },
+        "prime": 239,
+        "s_x_u": [
+          208,
+          181,
+          172
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610063913
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 198
+        },
+        "prime": 239,
+        "s_x_u": [
+          208,
+          181,
+          172
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610063915
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 359,
+        "s_x_u": [
+          148,
+          154,
+          32
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610075902
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 128,
+          "first_coefficient_plus_one": 142,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 288
+        },
+        "prime": 359,
+        "s_x_u": [
+          148,
+          154,
+          32
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610075903
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 196
+        },
+        "prime": 359,
+        "s_x_u": [
+          148,
+          154,
+          32
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610075905
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 359,
+        "s_x_u": [
+          148,
+          154,
+          327
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610075912
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 288
+        },
+        "prime": 359,
+        "s_x_u": [
+          148,
+          154,
+          327
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610075913
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 98,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 200
+        },
+        "prime": 359,
+        "s_x_u": [
+          148,
+          154,
+          327
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610075915
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 359,
+        "s_x_u": [
+          211,
+          284,
+          161
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610075922
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 288
+        },
+        "prime": 359,
+        "s_x_u": [
+          211,
+          284,
+          161
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610075923
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 200
+        },
+        "prime": 359,
+        "s_x_u": [
+          211,
+          284,
+          161
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610075925
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 359,
+        "s_x_u": [
+          211,
+          284,
+          198
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610075932
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 128,
+          "first_coefficient_plus_one": 140,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 287
+        },
+        "prime": 359,
+        "s_x_u": [
+          211,
+          284,
+          198
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610075933
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 200
+        },
+        "prime": 359,
+        "s_x_u": [
+          211,
+          284,
+          198
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610075935
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 379,
+        "s_x_u": [
+          39,
+          59,
+          35
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610077902
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 288
+        },
+        "prime": 379,
+        "s_x_u": [
+          39,
+          59,
+          35
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610077903
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 200
+        },
+        "prime": 379,
+        "s_x_u": [
+          39,
+          59,
+          35
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610077905
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 379,
+        "s_x_u": [
+          39,
+          59,
+          344
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610077912
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 142,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 288
+        },
+        "prime": 379,
+        "s_x_u": [
+          39,
+          59,
+          344
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610077913
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 200
+        },
+        "prime": 379,
+        "s_x_u": [
+          39,
+          59,
+          344
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610077915
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 379,
+        "s_x_u": [
+          39,
+          217,
+          35
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610077922
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 288
+        },
+        "prime": 379,
+        "s_x_u": [
+          39,
+          217,
+          35
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610077923
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 200
+        },
+        "prime": 379,
+        "s_x_u": [
+          39,
+          217,
+          35
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610077925
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 379,
+        "s_x_u": [
+          39,
+          217,
+          344
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610077932
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 288
+        },
+        "prime": 379,
+        "s_x_u": [
+          39,
+          217,
+          344
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610077933
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 126,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 200
+        },
+        "prime": 379,
+        "s_x_u": [
+          39,
+          217,
+          344
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610077935
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 379,
+        "s_x_u": [
+          39,
+          298,
+          35
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610077942
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 288
+        },
+        "prime": 379,
+        "s_x_u": [
+          39,
+          298,
+          35
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610077943
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 200
+        },
+        "prime": 379,
+        "s_x_u": [
+          39,
+          298,
+          35
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610077945
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 379,
+        "s_x_u": [
+          39,
+          298,
+          344
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610077952
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 288
+        },
+        "prime": 379,
+        "s_x_u": [
+          39,
+          298,
+          344
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610077953
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 198
+        },
+        "prime": 379,
+        "s_x_u": [
+          39,
+          298,
+          344
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610077955
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 419,
+        "s_x_u": [
+          378,
+          148,
+          157
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610081902
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 287
+        },
+        "prime": 419,
+        "s_x_u": [
+          378,
+          148,
+          157
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610081903
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 200
+        },
+        "prime": 419,
+        "s_x_u": [
+          378,
+          148,
+          157
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610081905
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 32,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 70
+        },
+        "prime": 419,
+        "s_x_u": [
+          378,
+          148,
+          262
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610081912
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 288
+        },
+        "prime": 419,
+        "s_x_u": [
+          378,
+          148,
+          262
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610081913
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 200
+        },
+        "prime": 419,
+        "s_x_u": [
+          378,
+          148,
+          262
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610081915
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 34,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 419,
+        "s_x_u": [
+          378,
+          156,
+          157
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610081922
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 288
+        },
+        "prime": 419,
+        "s_x_u": [
+          378,
+          156,
+          157
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610081923
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 200
+        },
+        "prime": 419,
+        "s_x_u": [
+          378,
+          156,
+          157
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610081925
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 419,
+        "s_x_u": [
+          378,
+          156,
+          262
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610081932
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 286
+        },
+        "prime": 419,
+        "s_x_u": [
+          378,
+          156,
+          262
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610081933
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 200
+        },
+        "prime": 419,
+        "s_x_u": [
+          378,
+          156,
+          262
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610081935
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 419,
+        "s_x_u": [
+          378,
+          329,
+          157
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610081942
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 288
+        },
+        "prime": 419,
+        "s_x_u": [
+          378,
+          329,
+          157
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610081943
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 128,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 200
+        },
+        "prime": 419,
+        "s_x_u": [
+          378,
+          329,
+          157
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610081945
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          2,
+          3
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 24,
+          "first_coefficient_plus_one": 36,
+          "lowered_bound": 6,
+          "omitted_coefficient_conjugation": 72
+        },
+        "prime": 419,
+        "s_x_u": [
+          378,
+          329,
+          262
+        ],
+        "same_party_commutator_nonzero_entries": [
+          4,
+          12
+        ],
+        "seed": 202610081952
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          3,
+          4
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 132,
+          "first_coefficient_plus_one": 144,
+          "lowered_bound": 12,
+          "omitted_coefficient_conjugation": 286
+        },
+        "prime": 419,
+        "s_x_u": [
+          378,
+          329,
+          262
+        ],
+        "same_party_commutator_nonzero_entries": [
+          12,
+          24
+        ],
+        "seed": 202610081953
+      },
+      {
+        "baseline_nonzero_entries": 0,
+        "local_dimensions": [
+          5,
+          2
+        ],
+        "mutation_nonzero_entries": {
+          "commutator_in_first_polynomial": 130,
+          "first_coefficient_plus_one": 100,
+          "lowered_bound": 10,
+          "omitted_coefficient_conjugation": 198
+        },
+        "prime": 419,
+        "s_x_u": [
+          378,
+          329,
+          262
+        ],
+        "same_party_commutator_nonzero_entries": [
+          40,
+          2
+        ],
+        "seed": 202610081955
+      }
+    ],
+    "controls_detected_count": {
+      "commutator_in_first_polynomial": 102,
+      "first_coefficient_plus_one": 102,
+      "lowered_bound": 102,
+      "omitted_coefficient_conjugation": 102
+    },
+    "elapsed_seconds": 1.9098286000007647,
+    "input_sha256": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+    "limit": "Exact finite-characteristic unitary-representation diagnostics, not characteristic-zero proof or positive-order argument.",
+    "primes": [
+      79,
+      139,
+      179,
+      199,
+      239,
+      359,
+      379,
+      419
+    ],
+    "skipped": [
+      {
+        "prime": 59,
+        "reason": "noninvertible denominator"
+      }
+    ],
+    "status": "PASS"
+  },
+  "semantic_status": "PASS",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "983af6d581ceac4a7f76a7b244d9fd5a0f01cde665cbfd8516af30f4c3324e51",
+  "unchanged_source_replay": true
+}

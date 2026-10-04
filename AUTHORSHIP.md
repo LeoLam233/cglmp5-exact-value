@@ -9,3 +9,7 @@ This project was developed with substantial assistance from frontier AI systems.
 No AI system is an author. The human author selected and supervised the research workflow, decided what to preserve and publish, and takes responsibility for the public claims and artifact curation.
 
 The repository distinguishes the frozen scientific candidate from later verification evidence. Passing AI-generated or AI-executed checks is not represented as human peer review or formal proof-assistant verification.
+
+## Repository contribution attribution
+
+Substantive v0.1.1 commits include `Co-authored-by: Codex <noreply@openai.com>` so GitHub can attribute repository work to Codex. This is repository attribution only. Dehao Lin remains the sole human manuscript author; no AI system is an academic author.

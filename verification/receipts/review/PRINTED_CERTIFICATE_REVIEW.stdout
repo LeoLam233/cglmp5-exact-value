@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "scope": "independent parsing and algebraic transcription/orientation check of printed TeX; shares published exact arithmetic, not a new arithmetic engine",
+  "phase_columns": 20,
+  "kernel_scalar_records": 14,
+  "real_parameter_records": 42,
+  "parameter_assignments": 42,
+  "factorization_entries": 1134,
+  "compact_positions": 1134,
+  "compact_weights": 14,
+  "strict_leading_minor_bounds": 14,
+  "printed_root_boxes": 3,
+  "minimum_weight_bracket": true,
+  "source_sha256": "60a494a09cefe0a504664501575c02cb33f344e674e28ae28b34a66701ee5a7d",
+  "paper_sha256": {
+    "main.tex": "3284a967e877b0235fe3bb33ee7836578a4196e3457d54740550c392432b4673",
+    "phase_supports.tex": "88a732ac89e5fa4680e6c728adfc9a844f3807b5a5a8363e12cb384bd8260580",
+    "kernel_data.tex": "7c1d9d753fb7ee70375028cea9b5edf4abd50487ac4d5168d47d166bfe70f681",
+    "parameter_assignments.tex": "cd58d75feb750529879cc905f1cfdf28af91e13eacee67716a61fcc38c9c1413",
+    "parameter_data.tex": "ded1dcbcb7d84137793680eb629c93b69d44b225451064261e52e1c936bb2f78",
+    "minor_bounds.tex": "67ab64997964600f69e532ff147a404b7859a2618227304a5f322bad85dea00b"
+  },
+  "frozen_input_sha256": {
+    "EXACT_KERNELS.json": "6e08746bf5a58addb6bb46beb00c7bdab29638b9290802bca5114bc47ae957a5",
+    "EXACT_SOS_CANDIDATE.json": "14324f3ea10a3b1304a02ce48b5572be7080b519c242f5802ed599f60325c649",
+    "POSITIVITY_CERTIFICATE.json": "22ba8a09e433fe269b805f9979f574e37e3262a33fdae5a71927b748a860e8de",
+    "SOS14.json": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2"
+  }
+}

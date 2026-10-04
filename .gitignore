@@ -11,3 +11,15 @@ gram_current.json
 statement_current.json
 KILL_TESTS.json
 .local/
+
+# LaTeX intermediates (the compiled paper/main.pdf is intentionally tracked).
+/paper/*.aux
+/paper/*.bbl
+/paper/*.blg
+/paper/*.fdb_latexmk
+/paper/*.fls
+/paper/*.log
+/paper/*.out
+/paper/*.toc
+/paper/.build/
+/paper/rendered/

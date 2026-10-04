@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "successful_receipts_checked": 10,
+  "rows": [
+    {
+      "label": "unknown_theorem_id",
+      "entrypoint": "verify_sos14.py",
+      "status": "PASS",
+      "input_hashes_checked": 1,
+      "source_hashes_checked": 7,
+      "document_hashes_checked": 5
+    },
+    {
+      "label": "cached_status",
+      "entrypoint": "verify_independent.py",
+      "status": "PASS",
+      "input_hashes_checked": 3,
+      "source_hashes_checked": 7,
+      "document_hashes_checked": 5
+    },
+    {
+      "label": "declared_support",
+      "entrypoint": "verify_independent.py",
+      "status": "PASS",
+      "input_hashes_checked": 3,
+      "source_hashes_checked": 7,
+      "document_hashes_checked": 5
+    },
+    {
+      "label": "proof_text",
+      "entrypoint": "verify_statement.py",
+      "status": "PASS",
+      "input_hashes_checked": 1,
+      "source_hashes_checked": 7,
+      "document_hashes_checked": 5
+    },
+    {
+      "label": "explicit_zero",
+      "entrypoint": "verify_sos14.py",
+      "status": "PASS",
+      "input_hashes_checked": 1,
+      "source_hashes_checked": 7,
+      "document_hashes_checked": 5
+    },
+    {
+      "label": "unreduced_rational",
+      "entrypoint": "verify_sos14.py",
+      "status": "PASS",
+      "input_hashes_checked": 1,
+      "source_hashes_checked": 7,
+      "document_hashes_checked": 5
+    },
+    {
+      "label": "summand_permutation",
+      "entrypoint": "verify_sos14.py",
+      "status": "PASS",
+      "input_hashes_checked": 1,
+      "source_hashes_checked": 7,
+      "document_hashes_checked": 5
+    },
+    {
+      "label": "R_to_iR",
+      "entrypoint": "verify_sos14.py",
+      "status": "PASS",
+      "input_hashes_checked": 1,
+      "source_hashes_checked": 7,
+      "document_hashes_checked": 5
+    },
+    {
+      "label": "R_to_2R_d_over4",
+      "entrypoint": "verify_sos14.py",
+      "status": "PASS",
+      "input_hashes_checked": 1,
+      "source_hashes_checked": 7,
+      "document_hashes_checked": 5
+    },
+    {
+      "label": "compatible_conjugation",
+      "entrypoint": "verify_sos14.py",
+      "status": "PASS",
+      "input_hashes_checked": 1,
+      "source_hashes_checked": 7,
+      "document_hashes_checked": 5
+    }
+  ],
+  "scope": "Byte bindings and explicit enforced/annotative distinctions, not prose theorem verification."
+}

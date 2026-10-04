@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/baseline/verify_sos14.py", line 7, in <module>
+    from strict_schema import load_document, require_normal_python
+  File "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/baseline/strict_schema.py", line 43, in <module>
+    require_normal_python()
+  File "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/baseline/strict_schema.py", line 40, in require_normal_python
+    raise RuntimeError('NORMAL_PYTHON_REQUIRED: reject -O, -OO and nonzero PYTHONOPTIMIZE')
+RuntimeError: NORMAL_PYTHON_REQUIRED: reject -O, -OO and nonzero PYTHONOPTIMIZE

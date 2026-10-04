@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "exact_arithmetic": "SymPy rational Gaussian complex matrices; no float, root, quotient or audit imports",
+  "assertion_count": 1301,
+  "rows": [
+    {
+      "dimension": 1,
+      "second_setting_degenerate": false,
+      "halmos_dimension": 6,
+      "separate_complement_dimension": 9,
+      "exact_pvm_and_compression": true
+    },
+    {
+      "dimension": 1,
+      "second_setting_degenerate": true,
+      "halmos_dimension": 6,
+      "separate_complement_dimension": 9,
+      "exact_pvm_and_compression": true
+    },
+    {
+      "dimension": 2,
+      "second_setting_degenerate": false,
+      "halmos_dimension": 12,
+      "separate_complement_dimension": 18,
+      "exact_pvm_and_compression": true
+    },
+    {
+      "dimension": 2,
+      "second_setting_degenerate": true,
+      "halmos_dimension": 12,
+      "separate_complement_dimension": 18,
+      "exact_pvm_and_compression": true
+    },
+    {
+      "dimension": 3,
+      "second_setting_degenerate": false,
+      "halmos_dimension": 18,
+      "separate_complement_dimension": 27,
+      "exact_pvm_and_compression": true
+    },
+    {
+      "dimension": 3,
+      "second_setting_degenerate": true,
+      "halmos_dimension": 18,
+      "separate_complement_dimension": 27,
+      "exact_pvm_and_compression": true
+    }
+  ],
+  "joint_operators_checked": 200,
+  "same_fixed_embedding": true,
+  "mixed_entangled_state_trace": "1",
+  "negative_partial_transpose_principal_minor": "-53/7056",
+  "negative_controls": [
+    "omitted_completion_rejected",
+    "wrong_setting_rejected"
+  ],
+  "seconds": 12.958840131759644
+}

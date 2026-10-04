@@ -1,0 +1,2 @@
+usage: fixture.py [-h] [--root ROOT] [--output OUTPUT] [--mode MODE]
+fixture.py: error: unrecognized arguments: --unsupported-argument

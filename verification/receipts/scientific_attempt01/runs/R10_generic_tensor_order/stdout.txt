@@ -1,0 +1,10 @@
+{
+  "status": "CORRELATED_FIXTURE_BLIND_SPOT_CONFIRMED",
+  "a07_source_sha256": "0dd7939324bab44a3225f15385e28372601c28aa47f213d1ea38d805c81e5d0b",
+  "exact_linkage_source_sha256": "05834b3e38e790e0fc70969b454616a808b85f10c4809ba71b7ade716b83f585",
+  "fixture_wrong_order_equals_literal_exactly": true,
+  "fixture_matrix_entries_compared": 625,
+  "generic_wrong_tensor_order_Frobenius_error": 7.2129177491972065,
+  "generic_correct_order_Frobenius_error": 9.888578516447306e-15,
+  "interpretation": "A07 v2 numeric attainment is valid for its special Fourier fixture, but its build_B is not a generic correct implementation of stated party tensor placement. The fixture hides the wrong ordering. No source/receipt mismatch established, and no theorem defect."
+}

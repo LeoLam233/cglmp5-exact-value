@@ -1,0 +1,50 @@
+name: Publish approved v0.1.1
+on:
+  workflow_dispatch:
+    inputs:
+      expected_commit:
+        description: 'Exact reviewed main commit (40 lowercase hex characters)'
+        required: true
+        type: string
+permissions:
+  contents: read
+jobs:
+  release:
+    if: github.ref == 'refs/heads/main' && github.repository == 'LeoLam233/cglmp5-exact-value'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Verify exact reviewed commit and untouched baseline
+        env:
+          EXPECTED_COMMIT: ${{ inputs.expected_commit }}
+        run: |
+          set -euo pipefail
+          [[ "$EXPECTED_COMMIT" =~ ^[0-9a-f]{40}$ ]]
+          test "$(git rev-parse HEAD)" = "$EXPECTED_COMMIT"
+          test "$(git rev-parse refs/tags/v0.1.0)" = 2cabffab133d6d10a91f9e3e37e2426468dcc719
+          test "$(git rev-parse v0.1.0^{commit})" = 1f5a8972df15eb3cbccc6df0d7a12605a6aa25c9
+          git diff --exit-code v0.1.0 HEAD -- artifact_v0.1 audits/web6pro_2026-10-04
+          python3 scripts/check_release_gate.py --root .
+      - name: Create annotated tag and draft release, never replace either
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          if git show-ref --verify --quiet refs/tags/v0.1.1; then
+            echo 'v0.1.1 already exists; refusing replacement.' >&2
+            exit 1
+          fi
+          COMMIT="$(git rev-parse HEAD)"
+          TAG_OBJECT="$(gh api --method POST "repos/$GH_REPO/git/tags" \
+            -f tag=v0.1.1 -f message='CGLMP5 v0.1.1: formal manuscript and non-load-bearing Phase-B hardening; Lean reserved for v0.2.0.' \
+            -f object="$COMMIT" -f type=commit --jq .sha)"
+          gh api --method POST "repos/$GH_REPO/git/refs" -f ref=refs/tags/v0.1.1 -f sha="$TAG_OBJECT" >/dev/null
+          gh release create v0.1.1 --verify-tag --draft --title 'CGLMP5 v0.1.1' --notes-file RELEASE_v0.1.1.md paper/main.pdf
+          gh api "repos/$GH_REPO/git/ref/tags/v0.1.1" --jq '{ref, object}'
+          gh release view v0.1.1 --json tagName,targetCommitish,isDraft,isPrerelease,url

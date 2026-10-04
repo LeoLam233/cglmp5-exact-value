@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-OO",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/baseline/verify_statement.py",
+    "--root",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/baseline"
+  ],
+  "entrypoint": "verify_statement.py",
+  "gate": "R13",
+  "label": "minus_OO",
+  "returncode": 1,
+  "status": "PASS",
+  "stderr_sha256": "4a9bf197c6e2635ef6d1ecb0f4d0d58e9afb60e85b5eec8fd6ae9616c25c54d3",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

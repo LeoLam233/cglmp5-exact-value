@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "method": "univariate elimination and Sturm-Tarski signed remainder signs; no prior code or embedding boxes used",
+  "input_sha256": {
+    "SOS14.json": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+    "POSITIVITY_CERTIFICATE.json": "22ba8a09e433fe269b805f9979f574e37e3262a33fdae5a71927b748a860e8de"
+  },
+  "sympy_version": "1.14.0",
+  "B_inverse_mod_p": [
+    "1177/19208",
+    "-2413/38416",
+    "-14383/19208",
+    "28977/38416",
+    "8027/6860",
+    "2369/24010"
+  ],
+  "B_times_inverse_mod_p_equals_one": true,
+  "s_polynomial": "-55*t**5/196 + 85*t**4/196 + 695*t**3/196 - 985*t**2/196 - 38*t/7 + 58/49",
+  "u_squared_polynomial": "-55*t**5/98 + 85*t**4/98 + 695*t**3/98 - 985*t**2/98 - 76*t/7 + 606/49",
+  "embedding_scope": "s=A(mu)/B(mu). Only roots with sqrt5_sign=+1 are mu branches for the fixed positive-s embedding; negative-s branches are other algebraic embeddings, not alternate mu with s fixed positive. Only largest mu/positive u has every weight positive.",
+  "real_root_count": 6,
+  "largest_root_unique_above_3": true,
+  "branch_counts": [
+    {
+      "interval": [
+        "-4",
+        "-3"
+      ],
+      "B_sign": 1,
+      "sqrt5_sign": -1,
+      "q_sign": 1,
+      "positive_weights_positive_u": 8,
+      "positive_weights_negative_u": 8
+    },
+    {
+      "interval": [
+        "-11/10",
+        "-1"
+      ],
+      "B_sign": 1,
+      "sqrt5_sign": -1,
+      "q_sign": 1,
+      "positive_weights_positive_u": 6,
+      "positive_weights_negative_u": 8
+    },
+    {
+      "interval": [
+        "-1/2",
+        "-49/100"
+      ],
+      "B_sign": -1,
+      "sqrt5_sign": 1,
+      "q_sign": 1,
+      "positive_weights_positive_u": 8,
+      "positive_weights_negative_u": 6
+    },
+    {
+      "interval": [
+        "-3/10",
+        "-1/4"
+      ],
+      "B_sign": -1,
+      "sqrt5_sign": 1,
+      "q_sign": 1,
+      "positive_weights_positive_u": 9,
+      "positive_weights_negative_u": 7
+    },
+    {
+      "interval": [
+        "2",
+        "11/5"
+      ],
+      "B_sign": 1,
+      "sqrt5_sign": -1,
+      "q_sign": 1,
+      "positive_weights_positive_u": 7,
+      "positive_weights_negative_u": 8
+    },
+    {
+      "interval": [
+        "3",
+        "31/10"
+      ],
+      "B_sign": 1,
+      "sqrt5_sign": 1,
+      "q_sign": 1,
+      "positive_weights_positive_u": 14,
+      "positive_weights_negative_u": 8
+    }
+  ],
+  "strictly_real_and_positive_weights": 14,
+  "positive_LDL_pivots": 14,
+  "all_weights_greater_than": "1/3000",
+  "controls": {
+    "weight_sign_flips": 14,
+    "zero_weight_sign": 0,
+    "imaginary_weight_rejected": true,
+    "linear_and_zero_queries": 18
+  },
+  "elapsed_seconds": 1.5821962356567383
+}

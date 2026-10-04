@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "relations_used": [
+    "V* V = I_H"
+  ],
+  "relations_explicitly_not_assumed": [
+    "V V* = I_K"
+  ],
+  "formal_unitary": "[[0,V*],[V,I_K-VV*]]",
+  "self_adjoint": true,
+  "square_identity": true,
+  "defect_projection_idempotent": true,
+  "naive_without_defect_rejected": true,
+  "meaning": "Exact block-operator identities hold even for a proper isometry; no infinite-dimensional unitary-completion assumption."
+}

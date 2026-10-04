@@ -1,0 +1,33 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/scientific_attempt02/stage/outputs/INDEPENDENT_CHECKS/bridge/formal_isometry_bridge.py"
+  ],
+  "cwd": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/scientific_attempt02/runs/R09_formal_proper_isometry",
+  "elapsed_seconds": 0.01777042699541198,
+  "name": "R09_formal_proper_isometry",
+  "optimize": 0,
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "returncode": 0,
+  "script_sha256": "7544f6649130787b7383bd5d31285a3ad86a5085eb2c232a954ccc948d2ac1ff",
+  "semantic_result": {
+    "defect_projection_idempotent": true,
+    "formal_unitary": "[[0,V*],[V,I_K-VV*]]",
+    "meaning": "Exact block-operator identities hold even for a proper isometry; no infinite-dimensional unitary-completion assumption.",
+    "naive_without_defect_rejected": true,
+    "relations_explicitly_not_assumed": [
+      "V V* = I_K"
+    ],
+    "relations_used": [
+      "V* V = I_H"
+    ],
+    "self_adjoint": true,
+    "square_identity": true,
+    "status": "PASS"
+  },
+  "semantic_status": "PASS",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "3f6d617a247c5a4d238e31d648e59cdcfb402d53fce38968ec73dcff1b5763df",
+  "unchanged_source_replay": true
+}

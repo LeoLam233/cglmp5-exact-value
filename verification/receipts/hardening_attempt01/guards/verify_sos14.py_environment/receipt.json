@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/baseline/verify_sos14.py",
+    "--root",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/baseline"
+  ],
+  "entrypoint": "verify_sos14.py",
+  "gate": "R13",
+  "label": "environment",
+  "returncode": 1,
+  "status": "PASS",
+  "stderr_sha256": "531b9ededa136d55ab7092b04a11c6d2ae87e32cc98e44a68f138e403e8f033a",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,671 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=27mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{microtype,booktabs,longtable,array}
+\usepackage{xcolor}
+\usepackage[colorlinks=true,linkcolor=blue!45!black,citecolor=blue!45!black,urlcolor=blue!45!black]{hyperref}
+\hypersetup{pdftitle={The exact quantum maximum of the five-outcome CGLMP inequality},pdfauthor={Dehao Lin},pdfsubject={Exact noncommutative SOS certificate; manuscript version 0.1.1}}
+\pdfinfoomitdate=1
+\pdftrailerid{}
+\pdfsuppressptexinfo=15
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{fancyvrb}
+\usepackage{enumitem}
+\setlist{itemsep=2pt,topsep=4pt}
+\setlength{\emergencystretch}{2em}
+\numberwithin{equation}{section}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}\newtheorem{remark}[theorem]{Remark}
+\newcommand{\C}{\mathbb C}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\HH}{\mathcal H}
+\newcommand{\id}{\mathbf 1}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\NF}{\operatorname{NF}}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\ket}[1]{\lvert #1\rangle}
+\newcommand{\bra}[1]{\langle #1\rvert}
+\newcommand{\adj}{\dagger}
+\title{The exact quantum maximum of the\newline five-outcome CGLMP inequality}
+\author{Dehao Lin\\[3pt]
+  \small School of Physics, Sun Yat-sen University, Guangzhou, China\\
+  \small ORCID: \href{https://orcid.org/0009-0001-4551-8490}{0009-0001-4551-8490}}
+\date{4 October 2026\quad---\quad Manuscript version 0.1.1}
+\begin{document}
+\maketitle
+\begin{abstract}
+We give a computer-assisted exact certificate for the quantum maximum of the
+\mbox{standard} five-outcome Collins--Gisin--Linden--Massar--Popescu (CGLMP) inequality,
+in the normalization with local bound $2$. The maximum is the largest real root
+$\mu$ of $5\mu^6-65\mu^4+144\mu^2+96\mu+16=0$, namely
+$3.0157104755226732855\ldots$. An explicit noncommutative sum of squares proves
+the upper bound for arbitrary local Hilbert spaces and arbitrary five-outcome
+local positive-operator-valued measurements. The proof first establishes a
+bounded commuting-projector operator inequality and then uses a fixed common
+embedding for both settings of each local measurement. A nonmaximally entangled
+state in $\C^5\otimes\C^5$, with standard Fourier measurements, attains the
+bound. We give all exact coefficient data through five small Hermitian Gram
+blocks, distinguish quotient-ring identities from positivity in the selected
+embedding, and specify finite rational-arithmetic verification procedures.
+The result does not require convergence of a numerical optimizer or of a
+semidefinite hierarchy. It is a computer-assisted proof, not a proof-assistant
+formalization; no claim of uniqueness, self-testing, or absolute priority is made.
+\end{abstract}
+
+\section{Introduction and relation to prior work}
+Bell inequalities compare correlations obtainable from local classical models
+with those obtainable from quantum measurements. The CGLMP family provides a
+two-party, two-setting inequality for each finite number of outcomes
+\cite{CGLMP}. The number of outcomes and the dimension of a local quantum system
+are different parameters: establishing an optimum within a prescribed
+five-dimensional family does not, by itself, give a universal five-outcome
+quantum bound.
+
+The standard Fourier measurement family and the improvement obtained with
+nonmaximally entangled states have a substantial history. Zohren and Gill
+\cite{ZohrenGill} studied the optimal-state structure and large-outcome
+behavior numerically. Hu, Deng, and Chen \cite{HuDengChen} investigated positive
+and negative violations by a Bell-operator method. Their numerical values and
+measurement candidates are background for the present work, rather than
+premises for its upper bound. In particular, the candidate decimal value
+reported here is not a newly discovered numerical prediction.
+
+The Navascu\'es--Pironio--Ac\'in hierarchy provides semidefinite upper bounds
+on quantum correlations \cite{NPA2007,NPA2008}. Its dual perspective suggests
+noncommutative sum-of-squares (SOS) certificates. Once an exact positive
+certificate has been specified, its soundness can be checked directly, without
+rerunning the optimization that helped find it. Ioannou and Rosset
+\cite{IoannouRosset} developed symmetry-adapted methods and gave exact CGLMP
+certificates for three and four outcomes. Their version 2, Section VIII.4,
+reports a numerical five-outcome calculation and explicitly stops before an
+exact SOS decomposition; Section VII already describes exact candidate
+bounds and states. This comparison is specific to that version and those
+claims, and is not an assertion of exhaustive priority clearance.
+
+The object supplied here is an exact five-outcome positive certificate with
+its actual algebraic embedding and a complete analytic connection to the
+local-POVM model. Its mathematical content is unchanged from the frozen
+scientific payload in \cite{Artifact}. This manuscript makes the coefficient
+data, root selection, positivity, physical attainment, and infinite-dimensional
+interfaces explicit in one place. The appendices contain the finite data
+needed to reconstruct the certificate without a numerical search.
+
+\section{Scenario, conventions, and theorem}\label{sec:theorem}
+Let $\HH_A,\HH_B$ be arbitrary complex Hilbert spaces, with no finite-dimensional
+or separability assumption. For $x,y\in\{0,1\}$ let
+$\{E_{a|x}\}_{a=0}^4$ and $\{F_{b|y}\}_{b=0}^4$ be local POVMs:
+$E_{a|x},F_{b|y}\succeq0$ and each set sums to the identity on its own space.
+For a density operator $\rho$ on $\HH_A\otimes\HH_B$, define
+\begin{equation}
+ P(a,b|x,y)=\tr\!\left[\rho(E_{a|x}\otimes F_{b|y})\right].
+\end{equation}
+The argument also holds for any normalized positive functional on the
+bounded-operator algebra, since the upper bound is an operator inequality.
+The symbols $A_x,B_y$ below denote measurement outcomes, not Hermitian
+observables. All outcome equalities are modulo $5$.
+
+The functional is
+\begin{equation}\label{eq:cglmp}
+\begin{aligned}
+ I_5=\sum_{k=0}^{1}\left(1-\frac{k}{2}\right)\big[&
+ P(A_0=B_0+k)+P(B_0=A_1+k+1)\\
+ &+P(A_1=B_1+k)+P(B_1=A_0+k)\\
+ &-P(A_0=B_0-k-1)-P(B_0=A_1-k)\\
+ &-P(A_1=B_1-k-1)-P(B_1=A_0-k-1)\big].
+\end{aligned}
+\end{equation}
+For example, $P(A_x=B_y+k)=\sum_{b=0}^4P(b+k,b|x,y)$.
+
+\begin{theorem}\label{thm:main}
+Let $\mu$ be the largest real root of
+\begin{equation}\label{eq:sextic}
+ p(t)=5t^6-65t^4+144t^2+96t+16.
+\end{equation}
+Every admissible strategy on arbitrary local Hilbert spaces, with an
+arbitrary normalized bipartite state and arbitrary five-outcome local POVMs,
+satisfies $I_5\leq\mu$. Taking the supremum over all such local spaces,
+states, and POVMs gives
+\begin{equation}\label{eq:maximum}
+ \sup I_5=\mu=3.015710475522673285523983801961\ldots.
+\end{equation}
+The supremum is attained by the explicit projective strategy in
+Section~\ref{sec:attainment} on $\C^5\otimes\C^5$. The local hidden-variable
+bound in this normalization is $2$.
+\end{theorem}
+
+For later use, put $[z]_5\in\{0,1,2,3,4\}$, $f(z)=1-z/2$, and relabel
+\begin{equation}\label{eq:relabel}
+ D_0=A_0,\quad D_1=B_0,\quad D_2=A_1+1,\quad D_3=B_1+1.
+\end{equation}
+Directly comparing each pairwise event coefficient gives
+\begin{equation}\label{eq:cyclic}
+ I_5=\mathbb E\left[
+ \sum_{r=0}^{2}f([D_r-D_{r+1}]_5)+f([D_3-D_0-1]_5)\right].
+\end{equation}
+This notation is a sum of expectations from four experiments; it does not
+postulate a joint distribution for incompatible settings. For a deterministic
+local assignment, the four residues sum to a nonnegative integer congruent
+to $4$ modulo $5$, and hence to at least $4$. Thus $I_5\leq4-4/2=2$.
+The assignment $A_0=A_1=B_0=B_1=0$ attains $2$, and convexity proves the
+local bound for arbitrary local randomization.
+
+\section{Bell polynomial and algebraic embedding}\label{sec:algebra}
+\subsection{The universal projective algebra}
+Temporarily assume the measurements are projective. Let
+$\omega=e^{2\pi i/5}$ and encode the relabelled outcomes by unitaries
+\begin{equation}
+ U_r=\sum_{a=0}^4\omega^aP^{(r)}_a,\qquad r=0,1,2,3.
+\end{equation}
+The only relations used in the upper bound are
+\begin{equation}\label{eq:relations}
+ U_r^5=\id,\quad U_r^\adj=U_r^{-1},\quad
+ [U_r,U_s]=0\quad(r\ \text{even},\ s\ \text{odd}).
+\end{equation}
+There is no same-party commutation assumption.
+The discrete Fourier coefficients of $f$ are
+\begin{equation}\label{eq:fourier}
+ c_0=0,\qquad
+ c_k=\frac15\sum_{z=0}^4\left(1-\frac z2\right)\omega^{-kz}
+     =\frac1{2(1-\omega^{-k})},\quad 1\leq k\leq4.
+\end{equation}
+Fourier synthesis in \eqref{eq:cyclic} yields the self-adjoint Bell polynomial
+\begin{equation}\label{eq:bell}
+ B=\sum_{r=0}^2\sum_{k=1}^4c_kU_r^kU_{r+1}^{-k}
+   +\sum_{k=1}^4c_k\omega^{-k}U_3^kU_0^{-k}.
+\end{equation}
+In every projective realization its expectation is exactly \eqref{eq:cglmp}.
+For exact checking, the finite sum in \eqref{eq:fourier} avoids algebraic
+division and independently fixes the normalization and wraparound sign.
+
+\subsection{The selected actual root}
+We have $p(3)=-20$ and $p(31/10)>0$, while
+\begin{equation}
+ p'(t)=t^3(30t^2-260)+288t+96>0\qquad(t\geq3).
+\end{equation}
+Thus $(3,31/10)$ contains exactly one root, and no larger real root exists.
+Set
+\begin{equation}\label{eq:tower}
+ s=\sqrt5>0,\qquad u=\sqrt{10+2s}>0,\qquad x=5\mu.
+\end{equation}
+The polynomial identity
+\begin{equation}
+ [5(t^3-4t-4)]^2-5(5t^2-4t-8)^2=5p(t)
+\end{equation}
+selects the positive square-root branch, since both bracketed quantities are
+positive for $t\geq3$. Consequently
+\begin{align}
+ \mu^3&=s\mu^2+(4-4s/5)\mu+4-8s/5,\label{eq:cubicmu}\\
+ x^3&=5sx^2+(100-20s)x+500-200s.\label{eq:cubic}
+\end{align}
+Define
+\begin{equation}\label{eq:zeta}
+ \zeta=\frac{u+i(s-1)}4.
+\end{equation}
+The relations in \eqref{eq:tower} give $|\zeta|=1$, $\zeta^5=i$,
+$\Im\zeta>0$, and $\Re\zeta>1/\sqrt2$. Among the fifth roots of $i$ these
+conditions select $\zeta=e^{i\pi/10}$, so that $\omega=\zeta^4$.
+
+\subsection{Formal identities versus actual positivity}\label{sec:ring}
+The serialized scalar convention is
+\begin{equation}\label{eq:scalar}
+ \langle n;d\rangle=
+ \frac1d\sum_{\substack{a,c,e\in\{0,1\}\\b\in\{0,1,2\}}}
+ n_{a+2b+6c+12e}\,s^ax^bu^ci^e,\qquad d\in\mathbb Z_{>0}.
+\end{equation}
+Every listed numerator is an integer. Products can be reduced with
+$s^2=5$, $u^2=10+2s$, $i^2=-1$, and \eqref{eq:cubic}.
+This is a quotient-ring calculation. It need not assume that these relations
+give an irreducible field presentation: a zero obtained using them evaluates
+to zero at the specified actual complex numbers. Conversely, a formal zero
+does not select a real root or prove that a scalar is positive.
+
+For a separate implementation one may use the 24 monomials $\zeta^ax^b$,
+$0\leq a<8$, $0\leq b<3$, and
+\begin{equation}\label{eq:cyclotomic}
+ \Phi_{20}(z)=z^8-z^6+z^4-z^2+1,
+ \quad s=2(\zeta^2+\zeta^{-2})-1,\quad u=2(\zeta+\zeta^{-1}),\quad i=\zeta^5.
+\end{equation}
+The same soundness statement applies. In particular, compatibility of a
+different embedding with the formal identity does not imply positivity in
+that embedding. Positivity below is proved only after the actual embedding
+\eqref{eq:tower}--\eqref{eq:zeta} has been fixed.
+
+\section{An explicit finite sum-of-squares certificate}\label{sec:sos}
+\subsection{Generating words and exact Gram data}
+Index from zero the ordered lists
+\begin{align}
+ a&=(\id,U_0,U_0^2,U_0^3,U_0^4,U_2,U_2^2,U_2^3,U_2^4),\\
+ b&=(\id,U_1,U_1^2,U_1^3,U_1^4,U_3,U_3^2,U_3^3,U_3^4),
+ \qquad q_{9r+t}=a_rb_t.\label{eq:q}
+\end{align}
+Thus $q$ has 81 entries with an unambiguous tensor-list order.
+There are five blocks, labelled $k=1,6,7,8,9$, of sizes
+$n_k=2,4,3,3,2$. Their labels are identifiers, not consecutive indices.
+
+Appendix~\ref{app:data} specifies $81\times4$ phase matrices $F_k$,
+$4\times n_k$ matrices $K_k$, and Hermitian $n_k\times n_k$ matrices $H_k$.
+Set $E_k=F_kK_k$ and
+\begin{equation}\label{eq:gram}
+ G=\sum_{k\in\{1,6,7,8,9\}}E_kH_kE_k^\adj.
+\end{equation}
+The exact coefficient identity is
+\begin{equation}\label{eq:gramidentity}
+ \mu\id-B=\sum_{i,j=0}^{80}
+ \left(G_{ij}q_i^\adj q_j+\overline{G_{ij}}q_iq_j^\adj\right).
+\end{equation}
+All of $F_k,K_k,H_k$ are printed in the appendix, including the integer
+numerators and denominators. Equation~\eqref{eq:gramidentity} therefore
+specifies a finite, reproducible algebraic claim, rather than an instruction
+to find a feasible matrix.
+
+\begin{lemma}[Exact certificate]\label{lem:certificate}
+For the data of Appendix~\ref{app:data}, every $H_k$ is positive definite in
+the actual embedding \eqref{eq:tower}, and \eqref{eq:gramidentity} holds
+modulo \eqref{eq:relations}. Equivalently, there are exactly 14 positive
+weights and 14 explicitly determined polynomials such that
+\begin{equation}\label{eq:sos}
+ \mu\id-B=\sum_{k}\sum_{r=0}^{n_k-1}d_{kr}
+ (R_{kr}^\adj R_{kr}+R_{kr}R_{kr}^\adj),\qquad d_{kr}>0.
+\end{equation}
+These are the same weights and polynomials as in the frozen compact
+certificate \texttt{SOS14.json}.
+\end{lemma}
+
+\subsection{Exact identity check}\label{sec:identity}
+Here is a terminating coefficient-wise verification of the algebraic part.
+Represent a word by an ordered list $(r_1,m_1),\ldots,(r_\ell,m_\ell)$,
+meaning $U_{r_1}^{m_1}\cdots U_{r_\ell}^{m_\ell}$. Move even-index factors
+to the left and odd-index factors to the right, preserving their relative
+order within each party. In each of the two lists, combine adjacent powers
+of the same generator modulo $5$, deleting powers congruent to zero and
+repeating if a new adjacency is created. The result is a reduced word in
+$(C_5*C_5)\times(C_5*C_5)$. This normal form is unique. The involution
+reverses the list and negates powers before reduction.
+
+Form $G$ by exact scalar arithmetic and expand the right-hand side of
+\eqref{eq:gramidentity}. For each normal word $w$, collect the coefficient
+\begin{equation}\label{eq:wordtest}
+ \sum_{i,j:\,\NF(q_i^\adj q_j)=w}G_{ij}
+ +\sum_{i,j:\,\NF(q_iq_j^\adj)=w}\overline{G_{ij}}
+ -[w](\mu\id-B).
+\end{equation}
+Reducing its scalar coefficients by \eqref{eq:cubic} and
+\eqref{eq:cyclotomic} gives zero for all 1,681 distinct words generated
+by the full 81-word sequence. Words outside that universe occur on neither
+side. This computation never commutes $U_0$ with $U_2$, or $U_1$ with $U_3$.
+The supplied verifier uses the finite Fourier sum in \eqref{eq:fourier}
+to construct its target independently of any stored target string.
+
+For clarity, the algebraic statement can also be tested directly after
+forming \eqref{eq:sos}: its 14 polynomials have 164 nonzero coefficients in
+total, and the union of expanded support with the Bell target has 273
+normal words. The counts 273 and 1,681 refer to different representations
+of the same identity, not to incompatible universes of verification.
+
+\subsection{Strict positivity with rational enclosures}\label{sec:positive}
+Let $\Delta_{kj}$ be the determinant of the leading $j\times j$ submatrix
+of $H_k$, with $\Delta_{k0}=1$. Determinants involve only additions and
+multiplications, so their exact computation does not presume that any pivot
+is nonzero. Appendix~\ref{app:intervals} gives rational boxes for $\mu,s,u$
+and strict rational enclosures for every $\Delta_{kj}$. All lower endpoints
+are positive. Each determinant is checked to be exactly real by conjugation.
+Sylvester's criterion proves that each $H_k$ is positive definite.
+
+For completeness, interval arithmetic here has its elementary inclusion
+meaning: $[a,b]+[c,d]=[a+c,b+d]$, and interval multiplication takes the minimum
+and maximum of $ac,ad,bc,bd$. Scalar signs are handled by taking the smaller
+and larger scaled endpoints. Substitute the checked boxes into either the
+real tower monomials or the real and imaginary parts of the cyclotomic
+monomials, and sum the exact rational multiples. No decimal rounding enters
+the test. The boxes themselves are checked by $p(\mu_-)<0<p(\mu_+)$,
+$s_-^2<5<s_+^2$, and
+$u_-^2<10+2s_-\leq10+2s_+<u_+^2$, with positive endpoints.
+
+The positive leading minors now justify the unit-lower-triangular
+factorization $H_k=L_kD_kL_k^\adj$. It is determined without choices by
+\begin{align}
+ d_{kr}&=(H_k)_{rr}-\sum_{t<r}|(L_k)_{rt}|^2d_{kt},\label{eq:ldl1}\\
+ (L_k)_{jr}&=\frac{(H_k)_{jr}-\sum_{t<r}(L_k)_{jt}d_{kt}
+                       \overline{(L_k)_{rt}}}{d_{kr}}\quad(j>r),\label{eq:ldl2}
+\end{align}
+with $(L_k)_{rr}=1$ and $(L_k)_{jr}=0$ for $j<r$.
+Indeed $d_{kr}=\Delta_{k,r+1}/\Delta_{kr}>0$.
+Define
+\begin{equation}\label{eq:R}
+ R_{kr}=\sum_{i=0}^{80}\overline{(E_kL_k)_{ir}}\,q_i.
+\end{equation}
+Expanding \eqref{eq:R} gives \eqref{eq:sos} from \eqref{eq:gramidentity}.
+The conjugation in this formula is important: it fixes the orientation
+of the Gram convention. Exact comparison with the frozen compact table
+checks all $81\cdot14=1{,}134$ coefficient positions, including zeros, and
+all 14 weights. The smallest weight is the one labelled $9{:}1$ and lies
+strictly between $3584887/10^{10}$ and $3584888/10^{10}$.
+
+\begin{remark}
+The five small blocks are positive definite. The $81\times81$ Gram matrix
+$G$, whose rank is at most 14, is only claimed to be positive semidefinite.
+The printed Gram data and the serialized SOS data are two linked
+presentations; agreement of one presentation with its target does not, by
+itself, authenticate every byte of the other.
+\end{remark}
+
+\section{From the certificate to arbitrary local POVMs}\label{sec:bridge}
+\subsection{Bounded representations}
+Evaluate \eqref{eq:sos} in any bounded-operator representation of
+\eqref{eq:relations} on any Hilbert space. For every vector $\xi$,
+\begin{equation}\label{eq:positiverepresentation}
+ \langle\xi,(\mu\id-B)\xi\rangle
+ =\sum_{k,r}d_{kr}\left(\|R_{kr}\xi\|^2+
+                                    \|R_{kr}^\adj\xi\|^2\right)\geq0.
+\end{equation}
+The sum is finite and its factors are bounded polynomials in unitaries.
+There is no truncation, domain problem, or interchange of limits.
+Thus $B\preceq\mu\id$ for arbitrary commuting projective representations,
+and in particular for all tensor-product projective strategies.
+
+\subsection{A common embedding for both settings}\label{sec:dilation}
+We give an explicit local dilation to avoid any setting-dependent state
+embedding. On one party's arbitrary Hilbert space $\HH$, let
+$\{M_{a|x}\}_{a=0}^4$ be the POVM for setting $x=0,1$. Put
+$\mathcal L=\HH^{\oplus5}$, with coordinate projections $\Pi_a$, and define
+\begin{equation}
+ V_x:\HH\longrightarrow\mathcal L,\qquad
+ V_xh=(\sqrt{M_{0|x}}h,\ldots,\sqrt{M_{4|x}}h).
+\end{equation}
+Positivity gives bounded positive square roots and
+$V_x^\adj V_x=\sum_aM_{a|x}=\id$. The defect
+$D_x=\id_{\mathcal L}-V_xV_x^\adj$ is an orthogonal projection. On the
+\emph{same} space $\widetilde\HH=\HH\oplus\mathcal L$ for both settings set
+\begin{equation}\label{eq:fixedJ}
+ J h=(h,0),\qquad
+ W_x=\begin{pmatrix}0&V_x^\adj\\ V_x&D_x\end{pmatrix},\qquad
+ Q_a=\begin{pmatrix}\delta_{a0}\id_{\HH}&0\\0&\Pi_a\end{pmatrix}.
+\end{equation}
+The $Q_a$ are five mutually orthogonal projections summing to the identity;
+their upper block assigns the unused summand to outcome $0$. Moreover,
+\begin{equation}
+ W_x^\adj=W_x,\qquad
+ W_x^2=\begin{pmatrix}
+ V_x^\adj V_x&V_x^\adj D_x\\D_xV_x&V_xV_x^\adj+D_x^2
+ \end{pmatrix}=\id.
+\end{equation}
+This uses $V_x^\adj V_x=\id$, not the generally false assertion
+$V_xV_x^\adj=\id$. It holds also for proper isometries in infinite dimension.
+The projectors $\widetilde M_{a|x}=W_xQ_aW_x$ therefore satisfy
+\begin{equation}\label{eq:compression}
+ J^\adj\widetilde M_{a|x}J=V_x^\adj\Pi_aV_x=M_{a|x}
+ \quad\text{for every }a,x,
+\end{equation}
+with precisely the same fixed $J$ in both equations for $x$.
+
+Apply this construction separately to Alice and Bob. With
+$\mathcal J=J_A\otimes J_B$ we have, for every $a,b,x,y$,
+\begin{equation}\label{eq:jointcompression}
+ \mathcal J^\adj(\widetilde E_{a|x}\otimes\widetilde F_{b|y})\mathcal J
+ =E_{a|x}\otimes F_{b|y}.
+\end{equation}
+Thus the single embedded state $\widetilde\rho=\mathcal J\rho\mathcal J^\adj$
+preserves all joint probabilities simultaneously. Zero effects and mixed
+states cause no difficulty. For a general positive normalized functional
+$\varphi$, the formula $T\mapsto\varphi(\mathcal J^\adj T\mathcal J)$ gives
+the corresponding embedded state functional.
+
+The local tensor-product construction preserves cross-party commutation, so
+the projective upper bound gives $I_5\leq\mu$ for every POVM strategy in
+Theorem~\ref{thm:main}. Compression has only been used in
+\eqref{eq:jointcompression}, where the two local factors separate. We have
+not treated compression as a homomorphism on arbitrary products of
+same-party operators. Nor have we asserted a simultaneous dilation theorem
+for arbitrary abstract commuting POVMs: the POVM scope here is the stated
+local tensor-product model.
+
+\section{An explicit attaining strategy}\label{sec:attainment}
+Let $\ket j$, $0\leq j\leq4$, be the standard basis of $\C^5$.
+Use the projectors onto
+\begin{align}
+ \ket{a;x}&=\frac1{\sqrt5}\sum_{j=0}^4
+ e^{2\pi i j(a+\alpha_x)/5}\ket j,
+ &&(\alpha_0,\alpha_1)=(0,1/2),\label{eq:alice}\\
+ \ket{b;y}&=\frac1{\sqrt5}\sum_{j=0}^4
+ e^{2\pi i j(-b+\beta_y)/5}\ket j,
+ &&(\beta_0,\beta_1)=(1/4,-1/4).\label{eq:bob}
+\end{align}
+For each setting these vectors form an orthonormal basis by the elementary
+sum of fifth roots of unity. Define
+\begin{equation}\label{eq:fs}
+ t=\frac u2,\quad f_1=\frac1t,\quad f_2=\frac{s-1}2,\quad
+ f_3=\frac ts,\quad f_4=\frac{s+1}2,
+\end{equation}
+and
+\begin{equation}\label{eq:ab}
+ a=\frac{\mu(f_1+f_3)+2f_1f_2}
+          {\mu(\mu-f_2)-2f_1^2},\qquad
+ b=\frac{2(f_2+f_1a)}\mu.
+\end{equation}
+Since $\mu>3$ and $0<f_1,f_2<1$, the denominator defining $a$ exceeds $4$.
+All divisions are legitimate and $a,b>0$. Numerically,
+$a=0.7188787436302164244\ldots$ and
+$b=0.6605215707550941694\ldots$.
+The state is
+\begin{equation}\label{eq:state}
+ \ket\psi=\frac{\ket{00}+a\ket{11}+b\ket{22}+a\ket{33}+\ket{44}}
+                    {\sqrt{2+2a^2+b^2}}.
+\end{equation}
+
+We spell out attainment analytically. In an equality event, summing over
+the common outcome in the Fourier projectors kills matrix elements from
+$\ket{ll}$ to $\ket{jm}$ unless $j=m\pmod5$. Consequently the subspace
+$\operatorname{span}\{\ket{jj}:0\leq j\leq4\}$ is invariant under $B$.
+Substitution of \eqref{eq:alice}--\eqref{eq:bob} into
+\eqref{eq:cglmp} gives on this subspace
+\begin{equation}\label{eq:Toeplitz}
+ T_{jj}=0,\qquad
+ T_{jl}=\frac1{2\cos(\pi(j-l)/10)}=f_{|j-l|}\quad(j\ne l).
+\end{equation}
+This follows by summing the four setting-pair phases; equivalently it is
+the five-point Fourier sum \eqref{eq:fourier} evaluated with the stated
+shifts. The trigonometric values in \eqref{eq:Toeplitz} are exactly those
+in \eqref{eq:fs}.
+
+For $\gamma=(1,a,b,a,1)^{\mathsf T}$, the independent row equations are
+\begin{align}
+ \mu&=f_4+(f_1+f_3)a+f_2b,\label{eq:row0}\\
+ \mu a&=f_1+f_3+f_2a+f_1b,\label{eq:row1}\\
+ \mu b&=2f_2+2f_1a.\label{eq:row2}
+\end{align}
+Equations~\eqref{eq:row1}--\eqref{eq:row2} give \eqref{eq:ab}.
+The determinant of the reduced three-dimensional eigenvalue equation is
+\begin{equation}
+ \det\begin{pmatrix}
+ z-f_4&-(f_1+f_3)&-f_2\\
+ -(f_1+f_3)&z-f_2&-f_1\\
+ -2f_2&-2f_1&z
+ \end{pmatrix}
+ =z^3-sz^2-(4-4s/5)z-4+8s/5.
+\end{equation}
+At $z=\mu$ this vanishes by \eqref{eq:cubicmu}; the nonzero denominator
+already established implies \eqref{eq:row0}. Hence $T\gamma=\mu\gamma$.
+Together with invariance this proves $B\ket\psi=\mu\ket\psi$ in the full
+25-dimensional space. It proves $I_5=\mu$ and completes the proof of
+Theorem~\ref{thm:main}.
+
+The artifact additionally reconstructs all 100 projector-to-unitary matrix
+entries and checks the 25 full-space eigenvector coordinates exactly. These
+checks guard against phase, outcome-label, and tensor-order transcription
+errors; they do not replace the analytic universal upper-bound argument.
+
+\section{Computer-assisted verification and reproducibility}\label{sec:repro}
+\subsection{What is finite, and what is analytic}
+The load-bearing finite claims are the exact coefficient identity,
+Hermiticity and strict positivity in the selected embedding, and the exact
+attaining strategy. The bounded-representation implication and the
+common-embedding local-POVM bridge are analytic arguments given above.
+There is no inference from a finite sample of dimensions to arbitrary
+Hilbert spaces.
+
+The discovery calculation used symmetry reduction, numerical exploration,
+and exact reconstruction. Five retained blocks produced 42 real parameters;
+the exact linear system had rank 34 and eight free parameters were fixed
+rationally. This history motivates the data but is not an assumption of
+the final proof. Appendix~\ref{app:data} supplies the resulting parameters
+directly; no search, solver status, numerical matrix-rank guess, or
+hierarchy-convergence argument is needed for verification.
+
+\subsection{Replay paths and their dependence}
+The frozen payload provides three relevant entry points:
+\begin{itemize}
+\item \texttt{verify\_independent.py}: full 1,681-word Gram identity,
+exact LDL reconstruction, rational positivity, and physical attainment;
+\item \texttt{verify\_sos14.py}: direct expansion of the 14 compact
+anticommutators, without reading Gram data;
+\item \texttt{verify\_statement.py}: the root bridge, stated Schmidt
+amplitudes, denominator bound, reduced eigenvector, and Fourier
+orthonormality. The literal event convention is checked by the physical
+routine used in the first two entry points.
+\end{itemize}
+All three paths share scalar arithmetic in the distributed implementation;
+they are not separate independent votes. The name of an entry point does not
+establish independence of its author, runtime, or mathematical premises.
+The release-level hardened entry points add strict schema and target/input
+binding, without changing the frozen numerical coefficients.
+
+The paper's \texttt{check\_paper\_data.py} regenerates the printed data,
+checks the phase-factorization $E_k=F_kK_k$, reconstructs every Hermitian
+matrix, and verifies agreement with all canonical compact coefficients and
+weights. It computes the leading-minor intervals in
+Appendix~\ref{app:intervals} by determinant expansion and rational interval
+arithmetic. This is a data-correspondence check using the published exact
+arithmetic implementation, not a claim of a new independent implementation.
+
+The repository preserves the frozen payload, historical receipts, and later
+adversarial-audit evidence separately. Subsequent multi-audit work tested
+literal events, alternate coefficient representations, same-party word
+order, actual branch signs, generic operator representations, and the fixed
+POVM embedding. Failed and partial audit runs are retained and distinguished
+from successful replays. Finite-field and floating tests are supplementary:
+they prove neither characteristic-zero identity nor real positivity.
+Agreement among audits is not itself an argument for the theorem.
+
+\subsection{Practical reproducibility}
+The four principal frozen certificate files are
+\path{EXACT_KERNELS.json}, \path{EXACT_SOS_CANDIDATE.json},
+\path{POSITIVITY_CERTIFICATE.json}, and \path{SOS14.json}.
+Their release manifests identify exact bytes. Descriptive discovery status
+strings, cached pass flags, decimal spectra, and historical file pointers are
+not mathematical premises. A successful replay must check its intended
+semantic result, not merely a zero exit code. The release records sources,
+inputs, tool versions, and outputs, and rejects unsupported optimized-Python
+execution where assertions could otherwise be stripped.
+
+The manuscript is buildable with standard pdfLaTeX and BibTeX; the source,
+complete coefficient appendix, bibliography, and clean build command are
+distributed with it. The full scientific artifact is available at
+\url{https://github.com/LeoLam233/cglmp5-exact-value} \cite{Artifact}.
+Hashes are provenance aids: they identify data and code but do not prove
+the truth of a mathematical assertion or certify an unobserved execution.
+
+\section{Limitations and authorship disclosure}\label{sec:limits}
+This theorem concerns exactly five outcomes per setting. It does not
+establish a formula for all outcome numbers, uniqueness of the realizing
+measurements or state, a self-testing theorem, or an optimal statistical
+strength claim. The attaining state is nonmaximally entangled, but its
+existence does not classify every maximizer. The commuting-projector upper
+bound and the local tensor-product POVM theorem have been deliberately
+distinguished.
+
+The proof depends on the correctness of explicit finite exact calculations
+and their elementary analytic interfaces. Public data and multiple
+reconstructions reduce specific risks; no finite testing campaign eliminates
+all possible software, runtime, or hardware errors. Neither this release nor
+the accompanying audit verdict is human peer review, formal proof-assistant
+verification, or an absolute originality/priority guarantee.
+
+\paragraph{AI assistance and responsibility.}
+Dehao Lin is the sole human author. Frontier AI systems substantially assisted
+with problem solving, proof construction, exact-certificate generation,
+verification software, adversarial auditing, literature triage, manuscript
+preparation, and release work. No AI system is a manuscript author. The human
+author selected and supervised the research workflow, decided what to
+preserve and publish, and takes responsibility for the public claims and
+artifact curation. Repository contributor attribution is distinct from
+academic authorship.
+
+\bibliographystyle{unsrtnat}
+\bibliography{references}
+
+\clearpage
+\appendix
+\section{Complete exact coefficient data}\label{app:data}
+This appendix specifies the certificate entirely by integers and the actual
+numbers of Section~\ref{sec:algebra}. All indices in the data are zero-based.
+The factorized representation is more compact than printing the expanded
+164 coefficients of the LDL-derived SOS, some of which have several hundred
+digits. It changes neither those coefficients nor their weights.
+
+\subsection{Phase supports}
+Each row in Table~\ref{tab:phases} lists the four nonzero entries of column
+$\ell$ of $F_k$. A pair $(j,e)$ means $(F_k)_{j\ell}=\zeta^e$; all unlisted
+entries are zero. The row index $j$ refers exactly to \eqref{eq:q}.
+\input{phase_supports.tex}
+
+\subsection{Small kernel factors}
+Let $\langle n;d\rangle$ have the 24-coordinate meaning in
+\eqref{eq:scalar}. The matrices $K_1,K_9$ have their last two rows equal
+to $I_2$, and their first two rows are supplied below. The matrices
+$K_7,K_8$ have their last three rows equal to $I_3$, and their first rows
+are supplied below. Finally $K_6=I_4$. Every coordinate is printed, including
+zeros. A line labelled $n[a{:}b]$ lists entries $n_a,\ldots,n_{b-1}$;
+line breaks carry no further algebraic meaning.
+\input{kernel_data.tex}
+
+\subsection{Hermitian parameters}
+For each block, list the diagonal entries first, in increasing index, and
+then the upper-triangular pairs $(a,b)$ in lexicographic order, giving
+their real and imaginary parts in that order. The 42 real parameters
+$h_0,\ldots,h_{41}$ have the assignments shown in Table~\ref{tab:assignments}.
+An entry marked $D$ means $(H_k)_{aa}=h_m$; $R$ and $I$ mean respectively
+$\Re(H_k)_{ab}=h_m$ and $\Im(H_k)_{ab}=h_m$ for $a<b$.
+The lower triangle is the conjugate of the upper triangle.
+\input{parameter_assignments.tex}
+
+Every parameter has the shorter real encoding
+\begin{equation}\label{eq:hencoding}
+ h_m=\frac1{d_m}\sum_{\substack{a,c\in\{0,1\}\\ b\in\{0,1,2\}}}
+ n^{(m)}_{a+2b+6c}s^ax^bu^c.
+\end{equation}
+The following records print $d_m$ and the twelve integers
+$n^{(m)}_0,\ldots,n^{(m)}_{11}$ in order. For the purely rational entries
+the same convention applies, with all omitted coordinates explicitly zero.
+\input{parameter_data.tex}
+
+\clearpage
+\section{Rational root boxes and positivity enclosures}\label{app:intervals}
+Put $N=2^{256}$. The embedding boxes used for the exact interval checks are
+\begin{equation}
+ \mu\in\left[\frac{M}{10N},\frac{M+1}{10N}\right],\quad
+ s\in\left[\frac{S}{N},\frac{S+1}{N}\right],\quad
+ u\in\left[\frac{U}{N},\frac{U+2}{N}\right],
+\end{equation}
+where the integer constants are
+\begin{Verbatim}[fontsize=\footnotesize]
+M = 3491954164956306431453644609980892434381744577868569134761382324120276943749668
+S = 258918982791360791136623237694189224638272597174970463806124557733925595847978
+U = 440499284018317947084543798940668032418511528266755852350232571514445862522982
+\end{Verbatim}
+The sign tests described in Section~\ref{sec:positive} verify these boxes
+directly. The enclosures in Table~\ref{tab:minors} are deliberately rounded
+outward to simple rational endpoints: each listed integer pair $(l,r)$ means
+$l/10^{15}<\Delta_{kj}<r/10^{15}$. The strict inequalities follow from the
+stronger exact rational interval endpoints before outward rounding.
+\input{minor_bounds.tex}
+All these determinants are positive, establishing positive definiteness
+without first assuming the validity of an LDL division. Their ratios give
+the 14 positive pivots. The large integer records in the preceding appendix
+can thus be interpreted as a positive operator certificate, rather than
+merely a formal identity over a quotient ring.
+\end{document}

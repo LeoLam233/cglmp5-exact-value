@@ -1,0 +1,59 @@
+{
+  "status": "AUDITOR_HARNESS_DEFECT_CONFIRMED",
+  "source": "work/expanded/A07_SpaceBunny_ExternalPrompt/AUDIT_OUTPUT/INDEPENDENT_CHECKS/h_numeric_kill.py",
+  "source_sha256": "0a2d747fb91f6e39765c482ffed8a282130f020c1d7577f049267d8c084ffd3d",
+  "basis_function_lines": [
+    56,
+    59
+  ],
+  "rand_povm_function_lines": [
+    39,
+    44
+  ],
+  "tests": [
+    {
+      "dimension": 2,
+      "PVM_selected_outcome_count": 5,
+      "PVM_spectral_completeness_error": 5.4869684475317e-16,
+      "POVM_spectral_completeness_error": 9.213097102100619e-16,
+      "POVM_sum_rank": 2
+    },
+    {
+      "dimension": 3,
+      "PVM_selected_outcome_count": 5,
+      "PVM_spectral_completeness_error": 3.114800745103198e-16,
+      "POVM_spectral_completeness_error": 9.506899725668399e-16,
+      "POVM_sum_rank": 3
+    },
+    {
+      "dimension": 4,
+      "PVM_selected_outcome_count": 5,
+      "PVM_spectral_completeness_error": 2.6266187814927184e-16,
+      "POVM_spectral_completeness_error": 4.2402061765661605e-15,
+      "POVM_sum_rank": 4
+    },
+    {
+      "dimension": 5,
+      "PVM_selected_outcome_count": 5,
+      "PVM_spectral_completeness_error": 1.1359581040308932e-15,
+      "POVM_spectral_completeness_error": 5.399250270434785e-15,
+      "POVM_sum_rank": 5
+    },
+    {
+      "dimension": 6,
+      "PVM_selected_outcome_count": 5,
+      "PVM_spectral_completeness_error": 1.0,
+      "POVM_spectral_completeness_error": 0.9998289257703009,
+      "POVM_sum_rank": 6
+    },
+    {
+      "dimension": 7,
+      "PVM_selected_outcome_count": 5,
+      "PVM_spectral_completeness_error": 1.0,
+      "POVM_spectral_completeness_error": 1.0003750276441534,
+      "POVM_sum_rank": 7
+    }
+  ],
+  "PVM_interpretation": "For d6/7, first5 rank1 projectors omit d-5 basis directions; not a five-outcome PVM. Group every basis column into five outcomes instead.",
+  "POVM_interpretation": "Same singular five-rank-one construction as coordinator B-E02, now also observed in h_numeric_kill.py. Spectral clipping cannot supply missing support; at d6/7 sum has rank5."
+}

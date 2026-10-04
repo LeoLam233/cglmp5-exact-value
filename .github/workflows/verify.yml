@@ -1,0 +1,35 @@
+name: Exact certificate and release checks
+on:
+  push:
+    branches: [main, 'release/**']
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  core:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Frozen bytes and recorded release gate
+        run: |
+          git diff --exit-code v0.1.0 HEAD -- artifact_v0.1 audits/web6pro_2026-10-04
+          python3 scripts/test_release_gate.py
+          python3 scripts/check_release_gate.py --root .
+      - name: Fresh exact core replay (not a new full R01-R14 audit)
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/cglmp5-ci
+          for checker in validate_integer_encoding verify_sos14 verify_independent verify_statement; do
+            python3 -B "artifact_v0.1.1/$checker.py" --root artifact_v0.1.1 --output "/tmp/cglmp5-ci/$checker.json"
+          done
+          python3 scripts/check_core_results.py /tmp/cglmp5-ci
+      - name: Fresh printed manuscript coefficient linkage
+        run: |
+          python3 -B paper/check_paper_data.py --output /tmp/cglmp5-ci/paper_data.json
+          python3 -c 'import json; d=json.load(open("/tmp/cglmp5-ci/paper_data.json")); raise SystemExit(0 if d.get("status")=="PASS" else 1)'

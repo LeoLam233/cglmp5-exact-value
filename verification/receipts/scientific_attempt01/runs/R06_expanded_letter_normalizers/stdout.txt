@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "normalizers": [
+    {
+      "auditor": "BASE",
+      "source": "work/expanded/CGLMP5_PHASE_A_INPUT_v1.2/PHASE_A_BLIND_AUDIT/scientific_payload/verify_independent.py",
+      "sha256": "8aa54411ec9bbc79245e6e42db79a698dfcd11eb9853f331ac8221a662244fc3",
+      "functions": [
+        "canon"
+      ]
+    },
+    {
+      "auditor": "A01",
+      "source": "work/expanded/A01_5p6Sol_A1v2/CGLMP5_A1v2_AUDIT_OUTPUT/INDEPENDENT_CHECKS/independent_exact_audit.py",
+      "sha256": "b5fa156bf38e9312118ab0e15564cb82e6c3d2ea5a6155ee6a84df38827ae64f",
+      "functions": [
+        "norm_word"
+      ]
+    },
+    {
+      "auditor": "A02",
+      "source": "work/expanded/A02_5p6Sol_ExternalPrompt/outputs/INDEPENDENT_CHECKS/audit_exact.py",
+      "sha256": "d584df7e00031b68e6fd4d4f04789b1832fa38f0a2bd4d59f65acf52ad6ab079",
+      "functions": [
+        "canon"
+      ]
+    },
+    {
+      "auditor": "A03",
+      "source": "work/expanded/A03_6Pro_A1v2/CGLMP5_A1v2_AUDIT/INDEPENDENT_CHECKS/exact_core.py",
+      "sha256": "530648be5b53ff861bbb22cf431ab6c0f6910deaba7b9a59dc82253550fad577",
+      "functions": [
+        "normal"
+      ]
+    },
+    {
+      "auditor": "A04",
+      "source": "work/expanded/A04_6Pro_ExternalPrompt/CGLMP5_PHASE_A_AUDIT/INDEPENDENT_CHECKS/audit_core.py",
+      "sha256": "46e3ddaedce7b1c30abb11c5a9e0ca604f532acadae89438dec54b2a06078fcc",
+      "functions": [
+        "local_reduce",
+        "group_word"
+      ]
+    },
+    {
+      "auditor": "A05",
+      "source": "work/expanded/A05_Dot_Blind/CGLMP5_PHASE_A_AUDIT/output/INDEPENDENT_CHECKS/sos_branch/exact_sos_audit.py",
+      "sha256": "ce9a4f192581a680f506d0a0a10cf1c957b944d253167e8e553735b64fc4f10b",
+      "functions": [
+        "party_reduce",
+        "normal"
+      ]
+    },
+    {
+      "auditor": "A06",
+      "source": "work/expanded/A06_DS_V4p1_Flash_ExternalPrompt/cglmp5_audit/PHASE_A_OUTPUT/INDEPENDENT_CHECKS/cglib_audit.py",
+      "sha256": "f5736db1e42d4ed4bd5f843d4ccf29e089296b63640adedd277ba7a5b0ee6822",
+      "functions": [
+        "_reduce_party",
+        "canon"
+      ]
+    },
+    {
+      "auditor": "A07",
+      "source": "work/expanded/A07_SpaceBunny_ExternalPrompt/AUDIT_OUTPUT/INDEPENDENT_CHECKS/c_sos_exact_integer.py",
+      "sha256": "0bd748964bce3df7254cc5a202bd1d7e90f220acf9a05d38a7fdd1e245668c6c",
+      "functions": [
+        "wnorm"
+      ]
+    },
+    {
+      "auditor": "H02_ALGEBRA",
+      "source": "work/expanded/CGLMP5_v0.1_C001/CGLMP5_v0.1/verification/receipts/audit_algebra/audit_exact.py",
+      "sha256": "0d6f4f59a2dad96dbc3529d5a2b6a6680d5b0e7e34364bf986d3ecff12c3d851",
+      "functions": [
+        "reduce_syllables",
+        "word"
+      ]
+    },
+    {
+      "auditor": "H01_A",
+      "source": "work/expanded/H01_Web6Pro_independent_audit/CGLMP5_independent_audit/audit.py",
+      "sha256": "e62763b13b0dbba0ff38f2c01fc7c1efb68feee27051a334f381f57ebc41407c",
+      "functions": [
+        "word"
+      ]
+    },
+    {
+      "auditor": "H01_B",
+      "source": "work/expanded/H01_Web6Pro_independent_audit/CGLMP5_independent_audit/crosscheck.py",
+      "sha256": "98600f8a694821ad10c728bb7f906150bf294688562b57c1ef11f5074a32d22b",
+      "functions": [
+        "normal"
+      ]
+    }
+  ],
+  "words_per_normalizer": 74905,
+  "normalizer_evaluations": 823955,
+  "maximum_input_factor_count": 100,
+  "order_reversal_generic_control_nonzero_entries": 2,
+  "seconds": 3.997540365999157,
+  "limitations": "Sources AST-extracted without modification; shared group presentation remains. Finite exhaustive and random controls do not themselves prove a universal normal-form theorem."
+}

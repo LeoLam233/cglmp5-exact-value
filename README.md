@@ -1,4 +1,4 @@
-# CGLMP5 exact quantum value — proof-carrying candidate v0.1
+# CGLMP5 exact quantum value — proof-carrying candidate v0.1.1
 
 This repository archives an **AI-assisted exact proof candidate** for the standard five-outcome CGLMP Bell inequality. The claimed theorem is that, for arbitrary local Hilbert-space dimensions and arbitrary local five-outcome POVMs,
 
@@ -23,6 +23,11 @@ A five-dimensional bipartite strategy attains equality. The universal upper boun
 **Status.** The candidate has undergone exact replay, separated-context AI adversarial audits, mutation tests, a restricted-input reconstruction of the attaining lower-bound branch, and a later independent adversarial audit that reimplemented the load-bearing exact checks in two algebraic representations. No load-bearing defect has been found in the checks completed so far. This is **not** a claim of human peer review, formal verification, or exhaustive mathematical certification.
 
 ## Start here
+
+- [Formal manuscript (PDF)](paper/main.pdf), [LaTeX source](paper/main.tex), [build instructions](paper/README.md)
+- [Hardened v0.1.1 artifact](artifact_v0.1.1/)
+- [Phase-B adjudication](audits/phase_b_2026-10-04/FINAL_PHASE_B_REPORT.md) and [accepted revision plan](audits/phase_b_2026-10-04/CONSOLIDATED_REVISION_PLAN.md)
+- [Appended evidence errata](docs/PHASE_B_ERRATA.md) and [provenance](docs/PROVENANCE.md)
 
 - [Frozen v0.1 proof](artifact_v0.1/PROOF.md)
 - [Root and algebraic embedding](artifact_v0.1/ROOT_EMBEDDING.md)
@@ -54,7 +59,26 @@ SHA-256 e69679a00fb8bb92b69459b5a365d3e1c5200c8ab3709854bec700e1754c25fd
 
 The later audit does not modify the frozen scientific baseline.
 
-## Reproduce the frozen checks
+## Reproduce the hardened checks
+
+From the repository root, with normal CPython 3.12 or later:
+
+```sh
+set -euo pipefail
+RECEIPTS="$(mktemp -d -t cglmp5-replay.XXXXXX)"
+python3 -B artifact_v0.1.1/validate_integer_encoding.py --root artifact_v0.1.1 --output "$RECEIPTS/validate_integer_encoding.json"
+python3 -B artifact_v0.1.1/verify_sos14.py --root artifact_v0.1.1 --output "$RECEIPTS/verify_sos14.json"
+python3 -B artifact_v0.1.1/verify_independent.py --root artifact_v0.1.1 --output "$RECEIPTS/verify_independent.json"
+python3 -B artifact_v0.1.1/verify_statement.py --root artifact_v0.1.1 --output "$RECEIPTS/verify_statement.json"
+python3 scripts/check_core_results.py "$RECEIPTS"
+python3 scripts/check_release_gate.py --root .
+```
+
+The first commands recompute the core identities and actual-embedding signs. The last command validates the packaged R01–R14 acceptance statuses and source/receipt hashes; it does not independently rerun every audit. The full regression replay instructions are under [`verification/`](verification/). Do not run mathematical checkers with `-O`, `-OO`, or nonzero `PYTHONOPTIMIZE`. An exited process is insufficient: require the intended semantic result, and retain failed runs.
+
+The strict input and canonical-format policies are documented in [`artifact_v0.1.1/SCHEMA.md`](artifact_v0.1.1/SCHEMA.md). A packaging rejection of a mathematically equivalent serialization is not a disproof of the represented identity.
+
+## Reproduce the frozen checks (historical)
 
 Use a working copy of `artifact_v0.1/` with CPython 3.12 or later:
 
@@ -88,4 +112,21 @@ The research and verification workflow was AI-assisted. AI systems are not liste
 
 `v0.1.0` is the first public archival release of the frozen candidate and its accumulated verification evidence. The frozen scientific baseline is not rewritten after publication. Future formalization or scientific corrections will be released as later versions rather than by moving or replacing the `v0.1.0` tag.
 
-A Lean formalization is planned for a subsequent release.
+`v0.1.1` adds the publication manuscript, accepted non-load-bearing Phase-B hardening, and source-bound regression evidence. It leaves the theorem, root polynomial, certificate coefficients, attaining strategy, `artifact_v0.1/`, and the existing `v0.1.0` tag unchanged.
+
+Lean formalization has **not** started in this release. The completed Lean milestone is reserved for **v0.2.0**. See the [future Lean source map](docs/LEAN_HANDOFF.md).
+
+## v0.1.1 evidence discipline
+
+Phase B reported `SURVIVED_MULTI_AUDIT_CORRELATED_FAILURE_ATTACK`, with revision class `NONLOAD_BEARING_HARDENING_ONLY`. Its immutable complete archive is distributed separately as a release asset:
+
+```text
+CGLMP5_PhaseB_checkpoint_20261004T092328Z_FINAL_COMPLETE.zip
+SHA-256 12e2864ed19d99500b72d4aefe6e2b27939fb67c05aa355b38b997456a55fc43
+```
+
+The selected controlling reports under `audits/phase_b_2026-10-04/` retain their original bytes. Their statements describe the Phase-B run; they are not receipts for executions in this release. Fresh release checks and preserved failed attempts live under `verification/`. Each receipt must be interpreted according to the specific source, input hashes, command, and semantic result it records. Agreement among audits is not a substitute for the algebraic identity, actual strict positivity, and analytic representation/POVM proof.
+
+The local POVM bridge uses one fixed embedding for both settings on each party and preserves every joint effect by compression. Compression is not asserted to be multiplicative. The theorem is about the local tensor-product, five-outcome model, with no dimension cutoff.
+
+Repository commits credit substantive AI-assisted code and manuscript work using `Co-authored-by: Codex <noreply@openai.com>`. This software contribution attribution does not make an AI system a manuscript author.

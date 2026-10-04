@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "scope": "exact printed-data correspondence and full Gram/physical checks; shared canonical cyclotomic arithmetic",
+  "source_hashes": {
+    "EXACT_KERNELS.json": "6e08746bf5a58addb6bb46beb00c7bdab29638b9290802bca5114bc47ae957a5",
+    "EXACT_SOS_CANDIDATE.json": "14324f3ea10a3b1304a02ce48b5572be7080b519c242f5802ed599f60325c649",
+    "POSITIVITY_CERTIFICATE.json": "22ba8a09e433fe269b805f9979f574e37e3262a33fdae5a71927b748a860e8de",
+    "SOS14.json": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2"
+  },
+  "arithmetic_source_sha256": "ea9be28959de0412e4c47f33eab0c16f9bfb8f31cd4774a7b0c0add5a255fad4",
+  "paper_checker_sha256": "09c6bb94d02fdc560d6c9e6cd335e26d785060b92e466279eb96e991223bc73a",
+  "printed_table_sha256": {
+    "phase_supports.tex": "88a732ac89e5fa4680e6c728adfc9a844f3807b5a5a8363e12cb384bd8260580",
+    "kernel_data.tex": "7c1d9d753fb7ee70375028cea9b5edf4abd50487ac4d5168d47d166bfe70f681",
+    "parameter_assignments.tex": "cd58d75feb750529879cc905f1cfdf28af91e13eacee67716a61fcc38c9c1413",
+    "parameter_data.tex": "ded1dcbcb7d84137793680eb629c93b69d44b225451064261e52e1c936bb2f78",
+    "minor_bounds.tex": "67ab64997964600f69e532ff147a404b7859a2618227304a5f322bad85dea00b"
+  },
+  "factorization_entries": 1134,
+  "compact_coefficient_positions": 1134,
+  "compact_weights": 14,
+  "full_gram_identity": {
+    "operator_basis": 81,
+    "full_word_coefficients_exactly_checked": 1681,
+    "positive_block_total_size": 14,
+    "all_coefficients_identically_zero": true
+  },
+  "physical_attainment": {
+    "full_Bell_eigenvector_coordinates": 25,
+    "projector_to_unitary_entries": 100,
+    "deterministic_normalization_tests": 625,
+    "pairwise_probability_coefficients": 100,
+    "local_bound": 2,
+    "dimension_for_attainment": [
+      5,
+      5
+    ],
+    "state_positive_and_normalizable": true
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "optimization": 0
+}

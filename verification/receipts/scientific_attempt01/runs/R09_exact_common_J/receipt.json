@@ -1,0 +1,76 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/scientific_attempt01/stage/outputs/INDEPENDENT_CHECKS/bridge/exact_common_space.py"
+  ],
+  "cwd": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/scientific_attempt01/runs/R09_exact_common_J",
+  "elapsed_seconds": 13.23726567599806,
+  "name": "R09_exact_common_J",
+  "optimize": 0,
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "returncode": 0,
+  "script_sha256": "2b1cad53a8acac603b1655ae0a29363cb2dbe73d096da4003891713c0c3e463c",
+  "semantic_result": {
+    "assertion_count": 1301,
+    "exact_arithmetic": "SymPy rational Gaussian complex matrices; no float, root, quotient or audit imports",
+    "joint_operators_checked": 200,
+    "mixed_entangled_state_trace": "1",
+    "negative_controls": [
+      "omitted_completion_rejected",
+      "wrong_setting_rejected"
+    ],
+    "negative_partial_transpose_principal_minor": "-53/7056",
+    "rows": [
+      {
+        "dimension": 1,
+        "exact_pvm_and_compression": true,
+        "halmos_dimension": 6,
+        "second_setting_degenerate": false,
+        "separate_complement_dimension": 9
+      },
+      {
+        "dimension": 1,
+        "exact_pvm_and_compression": true,
+        "halmos_dimension": 6,
+        "second_setting_degenerate": true,
+        "separate_complement_dimension": 9
+      },
+      {
+        "dimension": 2,
+        "exact_pvm_and_compression": true,
+        "halmos_dimension": 12,
+        "second_setting_degenerate": false,
+        "separate_complement_dimension": 18
+      },
+      {
+        "dimension": 2,
+        "exact_pvm_and_compression": true,
+        "halmos_dimension": 12,
+        "second_setting_degenerate": true,
+        "separate_complement_dimension": 18
+      },
+      {
+        "dimension": 3,
+        "exact_pvm_and_compression": true,
+        "halmos_dimension": 18,
+        "second_setting_degenerate": false,
+        "separate_complement_dimension": 27
+      },
+      {
+        "dimension": 3,
+        "exact_pvm_and_compression": true,
+        "halmos_dimension": 18,
+        "second_setting_degenerate": true,
+        "separate_complement_dimension": 27
+      }
+    ],
+    "same_fixed_embedding": true,
+    "seconds": 12.958840131759644,
+    "status": "PASS"
+  },
+  "semantic_status": "PASS",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "ba61048a31cecf8744c14c4794c8c38a73bd4c99d71592f10dba65055e99f5a4",
+  "unchanged_source_replay": true
+}

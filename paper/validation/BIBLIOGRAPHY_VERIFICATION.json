@@ -1,0 +1,51 @@
+{
+  "status": "PRIMARY_METADATA_VERIFIED",
+  "checked_utc_date": "2026-10-04",
+  "sources": [
+    {
+      "key": "CGLMP",
+      "url": "https://arxiv.org/abs/quant-ph/0106024v2",
+      "authors": "D. Collins, N. Gisin, N. Linden, S. Massar, S. Popescu",
+      "journal": "Physical Review Letters 88, 040404 (2002)",
+      "doi": "10.1103/PhysRevLett.88.040404"
+    },
+    {
+      "key": "ZohrenGill",
+      "url": "https://arxiv.org/abs/quant-ph/0612020v3",
+      "authors": "S. Zohren, R. D. Gill",
+      "journal": "Physical Review Letters 100, 120406 (2008)",
+      "doi": "10.1103/PhysRevLett.100.120406",
+      "scope": "Numerical optimal-state/measurement and large-outcome context, not a premise for the certified universal upper bound."
+    },
+    {
+      "key": "HuDengChen",
+      "url": "https://arxiv.org/abs/0802.0411v2",
+      "authors": "Ming-Guang Hu, Dong-Ling Deng, Jing-Ling Chen",
+      "journal": "International Journal of Quantum Information 6(5), 1067-1076 (2008)",
+      "correction": "Frozen proof initials M.-L. Hu are historical; the manuscript uses verified Ming-Guang Hu."
+    },
+    {
+      "key": "NPA2007",
+      "url": "https://arxiv.org/abs/quant-ph/0607119v2",
+      "journal": "Physical Review Letters 98, 010401 (2007)",
+      "doi": "10.1103/PhysRevLett.98.010401"
+    },
+    {
+      "key": "NPA2008",
+      "url": "https://arxiv.org/abs/0803.4290",
+      "journal": "New Journal of Physics 10, 073013 (2008)",
+      "doi": "10.1088/1367-2630/10/7/073013"
+    },
+    {
+      "key": "IoannouRosset",
+      "url": "https://arxiv.org/abs/2112.10803v2",
+      "full_text": "https://arxiv.org/html/2112.10803v2#S8.SS4",
+      "authors": "Marie Ioannou, Denis Rosset",
+      "version_date": "2022-06-30",
+      "doi": "10.48550/arXiv.2112.10803",
+      "scope": "Section VII gives candidate exact values/states; Section VIII.4 states five-outcome calculation was numerical and stopped before an exact SOS. No exhaustive novelty claim inferred."
+    }
+  ],
+  "bibliography_sha256": "dae5f2917539c0a690241613f0069687ddcd3a1f14046c3d39f41f18ada535f9",
+  "notes": "Citations point to primary author deposits and their journal metadata. The repository artifact entry is provenance, not external validation."
+}

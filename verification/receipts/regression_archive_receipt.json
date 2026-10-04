@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "archive": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_evidence_v011.zip",
+  "archive_sha256": "44cfe8d21a8379d221559d7d0f7940cc9a2e422b7a72679824ae47933d8c1695",
+  "archive_bytes": 22103740,
+  "file_count": 21267,
+  "unique_blobs": 1413,
+  "original_bytes": 1564504948,
+  "all_blob_hashes_verified": true,
+  "manifest_sha256": "77152c87c591ca35ae30faa240a8106694a943db0976a410a3b916abe13afa02"
+}

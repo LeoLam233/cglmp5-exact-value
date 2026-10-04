@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "scope": "bounded receipt/manuscript/Lean-handoff consistency review; no new proof or publication-completion claim",
+  "source_sha256": {
+    "artifact_v0.1.1/verification_receipt.py": "81b28999c492a858815f933cee4d7551d8239841bfd54a5cc9ece0d89d87d767",
+    "artifact_v0.1.1/strict_schema.py": "12c8d6d0867a31f48610d879c0aaefe3c9ccc04d6fdd3c62d94104b78a1ddd0b",
+    "artifact_v0.1.1/POVM_BRIDGE.md": "5f68b8909a82a6244e21b353c0d18172cc9c6e1782a3502285d95f6a01602c50",
+    "paper/main.tex": "27c96b4479bcdc7a913bbdf2b049ff7f34470de214dfc9453f4ab11586c35ea1",
+    "docs/LEAN_HANDOFF.md": "2729d2af3fef09f991de0691af12dda0bd717a586cefe8faec56f72a62553f85"
+  }
+}

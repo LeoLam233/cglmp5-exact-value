@@ -1,0 +1,2640 @@
+[
+  {
+    "auditor": "A01",
+    "workflow_model_label": "GPT-5.6 Sol / A1v2",
+    "node": 1,
+    "node_description": "Literal probability convention to Bell operator",
+    "evidence_records": [
+      {
+        "auditor": "A01",
+        "node1_literal_convention": "Independent exact Gröbner-generated radical-tower event/DFT and625 assignment reconstruction",
+        "node7_exact_full25_attainment": "Direct event action,25 exact coordinates;100 Fourier overlaps;serialized gamma cross-multiplied to printed formulas",
+        "node9_numerical_falsification": "170 PVM+320 POVM+90 near-optimal perturbation spectra;raw-matrix SOS",
+        "implementation_ancestry": "Own scalar/word engine shared by upper/lower;source exposed before formal precheck plan; no author imports in decisive reconstruction",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A01",
+    "workflow_model_label": "GPT-5.6 Sol / A1v2",
+    "node": 2,
+    "node_description": "Largest root and actual algebraic embedding",
+    "evidence_records": [
+      {
+        "auditor": "A01",
+        "nodes": [
+          2,
+          4
+        ],
+        "inspection": "internally inspected source plus relevant receipts/mutations/failures; scoped field lane",
+        "ancestry": "SymPy Groebner-generated tower multiplication; independent code, shared relation presentation",
+        "largest_root_actual_embedding": "Independent monotonicity/positive A,B derivation; serialized boxes checked; nroots sanity only",
+        "strict_reality_positivity": "Independent Fraction monomial intervals on frozen boxes; exact conjugation",
+        "Gram_LDL": "Exact 42 LDL entries; same weight sign engine; not a second positivity oracle",
+        "independence_tags": [
+          "independent analytic re-derivation",
+          "independent exact reimplementation"
+        ],
+        "source_evidence": [
+          {
+            "path": "work/expanded/A01_5p6Sol_A1v2/CGLMP5_A1v2_AUDIT_OUTPUT/INDEPENDENT_CHECKS/independent_exact_audit.py",
+            "sha256": "b5fa156bf38e9312118ab0e15564cb82e6c3d2ea5a6155ee6a84df38827ae64f",
+            "bytes": 20899
+          }
+        ],
+        "shared_dependencies": [
+          "Python integer/Fraction semantics or arithmetic backend",
+          "frozen scalar encoding and exact values",
+          "documented relation/embedding interpretation"
+        ],
+        "Phase_B_replayed": false,
+        "Phase_B_replay_scope": "no complete audit replay in this lane"
+      }
+    ],
+    "source_lane": "field",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A01",
+    "workflow_model_label": "GPT-5.6 Sol / A1v2",
+    "node": 3,
+    "node_description": "Exact NC SOS and same-party ordering",
+    "evidence_records": [
+      {
+        "auditor": "A01",
+        "node": 3,
+        "independent_exact_reimplementation": "SymPy Groebner generated radical-tower table; denominator-cleared integer vectors",
+        "normal_form": "online per-party stack",
+        "implementation_ancestry": "No author imports; table from SymPy; pre-plan author-source exposure",
+        "target_dependency": "Cyclic DFT for upper bound, independent event strategy check",
+        "finite_field_modular_control": "not covered",
+        "concrete_matrix_representation": "3 random (5,5),(6,7),(10,5) double matrices with mpmath90 scalars",
+        "limits": "No full Gram EHE* expansion; LDL alone does not create second NC engine",
+        "evidence": [
+          {
+            "path": "work/expanded/A01_5p6Sol_A1v2/CGLMP5_A1v2_AUDIT_OUTPUT/INDEPENDENT_CHECKS/independent_exact_audit.py",
+            "sha256": "b5fa156bf38e9312118ab0e15564cb82e6c3d2ea5a6155ee6a84df38827ae64f"
+          },
+          {
+            "path": "work/expanded/A01_5p6Sol_A1v2/CGLMP5_A1v2_AUDIT_OUTPUT/INDEPENDENT_CHECKS/concrete_representation_sos_check.py",
+            "sha256": "b0b38b62525a6822d8fb02c2e5fb94ddaa84651dc5f6cc80fed345569227a5d0"
+          },
+          {
+            "path": "work/expanded/A01_5p6Sol_A1v2/CGLMP5_A1v2_AUDIT_OUTPUT/RUN_RECEIPTS/independent_exact_audit.json",
+            "sha256": "73abc49c2c81ade93e78a1fb9db47fdd93ca3a2969ae2a95610ba8e52fa58561"
+          }
+        ]
+      }
+    ],
+    "source_lane": "nc",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A01",
+    "workflow_model_label": "GPT-5.6 Sol / A1v2",
+    "node": 4,
+    "node_description": "Strict reality/positivity and Gram/LDL role",
+    "evidence_records": [
+      {
+        "auditor": "A01",
+        "nodes": [
+          2,
+          4
+        ],
+        "inspection": "internally inspected source plus relevant receipts/mutations/failures; scoped field lane",
+        "ancestry": "SymPy Groebner-generated tower multiplication; independent code, shared relation presentation",
+        "largest_root_actual_embedding": "Independent monotonicity/positive A,B derivation; serialized boxes checked; nroots sanity only",
+        "strict_reality_positivity": "Independent Fraction monomial intervals on frozen boxes; exact conjugation",
+        "Gram_LDL": "Exact 42 LDL entries; same weight sign engine; not a second positivity oracle",
+        "independence_tags": [
+          "independent analytic re-derivation",
+          "independent exact reimplementation"
+        ],
+        "source_evidence": [
+          {
+            "path": "work/expanded/A01_5p6Sol_A1v2/CGLMP5_A1v2_AUDIT_OUTPUT/INDEPENDENT_CHECKS/independent_exact_audit.py",
+            "sha256": "b5fa156bf38e9312118ab0e15564cb82e6c3d2ea5a6155ee6a84df38827ae64f",
+            "bytes": 20899
+          }
+        ],
+        "shared_dependencies": [
+          "Python integer/Fraction semantics or arithmetic backend",
+          "frozen scalar encoding and exact values",
+          "documented relation/embedding interpretation"
+        ],
+        "Phase_B_replayed": false,
+        "Phase_B_replay_scope": "no complete audit replay in this lane"
+      }
+    ],
+    "source_lane": "field",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A01",
+    "workflow_model_label": "GPT-5.6 Sol / A1v2",
+    "node": 5,
+    "node_description": "Universal bounded-representation implication",
+    "evidence_records": [
+      {
+        "auditor": "A01",
+        "node": 5,
+        "evidence_type": "independent analytic re-derivation",
+        "ancestry": "shared finite SOS/positive-real-weight premise; no finite-matrix test proves universal quantifier",
+        "raw_receipts_inspected": true,
+        "phase_b_replay": false,
+        "independence": "Implementation distinctions do not make background Hilbert-space argument or SOS premise independent",
+        "gap": "infinite dimensions require analytic argument; finite tests only diagnostic"
+      }
+    ],
+    "source_lane": "bridge",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A01",
+    "workflow_model_label": "GPT-5.6 Sol / A1v2",
+    "node": 6,
+    "node_description": "Common-space local POVM bridge, infinite dimensions",
+    "evidence_records": [
+      {
+        "auditor": "A01",
+        "node": 6,
+        "evidence_type": "independent analytic re-derivation + numerical diagnostic + negative controls",
+        "ancestry": "canonical square-root/separate-complement construction",
+        "raw_receipts_inspected": true,
+        "phase_b_replay": true,
+        "independence": "Implementation distinctions do not make background Hilbert-space argument or SOS premise independent",
+        "gap": "infinite dimensions require analytic argument; finite tests only diagnostic"
+      }
+    ],
+    "source_lane": "bridge",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A01",
+    "workflow_model_label": "GPT-5.6 Sol / A1v2",
+    "node": 7,
+    "node_description": "Exact physical full25D attainment and saturation",
+    "evidence_records": [
+      {
+        "auditor": "A01",
+        "node1_literal_convention": "Independent exact Gröbner-generated radical-tower event/DFT and625 assignment reconstruction",
+        "node7_exact_full25_attainment": "Direct event action,25 exact coordinates;100 Fourier overlaps;serialized gamma cross-multiplied to printed formulas",
+        "node9_numerical_falsification": "170 PVM+320 POVM+90 near-optimal perturbation spectra;raw-matrix SOS",
+        "implementation_ancestry": "Own scalar/word engine shared by upper/lower;source exposed before formal precheck plan; no author imports in decisive reconstruction",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A01",
+    "workflow_model_label": "GPT-5.6 Sol / A1v2",
+    "node": 8,
+    "node_description": "Byte/schema/checker-to-theorem binding",
+    "evidence_records": [
+      {
+        "auditor": "A01",
+        "implementation_ancestry": "SymPy Groebner-generated radical-tower scalar engine; split-party free-product words; separate direct matrix/Born diagnostics",
+        "shared_dependencies": [
+          "Python runtime/integer semantics",
+          "literal frozen theorem and serialized coefficient convention"
+        ],
+        "node8_byte_schema_checker_binding": {
+          "coverage_types": [
+            "source-level independent schema review",
+            "mutation / negative control"
+          ],
+          "assessment": "Strict scalar/duplicate-key parser; own malformed-input controls plus author float/duplicate replay. Numerical concrete checker vulnerable to -O; exact need() core remains explicit."
+        },
+        "other_load_bearing_nodes": "Use scientific lane adjudications; this lane verifies source ancestry and evidence scope only, not independent theorem certification.",
+        "node9_numerics_evidence_policy": "Diagnostic falsification only; require actual residual/status and convergence/feasibility evidence, never count finite search as universal proof.",
+        "final": true
+      }
+    ],
+    "source_lane": "schema",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A01",
+    "workflow_model_label": "GPT-5.6 Sol / A1v2",
+    "node": 9,
+    "node_description": "Numerics/optimization/SDP/near-counterexample scope",
+    "evidence_records": [
+      {
+        "auditor": "A01",
+        "node1_literal_convention": "Independent exact Gröbner-generated radical-tower event/DFT and625 assignment reconstruction",
+        "node7_exact_full25_attainment": "Direct event action,25 exact coordinates;100 Fourier overlaps;serialized gamma cross-multiplied to printed formulas",
+        "node9_numerical_falsification": "170 PVM+320 POVM+90 near-optimal perturbation spectra;raw-matrix SOS",
+        "implementation_ancestry": "Own scalar/word engine shared by upper/lower;source exposed before formal precheck plan; no author imports in decisive reconstruction",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A02",
+    "workflow_model_label": "GPT-5.6 Sol / external",
+    "node": 1,
+    "node_description": "Literal probability convention to Bell operator",
+    "evidence_records": [
+      {
+        "auditor": "A02",
+        "node1_literal_convention": "Independent native-tower100 coefficient/625 assignment/DFT reconstruction",
+        "node7_exact_full25_attainment": "Polynomial cleared state;25-coordinate exact action from cyclic coefficients after exact100 literal-event bridge",
+        "node9_numerical_falsification": "440 PVM+440 POVM symmetric/asymmetric samples;8 concrete SOS",
+        "implementation_ancestry": "Native24d tower shared across own exact upper/lower;scalar and word engine independent code but same relations",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A02",
+    "workflow_model_label": "GPT-5.6 Sol / external",
+    "node": 2,
+    "node_description": "Largest root and actual algebraic embedding",
+    "evidence_records": [
+      {
+        "auditor": "A02",
+        "nodes": [
+          2,
+          4
+        ],
+        "inspection": "internally inspected source plus relevant receipts/mutations/failures; scoped field lane",
+        "ancestry": "Handwritten tower reducer; common basis/relations but no author imports",
+        "largest_root_actual_embedding": "Independent analytic monotonicity/branch derivation; fresh 320-step bisections",
+        "strict_reality_positivity": "Independent Fraction monomial intervals, fresh and supplied boxes; rebuild_boxes imports audit_exact",
+        "Gram_LDL": "Full Gram expansion and LDL, shared audit_exact arithmetic",
+        "independence_tags": [
+          "independent analytic re-derivation",
+          "independent exact reimplementation"
+        ],
+        "source_evidence": [
+          {
+            "path": "work/expanded/A02_5p6Sol_ExternalPrompt/outputs/INDEPENDENT_CHECKS/audit_exact.py",
+            "sha256": "d584df7e00031b68e6fd4d4f04789b1832fa38f0a2bd4d59f65acf52ad6ab079",
+            "bytes": 24649
+          },
+          {
+            "path": "work/expanded/A02_5p6Sol_ExternalPrompt/outputs/INDEPENDENT_CHECKS/rebuild_boxes.py",
+            "sha256": "7caedcb86138245208db7bc4c7cbe43fe0f7263f2eecd82a92e0c11b73b76c09",
+            "bytes": 2138
+          }
+        ],
+        "shared_dependencies": [
+          "Python integer/Fraction semantics or arithmetic backend",
+          "frozen scalar encoding and exact values",
+          "documented relation/embedding interpretation"
+        ],
+        "Phase_B_replayed": false,
+        "Phase_B_replay_scope": "no complete audit replay in this lane"
+      }
+    ],
+    "source_lane": "field",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A02",
+    "workflow_model_label": "GPT-5.6 Sol / external",
+    "node": 3,
+    "node_description": "Exact NC SOS and same-party ordering",
+    "evidence_records": [
+      {
+        "auditor": "A02",
+        "node": 3,
+        "independent_exact_reimplementation": "native tower monomial worklist reduction; rational common denominator",
+        "normal_form": "online per-party stack",
+        "implementation_ancestry": "Compact+Gram share audit_exact Scalar/canon; fuzz imports audit_exact",
+        "target_dependency": "100-event convention then DFT",
+        "finite_field_modular_control": "not covered",
+        "concrete_matrix_representation": "2000 Weyl-pair word fuzz; 8 raw-matrix full SOS tests",
+        "limits": "Weyl fuzz finite quotient is not faithful normal-form proof; raw matrix route bypasses reducer",
+        "evidence": [
+          {
+            "path": "work/expanded/A02_5p6Sol_ExternalPrompt/outputs/INDEPENDENT_CHECKS/audit_exact.py",
+            "sha256": "d584df7e00031b68e6fd4d4f04789b1832fa38f0a2bd4d59f65acf52ad6ab079"
+          },
+          {
+            "path": "work/expanded/A02_5p6Sol_ExternalPrompt/outputs/INDEPENDENT_CHECKS/normal_form_fuzz.py",
+            "sha256": "acfd0f38b9e43515666e12bb0088ccce9c4f882557b4df73c730cd8dae108f76"
+          },
+          {
+            "path": "work/expanded/A02_5p6Sol_ExternalPrompt/outputs/INDEPENDENT_CHECKS/concrete_certificate_eval.py",
+            "sha256": "aaeb46c052a1f88be9fe3eca3ba087c52342c81944c102b7d9fa36e401fe3de7"
+          },
+          {
+            "path": "work/expanded/A02_5p6Sol_ExternalPrompt/outputs/RUN_RECEIPTS/10_independent_exact.json",
+            "sha256": "0b8ee29ab1892014f66d02c82d7bb9951d7bf7a79f7e013566fd32c6e49d5154"
+          }
+        ]
+      }
+    ],
+    "source_lane": "nc",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A02",
+    "workflow_model_label": "GPT-5.6 Sol / external",
+    "node": 4,
+    "node_description": "Strict reality/positivity and Gram/LDL role",
+    "evidence_records": [
+      {
+        "auditor": "A02",
+        "nodes": [
+          2,
+          4
+        ],
+        "inspection": "internally inspected source plus relevant receipts/mutations/failures; scoped field lane",
+        "ancestry": "Handwritten tower reducer; common basis/relations but no author imports",
+        "largest_root_actual_embedding": "Independent analytic monotonicity/branch derivation; fresh 320-step bisections",
+        "strict_reality_positivity": "Independent Fraction monomial intervals, fresh and supplied boxes; rebuild_boxes imports audit_exact",
+        "Gram_LDL": "Full Gram expansion and LDL, shared audit_exact arithmetic",
+        "independence_tags": [
+          "independent analytic re-derivation",
+          "independent exact reimplementation"
+        ],
+        "source_evidence": [
+          {
+            "path": "work/expanded/A02_5p6Sol_ExternalPrompt/outputs/INDEPENDENT_CHECKS/audit_exact.py",
+            "sha256": "d584df7e00031b68e6fd4d4f04789b1832fa38f0a2bd4d59f65acf52ad6ab079",
+            "bytes": 24649
+          },
+          {
+            "path": "work/expanded/A02_5p6Sol_ExternalPrompt/outputs/INDEPENDENT_CHECKS/rebuild_boxes.py",
+            "sha256": "7caedcb86138245208db7bc4c7cbe43fe0f7263f2eecd82a92e0c11b73b76c09",
+            "bytes": 2138
+          }
+        ],
+        "shared_dependencies": [
+          "Python integer/Fraction semantics or arithmetic backend",
+          "frozen scalar encoding and exact values",
+          "documented relation/embedding interpretation"
+        ],
+        "Phase_B_replayed": false,
+        "Phase_B_replay_scope": "no complete audit replay in this lane"
+      }
+    ],
+    "source_lane": "field",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A02",
+    "workflow_model_label": "GPT-5.6 Sol / external",
+    "node": 5,
+    "node_description": "Universal bounded-representation implication",
+    "evidence_records": [
+      {
+        "auditor": "A02",
+        "node": 5,
+        "evidence_type": "independent analytic re-derivation",
+        "ancestry": "shared finite SOS/positive-real-weight premise; no finite-matrix test proves universal quantifier",
+        "raw_receipts_inspected": true,
+        "phase_b_replay": false,
+        "independence": "Implementation distinctions do not make background Hilbert-space argument or SOS premise independent",
+        "gap": "infinite dimensions require analytic argument; finite tests only diagnostic"
+      }
+    ],
+    "source_lane": "bridge",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A02",
+    "workflow_model_label": "GPT-5.6 Sol / external",
+    "node": 6,
+    "node_description": "Common-space local POVM bridge, infinite dimensions",
+    "evidence_records": [
+      {
+        "auditor": "A02",
+        "node": 6,
+        "evidence_type": "independent analytic re-derivation + numerical diagnostic + negative controls",
+        "ancestry": "canonical square-root/separate-complement construction",
+        "raw_receipts_inspected": true,
+        "phase_b_replay": true,
+        "independence": "Implementation distinctions do not make background Hilbert-space argument or SOS premise independent",
+        "gap": "infinite dimensions require analytic argument; finite tests only diagnostic"
+      }
+    ],
+    "source_lane": "bridge",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A02",
+    "workflow_model_label": "GPT-5.6 Sol / external",
+    "node": 7,
+    "node_description": "Exact physical full25D attainment and saturation",
+    "evidence_records": [
+      {
+        "auditor": "A02",
+        "node1_literal_convention": "Independent native-tower100 coefficient/625 assignment/DFT reconstruction",
+        "node7_exact_full25_attainment": "Polynomial cleared state;25-coordinate exact action from cyclic coefficients after exact100 literal-event bridge",
+        "node9_numerical_falsification": "440 PVM+440 POVM symmetric/asymmetric samples;8 concrete SOS",
+        "implementation_ancestry": "Native24d tower shared across own exact upper/lower;scalar and word engine independent code but same relations",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A02",
+    "workflow_model_label": "GPT-5.6 Sol / external",
+    "node": 8,
+    "node_description": "Byte/schema/checker-to-theorem binding",
+    "evidence_records": [
+      {
+        "auditor": "A02",
+        "implementation_ancestry": "Handwritten radical-tower integer/rational reduction; separate-party normal form; concrete numerical end-to-end path",
+        "shared_dependencies": [
+          "Python runtime/integer semantics",
+          "literal frozen theorem and serialized coefficient convention"
+        ],
+        "node8_byte_schema_checker_binding": {
+          "coverage_types": [
+            "source-level independent schema review",
+            "mutation / negative control"
+          ],
+          "assessment": "Strict duplicate/integer parser; compact/Gram mathematical checks; explicit-zero policy stricter than mathematics. Exact mathematical core uses explicit req()."
+        },
+        "other_load_bearing_nodes": "Use scientific lane adjudications; this lane verifies source ancestry and evidence scope only, not independent theorem certification.",
+        "node9_numerics_evidence_policy": "Diagnostic falsification only; require actual residual/status and convergence/feasibility evidence, never count finite search as universal proof.",
+        "final": true
+      }
+    ],
+    "source_lane": "schema",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A02",
+    "workflow_model_label": "GPT-5.6 Sol / external",
+    "node": 9,
+    "node_description": "Numerics/optimization/SDP/near-counterexample scope",
+    "evidence_records": [
+      {
+        "auditor": "A02",
+        "node1_literal_convention": "Independent native-tower100 coefficient/625 assignment/DFT reconstruction",
+        "node7_exact_full25_attainment": "Polynomial cleared state;25-coordinate exact action from cyclic coefficients after exact100 literal-event bridge",
+        "node9_numerical_falsification": "440 PVM+440 POVM symmetric/asymmetric samples;8 concrete SOS",
+        "implementation_ancestry": "Native24d tower shared across own exact upper/lower;scalar and word engine independent code but same relations",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A03",
+    "workflow_model_label": "GPT-6 Pro / A1v2",
+    "node": 1,
+    "node_description": "Literal probability convention to Bell operator",
+    "evidence_records": [
+      {
+        "auditor": "A03",
+        "node1_literal_convention": "Independent exact literal2D eventDFT,625 assignments;zero harmonics checked",
+        "node7_exact_full25_attainment": "625 exact Bell entries;25 eigenvector coords;28 termwise kernels",
+        "node9_numerical_falsification": "144 random strategies;8 BFGS failures+8 derivative-free searches;70/110-digit highest candidate",
+        "implementation_ancestry": "exact_core shared by own SOS/attainer;near_violation/numerical have no author/exact_core imports",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A03",
+    "workflow_model_label": "GPT-6 Pro / A1v2",
+    "node": 2,
+    "node_description": "Largest root and actual algebraic embedding",
+    "evidence_records": [
+      {
+        "auditor": "A03",
+        "nodes": [
+          2,
+          4
+        ],
+        "inspection": "internally inspected source plus relevant receipts/mutations/failures; scoped field lane",
+        "ancestry": "Handwritten recursive tower reduction; SymPy Groebner table crosscheck",
+        "largest_root_actual_embedding": "Monotonicity/branch plus SymPy exact six-root isolation; fresh 280-step boxes",
+        "strict_reality_positivity": "Fraction monomial intervals using exact_core shared across script families",
+        "Gram_LDL": "Full 1681-word Gram, 42 LDL entries and compact column linkage, shared exact_core",
+        "independence_tags": [
+          "independent analytic re-derivation",
+          "independent exact reimplementation"
+        ],
+        "source_evidence": [
+          {
+            "path": "work/expanded/A03_6Pro_A1v2/CGLMP5_A1v2_AUDIT/INDEPENDENT_CHECKS/exact_core.py",
+            "sha256": "530648be5b53ff861bbb22cf431ab6c0f6910deaba7b9a59dc82253550fad577",
+            "bytes": 9369
+          },
+          {
+            "path": "work/expanded/A03_6Pro_A1v2/CGLMP5_A1v2_AUDIT/INDEPENDENT_CHECKS/check_exact.py",
+            "sha256": "11b5bbeb793bac6a360f19dee40e2cebe9981d33ad33432c2499b2e6cd48bfd5",
+            "bytes": 9929
+          },
+          {
+            "path": "work/expanded/A03_6Pro_A1v2/CGLMP5_A1v2_AUDIT/INDEPENDENT_CHECKS/meta_arithmetic.py",
+            "sha256": "23b5f32610596ebf85d7f01dd5d73fbd602d899c6f05f8ee6753e7aa17c4230d",
+            "bytes": 4636
+          }
+        ],
+        "shared_dependencies": [
+          "Python integer/Fraction semantics or arithmetic backend",
+          "frozen scalar encoding and exact values",
+          "documented relation/embedding interpretation"
+        ],
+        "Phase_B_replayed": false,
+        "Phase_B_replay_scope": "no complete audit replay in this lane"
+      }
+    ],
+    "source_lane": "field",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A03",
+    "workflow_model_label": "GPT-6 Pro / A1v2",
+    "node": 3,
+    "node_description": "Exact NC SOS and same-party ordering",
+    "evidence_records": [
+      {
+        "auditor": "A03",
+        "node": 3,
+        "independent_exact_reimplementation": "sparse Fraction radical tower recursion",
+        "normal_form": "adjacent same-generator contraction and Bob/Alice swaps",
+        "implementation_ancestry": "exact_core shared by exact/physical/mutations; separate modular_recheck no exact_core",
+        "target_dependency": "direct 100-event spectral-projector DFT",
+        "finite_field_modular_control": "3 independent Fp embeddings, fresh replay PASS",
+        "concrete_matrix_representation": "no full concrete serialized-SOS matrix path in inspected NC sources",
+        "limits": "Meta arithmetic uses SymPy 576-table comparison; modular checks use independent scalar specializations and new per-party stack",
+        "evidence": [
+          {
+            "path": "work/expanded/A03_6Pro_A1v2/CGLMP5_A1v2_AUDIT/INDEPENDENT_CHECKS/exact_core.py",
+            "sha256": "530648be5b53ff861bbb22cf431ab6c0f6910deaba7b9a59dc82253550fad577"
+          },
+          {
+            "path": "work/expanded/A03_6Pro_A1v2/CGLMP5_A1v2_AUDIT/INDEPENDENT_CHECKS/modular_recheck.py",
+            "sha256": "21e6d6915894d4aeaca0dbcbf480f9e4cca332aeb5d40bde4a6144f36628b56f"
+          },
+          {
+            "path": "work/expanded/A03_6Pro_A1v2/CGLMP5_A1v2_AUDIT/RUN_RECEIPTS/meta_arithmetic.json",
+            "sha256": "ab0dfa7e64b912ba22a302268e3af06e2eaac1832b5163e472711be4852c1970"
+          },
+          {
+            "path": "work/expanded/A03_6Pro_A1v2/CGLMP5_A1v2_AUDIT/RUN_RECEIPTS/modular_recheck.json",
+            "sha256": "fa064531437d8aabc8d2078912e2bf97069906a649d3fad366e057a34c97f4ad"
+          }
+        ]
+      }
+    ],
+    "source_lane": "nc",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A03",
+    "workflow_model_label": "GPT-6 Pro / A1v2",
+    "node": 4,
+    "node_description": "Strict reality/positivity and Gram/LDL role",
+    "evidence_records": [
+      {
+        "auditor": "A03",
+        "nodes": [
+          2,
+          4
+        ],
+        "inspection": "internally inspected source plus relevant receipts/mutations/failures; scoped field lane",
+        "ancestry": "Handwritten recursive tower reduction; SymPy Groebner table crosscheck",
+        "largest_root_actual_embedding": "Monotonicity/branch plus SymPy exact six-root isolation; fresh 280-step boxes",
+        "strict_reality_positivity": "Fraction monomial intervals using exact_core shared across script families",
+        "Gram_LDL": "Full 1681-word Gram, 42 LDL entries and compact column linkage, shared exact_core",
+        "independence_tags": [
+          "independent analytic re-derivation",
+          "independent exact reimplementation"
+        ],
+        "source_evidence": [
+          {
+            "path": "work/expanded/A03_6Pro_A1v2/CGLMP5_A1v2_AUDIT/INDEPENDENT_CHECKS/exact_core.py",
+            "sha256": "530648be5b53ff861bbb22cf431ab6c0f6910deaba7b9a59dc82253550fad577",
+            "bytes": 9369
+          },
+          {
+            "path": "work/expanded/A03_6Pro_A1v2/CGLMP5_A1v2_AUDIT/INDEPENDENT_CHECKS/check_exact.py",
+            "sha256": "11b5bbeb793bac6a360f19dee40e2cebe9981d33ad33432c2499b2e6cd48bfd5",
+            "bytes": 9929
+          },
+          {
+            "path": "work/expanded/A03_6Pro_A1v2/CGLMP5_A1v2_AUDIT/INDEPENDENT_CHECKS/meta_arithmetic.py",
+            "sha256": "23b5f32610596ebf85d7f01dd5d73fbd602d899c6f05f8ee6753e7aa17c4230d",
+            "bytes": 4636
+          }
+        ],
+        "shared_dependencies": [
+          "Python integer/Fraction semantics or arithmetic backend",
+          "frozen scalar encoding and exact values",
+          "documented relation/embedding interpretation"
+        ],
+        "Phase_B_replayed": false,
+        "Phase_B_replay_scope": "no complete audit replay in this lane"
+      }
+    ],
+    "source_lane": "field",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A03",
+    "workflow_model_label": "GPT-6 Pro / A1v2",
+    "node": 5,
+    "node_description": "Universal bounded-representation implication",
+    "evidence_records": [
+      {
+        "auditor": "A03",
+        "node": 5,
+        "evidence_type": "independent analytic re-derivation",
+        "ancestry": "shared finite SOS/positive-real-weight premise; no finite-matrix test proves universal quantifier",
+        "raw_receipts_inspected": true,
+        "phase_b_replay": false,
+        "independence": "Implementation distinctions do not make background Hilbert-space argument or SOS premise independent",
+        "gap": "infinite dimensions require analytic argument; finite tests only diagnostic"
+      }
+    ],
+    "source_lane": "bridge",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A03",
+    "workflow_model_label": "GPT-6 Pro / A1v2",
+    "node": 6,
+    "node_description": "Common-space local POVM bridge, infinite dimensions",
+    "evidence_records": [
+      {
+        "auditor": "A03",
+        "node": 6,
+        "evidence_type": "independent analytic re-derivation + numerical diagnostic + negative controls",
+        "ancestry": "canonical square-root/separate-complement construction",
+        "raw_receipts_inspected": true,
+        "phase_b_replay": false,
+        "independence": "Implementation distinctions do not make background Hilbert-space argument or SOS premise independent",
+        "gap": "infinite dimensions require analytic argument; finite tests only diagnostic"
+      }
+    ],
+    "source_lane": "bridge",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A03",
+    "workflow_model_label": "GPT-6 Pro / A1v2",
+    "node": 7,
+    "node_description": "Exact physical full25D attainment and saturation",
+    "evidence_records": [
+      {
+        "auditor": "A03",
+        "node1_literal_convention": "Independent exact literal2D eventDFT,625 assignments;zero harmonics checked",
+        "node7_exact_full25_attainment": "625 exact Bell entries;25 eigenvector coords;28 termwise kernels",
+        "node9_numerical_falsification": "144 random strategies;8 BFGS failures+8 derivative-free searches;70/110-digit highest candidate",
+        "implementation_ancestry": "exact_core shared by own SOS/attainer;near_violation/numerical have no author/exact_core imports",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A03",
+    "workflow_model_label": "GPT-6 Pro / A1v2",
+    "node": 8,
+    "node_description": "Byte/schema/checker-to-theorem binding",
+    "evidence_records": [
+      {
+        "auditor": "A03",
+        "implementation_ancestry": "Handwritten Fraction radical tower and adjacent rewrite; independent modular specializations; CAS arithmetic meta-checks",
+        "shared_dependencies": [
+          "Python runtime/integer semantics",
+          "literal frozen theorem and serialized coefficient convention"
+        ],
+        "node8_byte_schema_checker_binding": {
+          "coverage_types": [
+            "source-level independent schema review",
+            "mutation / negative control"
+          ],
+          "assessment": "Strict required-shape/type parser and broad mutation controls; author malformed-input comparison. Guarded executable checks; failed initial selectors retained."
+        },
+        "other_load_bearing_nodes": "Use scientific lane adjudications; this lane verifies source ancestry and evidence scope only, not independent theorem certification.",
+        "node9_numerics_evidence_policy": "Diagnostic falsification only; require actual residual/status and convergence/feasibility evidence, never count finite search as universal proof.",
+        "final": true
+      }
+    ],
+    "source_lane": "schema",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A03",
+    "workflow_model_label": "GPT-6 Pro / A1v2",
+    "node": 9,
+    "node_description": "Numerics/optimization/SDP/near-counterexample scope",
+    "evidence_records": [
+      {
+        "auditor": "A03",
+        "node1_literal_convention": "Independent exact literal2D eventDFT,625 assignments;zero harmonics checked",
+        "node7_exact_full25_attainment": "625 exact Bell entries;25 eigenvector coords;28 termwise kernels",
+        "node9_numerical_falsification": "144 random strategies;8 BFGS failures+8 derivative-free searches;70/110-digit highest candidate",
+        "implementation_ancestry": "exact_core shared by own SOS/attainer;near_violation/numerical have no author/exact_core imports",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A04",
+    "workflow_model_label": "GPT-6 Pro / external",
+    "node": 1,
+    "node_description": "Literal probability convention to Bell operator",
+    "evidence_records": [
+      {
+        "auditor": "A04",
+        "node1_literal_convention": "Independent eventDFT,100 coefficients,625 assignments",
+        "node7_exact_full25_attainment": "625 exact Bell entries;25 coords;28 kernels via projector-derived powers",
+        "node9_numerical_falsification": "12 optimizations;81-word ADMM;6 exact-rational repaired representatives",
+        "implementation_ancestry": "audit_core shared exact arithmetic;ADMM letter reducer and rational envelope separate;target interpretation remains common",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A04",
+    "workflow_model_label": "GPT-6 Pro / external",
+    "node": 2,
+    "node_description": "Largest root and actual algebraic embedding",
+    "evidence_records": [
+      {
+        "auditor": "A04",
+        "nodes": [
+          2,
+          4
+        ],
+        "inspection": "internally inspected source plus relevant receipts/mutations/failures; scoped field lane",
+        "ancestry": "SymPy Groebner-generated tower with denominator-cleared integers; correlated SymPy core with A01",
+        "largest_root_actual_embedding": "Positive coefficients after t=y+3; SymPy Sturm/isolation; fresh bisection+integer square-root boxes",
+        "strict_reality_positivity": "Fraction monomial intervals; fresh boxes share audit_core sign evaluator",
+        "Gram_LDL": "Full Gram and LDL plus EL compact bridge; shares audit_core",
+        "independence_tags": [
+          "independent analytic re-derivation",
+          "independent exact reimplementation"
+        ],
+        "source_evidence": [
+          {
+            "path": "work/expanded/A04_6Pro_ExternalPrompt/CGLMP5_PHASE_A_AUDIT/INDEPENDENT_CHECKS/audit_core.py",
+            "sha256": "46e3ddaedce7b1c30abb11c5a9e0ca604f532acadae89438dec54b2a06078fcc",
+            "bytes": 12382
+          },
+          {
+            "path": "work/expanded/A04_6Pro_ExternalPrompt/CGLMP5_PHASE_A_AUDIT/INDEPENDENT_CHECKS/run_exact.py",
+            "sha256": "a566e526ae166097b2fb293d363f2cce05a23be1778ed217c08458fc810297fb",
+            "bytes": 8217
+          },
+          {
+            "path": "work/expanded/A04_6Pro_ExternalPrompt/CGLMP5_PHASE_A_AUDIT/INDEPENDENT_CHECKS/run_gram.py",
+            "sha256": "5a8040bbd31bd2eccbb686f48a8625a980d8e6f2b1a4434f4998e99cd48eabb9",
+            "bytes": 4549
+          },
+          {
+            "path": "work/expanded/A04_6Pro_ExternalPrompt/CGLMP5_PHASE_A_AUDIT/INDEPENDENT_CHECKS/run_meta_exact.py",
+            "sha256": "72e476913bd3eb04d3cdd7c7a11b5f175b080267b9c1da3740feaa7a13ac3169",
+            "bytes": 6233
+          },
+          {
+            "path": "work/expanded/A04_6Pro_ExternalPrompt/CGLMP5_PHASE_A_AUDIT/INDEPENDENT_CHECKS/run_rational_near.py",
+            "sha256": "a6405b6ede0e23d55367b5e11ef2864a799f3ec6ec32f42b69abef638663ccf5",
+            "bytes": 7575
+          }
+        ],
+        "shared_dependencies": [
+          "Python integer/Fraction semantics or arithmetic backend",
+          "frozen scalar encoding and exact values",
+          "documented relation/embedding interpretation"
+        ],
+        "Phase_B_replayed": false,
+        "Phase_B_replay_scope": "no complete audit replay in this lane"
+      }
+    ],
+    "source_lane": "field",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A04",
+    "workflow_model_label": "GPT-6 Pro / external",
+    "node": 3,
+    "node_description": "Exact NC SOS and same-party ordering",
+    "evidence_records": [
+      {
+        "auditor": "A04",
+        "node": 3,
+        "independent_exact_reimplementation": "SymPy Groebner table; denominator-cleared integer vectors",
+        "normal_form": "repeated whole-run contraction separately per party",
+        "implementation_ancestry": "exact modules share audit_core; modular imports run_npa expanded-letter word engine and run_rational_near event table",
+        "target_dependency": "direct full event DFT",
+        "finite_field_modular_control": "8 primes, all available embeddings; no audit-core field import; replay PASS",
+        "concrete_matrix_representation": "200 concrete word tests plus numerical routes; not inflated into exact proof",
+        "limits": "164-coefficient sweep is delta-based; former timeout and bad author invocation superseded",
+        "evidence": [
+          {
+            "path": "work/expanded/A04_6Pro_ExternalPrompt/CGLMP5_PHASE_A_AUDIT/INDEPENDENT_CHECKS/audit_core.py",
+            "sha256": "46e3ddaedce7b1c30abb11c5a9e0ca604f532acadae89438dec54b2a06078fcc"
+          },
+          {
+            "path": "work/expanded/A04_6Pro_ExternalPrompt/CGLMP5_PHASE_A_AUDIT/INDEPENDENT_CHECKS/run_modular.py",
+            "sha256": "ab8b53e737a46ee6297b6511adf48b3cc0983108d371cfe61ddd7988ddd9da2f"
+          },
+          {
+            "path": "work/expanded/A04_6Pro_ExternalPrompt/CGLMP5_PHASE_A_AUDIT/INDEPENDENT_CHECKS/run_controls.py",
+            "sha256": "5d4d40b646fe81803077dc6e35e109932c800ba09f607336ebbf8929f019b98e"
+          },
+          {
+            "path": "work/expanded/A04_6Pro_ExternalPrompt/CGLMP5_PHASE_A_AUDIT/RUN_RECEIPTS/modular.json",
+            "sha256": "d942cdb0735e911135aad657cd45578072ef8e91f1098988b3ab642b05980aef"
+          }
+        ]
+      }
+    ],
+    "source_lane": "nc",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A04",
+    "workflow_model_label": "GPT-6 Pro / external",
+    "node": 4,
+    "node_description": "Strict reality/positivity and Gram/LDL role",
+    "evidence_records": [
+      {
+        "auditor": "A04",
+        "nodes": [
+          2,
+          4
+        ],
+        "inspection": "internally inspected source plus relevant receipts/mutations/failures; scoped field lane",
+        "ancestry": "SymPy Groebner-generated tower with denominator-cleared integers; correlated SymPy core with A01",
+        "largest_root_actual_embedding": "Positive coefficients after t=y+3; SymPy Sturm/isolation; fresh bisection+integer square-root boxes",
+        "strict_reality_positivity": "Fraction monomial intervals; fresh boxes share audit_core sign evaluator",
+        "Gram_LDL": "Full Gram and LDL plus EL compact bridge; shares audit_core",
+        "independence_tags": [
+          "independent analytic re-derivation",
+          "independent exact reimplementation"
+        ],
+        "source_evidence": [
+          {
+            "path": "work/expanded/A04_6Pro_ExternalPrompt/CGLMP5_PHASE_A_AUDIT/INDEPENDENT_CHECKS/audit_core.py",
+            "sha256": "46e3ddaedce7b1c30abb11c5a9e0ca604f532acadae89438dec54b2a06078fcc",
+            "bytes": 12382
+          },
+          {
+            "path": "work/expanded/A04_6Pro_ExternalPrompt/CGLMP5_PHASE_A_AUDIT/INDEPENDENT_CHECKS/run_exact.py",
+            "sha256": "a566e526ae166097b2fb293d363f2cce05a23be1778ed217c08458fc810297fb",
+            "bytes": 8217
+          },
+          {
+            "path": "work/expanded/A04_6Pro_ExternalPrompt/CGLMP5_PHASE_A_AUDIT/INDEPENDENT_CHECKS/run_gram.py",
+            "sha256": "5a8040bbd31bd2eccbb686f48a8625a980d8e6f2b1a4434f4998e99cd48eabb9",
+            "bytes": 4549
+          },
+          {
+            "path": "work/expanded/A04_6Pro_ExternalPrompt/CGLMP5_PHASE_A_AUDIT/INDEPENDENT_CHECKS/run_meta_exact.py",
+            "sha256": "72e476913bd3eb04d3cdd7c7a11b5f175b080267b9c1da3740feaa7a13ac3169",
+            "bytes": 6233
+          },
+          {
+            "path": "work/expanded/A04_6Pro_ExternalPrompt/CGLMP5_PHASE_A_AUDIT/INDEPENDENT_CHECKS/run_rational_near.py",
+            "sha256": "a6405b6ede0e23d55367b5e11ef2864a799f3ec6ec32f42b69abef638663ccf5",
+            "bytes": 7575
+          }
+        ],
+        "shared_dependencies": [
+          "Python integer/Fraction semantics or arithmetic backend",
+          "frozen scalar encoding and exact values",
+          "documented relation/embedding interpretation"
+        ],
+        "Phase_B_replayed": false,
+        "Phase_B_replay_scope": "no complete audit replay in this lane"
+      }
+    ],
+    "source_lane": "field",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A04",
+    "workflow_model_label": "GPT-6 Pro / external",
+    "node": 5,
+    "node_description": "Universal bounded-representation implication",
+    "evidence_records": [
+      {
+        "auditor": "A04",
+        "node": 5,
+        "evidence_type": "independent analytic re-derivation",
+        "ancestry": "shared finite SOS/positive-real-weight premise; no finite-matrix test proves universal quantifier",
+        "raw_receipts_inspected": true,
+        "phase_b_replay": false,
+        "independence": "Implementation distinctions do not make background Hilbert-space argument or SOS premise independent",
+        "gap": "infinite dimensions require analytic argument; finite tests only diagnostic"
+      }
+    ],
+    "source_lane": "bridge",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A04",
+    "workflow_model_label": "GPT-6 Pro / external",
+    "node": 6,
+    "node_description": "Common-space local POVM bridge, infinite dimensions",
+    "evidence_records": [
+      {
+        "auditor": "A04",
+        "node": 6,
+        "evidence_type": "independent analytic re-derivation + numerical diagnostic + negative controls",
+        "ancestry": "explicit defect-projection Halmos;11d direct sum reuses same Halmos",
+        "raw_receipts_inspected": true,
+        "phase_b_replay": false,
+        "independence": "Implementation distinctions do not make background Hilbert-space argument or SOS premise independent",
+        "gap": "infinite dimensions require analytic argument; finite tests only diagnostic"
+      }
+    ],
+    "source_lane": "bridge",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A04",
+    "workflow_model_label": "GPT-6 Pro / external",
+    "node": 7,
+    "node_description": "Exact physical full25D attainment and saturation",
+    "evidence_records": [
+      {
+        "auditor": "A04",
+        "node1_literal_convention": "Independent eventDFT,100 coefficients,625 assignments",
+        "node7_exact_full25_attainment": "625 exact Bell entries;25 coords;28 kernels via projector-derived powers",
+        "node9_numerical_falsification": "12 optimizations;81-word ADMM;6 exact-rational repaired representatives",
+        "implementation_ancestry": "audit_core shared exact arithmetic;ADMM letter reducer and rational envelope separate;target interpretation remains common",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A04",
+    "workflow_model_label": "GPT-6 Pro / external",
+    "node": 8,
+    "node_description": "Byte/schema/checker-to-theorem binding",
+    "evidence_records": [
+      {
+        "auditor": "A04",
+        "implementation_ancestry": "SymPy-generated radical-tower table, grouped local words; separate modular path and matrix diagnostics",
+        "shared_dependencies": [
+          "Python runtime/integer semantics",
+          "literal frozen theorem and serialized coefficient convention"
+        ],
+        "node8_byte_schema_checker_binding": {
+          "coverage_types": [
+            "source-level independent schema review",
+            "mutation / negative control"
+          ],
+          "assessment": "Strict duplicate/type/shape validation; malformed author paths demonstrated; wrong-CLI historical rejection corrected. Guarded audit_core; metadata report validator separately assertion-based."
+        },
+        "other_load_bearing_nodes": "Use scientific lane adjudications; this lane verifies source ancestry and evidence scope only, not independent theorem certification.",
+        "node9_numerics_evidence_policy": "Diagnostic falsification only; require actual residual/status and convergence/feasibility evidence, never count finite search as universal proof.",
+        "final": true
+      }
+    ],
+    "source_lane": "schema",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A04",
+    "workflow_model_label": "GPT-6 Pro / external",
+    "node": 9,
+    "node_description": "Numerics/optimization/SDP/near-counterexample scope",
+    "evidence_records": [
+      {
+        "auditor": "A04",
+        "node1_literal_convention": "Independent eventDFT,100 coefficients,625 assignments",
+        "node7_exact_full25_attainment": "625 exact Bell entries;25 coords;28 kernels via projector-derived powers",
+        "node9_numerical_falsification": "12 optimizations;81-word ADMM;6 exact-rational repaired representatives",
+        "implementation_ancestry": "audit_core shared exact arithmetic;ADMM letter reducer and rational envelope separate;target interpretation remains common",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A05",
+    "workflow_model_label": "Dot / blind",
+    "node": 1,
+    "node_description": "Literal probability convention to Bell operator",
+    "evidence_records": [
+      {
+        "auditor": "A05",
+        "node1_literal_convention": "SymPy cyclotomic/cubic direct event reconstruction with no certificate inputs in strategy branch",
+        "node7_exact_full25_attainment": "625 exact Bell entries;polynomial division-free gamma;25 coords;700 kernel checks in separate positivity branch",
+        "node9_numerical_falsification": "480 random;54 manifold+56 supplementary searches;20 BFGS failures recovered;90/130-digit QR-refined candidate",
+        "implementation_ancestry": "Multiple branches internally independent before cross-review;strategy SymPy different from native-tower SOS;numeric routines share numeric_common functions",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A05",
+    "workflow_model_label": "Dot / blind",
+    "node": 2,
+    "node_description": "Largest root and actual algebraic embedding",
+    "evidence_records": [
+      {
+        "auditor": "A05",
+        "nodes": [
+          2,
+          4
+        ],
+        "inspection": "internally inspected source plus relevant receipts/mutations/failures; scoped field lane",
+        "ancestry": "Recursive tower positivity branch, independent SOS sibling; after-completion crossreview imports sibling",
+        "largest_root_actual_embedding": "Monotonicity; fresh 320-bit integer sqrt/bisection; SymPy Sturm; quartic-u root isolation in Bernstein route",
+        "strict_reality_positivity": "Two algorithms: Fraction monomial boxes; tensor Bernstein on independently isolated sextic/quadratic/quartic roots. Bernstein imports SOS scalar decoder only",
+        "Gram_LDL": "42 LDL entries, phase K→E, conjugate EL→R, full-column-rank minors; no separate full Gram expansion claimed in positivity branch",
+        "independence_tags": [
+          "independent analytic re-derivation",
+          "independent exact reimplementation"
+        ],
+        "source_evidence": [
+          {
+            "path": "work/expanded/A05_Dot_Blind/CGLMP5_PHASE_A_AUDIT/output/INDEPENDENT_CHECKS/positivity_branch/independent_positivity.py",
+            "sha256": "d9bfc89945016be05c4753f9168b2801fc2ddc37145dc21323f9b31dda1bacb5",
+            "bytes": 13100
+          },
+          {
+            "path": "work/expanded/A05_Dot_Blind/CGLMP5_PHASE_A_AUDIT/output/INDEPENDENT_CHECKS/positivity_branch/meta_audit.py",
+            "sha256": "0e676f89d0e98005eba88b9a5ba0c679896ed55929dba4e925f906c196249bbe",
+            "bytes": 7536
+          },
+          {
+            "path": "work/expanded/A05_Dot_Blind/CGLMP5_PHASE_A_AUDIT/output/INDEPENDENT_CHECKS/positivity_branch/cross_review_sos.py",
+            "sha256": "010c5b4d123e38e2aa00a34bf7a8adc68cbd350c0e116fd7d4ef327ca6dc9f75",
+            "bytes": 2072
+          },
+          {
+            "path": "work/expanded/A05_Dot_Blind/CGLMP5_PHASE_A_AUDIT/output/INDEPENDENT_CHECKS/sos_branch/positivity_bernstein_meta.py",
+            "sha256": "f97fca577c8fa491d1210fdef4f0c91cbb621002ed1c5678c09d68019e62b7b4",
+            "bytes": 4543
+          },
+          {
+            "path": "work/expanded/A05_Dot_Blind/CGLMP5_PHASE_A_AUDIT/output/INDEPENDENT_CHECKS/sos_branch/exact_sos_audit.py",
+            "sha256": "ce9a4f192581a680f506d0a0a10cf1c957b944d253167e8e553735b64fc4f10b",
+            "bytes": 22695
+          }
+        ],
+        "shared_dependencies": [
+          "Python integer/Fraction semantics or arithmetic backend",
+          "frozen scalar encoding and exact values",
+          "documented relation/embedding interpretation"
+        ],
+        "Phase_B_replayed": true,
+        "Phase_B_replay_scope": "tensor Bernstein positivity only"
+      }
+    ],
+    "source_lane": "field",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A05",
+    "workflow_model_label": "Dot / blind",
+    "node": 3,
+    "node_description": "Exact NC SOS and same-party ordering",
+    "evidence_records": [
+      {
+        "auditor": "A05",
+        "node": 3,
+        "independent_exact_reimplementation": "radical recursive integer arithmetic; independent nested-extension Fraction oracle",
+        "normal_form": "per-party stack plus adjacent-rewrite second full expansion",
+        "implementation_ancestry": "same parser/scalar class for two expansions; nested oracle checks 576 products",
+        "target_dependency": "direct event DFT and separate cyclic target",
+        "finite_field_modular_control": "not covered",
+        "concrete_matrix_representation": "100-digit full raw SOS in (1,2),(2,3),(3,4)",
+        "limits": "Second expansion is normalizer/order independence, not independent scalar/parser; commutator control is valid",
+        "evidence": [
+          {
+            "path": "work/expanded/A05_Dot_Blind/CGLMP5_PHASE_A_AUDIT/output/INDEPENDENT_CHECKS/sos_branch/exact_sos_audit.py",
+            "sha256": "ce9a4f192581a680f506d0a0a10cf1c957b944d253167e8e553735b64fc4f10b"
+          },
+          {
+            "path": "work/expanded/A05_Dot_Blind/CGLMP5_PHASE_A_AUDIT/output/INDEPENDENT_CHECKS/check_matrix_sos.py",
+            "sha256": "ce856642232c5983497a37b4641907464baf46e2b45926cdda86fc299f86779e"
+          },
+          {
+            "path": "work/expanded/A05_Dot_Blind/CGLMP5_PHASE_A_AUDIT/output/RUN_RECEIPTS/sos_branch/exact_sos_results.json",
+            "sha256": "0ceb088e7ccd61729459106d71bd302b90c67eaab28998788073adeaf3ecf084"
+          }
+        ]
+      }
+    ],
+    "source_lane": "nc",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A05",
+    "workflow_model_label": "Dot / blind",
+    "node": 4,
+    "node_description": "Strict reality/positivity and Gram/LDL role",
+    "evidence_records": [
+      {
+        "auditor": "A05",
+        "nodes": [
+          2,
+          4
+        ],
+        "inspection": "internally inspected source plus relevant receipts/mutations/failures; scoped field lane",
+        "ancestry": "Recursive tower positivity branch, independent SOS sibling; after-completion crossreview imports sibling",
+        "largest_root_actual_embedding": "Monotonicity; fresh 320-bit integer sqrt/bisection; SymPy Sturm; quartic-u root isolation in Bernstein route",
+        "strict_reality_positivity": "Two algorithms: Fraction monomial boxes; tensor Bernstein on independently isolated sextic/quadratic/quartic roots. Bernstein imports SOS scalar decoder only",
+        "Gram_LDL": "42 LDL entries, phase K→E, conjugate EL→R, full-column-rank minors; no separate full Gram expansion claimed in positivity branch",
+        "independence_tags": [
+          "independent analytic re-derivation",
+          "independent exact reimplementation"
+        ],
+        "source_evidence": [
+          {
+            "path": "work/expanded/A05_Dot_Blind/CGLMP5_PHASE_A_AUDIT/output/INDEPENDENT_CHECKS/positivity_branch/independent_positivity.py",
+            "sha256": "d9bfc89945016be05c4753f9168b2801fc2ddc37145dc21323f9b31dda1bacb5",
+            "bytes": 13100
+          },
+          {
+            "path": "work/expanded/A05_Dot_Blind/CGLMP5_PHASE_A_AUDIT/output/INDEPENDENT_CHECKS/positivity_branch/meta_audit.py",
+            "sha256": "0e676f89d0e98005eba88b9a5ba0c679896ed55929dba4e925f906c196249bbe",
+            "bytes": 7536
+          },
+          {
+            "path": "work/expanded/A05_Dot_Blind/CGLMP5_PHASE_A_AUDIT/output/INDEPENDENT_CHECKS/positivity_branch/cross_review_sos.py",
+            "sha256": "010c5b4d123e38e2aa00a34bf7a8adc68cbd350c0e116fd7d4ef327ca6dc9f75",
+            "bytes": 2072
+          },
+          {
+            "path": "work/expanded/A05_Dot_Blind/CGLMP5_PHASE_A_AUDIT/output/INDEPENDENT_CHECKS/sos_branch/positivity_bernstein_meta.py",
+            "sha256": "f97fca577c8fa491d1210fdef4f0c91cbb621002ed1c5678c09d68019e62b7b4",
+            "bytes": 4543
+          },
+          {
+            "path": "work/expanded/A05_Dot_Blind/CGLMP5_PHASE_A_AUDIT/output/INDEPENDENT_CHECKS/sos_branch/exact_sos_audit.py",
+            "sha256": "ce9a4f192581a680f506d0a0a10cf1c957b944d253167e8e553735b64fc4f10b",
+            "bytes": 22695
+          }
+        ],
+        "shared_dependencies": [
+          "Python integer/Fraction semantics or arithmetic backend",
+          "frozen scalar encoding and exact values",
+          "documented relation/embedding interpretation"
+        ],
+        "Phase_B_replayed": true,
+        "Phase_B_replay_scope": "tensor Bernstein positivity only"
+      }
+    ],
+    "source_lane": "field",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A05",
+    "workflow_model_label": "Dot / blind",
+    "node": 5,
+    "node_description": "Universal bounded-representation implication",
+    "evidence_records": [
+      {
+        "auditor": "A05",
+        "node": 5,
+        "evidence_type": "independent analytic re-derivation",
+        "ancestry": "shared finite SOS/positive-real-weight premise; no finite-matrix test proves universal quantifier",
+        "raw_receipts_inspected": true,
+        "phase_b_replay": false,
+        "independence": "Implementation distinctions do not make background Hilbert-space argument or SOS premise independent",
+        "gap": "infinite dimensions require analytic argument; finite tests only diagnostic"
+      }
+    ],
+    "source_lane": "bridge",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A05",
+    "workflow_model_label": "Dot / blind",
+    "node": 6,
+    "node_description": "Common-space local POVM bridge, infinite dimensions",
+    "evidence_records": [
+      {
+        "auditor": "A05",
+        "node": 6,
+        "evidence_type": "independent analytic re-derivation + numerical diagnostic + negative controls",
+        "ancestry": "canonical square-root/separate-complement construction",
+        "raw_receipts_inspected": true,
+        "phase_b_replay": true,
+        "independence": "Implementation distinctions do not make background Hilbert-space argument or SOS premise independent",
+        "gap": "infinite dimensions require analytic argument; finite tests only diagnostic"
+      }
+    ],
+    "source_lane": "bridge",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A05",
+    "workflow_model_label": "Dot / blind",
+    "node": 7,
+    "node_description": "Exact physical full25D attainment and saturation",
+    "evidence_records": [
+      {
+        "auditor": "A05",
+        "node1_literal_convention": "SymPy cyclotomic/cubic direct event reconstruction with no certificate inputs in strategy branch",
+        "node7_exact_full25_attainment": "625 exact Bell entries;polynomial division-free gamma;25 coords;700 kernel checks in separate positivity branch",
+        "node9_numerical_falsification": "480 random;54 manifold+56 supplementary searches;20 BFGS failures recovered;90/130-digit QR-refined candidate",
+        "implementation_ancestry": "Multiple branches internally independent before cross-review;strategy SymPy different from native-tower SOS;numeric routines share numeric_common functions",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A05",
+    "workflow_model_label": "Dot / blind",
+    "node": 8,
+    "node_description": "Byte/schema/checker-to-theorem binding",
+    "evidence_records": [
+      {
+        "auditor": "A05",
+        "implementation_ancestry": "Separate radical-tower integer SOS and Fraction/interval branch, nested/CAS multiplication oracles, Bernstein positivity; full cyclotomic physical branch",
+        "shared_dependencies": [
+          "Python runtime/integer semantics",
+          "literal frozen theorem and serialized coefficient convention"
+        ],
+        "node8_byte_schema_checker_binding": {
+          "coverage_types": [
+            "source-level independent schema review",
+            "mutation / negative control"
+          ],
+          "assessment": "Strict independent parse and47 author controls including Q aliases; complete receipts/hash reconciliation. Many scientific routines use asserts without uniform guard; final documented replays used ordinary Python."
+        },
+        "other_load_bearing_nodes": "Use scientific lane adjudications; this lane verifies source ancestry and evidence scope only, not independent theorem certification.",
+        "node9_numerics_evidence_policy": "Diagnostic falsification only; require actual residual/status and convergence/feasibility evidence, never count finite search as universal proof.",
+        "final": true
+      }
+    ],
+    "source_lane": "schema",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A05",
+    "workflow_model_label": "Dot / blind",
+    "node": 9,
+    "node_description": "Numerics/optimization/SDP/near-counterexample scope",
+    "evidence_records": [
+      {
+        "auditor": "A05",
+        "node1_literal_convention": "SymPy cyclotomic/cubic direct event reconstruction with no certificate inputs in strategy branch",
+        "node7_exact_full25_attainment": "625 exact Bell entries;polynomial division-free gamma;25 coords;700 kernel checks in separate positivity branch",
+        "node9_numerical_falsification": "480 random;54 manifold+56 supplementary searches;20 BFGS failures recovered;90/130-digit QR-refined candidate",
+        "implementation_ancestry": "Multiple branches internally independent before cross-review;strategy SymPy different from native-tower SOS;numeric routines share numeric_common functions",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A06",
+    "workflow_model_label": "DS V4.1 Flash / external",
+    "node": 1,
+    "node_description": "Literal probability convention to Bell operator",
+    "evidence_records": [
+      {
+        "auditor": "A06",
+        "node1_literal_convention": "Native cglib exact event/cyclic/DFT;200 random operator/Born checks",
+        "node7_exact_full25_attainment": "Exact Fourier projectors;25-coordinate with explicit leakage guard;exact Born",
+        "node9_numerical_falsification": "31-start rank-one PVM NM;600 valid spectral-unitary dim scans;400 mixed search contains105 invalid PVM samples",
+        "implementation_ancestry": "All exact tests share cglib;mpmath/numpy separate representation but common statement;optimizer statuses suppressed;no certified SDP",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A06",
+    "workflow_model_label": "DS V4.1 Flash / external",
+    "node": 2,
+    "node_description": "Largest root and actual algebraic embedding",
+    "evidence_records": [
+      {
+        "auditor": "A06",
+        "nodes": [
+          2,
+          4
+        ],
+        "inspection": "internally inspected source plus relevant receipts/mutations/failures; scoped field lane",
+        "ancestry": "Own tower Fraction engine, explicitly verified Gaussian inverses; shared cglib across routes",
+        "largest_root_actual_embedding": "Monotonicity/A²−5B²; frozen boxes rechecked, not regenerated; other-root sensitivity numerical",
+        "strict_reality_positivity": "Own Fraction monomial interval engine on supplied boxes; exact reality; formatting pivot checks share same engine",
+        "Gram_LDL": "Exact LDL and sparse accumulated Gram equality; 17 surviving words is not failure to accumulate canceled support",
+        "independence_tags": [
+          "independent analytic re-derivation",
+          "independent exact reimplementation"
+        ],
+        "source_evidence": [
+          {
+            "path": "work/expanded/A06_DS_V4p1_Flash_ExternalPrompt/cglmp5_audit/PHASE_A_OUTPUT/INDEPENDENT_CHECKS/cglib_audit.py",
+            "sha256": "f5736db1e42d4ed4bd5f843d4ccf29e089296b63640adedd277ba7a5b0ee6822",
+            "bytes": 8650
+          },
+          {
+            "path": "work/expanded/A06_DS_V4p1_Flash_ExternalPrompt/cglmp5_audit/PHASE_A_OUTPUT/INDEPENDENT_CHECKS/chk_positivity_and_root.py",
+            "sha256": "5af6ee011e7967dae33e3a1c67d4435070d4b66df6fc0d8c6b057d4db16a7186",
+            "bytes": 6523
+          },
+          {
+            "path": "work/expanded/A06_DS_V4p1_Flash_ExternalPrompt/cglmp5_audit/PHASE_A_OUTPUT/INDEPENDENT_CHECKS/chk_gram_ldl.py",
+            "sha256": "3b4b88069151bb713f23ca3764439ec592332ec511de41b8f4b879537adf9468",
+            "bytes": 6300
+          },
+          {
+            "path": "work/expanded/A06_DS_V4p1_Flash_ExternalPrompt/cglmp5_audit/PHASE_A_OUTPUT/INDEPENDENT_CHECKS/chk_format_consistency.py",
+            "sha256": "5970be7ff8b5c30832b26a393a95c6c846f268b0e2a7d073362932761a1c97dd",
+            "bytes": 6148
+          },
+          {
+            "path": "work/expanded/A06_DS_V4p1_Flash_ExternalPrompt/cglmp5_audit/PHASE_A_OUTPUT/INDEPENDENT_CHECKS/chk_root_sensitivity.py",
+            "sha256": "519c5d13a47327a204c9baac1dd7cc22c78a303915867eeca9bac060eb1d074a",
+            "bytes": 2769
+          }
+        ],
+        "shared_dependencies": [
+          "Python integer/Fraction semantics or arithmetic backend",
+          "frozen scalar encoding and exact values",
+          "documented relation/embedding interpretation"
+        ],
+        "Phase_B_replayed": false,
+        "Phase_B_replay_scope": "no complete audit replay in this lane"
+      }
+    ],
+    "source_lane": "field",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A06",
+    "workflow_model_label": "DS V4.1 Flash / external",
+    "node": 3,
+    "node_description": "Exact NC SOS and same-party ordering",
+    "evidence_records": [
+      {
+        "auditor": "A06",
+        "node": 3,
+        "independent_exact_reimplementation": "SymPy Groebner via reduced; sparse Fraction field",
+        "normal_form": "per-party adjacent-power stack",
+        "implementation_ancestry": "Exact scripts import cglib_audit; modular imports same MULT and word maps",
+        "target_dependency": "cyclic reciprocal and DFT compared; operator-functional bridge separate",
+        "finite_field_modular_control": "three large primes but shared table+word engine, not independent relations control",
+        "concrete_matrix_representation": "32 raw full matrix SOS cases; reversal benign on published AB support",
+        "limits": "Malformed abelianization control withdrawn; float root causes 1e-10 residual; not positivity proof",
+        "evidence": [
+          {
+            "path": "work/expanded/A06_DS_V4p1_Flash_ExternalPrompt/cglmp5_audit/PHASE_A_OUTPUT/INDEPENDENT_CHECKS/cglib_audit.py",
+            "sha256": "f5736db1e42d4ed4bd5f843d4ccf29e089296b63640adedd277ba7a5b0ee6822"
+          },
+          {
+            "path": "work/expanded/A06_DS_V4p1_Flash_ExternalPrompt/cglmp5_audit/PHASE_A_OUTPUT/INDEPENDENT_CHECKS/chk_sos_identity.py",
+            "sha256": "78c0e59ae9148258745f1179d7bd6103385b68780eb4d9deff09a071a8687c43"
+          },
+          {
+            "path": "work/expanded/A06_DS_V4p1_Flash_ExternalPrompt/cglmp5_audit/PHASE_A_OUTPUT/INDEPENDENT_CHECKS/chk_negative_controls.py",
+            "sha256": "f5934f64b1058a5a9798ac3cfd6323d66483d03f0a00106c72ec6e6dd88d548d"
+          },
+          {
+            "path": "work/expanded/A06_DS_V4p1_Flash_ExternalPrompt/cglmp5_audit/PHASE_A_OUTPUT/INDEPENDENT_CHECKS/chk_matrix_falsification.py",
+            "sha256": "f258ecb531ba16aafd11f7b8f822ff1dcf5d92d807d7c5b58f291d42f7b4ab06"
+          },
+          {
+            "path": "work/expanded/A06_DS_V4p1_Flash_ExternalPrompt/cglmp5_audit/PHASE_A_OUTPUT/RUN_RECEIPTS/R01_chk_sos_identity.txt",
+            "sha256": "9d8af31407c657f9dbe157d8da705f3144941330302cc00cc2ef46eb861d975e"
+          }
+        ]
+      }
+    ],
+    "source_lane": "nc",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A06",
+    "workflow_model_label": "DS V4.1 Flash / external",
+    "node": 4,
+    "node_description": "Strict reality/positivity and Gram/LDL role",
+    "evidence_records": [
+      {
+        "auditor": "A06",
+        "nodes": [
+          2,
+          4
+        ],
+        "inspection": "internally inspected source plus relevant receipts/mutations/failures; scoped field lane",
+        "ancestry": "Own tower Fraction engine, explicitly verified Gaussian inverses; shared cglib across routes",
+        "largest_root_actual_embedding": "Monotonicity/A²−5B²; frozen boxes rechecked, not regenerated; other-root sensitivity numerical",
+        "strict_reality_positivity": "Own Fraction monomial interval engine on supplied boxes; exact reality; formatting pivot checks share same engine",
+        "Gram_LDL": "Exact LDL and sparse accumulated Gram equality; 17 surviving words is not failure to accumulate canceled support",
+        "independence_tags": [
+          "independent analytic re-derivation",
+          "independent exact reimplementation"
+        ],
+        "source_evidence": [
+          {
+            "path": "work/expanded/A06_DS_V4p1_Flash_ExternalPrompt/cglmp5_audit/PHASE_A_OUTPUT/INDEPENDENT_CHECKS/cglib_audit.py",
+            "sha256": "f5736db1e42d4ed4bd5f843d4ccf29e089296b63640adedd277ba7a5b0ee6822",
+            "bytes": 8650
+          },
+          {
+            "path": "work/expanded/A06_DS_V4p1_Flash_ExternalPrompt/cglmp5_audit/PHASE_A_OUTPUT/INDEPENDENT_CHECKS/chk_positivity_and_root.py",
+            "sha256": "5af6ee011e7967dae33e3a1c67d4435070d4b66df6fc0d8c6b057d4db16a7186",
+            "bytes": 6523
+          },
+          {
+            "path": "work/expanded/A06_DS_V4p1_Flash_ExternalPrompt/cglmp5_audit/PHASE_A_OUTPUT/INDEPENDENT_CHECKS/chk_gram_ldl.py",
+            "sha256": "3b4b88069151bb713f23ca3764439ec592332ec511de41b8f4b879537adf9468",
+            "bytes": 6300
+          },
+          {
+            "path": "work/expanded/A06_DS_V4p1_Flash_ExternalPrompt/cglmp5_audit/PHASE_A_OUTPUT/INDEPENDENT_CHECKS/chk_format_consistency.py",
+            "sha256": "5970be7ff8b5c30832b26a393a95c6c846f268b0e2a7d073362932761a1c97dd",
+            "bytes": 6148
+          },
+          {
+            "path": "work/expanded/A06_DS_V4p1_Flash_ExternalPrompt/cglmp5_audit/PHASE_A_OUTPUT/INDEPENDENT_CHECKS/chk_root_sensitivity.py",
+            "sha256": "519c5d13a47327a204c9baac1dd7cc22c78a303915867eeca9bac060eb1d074a",
+            "bytes": 2769
+          }
+        ],
+        "shared_dependencies": [
+          "Python integer/Fraction semantics or arithmetic backend",
+          "frozen scalar encoding and exact values",
+          "documented relation/embedding interpretation"
+        ],
+        "Phase_B_replayed": false,
+        "Phase_B_replay_scope": "no complete audit replay in this lane"
+      }
+    ],
+    "source_lane": "field",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A06",
+    "workflow_model_label": "DS V4.1 Flash / external",
+    "node": 5,
+    "node_description": "Universal bounded-representation implication",
+    "evidence_records": [
+      {
+        "auditor": "A06",
+        "node": 5,
+        "evidence_type": "independent analytic re-derivation",
+        "ancestry": "shared finite SOS/positive-real-weight premise; no finite-matrix test proves universal quantifier",
+        "raw_receipts_inspected": true,
+        "phase_b_replay": false,
+        "independence": "Implementation distinctions do not make background Hilbert-space argument or SOS premise independent",
+        "gap": "infinite dimensions require analytic argument; finite tests only diagnostic"
+      }
+    ],
+    "source_lane": "bridge",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A06",
+    "workflow_model_label": "DS V4.1 Flash / external",
+    "node": 6,
+    "node_description": "Common-space local POVM bridge, infinite dimensions",
+    "evidence_records": [
+      {
+        "auditor": "A06",
+        "node": 6,
+        "evidence_type": "independent analytic re-derivation + numerical diagnostic + negative controls",
+        "ancestry": "canonical square-root/separate-complement construction",
+        "raw_receipts_inspected": true,
+        "phase_b_replay": true,
+        "independence": "Implementation distinctions do not make background Hilbert-space argument or SOS premise independent",
+        "gap": "infinite dimensions require analytic argument; finite tests only diagnostic"
+      }
+    ],
+    "source_lane": "bridge",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A06",
+    "workflow_model_label": "DS V4.1 Flash / external",
+    "node": 7,
+    "node_description": "Exact physical full25D attainment and saturation",
+    "evidence_records": [
+      {
+        "auditor": "A06",
+        "node1_literal_convention": "Native cglib exact event/cyclic/DFT;200 random operator/Born checks",
+        "node7_exact_full25_attainment": "Exact Fourier projectors;25-coordinate with explicit leakage guard;exact Born",
+        "node9_numerical_falsification": "31-start rank-one PVM NM;600 valid spectral-unitary dim scans;400 mixed search contains105 invalid PVM samples",
+        "implementation_ancestry": "All exact tests share cglib;mpmath/numpy separate representation but common statement;optimizer statuses suppressed;no certified SDP",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A06",
+    "workflow_model_label": "DS V4.1 Flash / external",
+    "node": 8,
+    "node_description": "Byte/schema/checker-to-theorem binding",
+    "evidence_records": [
+      {
+        "auditor": "A06",
+        "implementation_ancestry": "SymPy-generated radical tower and split-party words; modular test shares reduction table; separate concrete matrices",
+        "shared_dependencies": [
+          "Python runtime/integer semantics",
+          "literal frozen theorem and serialized coefficient convention"
+        ],
+        "node8_byte_schema_checker_binding": {
+          "coverage_types": [
+            "partial/frozen-byte parsing only",
+            "frozen-byte scan / historical account"
+          ],
+          "assessment": "Own encoding scan is permissive and author parser coercion missed; duplicate-key frozen scan exists. No independent strict schema certification from R14. Files require sibling payload staging."
+        },
+        "other_load_bearing_nodes": "Use scientific lane adjudications; this lane verifies source ancestry and evidence scope only, not independent theorem certification.",
+        "node9_numerics_evidence_policy": "Diagnostic falsification only; require actual residual/status and convergence/feasibility evidence, never count finite search as universal proof.",
+        "final": true
+      }
+    ],
+    "source_lane": "schema",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A06",
+    "workflow_model_label": "DS V4.1 Flash / external",
+    "node": 9,
+    "node_description": "Numerics/optimization/SDP/near-counterexample scope",
+    "evidence_records": [
+      {
+        "auditor": "A06",
+        "node1_literal_convention": "Native cglib exact event/cyclic/DFT;200 random operator/Born checks",
+        "node7_exact_full25_attainment": "Exact Fourier projectors;25-coordinate with explicit leakage guard;exact Born",
+        "node9_numerical_falsification": "31-start rank-one PVM NM;600 valid spectral-unitary dim scans;400 mixed search contains105 invalid PVM samples",
+        "implementation_ancestry": "All exact tests share cglib;mpmath/numpy separate representation but common statement;optimizer statuses suppressed;no certified SDP",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A07",
+    "workflow_model_label": "SpaceBunny / external",
+    "node": 1,
+    "node_description": "Literal probability convention to Bell operator",
+    "evidence_records": [
+      {
+        "auditor": "A07",
+        "node1_literal_convention": "625 assignments exact Fractions;DFT numeric;sign/translational probes",
+        "node7_exact_full25_attainment": "Numerical only lower bound;first v1 invalid;v2 valid fixture hides generic odd-edge ordering error",
+        "node9_numerical_falsification": "Mostly product-state restricted;d>5 incomplete samples;12 valid generic spectra;fixed-measurement Schmidt hillclimb",
+        "implementation_ancestry": "Integer exact SOS is separate from numeric strategy, but attainer is not an independent exact reconstruction;numeric branch fixed conventions share one author interpretation",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A07",
+    "workflow_model_label": "SpaceBunny / external",
+    "node": 2,
+    "node_description": "Largest root and actual algebraic embedding",
+    "evidence_records": [
+      {
+        "auditor": "A07",
+        "nodes": [
+          2,
+          4
+        ],
+        "inspection": "internally inspected source plus relevant receipts/mutations/failures; scoped field lane",
+        "ancestry": "Own cyclotomic/cubic integer engine, same algebraic representation as supplied final engine but different code",
+        "largest_root_actual_embedding": "Exact symbolic bridge/division and monotonicity/Sturm; initial prefactor and decimal errors corrected; branches otherwise numerical",
+        "strict_reality_positivity": "Numerical diagnostic only in independent lane; rigorous interval positivity is author replay; binary MU before mpmath limits effective precision",
+        "Gram_LDL": "Author replay/structural read only; compact proof bypasses Gram but does not verify Gram bytes",
+        "independence_tags": [
+          "independent analytic re-derivation",
+          "numerical diagnostic",
+          "author replay only for rigorous signs"
+        ],
+        "source_evidence": [
+          {
+            "path": "work/expanded/A07_SpaceBunny_ExternalPrompt/AUDIT_OUTPUT/INDEPENDENT_CHECKS/b_root_embedding.py",
+            "sha256": "77267f5eb696b963cb545597ca02ad6aae4c100b2988a061ea89b08cab6db534",
+            "bytes": 6775
+          },
+          {
+            "path": "work/expanded/A07_SpaceBunny_ExternalPrompt/AUDIT_OUTPUT/INDEPENDENT_CHECKS/b_root_embedding_correction.py",
+            "sha256": "1848718c2c45c5b6930d6ee9c5e5c72167b8e2f1b1ff9a2c24d43498611327a6",
+            "bytes": 3015
+          },
+          {
+            "path": "work/expanded/A07_SpaceBunny_ExternalPrompt/AUDIT_OUTPUT/INDEPENDENT_CHECKS/c_sos_exact_integer.py",
+            "sha256": "0bd748964bce3df7254cc5a202bd1d7e90f220acf9a05d38a7fdd1e245668c6c",
+            "bytes": 11599
+          },
+          {
+            "path": "work/expanded/A07_SpaceBunny_ExternalPrompt/AUDIT_OUTPUT/INDEPENDENT_CHECKS/cd_noncommutative_and_positivity.py",
+            "sha256": "0bb0751455ff82bac9d4dd41159b1e364ec2887485b106f8f42d4c4ee58fadef",
+            "bytes": 7241
+          },
+          {
+            "path": "work/expanded/A07_SpaceBunny_ExternalPrompt/AUDIT_OUTPUT/INDEPENDENT_CHECKS/g_mutation_controls.py",
+            "sha256": "2554ebf40dc8d8e35e9d9e0ec23872fec8b0a7096a759e0f82889e29cb5aacee",
+            "bytes": 7529
+          },
+          {
+            "path": "work/expanded/A07_SpaceBunny_ExternalPrompt/AUDIT_OUTPUT/INDEPENDENT_CHECKS/i_exhaustion_gate.py",
+            "sha256": "705fd5ccd2a156c43a130286b9c2496faf04e4546fb32189e87ff0f0033fadd7",
+            "bytes": 7420
+          }
+        ],
+        "shared_dependencies": [
+          "Python integer/Fraction semantics or arithmetic backend",
+          "frozen scalar encoding and exact values",
+          "documented relation/embedding interpretation"
+        ],
+        "Phase_B_replayed": false,
+        "Phase_B_replay_scope": "no complete audit replay in this lane"
+      }
+    ],
+    "source_lane": "field",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A07",
+    "workflow_model_label": "SpaceBunny / external",
+    "node": 3,
+    "node_description": "Exact NC SOS and same-party ordering",
+    "evidence_records": [
+      {
+        "auditor": "A07",
+        "node": 3,
+        "independent_exact_reimplementation": "final integer cyclotomic+cubic vector engine using common L^3 denominator",
+        "normal_form": "per-party stack",
+        "implementation_ancestry": "No author imports, but same cyclotomic basis/presentation as author; failed earlier rational path not independent success",
+        "target_dependency": "cyclic DFT and wrap phase",
+        "finite_field_modular_control": "not covered",
+        "concrete_matrix_representation": "9 full SOS matrix reps d<=15; 6 additional Bell-only reps",
+        "limits": "Integer replay PASS; numeric probe crashes after results; no rigorous positivity or independent Gram reconstruction credit",
+        "evidence": [
+          {
+            "path": "work/expanded/A07_SpaceBunny_ExternalPrompt/AUDIT_OUTPUT/INDEPENDENT_CHECKS/c_sos_exact_integer.py",
+            "sha256": "0bd748964bce3df7254cc5a202bd1d7e90f220acf9a05d38a7fdd1e245668c6c"
+          },
+          {
+            "path": "work/expanded/A07_SpaceBunny_ExternalPrompt/AUDIT_OUTPUT/INDEPENDENT_CHECKS/c_sos_independent.py",
+            "sha256": "b02785106edda308ffaffe72116882a696278611dd72bf5e8922e89f7ed1259f"
+          },
+          {
+            "path": "work/expanded/A07_SpaceBunny_ExternalPrompt/AUDIT_OUTPUT/INDEPENDENT_CHECKS/cd_noncommutative_and_positivity.py",
+            "sha256": "0bb0751455ff82bac9d4dd41159b1e364ec2887485b106f8f42d4c4ee58fadef"
+          },
+          {
+            "path": "work/expanded/A07_SpaceBunny_ExternalPrompt/AUDIT_OUTPUT/RUN_RECEIPTS/C_exact_receipt.txt",
+            "sha256": "2f588309f6dcd27fb4ac09d7c4de533df6cd95209323537331506b3a62246f68"
+          }
+        ]
+      }
+    ],
+    "source_lane": "nc",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A07",
+    "workflow_model_label": "SpaceBunny / external",
+    "node": 4,
+    "node_description": "Strict reality/positivity and Gram/LDL role",
+    "evidence_records": [
+      {
+        "auditor": "A07",
+        "nodes": [
+          2,
+          4
+        ],
+        "inspection": "internally inspected source plus relevant receipts/mutations/failures; scoped field lane",
+        "ancestry": "Own cyclotomic/cubic integer engine, same algebraic representation as supplied final engine but different code",
+        "largest_root_actual_embedding": "Exact symbolic bridge/division and monotonicity/Sturm; initial prefactor and decimal errors corrected; branches otherwise numerical",
+        "strict_reality_positivity": "Numerical diagnostic only in independent lane; rigorous interval positivity is author replay; binary MU before mpmath limits effective precision",
+        "Gram_LDL": "Author replay/structural read only; compact proof bypasses Gram but does not verify Gram bytes",
+        "independence_tags": [
+          "independent analytic re-derivation",
+          "numerical diagnostic",
+          "author replay only for rigorous signs"
+        ],
+        "source_evidence": [
+          {
+            "path": "work/expanded/A07_SpaceBunny_ExternalPrompt/AUDIT_OUTPUT/INDEPENDENT_CHECKS/b_root_embedding.py",
+            "sha256": "77267f5eb696b963cb545597ca02ad6aae4c100b2988a061ea89b08cab6db534",
+            "bytes": 6775
+          },
+          {
+            "path": "work/expanded/A07_SpaceBunny_ExternalPrompt/AUDIT_OUTPUT/INDEPENDENT_CHECKS/b_root_embedding_correction.py",
+            "sha256": "1848718c2c45c5b6930d6ee9c5e5c72167b8e2f1b1ff9a2c24d43498611327a6",
+            "bytes": 3015
+          },
+          {
+            "path": "work/expanded/A07_SpaceBunny_ExternalPrompt/AUDIT_OUTPUT/INDEPENDENT_CHECKS/c_sos_exact_integer.py",
+            "sha256": "0bd748964bce3df7254cc5a202bd1d7e90f220acf9a05d38a7fdd1e245668c6c",
+            "bytes": 11599
+          },
+          {
+            "path": "work/expanded/A07_SpaceBunny_ExternalPrompt/AUDIT_OUTPUT/INDEPENDENT_CHECKS/cd_noncommutative_and_positivity.py",
+            "sha256": "0bb0751455ff82bac9d4dd41159b1e364ec2887485b106f8f42d4c4ee58fadef",
+            "bytes": 7241
+          },
+          {
+            "path": "work/expanded/A07_SpaceBunny_ExternalPrompt/AUDIT_OUTPUT/INDEPENDENT_CHECKS/g_mutation_controls.py",
+            "sha256": "2554ebf40dc8d8e35e9d9e0ec23872fec8b0a7096a759e0f82889e29cb5aacee",
+            "bytes": 7529
+          },
+          {
+            "path": "work/expanded/A07_SpaceBunny_ExternalPrompt/AUDIT_OUTPUT/INDEPENDENT_CHECKS/i_exhaustion_gate.py",
+            "sha256": "705fd5ccd2a156c43a130286b9c2496faf04e4546fb32189e87ff0f0033fadd7",
+            "bytes": 7420
+          }
+        ],
+        "shared_dependencies": [
+          "Python integer/Fraction semantics or arithmetic backend",
+          "frozen scalar encoding and exact values",
+          "documented relation/embedding interpretation"
+        ],
+        "Phase_B_replayed": false,
+        "Phase_B_replay_scope": "no complete audit replay in this lane"
+      }
+    ],
+    "source_lane": "field",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A07",
+    "workflow_model_label": "SpaceBunny / external",
+    "node": 5,
+    "node_description": "Universal bounded-representation implication",
+    "evidence_records": [
+      {
+        "auditor": "A07",
+        "node": 5,
+        "evidence_type": "independent analytic re-derivation",
+        "ancestry": "shared finite SOS/positive-real-weight premise; no finite-matrix test proves universal quantifier",
+        "raw_receipts_inspected": true,
+        "phase_b_replay": false,
+        "independence": "Implementation distinctions do not make background Hilbert-space argument or SOS premise independent",
+        "gap": "infinite dimensions require analytic argument; finite tests only diagnostic"
+      }
+    ],
+    "source_lane": "bridge",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A07",
+    "workflow_model_label": "SpaceBunny / external",
+    "node": 6,
+    "node_description": "Common-space local POVM bridge, infinite dimensions",
+    "evidence_records": [
+      {
+        "auditor": "A07",
+        "node": 6,
+        "evidence_type": "invalid claimed numerical common-space test; prose-level baseline bridge acknowledgment",
+        "ancestry": "setting-dependent isometries, not aligned; cannot credit as common-state implementation",
+        "raw_receipts_inspected": true,
+        "phase_b_replay": true,
+        "independence": "Implementation distinctions do not make background Hilbert-space argument or SOS premise independent",
+        "gap": "infinite dimensions require analytic argument; finite tests only diagnostic"
+      }
+    ],
+    "source_lane": "bridge",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A07",
+    "workflow_model_label": "SpaceBunny / external",
+    "node": 7,
+    "node_description": "Exact physical full25D attainment and saturation",
+    "evidence_records": [
+      {
+        "auditor": "A07",
+        "node1_literal_convention": "625 assignments exact Fractions;DFT numeric;sign/translational probes",
+        "node7_exact_full25_attainment": "Numerical only lower bound;first v1 invalid;v2 valid fixture hides generic odd-edge ordering error",
+        "node9_numerical_falsification": "Mostly product-state restricted;d>5 incomplete samples;12 valid generic spectra;fixed-measurement Schmidt hillclimb",
+        "implementation_ancestry": "Integer exact SOS is separate from numeric strategy, but attainer is not an independent exact reconstruction;numeric branch fixed conventions share one author interpretation",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A07",
+    "workflow_model_label": "SpaceBunny / external",
+    "node": 8,
+    "node_description": "Byte/schema/checker-to-theorem binding",
+    "evidence_records": [
+      {
+        "auditor": "A07",
+        "implementation_ancestry": "Independently coded cyclotomic/cubic integer representation, same family as supplied author engine; shared word semantics with numerical probe",
+        "shared_dependencies": [
+          "Python runtime/integer semantics",
+          "literal frozen theorem and serialized coefficient convention"
+        ],
+        "node8_byte_schema_checker_binding": {
+          "coverage_types": [
+            "partial/frozen-byte parsing only",
+            "mutation / negative control"
+          ],
+          "assessment": "Plain JSON/int coercion; no robust duplicate/type schema. Source/receipt mismatches and exit0 FAIL; hardcoded paths. Exact residual calculation valid scope only, metadata/Gram/branch coverage overstated."
+        },
+        "other_load_bearing_nodes": "Use scientific lane adjudications; this lane verifies source ancestry and evidence scope only, not independent theorem certification.",
+        "node9_numerics_evidence_policy": "Diagnostic falsification only; require actual residual/status and convergence/feasibility evidence, never count finite search as universal proof.",
+        "final": true
+      }
+    ],
+    "source_lane": "schema",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "A07",
+    "workflow_model_label": "SpaceBunny / external",
+    "node": 9,
+    "node_description": "Numerics/optimization/SDP/near-counterexample scope",
+    "evidence_records": [
+      {
+        "auditor": "A07",
+        "node1_literal_convention": "625 assignments exact Fractions;DFT numeric;sign/translational probes",
+        "node7_exact_full25_attainment": "Numerical only lower bound;first v1 invalid;v2 valid fixture hides generic odd-edge ordering error",
+        "node9_numerical_falsification": "Mostly product-state restricted;d>5 incomplete samples;12 valid generic spectra;fixed-measurement Schmidt hillclimb",
+        "implementation_ancestry": "Integer exact SOS is separate from numeric strategy, but attainer is not an independent exact reconstruction;numeric branch fixed conventions share one author interpretation",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H01",
+    "workflow_model_label": "Historical Web6Pro",
+    "node": 1,
+    "node_description": "Literal probability convention to Bell operator",
+    "evidence_records": [
+      {
+        "auditor": "H01",
+        "node1_literal_convention": "Exact100 original eventcoefficients,625 assignments,DFT",
+        "node7_exact_full25_attainment": "Full625 entries compared to operator form;25 coords;28R/adjoint plus28 kernel/adjoint vectors",
+        "node9_numerical_falsification": "No broad numerical optimization needed for its exact scope",
+        "implementation_ancestry": "Cyclotomic-cubic integer/common-denominator engine;crosscheck radical-tower is second arithmetic/reducer but shares input target, field relations",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H01",
+    "workflow_model_label": "Historical Web6Pro",
+    "node": 2,
+    "node_description": "Largest root and actual algebraic embedding",
+    "evidence_records": [
+      {
+        "auditor": "H01",
+        "nodes": [
+          2,
+          4
+        ],
+        "inspection": "internally inspected source plus relevant receipts/mutations/failures; scoped field lane",
+        "ancestry": "Two own implementations: cyclotomic/common denominator; recursive radical tower. Same auditor, distinct arithmetic algorithms",
+        "largest_root_actual_embedding": "Monotonicity/branch checks; first frozen boxes; second fresh 300 bisections",
+        "strict_reality_positivity": "Tower monomial plus cyclotomic complex rectangles; second independent tower check >1/3000, but mathematical sign method family still interval arithmetic",
+        "Gram_LDL": "42 LDL entries, phase/EL maps and full Gram identity in first engine; second compact only",
+        "independence_tags": [
+          "independent analytic re-derivation",
+          "independent exact reimplementation"
+        ],
+        "source_evidence": [
+          {
+            "path": "work/expanded/H01_Web6Pro_independent_audit/CGLMP5_independent_audit/audit.py",
+            "sha256": "e62763b13b0dbba0ff38f2c01fc7c1efb68feee27051a334f381f57ebc41407c",
+            "bytes": 29028
+          },
+          {
+            "path": "work/expanded/H01_Web6Pro_independent_audit/CGLMP5_independent_audit/crosscheck.py",
+            "sha256": "98600f8a694821ad10c728bb7f906150bf294688562b57c1ef11f5074a32d22b",
+            "bytes": 8444
+          },
+          {
+            "path": "work/expanded/H01_Web6Pro_independent_audit/CGLMP5_independent_audit/negative_controls.py",
+            "sha256": "9343f4e8ecba40d22491a560562009ca28e2f96abc7dfe8c99274774a11dca27",
+            "bytes": 2608
+          }
+        ],
+        "shared_dependencies": [
+          "Python integer/Fraction semantics or arithmetic backend",
+          "frozen scalar encoding and exact values",
+          "documented relation/embedding interpretation"
+        ],
+        "Phase_B_replayed": false,
+        "Phase_B_replay_scope": "no complete audit replay in this lane"
+      }
+    ],
+    "source_lane": "field",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H01",
+    "workflow_model_label": "Historical Web6Pro",
+    "node": 3,
+    "node_description": "Exact NC SOS and same-party ordering",
+    "evidence_records": [
+      {
+        "auditor": "H01",
+        "node": 3,
+        "independent_exact_reimplementation": "cyclotomic+cubic audit.py and distinct radical-tower crosscheck.py",
+        "normal_form": "per-party pairs and separately adjacent-swapping reducer",
+        "implementation_ancestry": "Two standalone sources, no mutual imports; negative_controls imports audit.py",
+        "target_dependency": "both direct 100-event spectral DFT",
+        "finite_field_modular_control": "not covered",
+        "concrete_matrix_representation": "full exact physical matrix/attainer is lower-bound route, not generic representation control",
+        "limits": "Two engines share raw certificate/specification and integer-coercion parser permissiveness",
+        "evidence": [
+          {
+            "path": "work/expanded/H01_Web6Pro_independent_audit/CGLMP5_independent_audit/audit.py",
+            "sha256": "e62763b13b0dbba0ff38f2c01fc7c1efb68feee27051a334f381f57ebc41407c"
+          },
+          {
+            "path": "work/expanded/H01_Web6Pro_independent_audit/CGLMP5_independent_audit/crosscheck.py",
+            "sha256": "98600f8a694821ad10c728bb7f906150bf294688562b57c1ef11f5074a32d22b"
+          },
+          {
+            "path": "work/expanded/H01_Web6Pro_independent_audit/CGLMP5_independent_audit/audit_results.json",
+            "sha256": "0c88ce6a7a26080e6ded375c1e73c576e7ea5a2274507808bc8a2448f6ac81b9"
+          },
+          {
+            "path": "work/expanded/H01_Web6Pro_independent_audit/CGLMP5_independent_audit/crosscheck_results.json",
+            "sha256": "9cec9249955ae4b77ef1ee20096cbe69fe93757c7d4aa569d50c1bec2daa0d14"
+          },
+          {
+            "path": "work/expanded/H01_Web6Pro_independent_audit/CGLMP5_independent_audit/negative_control_results.json",
+            "sha256": "69db5133149afb3d2dd2d7d7a786744ee05fdebc9e539ed35683351017bf3b81"
+          }
+        ]
+      }
+    ],
+    "source_lane": "nc",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H01",
+    "workflow_model_label": "Historical Web6Pro",
+    "node": 4,
+    "node_description": "Strict reality/positivity and Gram/LDL role",
+    "evidence_records": [
+      {
+        "auditor": "H01",
+        "nodes": [
+          2,
+          4
+        ],
+        "inspection": "internally inspected source plus relevant receipts/mutations/failures; scoped field lane",
+        "ancestry": "Two own implementations: cyclotomic/common denominator; recursive radical tower. Same auditor, distinct arithmetic algorithms",
+        "largest_root_actual_embedding": "Monotonicity/branch checks; first frozen boxes; second fresh 300 bisections",
+        "strict_reality_positivity": "Tower monomial plus cyclotomic complex rectangles; second independent tower check >1/3000, but mathematical sign method family still interval arithmetic",
+        "Gram_LDL": "42 LDL entries, phase/EL maps and full Gram identity in first engine; second compact only",
+        "independence_tags": [
+          "independent analytic re-derivation",
+          "independent exact reimplementation"
+        ],
+        "source_evidence": [
+          {
+            "path": "work/expanded/H01_Web6Pro_independent_audit/CGLMP5_independent_audit/audit.py",
+            "sha256": "e62763b13b0dbba0ff38f2c01fc7c1efb68feee27051a334f381f57ebc41407c",
+            "bytes": 29028
+          },
+          {
+            "path": "work/expanded/H01_Web6Pro_independent_audit/CGLMP5_independent_audit/crosscheck.py",
+            "sha256": "98600f8a694821ad10c728bb7f906150bf294688562b57c1ef11f5074a32d22b",
+            "bytes": 8444
+          },
+          {
+            "path": "work/expanded/H01_Web6Pro_independent_audit/CGLMP5_independent_audit/negative_controls.py",
+            "sha256": "9343f4e8ecba40d22491a560562009ca28e2f96abc7dfe8c99274774a11dca27",
+            "bytes": 2608
+          }
+        ],
+        "shared_dependencies": [
+          "Python integer/Fraction semantics or arithmetic backend",
+          "frozen scalar encoding and exact values",
+          "documented relation/embedding interpretation"
+        ],
+        "Phase_B_replayed": false,
+        "Phase_B_replay_scope": "no complete audit replay in this lane"
+      }
+    ],
+    "source_lane": "field",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H01",
+    "workflow_model_label": "Historical Web6Pro",
+    "node": 5,
+    "node_description": "Universal bounded-representation implication",
+    "evidence_records": [
+      {
+        "auditor": "H01",
+        "node": 5,
+        "evidence_type": "independent analytic re-derivation",
+        "ancestry": "shared finite SOS/positive-real-weight premise; no finite-matrix test proves universal quantifier",
+        "raw_receipts_inspected": true,
+        "phase_b_replay": false,
+        "independence": "Implementation distinctions do not make background Hilbert-space argument or SOS premise independent",
+        "gap": "infinite dimensions require analytic argument; finite tests only diagnostic"
+      }
+    ],
+    "source_lane": "bridge",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H01",
+    "workflow_model_label": "Historical Web6Pro",
+    "node": 6,
+    "node_description": "Common-space local POVM bridge, infinite dimensions",
+    "evidence_records": [
+      {
+        "auditor": "H01",
+        "node": 6,
+        "evidence_type": "analytic re-derivation/review",
+        "ancestry": "baseline separate complements and tensor compression",
+        "raw_receipts_inspected": true,
+        "phase_b_replay": false,
+        "independence": "Implementation distinctions do not make background Hilbert-space argument or SOS premise independent",
+        "gap": "infinite dimensions require analytic argument; finite tests only diagnostic"
+      }
+    ],
+    "source_lane": "bridge",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H01",
+    "workflow_model_label": "Historical Web6Pro",
+    "node": 7,
+    "node_description": "Exact physical full25D attainment and saturation",
+    "evidence_records": [
+      {
+        "auditor": "H01",
+        "node1_literal_convention": "Exact100 original eventcoefficients,625 assignments,DFT",
+        "node7_exact_full25_attainment": "Full625 entries compared to operator form;25 coords;28R/adjoint plus28 kernel/adjoint vectors",
+        "node9_numerical_falsification": "No broad numerical optimization needed for its exact scope",
+        "implementation_ancestry": "Cyclotomic-cubic integer/common-denominator engine;crosscheck radical-tower is second arithmetic/reducer but shares input target, field relations",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H01",
+    "workflow_model_label": "Historical Web6Pro",
+    "node": 8,
+    "node_description": "Byte/schema/checker-to-theorem binding",
+    "evidence_records": [
+      {
+        "auditor": "H01",
+        "implementation_ancestry": "Standalone cyclotomic/cubic audit plus separately written radical-tower adjacent-rewrite crosscheck, standard library",
+        "shared_dependencies": [
+          "Python runtime/integer semantics",
+          "literal frozen theorem and serialized coefficient convention"
+        ],
+        "node8_byte_schema_checker_binding": {
+          "coverage_types": [
+            "partial/frozen-byte parsing only",
+            "mutation / negative control"
+          ],
+          "assessment": "Both exact parsers int-coerce and ordinary JSON; no full strict schema mutation claim. Crosscheck explicitly refuses -O; main require() raises explicitly."
+        },
+        "other_load_bearing_nodes": "Use scientific lane adjudications; this lane verifies source ancestry and evidence scope only, not independent theorem certification.",
+        "node9_numerics_evidence_policy": "Diagnostic falsification only; require actual residual/status and convergence/feasibility evidence, never count finite search as universal proof.",
+        "final": true
+      }
+    ],
+    "source_lane": "schema",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H01",
+    "workflow_model_label": "Historical Web6Pro",
+    "node": 9,
+    "node_description": "Numerics/optimization/SDP/near-counterexample scope",
+    "evidence_records": [
+      {
+        "auditor": "H01",
+        "node1_literal_convention": "Exact100 original eventcoefficients,625 assignments,DFT",
+        "node7_exact_full25_attainment": "Full625 entries compared to operator form;25 coords;28R/adjoint plus28 kernel/adjoint vectors",
+        "node9_numerical_falsification": "No broad numerical optimization needed for its exact scope",
+        "implementation_ancestry": "Cyclotomic-cubic integer/common-denominator engine;crosscheck radical-tower is second arithmetic/reducer but shares input target, field relations",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H02",
+    "workflow_model_label": "Historical integrated verification",
+    "node": 1,
+    "node_description": "Literal probability convention to Bell operator",
+    "evidence_records": [
+      {
+        "auditor": "H02",
+        "node1_literal_convention": "Historical report of100/625 checks, not a fresh code run by this lane",
+        "node7_exact_full25_attainment": "Historical exact25d/28kernel report;unguided reconstruction explicitly lower-bound only",
+        "node9_numerical_falsification": "Historical diagnostics only",
+        "implementation_ancestry": "Reported author/internal ancestry;not external certification;full underlying archive review belongs coordinator",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H02",
+    "workflow_model_label": "Historical integrated verification",
+    "node": 2,
+    "node_description": "Largest root and actual algebraic embedding",
+    "evidence_records": [
+      {
+        "auditor": "H02",
+        "nodes": [
+          2,
+          4
+        ],
+        "inspection": "record fully read; release-embedded historical algebra source relevant sections and raw receipts inspected",
+        "ancestry": "Internal post-one-shot algebra worker: separate recursive tower, common discovery representation; not human/team external validation",
+        "largest_root_actual_embedding": "Analytic monotonicity/branch; actual relation checks",
+        "strict_reality_positivity": "Fraction monomial intervals",
+        "Gram_LDL": "Full Gram and LDL independent from author code, but same sign method family"
+      }
+    ],
+    "source_lane": "field",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H02",
+    "workflow_model_label": "Historical integrated verification",
+    "node": 3,
+    "node_description": "Exact NC SOS and same-party ordering",
+    "evidence_records": [
+      {
+        "auditor": "H02",
+        "node": 3,
+        "independent_exact_reimplementation": "historical native radical tower audit source in BASE-RELEASE",
+        "normal_form": "per-party reduced pairs",
+        "implementation_ancestry": "Separate from author cyclotomic checker but same published tower presentation and originating model lineage",
+        "target_dependency": "independent exact cyclic/Gram audit per source",
+        "finite_field_modular_control": "not covered",
+        "concrete_matrix_representation": "historical six matrix diagnostics per record",
+        "limits": "Do not count prose record as new execution; source/receipts checked separately",
+        "evidence": [
+          {
+            "path": "work/expanded/CGLMP5_v0.1_C001/CGLMP5_v0.1/verification/receipts/audit_algebra/audit_exact.py",
+            "sha256": "0d6f4f59a2dad96dbc3529d5a2b6a6680d5b0e7e34364bf986d3ecff12c3d851"
+          },
+          {
+            "path": "work/expanded/CGLMP5_v0.1_C001/CGLMP5_v0.1/verification/receipts/audit_algebra/independent_results.json",
+            "sha256": "08b06452f7296aaf7fa3e331a1c5a13d698cef5ca86c1a14c6da97bd9f843466"
+          },
+          {
+            "path": "work/expanded/CGLMP5_v0.1_C001/CGLMP5_v0.1/verification/receipts/audit_algebra/attack_results.json",
+            "sha256": "c01ac85d0ee735f0c4aed8835067c2f1a94bd341d05572174679879f23463fc9"
+          },
+          {
+            "path": "work/expanded/CGLMP5_v0.1_C001/CGLMP5_v0.1/verification/receipts/audit_algebra/REPORT.md",
+            "sha256": "a4875314b3ce9542ede3b1e48b9be46f3d52adf2c0713cc1c12100342ecbe7d5"
+          }
+        ]
+      }
+    ],
+    "source_lane": "nc",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H02",
+    "workflow_model_label": "Historical integrated verification",
+    "node": 4,
+    "node_description": "Strict reality/positivity and Gram/LDL role",
+    "evidence_records": [
+      {
+        "auditor": "H02",
+        "nodes": [
+          2,
+          4
+        ],
+        "inspection": "record fully read; release-embedded historical algebra source relevant sections and raw receipts inspected",
+        "ancestry": "Internal post-one-shot algebra worker: separate recursive tower, common discovery representation; not human/team external validation",
+        "largest_root_actual_embedding": "Analytic monotonicity/branch; actual relation checks",
+        "strict_reality_positivity": "Fraction monomial intervals",
+        "Gram_LDL": "Full Gram and LDL independent from author code, but same sign method family"
+      }
+    ],
+    "source_lane": "field",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H02",
+    "workflow_model_label": "Historical integrated verification",
+    "node": 5,
+    "node_description": "Universal bounded-representation implication",
+    "evidence_records": [
+      {
+        "auditor": "H02",
+        "node": 5,
+        "evidence_type": "historical analytic review",
+        "ancestry": "shared finite SOS/positive-real-weight premise; no finite-matrix test proves universal quantifier",
+        "raw_receipts_inspected": false,
+        "phase_b_replay": false,
+        "independence": "Implementation distinctions do not make background Hilbert-space argument or SOS premise independent",
+        "gap": "infinite dimensions require analytic argument; finite tests only diagnostic"
+      }
+    ],
+    "source_lane": "bridge",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H02",
+    "workflow_model_label": "Historical integrated verification",
+    "node": 6,
+    "node_description": "Common-space local POVM bridge, infinite dimensions",
+    "evidence_records": [
+      {
+        "auditor": "H02",
+        "node": 6,
+        "evidence_type": "analytic re-derivation/review",
+        "ancestry": "baseline separate complements and tensor compression",
+        "raw_receipts_inspected": false,
+        "phase_b_replay": false,
+        "independence": "Implementation distinctions do not make background Hilbert-space argument or SOS premise independent",
+        "gap": "infinite dimensions require analytic argument; finite tests only diagnostic"
+      }
+    ],
+    "source_lane": "bridge",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H02",
+    "workflow_model_label": "Historical integrated verification",
+    "node": 7,
+    "node_description": "Exact physical full25D attainment and saturation",
+    "evidence_records": [
+      {
+        "auditor": "H02",
+        "node1_literal_convention": "Historical report of100/625 checks, not a fresh code run by this lane",
+        "node7_exact_full25_attainment": "Historical exact25d/28kernel report;unguided reconstruction explicitly lower-bound only",
+        "node9_numerical_falsification": "Historical diagnostics only",
+        "implementation_ancestry": "Reported author/internal ancestry;not external certification;full underlying archive review belongs coordinator",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H02",
+    "workflow_model_label": "Historical integrated verification",
+    "node": 8,
+    "node_description": "Byte/schema/checker-to-theorem binding",
+    "evidence_records": [
+      {
+        "auditor": "H02",
+        "implementation_ancestry": "Earlier author/post-one-shot coordinator and separated-context AI audits; historical discovery overlap disclosed",
+        "shared_dependencies": [
+          "Python runtime/integer semantics",
+          "literal frozen theorem and serialized coefficient convention"
+        ],
+        "node8_byte_schema_checker_binding": {
+          "coverage_types": [
+            "partial/frozen-byte parsing only",
+            "frozen-byte scan / historical account"
+          ],
+          "assessment": "Historical ALG-01 led to strict preflight. No source-level system isolation or authenticated full input history. Supplied narrative supplemented by preserved BASE-RELEASE source/receipts."
+        },
+        "other_load_bearing_nodes": "Use scientific lane adjudications; this lane verifies source ancestry and evidence scope only, not independent theorem certification.",
+        "node9_numerics_evidence_policy": "Diagnostic falsification only; require actual residual/status and convergence/feasibility evidence, never count finite search as universal proof.",
+        "final": true
+      }
+    ],
+    "source_lane": "schema",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H02",
+    "workflow_model_label": "Historical integrated verification",
+    "node": 9,
+    "node_description": "Numerics/optimization/SDP/near-counterexample scope",
+    "evidence_records": [
+      {
+        "auditor": "H02",
+        "node1_literal_convention": "Historical report of100/625 checks, not a fresh code run by this lane",
+        "node7_exact_full25_attainment": "Historical exact25d/28kernel report;unguided reconstruction explicitly lower-bound only",
+        "node9_numerical_falsification": "Historical diagnostics only",
+        "implementation_ancestry": "Reported author/internal ancestry;not external certification;full underlying archive review belongs coordinator",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H03",
+    "workflow_model_label": "Author-side kill tests",
+    "node": 1,
+    "node_description": "Literal probability convention to Bell operator",
+    "evidence_records": [
+      {
+        "auditor": "H03",
+        "node1_literal_convention": "Author mutation source wraps supplied target maker",
+        "node7_exact_full25_attainment": "Mutates gamma/step for rejection using author verifier",
+        "node9_numerical_falsification": "No independent numerical upper-bound inference",
+        "implementation_ancestry": "Author replay only;imports verify_independent",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H03",
+    "workflow_model_label": "Author-side kill tests",
+    "node": 2,
+    "node_description": "Largest root and actual algebraic embedding",
+    "evidence_records": [
+      {
+        "auditor": "H03",
+        "nodes": [
+          2,
+          4
+        ],
+        "inspection": "full source read",
+        "ancestry": "Imports author verify_independent directly",
+        "largest_root_actual_embedding": "Wrong-root/radical-box mutations only, shared author checker",
+        "strict_reality_positivity": "Negative H/D sign control using author check",
+        "Gram_LDL": "No independent exact engine; counted as mutation evidence"
+      }
+    ],
+    "source_lane": "field",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H03",
+    "workflow_model_label": "Author-side kill tests",
+    "node": 3,
+    "node_description": "Exact NC SOS and same-party ordering",
+    "evidence_records": [
+      {
+        "auditor": "H03",
+        "node": 3,
+        "author_replay_only": true,
+        "independent_exact_reimplementation": false,
+        "implementation_ancestry": "imports verify_independent; all mutations reuse author scalar and word engines",
+        "normal_form": "author canon only",
+        "finite_field_modular_control": "not covered",
+        "concrete_matrix_representation": "not covered",
+        "limits": "Ten harmful mutations and two controls test author interfaces, not new implementation",
+        "evidence": [
+          {
+            "path": "work/corpus/CGLMP5_PHASE_B_FINAL/historical_pre_phase_a/H03_original_kill_tests.py",
+            "sha256": "ba178151141acaf84891ef0610b2d3027c135e08a057c62b53151f373ecac8f7"
+          }
+        ]
+      }
+    ],
+    "source_lane": "nc",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H03",
+    "workflow_model_label": "Author-side kill tests",
+    "node": 4,
+    "node_description": "Strict reality/positivity and Gram/LDL role",
+    "evidence_records": [
+      {
+        "auditor": "H03",
+        "nodes": [
+          2,
+          4
+        ],
+        "inspection": "full source read",
+        "ancestry": "Imports author verify_independent directly",
+        "largest_root_actual_embedding": "Wrong-root/radical-box mutations only, shared author checker",
+        "strict_reality_positivity": "Negative H/D sign control using author check",
+        "Gram_LDL": "No independent exact engine; counted as mutation evidence"
+      }
+    ],
+    "source_lane": "field",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H03",
+    "workflow_model_label": "Author-side kill tests",
+    "node": 5,
+    "node_description": "Universal bounded-representation implication",
+    "evidence_records": [
+      {
+        "auditor": "H03",
+        "node": 5,
+        "evidence_type": "not covered",
+        "ancestry": "author verifier negative controls only",
+        "raw_receipts_inspected": false,
+        "phase_b_replay": false,
+        "independence": "Implementation distinctions do not make background Hilbert-space argument or SOS premise independent",
+        "gap": "infinite dimensions require analytic argument; finite tests only diagnostic"
+      }
+    ],
+    "source_lane": "bridge",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H03",
+    "workflow_model_label": "Author-side kill tests",
+    "node": 6,
+    "node_description": "Common-space local POVM bridge, infinite dimensions",
+    "evidence_records": [
+      {
+        "auditor": "H03",
+        "node": 6,
+        "evidence_type": "not covered",
+        "ancestry": "author verifier negative controls only",
+        "raw_receipts_inspected": false,
+        "phase_b_replay": false,
+        "independence": "Implementation distinctions do not make background Hilbert-space argument or SOS premise independent",
+        "gap": "infinite dimensions require analytic argument; finite tests only diagnostic"
+      }
+    ],
+    "source_lane": "bridge",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H03",
+    "workflow_model_label": "Author-side kill tests",
+    "node": 7,
+    "node_description": "Exact physical full25D attainment and saturation",
+    "evidence_records": [
+      {
+        "auditor": "H03",
+        "node1_literal_convention": "Author mutation source wraps supplied target maker",
+        "node7_exact_full25_attainment": "Mutates gamma/step for rejection using author verifier",
+        "node9_numerical_falsification": "No independent numerical upper-bound inference",
+        "implementation_ancestry": "Author replay only;imports verify_independent",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H03",
+    "workflow_model_label": "Author-side kill tests",
+    "node": 8,
+    "node_description": "Byte/schema/checker-to-theorem binding",
+    "evidence_records": [
+      {
+        "auditor": "H03",
+        "implementation_ancestry": "Imports verify_independent author scalar/word/positivity engine",
+        "shared_dependencies": [
+          "Python runtime/integer semantics",
+          "literal frozen theorem and serialized coefficient convention"
+        ],
+        "node8_byte_schema_checker_binding": {
+          "coverage_types": [
+            "author replay only",
+            "mutation / negative control"
+          ],
+          "assessment": "Author-only kill tests; no new arithmetic or parser independence. Writes KILL_TESTS.json in script directory, so run only staged copy."
+        },
+        "other_load_bearing_nodes": "Use scientific lane adjudications; this lane verifies source ancestry and evidence scope only, not independent theorem certification.",
+        "node9_numerics_evidence_policy": "Diagnostic falsification only; require actual residual/status and convergence/feasibility evidence, never count finite search as universal proof.",
+        "final": true
+      }
+    ],
+    "source_lane": "schema",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  },
+  {
+    "auditor": "H03",
+    "workflow_model_label": "Author-side kill tests",
+    "node": 9,
+    "node_description": "Numerics/optimization/SDP/near-counterexample scope",
+    "evidence_records": [
+      {
+        "auditor": "H03",
+        "node1_literal_convention": "Author mutation source wraps supplied target maker",
+        "node7_exact_full25_attainment": "Mutates gamma/step for rejection using author verifier",
+        "node9_numerical_falsification": "No independent numerical upper-bound inference",
+        "implementation_ancestry": "Author replay only;imports verify_independent",
+        "other_load_bearing_nodes": "Reviewed by other Phase-B lanes; do not infer this lane covers them fully."
+      }
+    ],
+    "source_lane": "attainment",
+    "coverage_status": "recorded scoped evidence",
+    "interpretation": "Implementation independence is scoped to the documented parser/arithmetic/reducer/representation; model labels are not independence proof."
+  }
+]

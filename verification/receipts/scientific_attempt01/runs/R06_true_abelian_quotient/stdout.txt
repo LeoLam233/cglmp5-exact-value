@@ -1,0 +1,26 @@
+{
+  "status": "CONFIRMED_AUDITOR_HARNESS_DEFECT",
+  "results": {
+    "baseline_noncommutative": true,
+    "A06_buggy_map": false,
+    "A06_buggy_U0_squared": [
+      [
+        0,
+        1
+      ]
+    ],
+    "true_abelian_U0_squared": [
+      [
+        0,
+        2
+      ]
+    ],
+    "baseline_true_abelianization": true,
+    "commutator_mutant_noncommutative": false,
+    "commutator_mutant_true_abelianization": true
+  },
+  "seconds": 10.807483393997245,
+  "source_sha256": "f5934f64b1058a5a9798ac3cfd6323d66483d03f0a00106c72ec6e6dd88d548d",
+  "input_sha256": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+  "interpretation": "A06 falsely credits malformed exponent counting and incompatible word ordering as a commutativization detector. A true quotient preserves the baseline identity and hides a commutator corruption. Proper noncommutative checker rejects the corruption. Central baseline identity unaffected."
+}

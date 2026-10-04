@@ -1,0 +1,38 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/scientific_attempt01/stage/outputs/INDEPENDENT_CHECKS/nc/adjudicate_a06_matrix_order.py"
+  ],
+  "cwd": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/scientific_attempt01/runs/R10_same_party_order",
+  "elapsed_seconds": 0.08202917900052853,
+  "name": "R10_same_party_order",
+  "optimize": 0,
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "result_path": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/scientific_attempt01/stage/outputs/RUN_RECEIPTS/nc/a06_matrix_order.json",
+  "result_sha256": "b95719dd5d57494af244a6c7c17bd14646cfada22930579dc18ecf3691f8f9dc",
+  "returncode": 0,
+  "script_sha256": "33ff78182724e5457cd0b1ecfb3eb45d2c84e5c72d02b89d3ecc954a59954b36",
+  "semantic_result": {
+    "frozen_164_word_max_difference": 0.0,
+    "generator_fifth_power_error": 3.2262107379763823e-16,
+    "impact": "No frozen certificate term is affected: every raw word has at most one generator per party. Do not credit as a generic same-party word evaluator; replace left multiplication by right multiplication and test synthetic same-party words.",
+    "source_sha256": "f258ecb531ba16aafd11f7b8f822ff1dcf5d92d807d7c5b58f291d42f7b4ab06",
+    "status": "CONFIRMED_AUDITOR_GENERAL_WORD_ORDER_DEFECT",
+    "synthetic_order_reversal_error": 0.6633436854000504,
+    "synthetic_same_party_word": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ]
+  },
+  "semantic_status": "PASS",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "c2389c6142f00d4f7c76660a9cd229ff157f50c5ca3a0344cb7b0fb717569c5a",
+  "unchanged_source_replay": true
+}

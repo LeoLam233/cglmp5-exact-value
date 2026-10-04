@@ -1,0 +1,1 @@
+FAIL with intentional exit0

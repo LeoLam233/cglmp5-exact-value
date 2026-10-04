@@ -1,0 +1,27 @@
+name                                 type              encoding         emb sub uni object ID
+------------------------------------ ----------------- ---------------- --- --- --- ---------
+EMBXIX+LMRoman17-Regular             Type 1            Custom           yes yes yes    111  0
+RYKBVM+LMRoman12-Regular             Type 1            Custom           yes yes yes    112  0
+WSFOET+LMRoman10-Regular             Type 1            Custom           yes yes yes    113  0
+XUDNEV+LMRoman10-Bold                Type 1            Custom           yes yes yes    114  0
+WSFOET+LMRoman10-Regular             Type 1            Custom           yes yes yes    115  0
+WFKDJU+LMMathItalic10-Regular        Type 1            Custom           yes yes yes    116  0
+LPTGXN+LMRoman7-Regular              Type 1            Custom           yes yes yes    117  0
+WKXTER+LMMathSymbols10-Regular       Type 1            Custom           yes yes yes    118  0
+HVVMYW+MSBM10                        Type 1            Builtin          yes yes yes    119  0
+YOECWQ+LMRoman12-Bold                Type 1            Custom           yes yes yes    120  0
+CRKJYX+LMMathItalic8-Regular         Type 1            Custom           yes yes yes    134  0
+YJQNKO+LMMathSymbols8-Regular        Type 1            Custom           yes yes yes    135  0
+MFSQTZ+LMRoman8-Regular              Type 1            Custom           yes yes yes    136  0
+EGJGBM+LMMathExtension10-Regular     Type 1            Custom           yes yes yes    138  0
+GIBDUV+LMRoman10-Italic              Type 1            Custom           yes yes yes    141  0
+XUDNEV+LMRoman10-Bold                Type 1            Custom           yes yes yes    158  0
+ZKJEAJ+LMMathItalic6-Regular         Type 1            Custom           yes yes yes    187  0
+MWPGTZ+LMMono10-Italic               Type 1            Custom           yes yes yes    188  0
+CKLDUR+LMRoman6-Regular              Type 1            Custom           yes yes yes    203  0
+BIFNMB+LMMathSymbols6-Regular        Type 1            Custom           yes yes yes    205  0
+RYEVFW+LMSans8-Regular               Type 1            Custom           yes yes yes    246  0
+WSFOET+LMRoman10-Regular             Type 1            Custom           yes yes yes    258  0
+SPSIQH+LMMono10-Regular              Type 1            Custom           yes yes yes    259  0
+NMSEAW+LMMono8-Regular               Type 1            Custom           yes yes yes    291  0
+YISWLG+LMMono9-Regular               Type 1            Custom           yes yes yes    348  0

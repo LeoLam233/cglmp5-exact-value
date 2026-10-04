@@ -1,0 +1,135 @@
+{
+  "status": "PASS",
+  "arithmetic": "quartic-u, cubic-mu, quadratic-i sparse Gaussian rational quotient; no prior code imports",
+  "literal_event_coefficients": 100,
+  "deterministic_histogram": {
+    "2": 175,
+    "-1/2": 400,
+    "-3": 50
+  },
+  "full_matrix_entry_comparisons": 625,
+  "projector_orthogonality_products": 100,
+  "unitary_order5_checks": 4,
+  "literal_event_B_equals_upper_target_B": true,
+  "full_eigenvector_coordinates": 25,
+  "off_diagonal_subspace_leakage_entries": 100,
+  "certificate_gamma_matches_independently_constructed_state": true,
+  "saturation_checks": [
+    {
+      "term": 1,
+      "R_zero_coordinates": 25,
+      "R_adjoint_zero_coordinates": 25
+    },
+    {
+      "term": 2,
+      "R_zero_coordinates": 25,
+      "R_adjoint_zero_coordinates": 25
+    },
+    {
+      "term": 3,
+      "R_zero_coordinates": 25,
+      "R_adjoint_zero_coordinates": 25
+    },
+    {
+      "term": 4,
+      "R_zero_coordinates": 25,
+      "R_adjoint_zero_coordinates": 25
+    },
+    {
+      "term": 5,
+      "R_zero_coordinates": 25,
+      "R_adjoint_zero_coordinates": 25
+    },
+    {
+      "term": 6,
+      "R_zero_coordinates": 25,
+      "R_adjoint_zero_coordinates": 25
+    },
+    {
+      "term": 7,
+      "R_zero_coordinates": 25,
+      "R_adjoint_zero_coordinates": 25
+    },
+    {
+      "term": 8,
+      "R_zero_coordinates": 25,
+      "R_adjoint_zero_coordinates": 25
+    },
+    {
+      "term": 9,
+      "R_zero_coordinates": 25,
+      "R_adjoint_zero_coordinates": 25
+    },
+    {
+      "term": 10,
+      "R_zero_coordinates": 25,
+      "R_adjoint_zero_coordinates": 25
+    },
+    {
+      "term": 11,
+      "R_zero_coordinates": 25,
+      "R_adjoint_zero_coordinates": 25
+    },
+    {
+      "term": 12,
+      "R_zero_coordinates": 25,
+      "R_adjoint_zero_coordinates": 25
+    },
+    {
+      "term": 13,
+      "R_zero_coordinates": 25,
+      "R_adjoint_zero_coordinates": 25
+    },
+    {
+      "term": 14,
+      "R_zero_coordinates": 25,
+      "R_adjoint_zero_coordinates": 25
+    }
+  ],
+  "saturation_total_coordinates": 700,
+  "negative_controls_nonzero_residual_entries": {
+    "wrap_phase_reversed": 100,
+    "missing_D_shift_2": 100,
+    "missing_D_shift_3": 100
+  },
+  "off_subspace_state_mutation_detected": true,
+  "outcome_shift_assignments": 625,
+  "only_benign_global_shifts": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      3,
+      3,
+      3,
+      3
+    ],
+    [
+      4,
+      4,
+      4,
+      4
+    ]
+  ],
+  "source_sha256": {
+    "SOS14.json": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+    "PROOF.md": "a2080e3685bfdc8e899d471f39a15a4ed6cf87767a9357703d2c065a8dd2b4ee"
+  },
+  "script_sha256": "05834b3e38e790e0fc70969b454616a808b85f10c4809ba71b7ade716b83f585",
+  "elapsed_seconds": 7.347480535507202
+}

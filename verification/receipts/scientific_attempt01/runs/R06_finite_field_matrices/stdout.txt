@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "UTC": "2026-10-04T10:02:03.707144+00:00",
+  "input_sha256": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+  "primes": [
+    79,
+    139,
+    179,
+    199,
+    239,
+    359,
+    379,
+    419
+  ],
+  "case_count": 102,
+  "controls_detected_count": {
+    "lowered_bound": 102,
+    "omitted_coefficient_conjugation": 102,
+    "first_coefficient_plus_one": 102,
+    "commutator_in_first_polynomial": 102
+  },
+  "elapsed_seconds": 2.0072755000001052,
+  "ancestry": "No imported auditor or author code. Literal-event spectral-projector target; Fp2 Hermitian matrix arithmetic; Cayley orthogonal generators; no NC reduction or scalar quotient reducer.",
+  "limit": "Exact finite-characteristic unitary-representation diagnostics, not characteristic-zero proof or positive-order argument."
+}

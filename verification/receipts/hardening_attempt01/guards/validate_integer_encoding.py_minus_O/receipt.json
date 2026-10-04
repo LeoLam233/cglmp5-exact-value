@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-O",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/baseline/validate_integer_encoding.py",
+    "--root",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/baseline"
+  ],
+  "entrypoint": "validate_integer_encoding.py",
+  "gate": "R13",
+  "label": "minus_O",
+  "returncode": 1,
+  "status": "PASS",
+  "stderr_sha256": "b4d1f832ba9b9763c6060407be4deabff84457292f855a02b4763aa673638e16",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

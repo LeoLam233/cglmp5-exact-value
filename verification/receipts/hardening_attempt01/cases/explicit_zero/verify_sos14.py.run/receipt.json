@@ -1,0 +1,164 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/explicit_zero/verify_sos14.py",
+    "--root",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/explicit_zero",
+    "--output",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/explicit_zero/verify_sos14.py.run/result.json"
+  ],
+  "cwd": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/explicit_zero/verify_sos14.py.run",
+  "elapsed_seconds": 5.635667955997633,
+  "entrypoint": "verify_sos14.py",
+  "expected": "pass",
+  "gate": "R05",
+  "input_sha256": {
+    "EXACT_KERNELS.json": "6e08746bf5a58addb6bb46beb00c7bdab29638b9290802bca5114bc47ae957a5",
+    "EXACT_SOS_CANDIDATE.json": "14324f3ea10a3b1304a02ce48b5572be7080b519c242f5802ed599f60325c649",
+    "POSITIVITY_CERTIFICATE.json": "22ba8a09e433fe269b805f9979f574e37e3262a33fdae5a71927b748a860e8de",
+    "SOS14.json": "e8290bf209179d23ae5018e3a04e1ac238878b5a1181dd7fbdbd3264e2cea9fe"
+  },
+  "label": "explicit_zero",
+  "returncode": 0,
+  "semantic_result": {
+    "anticommutators": 14,
+    "elapsed_seconds": 5.5769187190016964,
+    "expanded_word_support": 305,
+    "explicit_polynomial_coefficients": 165,
+    "nonzero_polynomial_coefficients": 164,
+    "physical_lower_bound": {
+      "deterministic_normalization_tests": 625,
+      "dimension_for_attainment": [
+        5,
+        5
+      ],
+      "full_Bell_eigenvector_coordinates": 25,
+      "local_bound": 2,
+      "pairwise_probability_coefficients": 100,
+      "projector_to_unitary_entries": 100,
+      "state_positive_and_normalizable": true
+    },
+    "receipt": {
+      "annotation_policy": "Only required mathematical inputs and fixed declarations are enforced. Cached statuses, display spectra, stored universes/enclosures, discovery metadata and unknown annotations are not mathematical premises; see SCHEMA.md.",
+      "checked_claims": [
+        "compact exact anticommutator identity",
+        "actual-branch strictly positive weights",
+        "full-space physical attainer and standard-event conventions"
+      ],
+      "checker_entrypoint": "verify_sos14.py",
+      "checker_version": "cglmp5-verifier-v0.1.1",
+      "document_hash_scope": "bytes bound for comparison only; no machine verification of arbitrary prose or historical claims",
+      "document_sha256": {
+        "POVM_BRIDGE.md": "5f68b8909a82a6244e21b353c0d18172cc9c6e1782a3502285d95f6a01602c50",
+        "PROOF.md": "5cab16f4133a5766c37a1aaa8d5ff5ce39d0b59a7137b4b3d6d3a4b805feeb83",
+        "README.md": "943fd7e4220d4754e459158463e252abefd9177ea6c19f1c2e0ed65b244ee125",
+        "ROOT_EMBEDDING.md": "889b41152e69d3b3912e02e3cf50d5faa2d47acd2ed9a9270d871b4abf084038",
+        "SCHEMA.md": "4c63078df7ffdd02cf594a8a7a1fafeff0152b5259489e550d20cd4ed75b4703"
+      },
+      "enforced_target": {
+        "actual_embedding": {
+          "i": "positive imaginary unit",
+          "s": "positive sqrt(5)",
+          "u": "positive sqrt(10+2*s)",
+          "zeta": "(u+i*(s-1))/4=exp(i*pi/10)"
+        },
+        "analytic_bridge": "POVM_BRIDGE.md; same fixed local J for both settings; this analytic proof is not machine-formalized",
+        "mu_polynomial_coefficients": [
+          5,
+          0,
+          -65,
+          0,
+          144,
+          96,
+          16
+        ],
+        "operator_relations": "U_r^5=I; U_r*=U_r^-1; only cross-party (even/odd) commutation",
+        "polynomial_coefficient_order": "descending powers t^6 through t^0",
+        "root_selector": "unique real root mu>3; p(3)<0; p strictly increasing on [3,infinity)",
+        "scalar_basis": "n[a+2*b+6*c+12*e]*s^a*(5*mu)^b*u^c*i^e / d; a,c,e in {0,1}; b in {0,1,2}",
+        "scope": "arbitrary local Hilbert dimensions and local five-outcome POVMs; explicit C^5 tensor C^5 attainer",
+        "standard_events": {
+          "k": [
+            0,
+            1
+          ],
+          "local_bound": 2,
+          "negative": [
+            "A0=B0-k-1",
+            "B0=A1-k",
+            "A1=B1-k-1",
+            "B1=A0-k-1"
+          ],
+          "outcomes": "0,1,2,3,4; all equalities modulo 5",
+          "positive": [
+            "A0=B0+k",
+            "B0=A1+k+1",
+            "A1=B1+k",
+            "B1=A0+k"
+          ],
+          "weight": "1-k/2"
+        },
+        "theorem_id": "CGLMP5.STANDARD.LOCAL-BOUND-2.ARBITRARY-DIMENSION.LOCAL-5-POVM.EXACT-MAXIMUM.v1"
+      },
+      "enforced_target_sha256": "2d11c4b9c485088a012690b63d1ab4f394eb1b02c670a8b0385a6cccb8afe282",
+      "execution": {
+        "PYTHONOPTIMIZE": null,
+        "argv": [
+          "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/explicit_zero/verify_sos14.py",
+          "--root",
+          "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/explicit_zero",
+          "--output",
+          "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/explicit_zero/verify_sos14.py.run/result.json"
+        ],
+        "cwd": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/explicit_zero/verify_sos14.py.run",
+        "dependencies": "Python standard library only",
+        "implementation": "CPython",
+        "input_root": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/explicit_zero",
+        "optimize": 0,
+        "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+        "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+        "utc": "2026-10-04T10:08:05.055770+00:00"
+      },
+      "inputs": [
+        {
+          "bytes": 581928,
+          "file": "SOS14.json",
+          "gram_Q_words": 0,
+          "polynomial_words": 165,
+          "rational_endpoints": 6,
+          "resolved_path": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/explicit_zero/SOS14.json",
+          "sha256": "e8290bf209179d23ae5018e3a04e1ac238878b5a1181dd7fbdbd3264e2cea9fe",
+          "unverified_top_level_annotations": [],
+          "valid_integer_scalars": 184
+        }
+      ],
+      "limits": "This receipt does not establish external validation, human peer review, formal verification, independent model ancestry, or a trustworthy execution history by itself.",
+      "schema": "cglmp5.verification-receipt.v1",
+      "source_sha256": {
+        "kill_tests.py": "db14847bb09df888daefa444f56d831b12d97bcfd48db0c0a6daa18bbc9dd511",
+        "strict_schema.py": "12c8d6d0867a31f48610d879c0aaefe3c9ccc04d6fdd3c62d94104b78a1ddd0b",
+        "validate_integer_encoding.py": "e7cd9a7c482696cee1427a5f3d1e98311033ae1e08af3135869050ca9070878a",
+        "verification_receipt.py": "81b28999c492a858815f933cee4d7551d8239841bfd54a5cc9ece0d89d87d767",
+        "verify_independent.py": "ea9be28959de0412e4c47f33eab0c16f9bfb8f31cd4774a7b0c0add5a255fad4",
+        "verify_sos14.py": "25b39226dddb11c9689846e686edb8307fdfb23f2d9776777a93b43928b5f8b2",
+        "verify_statement.py": "29c98cc47f3419985de474af7c7962bcfbd60b0ce87b28a80eec2d0ba03b36d2"
+      }
+    },
+    "status": "PASS",
+    "stored_polynomial_records": 165,
+    "upper_bound_exact": true,
+    "weights_strictly_positive": true
+  },
+  "source_sha256": {
+    "kill_tests.py": "db14847bb09df888daefa444f56d831b12d97bcfd48db0c0a6daa18bbc9dd511",
+    "strict_schema.py": "12c8d6d0867a31f48610d879c0aaefe3c9ccc04d6fdd3c62d94104b78a1ddd0b",
+    "validate_integer_encoding.py": "e7cd9a7c482696cee1427a5f3d1e98311033ae1e08af3135869050ca9070878a",
+    "verification_receipt.py": "81b28999c492a858815f933cee4d7551d8239841bfd54a5cc9ece0d89d87d767",
+    "verify_independent.py": "ea9be28959de0412e4c47f33eab0c16f9bfb8f31cd4774a7b0c0add5a255fad4",
+    "verify_sos14.py": "25b39226dddb11c9689846e686edb8307fdfb23f2d9776777a93b43928b5f8b2",
+    "verify_statement.py": "29c98cc47f3419985de474af7c7962bcfbd60b0ce87b28a80eec2d0ba03b36d2"
+  },
+  "status": "PASS",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "a57631d9adadb4c0143256e954f17922e82c5e88639fef856d6967dce04e812e"
+}

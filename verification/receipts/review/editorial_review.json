@@ -1,0 +1,75 @@
+{
+  "schema": "cglmp5.editorial-mathematical-review.v1",
+  "status": "PASS",
+  "reviewed_utc": "2026-10-04T10:19:24.343574+00:00",
+  "scope": "R14 source-claim/evidence/editorial review, manuscript mathematical reconciliation and final PDF inspection; R09 analytic review separately recorded",
+  "review_type": "Independent review lane with explicit source/receipt inspection and selected fresh executions; not human peer review or proof-assistant verification",
+  "source_binding": {
+    "AUTHORSHIP.md": "e4995e27f3e8b856840b65d633e3731ec31dca5c25152bee42650045aae42504",
+    "CITATION.cff": "79c099f662786f84c39c6867f7b8c4a6b44a062e68616dd3f5cd0402616c37ba",
+    "README.md": "520c41c30f0d93d6f17fb03455b5e518e54c05e58b9f46e18e344144bd1d44ae",
+    "RELEASE_NOTES.md": "e84c2e4f230a944580def90039ff2ee999f0332680bee0a5cc4b1965096e26d3",
+    "RELEASE_v0.1.1.md": "27e0306f42e6e3fc014d5311a8b64be64237fa2670c912c13c378f15658f9326",
+    "artifact_v0.1.1/POVM_BRIDGE.md": "5f68b8909a82a6244e21b353c0d18172cc9c6e1782a3502285d95f6a01602c50",
+    "artifact_v0.1.1/PROOF.md": "2dcb36db093d076483b0b6d77991aa3fc0b282847357b48a033cbbb3a0ced39e",
+    "artifact_v0.1.1/README.md": "f9602235188808cfecd221d919a2e9f123afda57f7eb6d5f9361c72f32bcd043",
+    "artifact_v0.1.1/ROOT_EMBEDDING.md": "889b41152e69d3b3912e02e3cf50d5faa2d47acd2ed9a9270d871b4abf084038",
+    "artifact_v0.1.1/SCHEMA.md": "deee903c20902d634726a94774243e3e8ac6bd7fc1fd4270fef329c9f17df041",
+    "docs/LEAN_HANDOFF.md": "2729d2af3fef09f991de0691af12dda0bd717a586cefe8faec56f72a62553f85",
+    "docs/PHASE_B_ERRATA.md": "f9bce0dee918729471794620e3a987a7877ee0974391810a5ae56d735e25c596",
+    "docs/PROVENANCE.md": "896fc8e7f9ba8d2da0381ca83c54bb233a9aa81b9c269cddd4d07f9c12b492bf",
+    "paper/README.md": "0eff5ee909ffd5c653bb1e9aa1579fd7dfe0bc50cfd06ce443b5ba5540732c4b",
+    "paper/build.sh": "f5ec72615f8702e4ec709f85fb3036002457c740fc5a284d472dc88292e8148f",
+    "paper/check_paper_data.py": "09c6bb94d02fdc560d6c9e6cd335e26d785060b92e466279eb96e991223bc73a",
+    "paper/kernel_data.tex": "7c1d9d753fb7ee70375028cea9b5edf4abd50487ac4d5168d47d166bfe70f681",
+    "paper/main.pdf": "3b1f512aae295dba43acef3b75b6aa82186201a1748798b17f628b465f9ac37d",
+    "paper/main.tex": "3284a967e877b0235fe3bb33ee7836578a4196e3457d54740550c392432b4673",
+    "paper/minor_bounds.tex": "67ab64997964600f69e532ff147a404b7859a2618227304a5f322bad85dea00b",
+    "paper/parameter_assignments.tex": "cd58d75feb750529879cc905f1cfdf28af91e13eacee67716a61fcc38c9c1413",
+    "paper/parameter_data.tex": "ded1dcbcb7d84137793680eb629c93b69d44b225451064261e52e1c936bb2f78",
+    "paper/phase_supports.tex": "88a732ac89e5fa4680e6c728adfc9a844f3807b5a5a8363e12cb384bd8260580",
+    "paper/references.bib": "dae5f2917539c0a690241613f0069687ddcd3a1f14046c3d39f41f18ada535f9"
+  },
+  "checks": {
+    "scientific_scope": "PASS: universal upper bound for each allowed strategy; global supremum over all spaces/states/POVMs; explicit five-dimensional attainer; exactly five outcomes, no fixed-dimension equality assumption",
+    "theorem_unchanged": "PASS: polynomial, largest real root, exact scalar basis, SOS orientation, fourteen weights and Fourier/Schmidt strategy reconcile to frozen canonical sources; printed factorized Gram data exact replay PASS",
+    "actual_embedding": "PASS: formal zero implications separately stated from root/sign/positivity; no irreducibility assumption; leading minors use determinants before LDL division; root boxes independently match canonical rational data",
+    "analytic_bridge": "PASS: same fixed J for both settings, proper-isometry defect and completed outcome0 summand, each joint compression, arbitrary/nonseparable spaces, mixed/nonnormal states; no compression multiplicativity or abstract commuting-POVM claim",
+    "ancestry_and_limits": "PASS: all author entrypoints share arithmetic; paper checker explicitly same-engine data correspondence; finite-field/numerical tests are limited; no proof by audit voting or unsupported model independence/full historical replay",
+    "authorship": "PASS: Dehao Lin sole human manuscript author, ORCID0009-0001-4551-8490; AI assistance and responsibility disclosed; Codex repository credit distinct from academic authorship",
+    "disallowed_overclaims": "PASS: no self-testing/uniqueness/all-outcome theorem, absolute priority, human peer review, formal proof-assistant verification or Lean completion",
+    "historical_evidence": "PASS: original reports/failed partial attempts retained; appended errata map all110 rows/21 aliases to138 archive paths, source hashes independently checked; current vs historical receipts distinguished",
+    "reproducibility_wording": "PASS: exact current target and consumed input/source/doc bytes distinguished from arbitrary prose; set-e/fresh-dir recommended CLI; checksum excludes itself/later receipt; remote publication not inferred from local checks",
+    "bibliography": "PASS: six external entries checked against authoritative arXiv records; Ioannou-Rosset comparison restricted to v2 and stated sections; no exhaustive priority clearance",
+    "visual_pdf": "PASS: final23-page PDF rendered; all23 contact-sheet pages reviewed initially and unchanged page images retained; final changed pages1,9,11 plus theorem page2 inspected at full width; earlier full pages6,14,23 retained. No clipping/overlap/broken math/tables; final log no overfull/undefined citations/references; Title/Author metadata populated",
+    "release_boundary": "PASS: v0.1.1 additive patch; no Lean started; v0.2.0 reserved; final tag/default-branch/contributor/assets must still be remotely verified"
+  },
+  "final_manuscript": {
+    "tex_sha256": "3284a967e877b0235fe3bb33ee7836578a4196e3457d54740550c392432b4673",
+    "pdf_sha256": "3b1f512aae295dba43acef3b75b6aa82186201a1748798b17f628b465f9ac37d",
+    "pages": 23,
+    "page_render_hashes_file": "pdf_final/page_render_hashes.json",
+    "page_render_hashes_sha256": "fae0785bf14208ecfa19285ca44db231be960f2199f027a78c5d890bcf24fe56"
+  },
+  "independent_executions": {
+    "schema_cases": 32,
+    "schema_status": "PASS",
+    "paper_data_status": "PASS",
+    "paper_data_receipt_sha256": "8991580827d3229c37f7493674d778da560b74dd709e353aa5704082a0181bbb",
+    "paper_optimized_execution": "refused with nonzero exit"
+  },
+  "primary_reference_urls": [
+    "https://arxiv.org/abs/quant-ph/0106024v2",
+    "https://arxiv.org/abs/quant-ph/0612020v3",
+    "https://arxiv.org/abs/0802.0411",
+    "https://arxiv.org/abs/quant-ph/0607119v2",
+    "https://arxiv.org/abs/0803.4290",
+    "https://arxiv.org/abs/2112.10803v2",
+    "https://arxiv.org/html/2112.10803v2#S8.SS4"
+  ],
+  "limits": [
+    "This receipt is a source-bound review, not a formal proof or a certification of every historical run.",
+    "Publication approval remains conditional on completed R01-R14 aggregate/source binding and remote main/tag/Contributors/asset readback.",
+    "The remote final tag/commit and assets are intentionally not invented or claimed verified by this local review."
+  ]
+}

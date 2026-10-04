@@ -1,0 +1,10 @@
+{
+  "status": "AUDITOR_OR_HARNESS_DEFECT_REPRODUCED",
+  "source": "work/expanded/A07_SpaceBunny_ExternalPrompt/AUDIT_OUTPUT/INDEPENDENT_CHECKS/e_povm_bridge.py",
+  "source_sha256": "c76521fededf959a1d8e84b4b20d5af033f0a3b54058316b7c1ead23fdef1def",
+  "setting_dependent_state_max_probability_error": 2.636779683484747e-16,
+  "one_fixed_embedded_entangled_state_max_probability_error": 0.17417492006012592,
+  "one_fixed_embedding_setting1_compression_error": 0.40138907189525397,
+  "d6_rank_one_generator_normalization_error": 0.999897271578863,
+  "interpretation": "Same ambient space alone does not establish a common-state strategy. This invalidates A07 E-01b numerical bridge evidence, not the frozen PROOF section5 construction."
+}

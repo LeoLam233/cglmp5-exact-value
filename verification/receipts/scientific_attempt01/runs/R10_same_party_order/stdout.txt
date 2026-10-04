@@ -1,0 +1,18 @@
+{
+  "status": "CONFIRMED_AUDITOR_GENERAL_WORD_ORDER_DEFECT",
+  "frozen_164_word_max_difference": 0.0,
+  "synthetic_same_party_word": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "synthetic_order_reversal_error": 0.6633436854000504,
+  "generator_fifth_power_error": 3.2262107379763823e-16,
+  "source_sha256": "f258ecb531ba16aafd11f7b8f822ff1dcf5d92d807d7c5b58f291d42f7b4ab06",
+  "impact": "No frozen certificate term is affected: every raw word has at most one generator per party. Do not credit as a generic same-party word evaluator; replace left multiplication by right multiplication and test synthetic same-party words."
+}

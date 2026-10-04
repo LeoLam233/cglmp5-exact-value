@@ -1,0 +1,159 @@
+{
+  "status": "PASS",
+  "raw_candidates": [
+    {
+      "path": "/workspace/scratch/e6e0818fcb8f/phase_b_20261004_0845/work/expanded/A05_Dot_Blind/CGLMP5_PHASE_A_AUDIT/output/RUN_RECEIPTS/strategy_branch/strongest_supplement_candidate.npz",
+      "sha256": "5e1db2995df8f1437fe8a1defdf4ef8f0d4fe98c62640e9b10d798667f0d8c02",
+      "arrays": {
+        "X": [
+          2,
+          5,
+          5
+        ],
+        "Y": [
+          2,
+          5,
+          5
+        ],
+        "mode": [],
+        "psi": [
+          25
+        ],
+        "dimensions": [
+          2
+        ],
+        "value": []
+      },
+      "basis_checks": [
+        {
+          "exact_nonzero_QstarQ_minus_I_entries": 25,
+          "first_exact_residual": {
+            "entry": [
+              0,
+              0
+            ],
+            "real": "33329894357354830441/20769187434139310514121985316880384",
+            "imag": "0"
+          },
+          "floating_frobenius_residual": 5.5424672548912745e-15
+        },
+        {
+          "exact_nonzero_QstarQ_minus_I_entries": 25,
+          "first_exact_residual": {
+            "entry": [
+              0,
+              0
+            ],
+            "real": "-1654418101725613455/5192296858534827628530496329220096",
+            "imag": "0"
+          },
+          "floating_frobenius_residual": 6.6636858198004095e-15
+        },
+        {
+          "exact_nonzero_QstarQ_minus_I_entries": 25,
+          "first_exact_residual": {
+            "entry": [
+              0,
+              0
+            ],
+            "real": "55511548064691626481/83076749736557242056487941267521536",
+            "imag": "0"
+          },
+          "floating_frobenius_residual": 6.169209604629765e-15
+        },
+        {
+          "exact_nonzero_QstarQ_minus_I_entries": 25,
+          "first_exact_residual": {
+            "entry": [
+              0,
+              0
+            ],
+            "real": "-310768803023259203/649037107316853453566312041152512",
+            "imag": "0"
+          },
+          "floating_frobenius_residual": 4.629764501612921e-15
+        }
+      ],
+      "raw_binary64_exactly_unitary": false
+    },
+    {
+      "path": "/workspace/scratch/e6e0818fcb8f/phase_b_20261004_0845/outputs/RUN_RECEIPTS/attainment/a06_optimizer_replay.npz",
+      "sha256": "4544cc984b25d463b6bc28f626586941cd026d205b6483ac56aa5bf7d95dfbc9",
+      "arrays": {
+        "X": [
+          2,
+          5,
+          5
+        ],
+        "Y": [
+          2,
+          5,
+          5
+        ],
+        "dimensions": [
+          2
+        ],
+        "mode": [],
+        "value": [],
+        "parameters": [
+          200
+        ]
+      },
+      "basis_checks": [
+        {
+          "exact_nonzero_QstarQ_minus_I_entries": 25,
+          "first_exact_residual": {
+            "entry": [
+              0,
+              0
+            ],
+            "real": "13332528581274476521940327279123/45671926166590716193865151022383844364247891968",
+            "imag": "0"
+          },
+          "floating_frobenius_residual": 7.876954625416234e-16
+        },
+        {
+          "exact_nonzero_QstarQ_minus_I_entries": 25,
+          "first_exact_residual": {
+            "entry": [
+              0,
+              0
+            ],
+            "real": "28358467460350987/162259276829213363391578010288128",
+            "imag": "0"
+          },
+          "floating_frobenius_residual": 1.652471867346902e-15
+        },
+        {
+          "exact_nonzero_QstarQ_minus_I_entries": 25,
+          "first_exact_residual": {
+            "entry": [
+              0,
+              0
+            ],
+            "real": "227299411265396937/1298074214633706907132624082305024",
+            "imag": "0"
+          },
+          "floating_frobenius_residual": 1.4215932715751628e-15
+        },
+        {
+          "exact_nonzero_QstarQ_minus_I_entries": 25,
+          "first_exact_residual": {
+            "entry": [
+              0,
+              0
+            ],
+            "real": "385934911386446693385/1329227995784915872903807060280344576",
+            "imag": "0"
+          },
+          "floating_frobenius_residual": 1.5002030270110292e-15
+        }
+      ],
+      "raw_binary64_exactly_unitary": false
+    }
+  ],
+  "historical_optimizer_status_sha256": "26e5d56468f418ef59cf264211705f2339bfe71a4d5a3a7a3e83c7afb7992bde",
+  "historical_optimizer_attempts": 31,
+  "historical_successful_terminations": 0,
+  "scope": "Fresh exact Fraction tests of preserved raw binary64 arrays. Historical solver statuses are identified as historical, never rerun optimizer evidence. Exact repaired physical representatives are distinct objects verified separately; neither sampling nor optimization proves a global bound."
+}

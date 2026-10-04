@@ -1,0 +1,60 @@
+{
+  "scope": "Manuscript build and table-generation development; unsuccessful attempts preserved rather than presented as proof passes.",
+  "attempts": [
+    {
+      "id": "01",
+      "command": "latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex",
+      "result": "FAILED before TeX format load",
+      "evidence": "Tool output: pdflatex.fmt absent; mktexfmt could not create /home/agent/.texlive2025 because read-only. No PDF produced."
+    },
+    {
+      "id": "02",
+      "command": "Set workspace TEXMFVAR/TEXMFCONFIG and rerun latexmk",
+      "result": "FAILED: missing generated system fmtutil configuration",
+      "log": "build_attempt_02.txt"
+    },
+    {
+      "id": "format",
+      "command": "TEXMF direct-search paths; pdftex -ini -jobname=pdflatex -progname=pdflatex -etex pdflatex.ini",
+      "result": "PASS: format rebuilt from installed official TeX sources, locally only",
+      "log": "format_build.txt"
+    },
+    {
+      "id": "03",
+      "command": "TEXMF direct search and local TEXFORMATS; latexmk",
+      "result": "FAILED: missing pdftex.map; font expansion cannot use unavailable scalable font mapping",
+      "log": "build_attempt_03.txt"
+    },
+    {
+      "id": "04",
+      "command": "Set local font map then run latexmk without force",
+      "result": "NO BUILD: latexmk retained prior error/up-to-date state; not a pass",
+      "log": "build_attempt_04.txt"
+    },
+    {
+      "id": "05",
+      "command": "TEXMF/TEXFORMATS/TEXFONTMAPS fixed; latexmk -g",
+      "result": "PASS: first compiled 23-page PDF; later metadata/overflow/word-wrap polish superseded it",
+      "log": "build_attempt_05.txt"
+    },
+    {
+      "id": "table_decoder_development",
+      "result": "Intermediate adaptation initially treated load_document return as dict; it returns (data,report). TypeError observed and corrected to [0] before passing replay. No mathematical result was credited to failed call."
+    },
+    {
+      "id": "final",
+      "command": "bash paper/build.sh",
+      "result": "PASS:23 pages, no overfull boxes, no unresolved references/citations, metadata correct",
+      "log": "build_final.txt",
+      "pdf_sha256": "3b1f512aae295dba43acef3b75b6aa82186201a1748798b17f628b465f9ac37d"
+    },
+    {
+      "id": "clean",
+      "command": "Copy only source/table/bib/build files to empty directory; bash build.sh",
+      "result": "PASS: byte-identical PDF from reconstructed caches",
+      "log": "clean_build.txt",
+      "pdf_sha256": "3b1f512aae295dba43acef3b75b6aa82186201a1748798b17f628b465f9ac37d"
+    }
+  ],
+  "no_installed_software": "All tooling and TeX resources were already installed; only project-local caches were generated."
+}

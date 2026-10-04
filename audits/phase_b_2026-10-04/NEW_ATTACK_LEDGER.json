@@ -1,0 +1,1032 @@
+[
+  {
+    "id": "SB-01",
+    "title": "Frozen entrypoints baseline replay",
+    "correlated_failure_mechanism": "Prior PASS reports might refer to different bytes or omit physical check.",
+    "result": "All4 original entrypoints freshly exit0; full Gram/compact/statement/strict preflight status captured with input hashes.",
+    "related_findings": [
+      "B-S30",
+      "B-S31"
+    ],
+    "receipts": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/schema_attacks.json",
+        "sha256": "a971cb5e488652e1c75932707e563e36c2740dc28ff1f7b7630e803d6155c3e4"
+      }
+    ],
+    "terminal_status": "EXECUTED_TERMINAL",
+    "central_path_unresolved": false,
+    "lane": "schema",
+    "source_path": "lanes/schema/attacks.json",
+    "source_sha256": "266dcefd6baff8e27e147aed51033806d7cfe79badad19537dd2b7f9895e2bda",
+    "hypothesis": "Frozen entrypoints baseline replay",
+    "status": "EXECUTED_TERMINAL",
+    "evidence": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/schema_attacks.json",
+        "sha256": "a971cb5e488652e1c75932707e563e36c2740dc28ff1f7b7630e803d6155c3e4"
+      }
+    ]
+  },
+  {
+    "id": "SB-02",
+    "title": "Fractional denominator versus strict preflight",
+    "correlated_failure_mechanism": "Multiple audit parsers share int coercion.",
+    "result": "gamma denominator1.5 rejected by preflight, accepted by compact checker as denominator1.",
+    "related_findings": [
+      "B-S01"
+    ],
+    "receipts": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/schema_attacks.json",
+        "sha256": "a971cb5e488652e1c75932707e563e36c2740dc28ff1f7b7630e803d6155c3e4"
+      }
+    ],
+    "terminal_status": "EXECUTED_TERMINAL",
+    "central_path_unresolved": false,
+    "lane": "schema",
+    "source_path": "lanes/schema/attacks.json",
+    "source_sha256": "266dcefd6baff8e27e147aed51033806d7cfe79badad19537dd2b7f9895e2bda",
+    "hypothesis": "Fractional denominator versus strict preflight",
+    "status": "EXECUTED_TERMINAL",
+    "evidence": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/schema_attacks.json",
+        "sha256": "a971cb5e488652e1c75932707e563e36c2740dc28ff1f7b7630e803d6155c3e4"
+      }
+    ]
+  },
+  {
+    "id": "SB-03",
+    "title": "Duplicate top-level JSON key",
+    "correlated_failure_mechanism": "Common json.loads behavior can shadow a malformed prior value.",
+    "result": "Duplicate terms key rejected by preflight and accepted with last-value-wins by core.",
+    "related_findings": [
+      "B-S02"
+    ],
+    "receipts": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/schema_attacks.json",
+        "sha256": "a971cb5e488652e1c75932707e563e36c2740dc28ff1f7b7630e803d6155c3e4"
+      }
+    ],
+    "terminal_status": "EXECUTED_TERMINAL",
+    "central_path_unresolved": false,
+    "lane": "schema",
+    "source_path": "lanes/schema/attacks.json",
+    "source_sha256": "266dcefd6baff8e27e147aed51033806d7cfe79badad19537dd2b7f9895e2bda",
+    "hypothesis": "Duplicate top-level JSON key",
+    "status": "EXECUTED_TERMINAL",
+    "evidence": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/schema_attacks.json",
+        "sha256": "a971cb5e488652e1c75932707e563e36c2740dc28ff1f7b7630e803d6155c3e4"
+      }
+    ]
+  },
+  {
+    "id": "SB-04",
+    "title": "Combined Boolean/float Q aliases",
+    "correlated_failure_mechanism": "Strict preflight traverses named word but misses Q nested-array representation.",
+    "result": "Q=[true,1.0] passes strict preflight and full Gram check. The represented Q is unchanged.",
+    "related_findings": [
+      "B-S04"
+    ],
+    "receipts": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/schema_attacks.json",
+        "sha256": "a971cb5e488652e1c75932707e563e36c2740dc28ff1f7b7630e803d6155c3e4"
+      }
+    ],
+    "terminal_status": "EXECUTED_TERMINAL",
+    "central_path_unresolved": false,
+    "lane": "schema",
+    "source_path": "lanes/schema/attacks.json",
+    "source_sha256": "266dcefd6baff8e27e147aed51033806d7cfe79badad19537dd2b7f9895e2bda",
+    "hypothesis": "Combined Boolean/float Q aliases",
+    "status": "EXECUTED_TERMINAL",
+    "evidence": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/schema_attacks.json",
+        "sha256": "a971cb5e488652e1c75932707e563e36c2740dc28ff1f7b7630e803d6155c3e4"
+      }
+    ]
+  },
+  {
+    "id": "SB-05",
+    "title": "Nonintegral Q semantic corruption control",
+    "correlated_failure_mechanism": "Need separate type alias acceptance from false represented mathematics.",
+    "result": "Q=[true,1.1] passes preflight but mathematical Gram checker rejects basis mismatch.",
+    "related_findings": [
+      "B-S04"
+    ],
+    "receipts": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/schema_attacks.json",
+        "sha256": "a971cb5e488652e1c75932707e563e36c2740dc28ff1f7b7630e803d6155c3e4"
+      }
+    ],
+    "terminal_status": "EXECUTED_TERMINAL",
+    "central_path_unresolved": false,
+    "lane": "schema",
+    "source_path": "lanes/schema/attacks.json",
+    "source_sha256": "266dcefd6baff8e27e147aed51033806d7cfe79badad19537dd2b7f9895e2bda",
+    "hypothesis": "Nonintegral Q semantic corruption control",
+    "status": "EXECUTED_TERMINAL",
+    "evidence": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/schema_attacks.json",
+        "sha256": "a971cb5e488652e1c75932707e563e36c2740dc28ff1f7b7630e803d6155c3e4"
+      }
+    ]
+  },
+  {
+    "id": "SB-06",
+    "title": "Coordinated all-file false-theorem/proof descriptors",
+    "correlated_failure_mechanism": "All prior audits could conflate hard-coded target verification with arbitrary serialized/prose claim verification.",
+    "result": "False maximum2 PROOF text, polynomial and field/theorem descriptors across4 JSONs plus false flags and extra claimed support: all4 entrypoints PASS. Decoded SOS remains original; no false mathematical target was proved.",
+    "related_findings": [
+      "B-S08",
+      "B-S09"
+    ],
+    "receipts": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/schema_attacks.json",
+        "sha256": "a971cb5e488652e1c75932707e563e36c2740dc28ff1f7b7630e803d6155c3e4"
+      }
+    ],
+    "terminal_status": "EXECUTED_TERMINAL",
+    "central_path_unresolved": false,
+    "lane": "schema",
+    "source_path": "lanes/schema/attacks.json",
+    "source_sha256": "266dcefd6baff8e27e147aed51033806d7cfe79badad19537dd2b7f9895e2bda",
+    "hypothesis": "Coordinated all-file false-theorem/proof descriptors",
+    "status": "EXECUTED_TERMINAL",
+    "evidence": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/schema_attacks.json",
+        "sha256": "a971cb5e488652e1c75932707e563e36c2740dc28ff1f7b7630e803d6155c3e4"
+      }
+    ]
+  },
+  {
+    "id": "SB-07",
+    "title": "Missing scalar member preflight evasions",
+    "correlated_failure_mechanism": "Shape-based recursive preflight may skip malformed scalar instead of rejecting it.",
+    "result": "Missing n passes syntax preflight, full compact checker raises KeyError; combined pipeline fails closed.",
+    "related_findings": [
+      "B-S05"
+    ],
+    "receipts": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/schema_attacks.json",
+        "sha256": "a971cb5e488652e1c75932707e563e36c2740dc28ff1f7b7630e803d6155c3e4"
+      }
+    ],
+    "terminal_status": "EXECUTED_TERMINAL",
+    "central_path_unresolved": false,
+    "lane": "schema",
+    "source_path": "lanes/schema/attacks.json",
+    "source_sha256": "266dcefd6baff8e27e147aed51033806d7cfe79badad19537dd2b7f9895e2bda",
+    "hypothesis": "Missing scalar member preflight evasions",
+    "status": "EXECUTED_TERMINAL",
+    "evidence": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/schema_attacks.json",
+        "sha256": "a971cb5e488652e1c75932707e563e36c2740dc28ff1f7b7630e803d6155c3e4"
+      }
+    ]
+  },
+  {
+    "id": "SB-08",
+    "title": "Explicit zero with duplicate diagnostic ID",
+    "correlated_failure_mechanism": "Audit reports disagree whether harmless representation changes are defects.",
+    "result": "Both preflight/core pass, core explicitly counts165 stored entries. Original nonzero support remains164.",
+    "related_findings": [
+      "B-S07",
+      "B-S10"
+    ],
+    "receipts": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/schema_attacks.json",
+        "sha256": "a971cb5e488652e1c75932707e563e36c2740dc28ff1f7b7630e803d6155c3e4"
+      }
+    ],
+    "terminal_status": "EXECUTED_TERMINAL",
+    "central_path_unresolved": false,
+    "lane": "schema",
+    "source_path": "lanes/schema/attacks.json",
+    "source_sha256": "266dcefd6baff8e27e147aed51033806d7cfe79badad19537dd2b7f9895e2bda",
+    "hypothesis": "Explicit zero with duplicate diagnostic ID",
+    "status": "EXECUTED_TERMINAL",
+    "evidence": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/schema_attacks.json",
+        "sha256": "a971cb5e488652e1c75932707e563e36c2740dc28ff1f7b7630e803d6155c3e4"
+      }
+    ]
+  },
+  {
+    "id": "SB-09",
+    "title": "Actual integer weight corruption",
+    "correlated_failure_mechanism": "Permissive parser findings might conceal a vacuous mathematical checker.",
+    "result": "Weight numerator+1 passes strict schema but exact compact residual rejects.",
+    "related_findings": [
+      "B-S01",
+      "B-S08"
+    ],
+    "receipts": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/schema_attacks.json",
+        "sha256": "a971cb5e488652e1c75932707e563e36c2740dc28ff1f7b7630e803d6155c3e4"
+      }
+    ],
+    "terminal_status": "EXECUTED_TERMINAL",
+    "central_path_unresolved": false,
+    "lane": "schema",
+    "source_path": "lanes/schema/attacks.json",
+    "source_sha256": "266dcefd6baff8e27e147aed51033806d7cfe79badad19537dd2b7f9895e2bda",
+    "hypothesis": "Actual integer weight corruption",
+    "status": "EXECUTED_TERMINAL",
+    "evidence": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/schema_attacks.json",
+        "sha256": "a971cb5e488652e1c75932707e563e36c2740dc28ff1f7b7630e803d6155c3e4"
+      }
+    ]
+  },
+  {
+    "id": "SB-10",
+    "title": "Original A06 encoding component malformed-input tests",
+    "correlated_failure_mechanism": "Allegedly independent strict scan repeats coercive assumptions.",
+    "result": "Original extracted walk reports zero malformed objects for denominator1.5, Boolean generator, exponent1.9 and --3 integer string. Frozen-byte scan is not a strict adversarial parser.",
+    "related_findings": [
+      "B-S18"
+    ],
+    "receipts": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/auditor_component_probes.json",
+        "sha256": "c380ffa14e5a8c29cf3334735880c63e7fa215bae41d84ff3ae94e57469cf79c"
+      }
+    ],
+    "terminal_status": "EXECUTED_TERMINAL",
+    "central_path_unresolved": false,
+    "lane": "schema",
+    "source_path": "lanes/schema/attacks.json",
+    "source_sha256": "266dcefd6baff8e27e147aed51033806d7cfe79badad19537dd2b7f9895e2bda",
+    "hypothesis": "Original A06 encoding component malformed-input tests",
+    "status": "EXECUTED_TERMINAL",
+    "evidence": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/auditor_component_probes.json",
+        "sha256": "c380ffa14e5a8c29cf3334735880c63e7fa215bae41d84ff3ae94e57469cf79c"
+      }
+    ]
+  },
+  {
+    "id": "SB-11",
+    "title": "Original A07 sign-mutator semantics",
+    "correlated_failure_mechanism": "Mutation labels can conceal weaker or different tests across agreeing audits.",
+    "result": "M3 andM6 original bump changes positive n to3n rather than -n.",
+    "related_findings": [
+      "B-S19"
+    ],
+    "receipts": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/auditor_component_probes.json",
+        "sha256": "c380ffa14e5a8c29cf3334735880c63e7fa215bae41d84ff3ae94e57469cf79c"
+      }
+    ],
+    "terminal_status": "EXECUTED_TERMINAL",
+    "central_path_unresolved": false,
+    "lane": "schema",
+    "source_path": "lanes/schema/attacks.json",
+    "source_sha256": "266dcefd6baff8e27e147aed51033806d7cfe79badad19537dd2b7f9895e2bda",
+    "hypothesis": "Original A07 sign-mutator semantics",
+    "status": "EXECUTED_TERMINAL",
+    "evidence": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/auditor_component_probes.json",
+        "sha256": "c380ffa14e5a8c29cf3334735880c63e7fa215bae41d84ff3ae94e57469cf79c"
+      }
+    ]
+  },
+  {
+    "id": "SB-12",
+    "title": "Original A07 alternate-root semantics",
+    "correlated_failure_mechanism": "A claimed branch countercheck may only change a target constant.",
+    "result": "M13 leaves parsed weight identical before/after while residual0.879987913... comes from shifted lhs; all coefficient embedding constants remain MU_TRUE.",
+    "related_findings": [
+      "B-S20"
+    ],
+    "receipts": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/auditor_component_probes.json",
+        "sha256": "c380ffa14e5a8c29cf3334735880c63e7fa215bae41d84ff3ae94e57469cf79c"
+      }
+    ],
+    "terminal_status": "EXECUTED_TERMINAL",
+    "central_path_unresolved": false,
+    "lane": "schema",
+    "source_path": "lanes/schema/attacks.json",
+    "source_sha256": "266dcefd6baff8e27e147aed51033806d7cfe79badad19537dd2b7f9895e2bda",
+    "hypothesis": "Original A07 alternate-root semantics",
+    "status": "EXECUTED_TERMINAL",
+    "evidence": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/auditor_component_probes.json",
+        "sha256": "c380ffa14e5a8c29cf3334735880c63e7fa215bae41d84ff3ae94e57469cf79c"
+      }
+    ]
+  },
+  {
+    "id": "SB-13",
+    "title": "Original A07 exact FAIL/exit0 replay",
+    "correlated_failure_mechanism": "Successful process exit can be mistaken for successful mathematical status.",
+    "result": "Fresh tiny M1 mutation produces37 nonzero exact residual words and verdictFAIL but exit0; archived M2 has201 residuals/FAIL/exit0.",
+    "related_findings": [
+      "B-S21",
+      "B-S22"
+    ],
+    "receipts": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/auditor_component_probes.json",
+        "sha256": "c380ffa14e5a8c29cf3334735880c63e7fa215bae41d84ff3ae94e57469cf79c"
+      },
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/A07_tiny_mutation_summary.json",
+        "sha256": "7453f9ad33b945be3cc85b3147a3c3475868e0a1b46333dbf9b212b0d93abba2"
+      }
+    ],
+    "terminal_status": "EXECUTED_TERMINAL",
+    "central_path_unresolved": false,
+    "lane": "schema",
+    "source_path": "lanes/schema/attacks.json",
+    "source_sha256": "266dcefd6baff8e27e147aed51033806d7cfe79badad19537dd2b7f9895e2bda",
+    "hypothesis": "Original A07 exact FAIL/exit0 replay",
+    "status": "EXECUTED_TERMINAL",
+    "evidence": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/auditor_component_probes.json",
+        "sha256": "c380ffa14e5a8c29cf3334735880c63e7fa215bae41d84ff3ae94e57469cf79c"
+      },
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/A07_tiny_mutation_summary.json",
+        "sha256": "7453f9ad33b945be3cc85b3147a3c3475868e0a1b46333dbf9b212b0d93abba2"
+      }
+    ]
+  },
+  {
+    "id": "SB-14",
+    "title": "Python optimized-mode false PASS",
+    "correlated_failure_mechanism": "Independent numerical audit relies solely on assertions then prints unconditional PASS.",
+    "result": "A01 weight+1 concrete test rejects normally, but -O emitsPASS with large residuals. Frozen author -O comparator rejects via explicit ensure.",
+    "related_findings": [
+      "B-S29"
+    ],
+    "receipts": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/optimization_mode_attack.json",
+        "sha256": "ceb68c0a354125a02ea795c6e07f295ecd16502d47964c91fd8ce6da9bc29c8a"
+      }
+    ],
+    "terminal_status": "EXECUTED_TERMINAL",
+    "central_path_unresolved": false,
+    "lane": "schema",
+    "source_path": "lanes/schema/attacks.json",
+    "source_sha256": "266dcefd6baff8e27e147aed51033806d7cfe79badad19537dd2b7f9895e2bda",
+    "hypothesis": "Python optimized-mode false PASS",
+    "status": "EXECUTED_TERMINAL",
+    "evidence": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/optimization_mode_attack.json",
+        "sha256": "ceb68c0a354125a02ea795c6e07f295ecd16502d47964c91fd8ce6da9bc29c8a"
+      }
+    ]
+  },
+  {
+    "id": "SB-15",
+    "title": "Canonical manifest anchors and curated historical hashes",
+    "correlated_failure_mechanism": "Archive relocation and sanitized logs can manufacture false missing/corrupt-file claims.",
+    "result": "A05 all123 branch entries pass at archive root; 2 old release nested hashes map exactly to curated bytes and current release MANIFEST.",
+    "related_findings": [
+      "B-S32"
+    ],
+    "receipts": [
+      {
+        "path": "outputs/lanes/schema/manifest_checks_resolved.json",
+        "sha256": "7aad8c93a33afb957ef8836ccbb2d749ff03d3b138fa9f23528aa9b7e1a91b99"
+      },
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/final_binding_checks.json",
+        "sha256": "e670f199fc638d53271994cc4ee44c4dae02423ad3924cbed5e4868ba5b8d0db"
+      }
+    ],
+    "terminal_status": "EXECUTED_TERMINAL",
+    "central_path_unresolved": false,
+    "lane": "schema",
+    "source_path": "lanes/schema/attacks.json",
+    "source_sha256": "266dcefd6baff8e27e147aed51033806d7cfe79badad19537dd2b7f9895e2bda",
+    "hypothesis": "Canonical manifest anchors and curated historical hashes",
+    "status": "EXECUTED_TERMINAL",
+    "evidence": [
+      {
+        "path": "outputs/lanes/schema/manifest_checks_resolved.json",
+        "sha256": "7aad8c93a33afb957ef8836ccbb2d749ff03d3b138fa9f23528aa9b7e1a91b99"
+      },
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/final_binding_checks.json",
+        "sha256": "e670f199fc638d53271994cc4ee44c4dae02423ad3924cbed5e4868ba5b8d0db"
+      }
+    ]
+  },
+  {
+    "id": "SB-16",
+    "title": "Full corpus byte-preservation and source ancestry inventory",
+    "correlated_failure_mechanism": "Repeated copied sources/receipts can be counted as independent audits or mutations may touch baseline.",
+    "result": "799 original member files hashed/unchanged;116 Python sources AST-indexed;14 outer corpus identities verified including methodology; duplicate byte groups retained. No source-level claim of external authorship/blindness authentication.",
+    "related_findings": [
+      "B-S30",
+      "B-S31"
+    ],
+    "receipts": [
+      {
+        "path": "outputs/lanes/schema/file_inventory.json",
+        "sha256": "85ff4a3ec08c837578be3bb92e0dd4b995eae6fa016c28c283f18ee9196b3105"
+      },
+      {
+        "path": "outputs/lanes/schema/source_ancestry.json",
+        "sha256": "d6896082371a7003fc5ef09706fec1572d7ea7249d5840655156cf5e1f0a3c60"
+      },
+      {
+        "path": "outputs/lanes/schema/duplicate_byte_groups.json",
+        "sha256": "992ae3035c351820c7206ee8bb6a6ce821b29ac575f85e40d97839455a80bb52"
+      },
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/final_binding_checks.json",
+        "sha256": "e670f199fc638d53271994cc4ee44c4dae02423ad3924cbed5e4868ba5b8d0db"
+      }
+    ],
+    "terminal_status": "EXECUTED_TERMINAL",
+    "central_path_unresolved": false,
+    "lane": "schema",
+    "source_path": "lanes/schema/attacks.json",
+    "source_sha256": "266dcefd6baff8e27e147aed51033806d7cfe79badad19537dd2b7f9895e2bda",
+    "hypothesis": "Full corpus byte-preservation and source ancestry inventory",
+    "status": "EXECUTED_TERMINAL",
+    "evidence": [
+      {
+        "path": "outputs/lanes/schema/file_inventory.json",
+        "sha256": "85ff4a3ec08c837578be3bb92e0dd4b995eae6fa016c28c283f18ee9196b3105"
+      },
+      {
+        "path": "outputs/lanes/schema/source_ancestry.json",
+        "sha256": "d6896082371a7003fc5ef09706fec1572d7ea7249d5840655156cf5e1f0a3c60"
+      },
+      {
+        "path": "outputs/lanes/schema/duplicate_byte_groups.json",
+        "sha256": "992ae3035c351820c7206ee8bb6a6ce821b29ac575f85e40d97839455a80bb52"
+      },
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/final_binding_checks.json",
+        "sha256": "e670f199fc638d53271994cc4ee44c4dae02423ad3924cbed5e4868ba5b8d0db"
+      }
+    ]
+  },
+  {
+    "id": "SB-17",
+    "title": "Corrected true sign controls",
+    "correlated_failure_mechanism": "A07 mislabeled sign flips generated a concrete missing negative-control route.",
+    "result": "Actual whole-weight negation and single-coordinate sign inversion both produce large original-auditor numerical residuals and exact author rejection (positivity/residual respectively). Historical label defect remains; route closed now.",
+    "related_findings": [
+      "B-S19"
+    ],
+    "receipts": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/corrected_negative_controls.json",
+        "sha256": "a7b736ebdbab83b0de8542d5fa1ef7348894086bbd7b21fbb88bcb12009e0c14"
+      },
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/corrected_negative_guard.json",
+        "sha256": "7d2eedc14dd20e62de3e3a040c0676ef169d7048abe0721100730fa0aeeab52f"
+      }
+    ],
+    "terminal_status": "EXECUTED_TERMINAL",
+    "central_path_unresolved": false,
+    "lane": "schema",
+    "source_path": "lanes/schema/attacks.json",
+    "source_sha256": "266dcefd6baff8e27e147aed51033806d7cfe79badad19537dd2b7f9895e2bda",
+    "hypothesis": "Corrected true sign controls",
+    "status": "EXECUTED_TERMINAL",
+    "evidence": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/corrected_negative_controls.json",
+        "sha256": "a7b736ebdbab83b0de8542d5fa1ef7348894086bbd7b21fbb88bcb12009e0c14"
+      },
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/corrected_negative_guard.json",
+        "sha256": "7d2eedc14dd20e62de3e3a040c0676ef169d7048abe0721100730fa0aeeab52f"
+      }
+    ]
+  },
+  {
+    "id": "SB-18",
+    "title": "Replay guard and inherited optimization environment",
+    "correlated_failure_mechanism": "New audit outputs must not repeat assertion-stripping weakness.",
+    "result": "Guard refuses -O, runs normal children with flags.optimize0/debugtrue, strips inherited PYTHONOPTIMIZE; source/output hashes and semantic-status warning recorded.",
+    "related_findings": [
+      "B-S29"
+    ],
+    "receipts": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/replay_guard_selftest.json",
+        "sha256": "5b3a5a3fcfd945672dcc2dc70e2b000f14e17979ca52ffc7b8a7e88038087779"
+      },
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/inherited_optimize_guard.json",
+        "sha256": "4378f369ed55a9550d6093d5036a658edff647fe813e39e5e46abee6926bc1cf"
+      }
+    ],
+    "terminal_status": "EXECUTED_TERMINAL",
+    "central_path_unresolved": false,
+    "lane": "schema",
+    "source_path": "lanes/schema/attacks.json",
+    "source_sha256": "266dcefd6baff8e27e147aed51033806d7cfe79badad19537dd2b7f9895e2bda",
+    "hypothesis": "Replay guard and inherited optimization environment",
+    "status": "EXECUTED_TERMINAL",
+    "evidence": [
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/replay_guard_selftest.json",
+        "sha256": "5b3a5a3fcfd945672dcc2dc70e2b000f14e17979ca52ffc7b8a7e88038087779"
+      },
+      {
+        "path": "outputs/RUN_RECEIPTS/schema/inherited_optimize_guard.json",
+        "sha256": "4378f369ed55a9550d6093d5036a658edff647fe813e39e5e46abee6926bc1cf"
+      }
+    ]
+  },
+  {
+    "id": "B-EA01",
+    "hypothesis": "Common-space numerical bridge silently varies the embedded state",
+    "execution": "a07_fixed_embedding_attack.py",
+    "result": "A07 audit defect reproduced; fixed embedding fails by0.174 while varying embedding passes",
+    "status": "CLOSED_AUDITOR_DEFECT",
+    "lane": "bridge",
+    "source_path": "lanes/bridge/attacks.json",
+    "source_sha256": "046891416f3c486ed3f8e8f9285eb554c844055d4438e30b65a9af7f6cfe5425",
+    "evidence": "a07_fixed_embedding_attack.py"
+  },
+  {
+    "id": "B-EA02",
+    "hypothesis": "Rank-deficient normalization or zero effects invalidate dilation",
+    "execution": "a07_fixed_embedding_attack.py + exact_common_space.py",
+    "result": "A07 d6 input invalid; exact valid degenerate cases pass both constructions",
+    "status": "CLOSED",
+    "lane": "bridge",
+    "source_path": "lanes/bridge/attacks.json",
+    "source_sha256": "046891416f3c486ed3f8e8f9285eb554c844055d4438e30b65a9af7f6cfe5425",
+    "evidence": "a07_fixed_embedding_attack.py + exact_common_space.py"
+  },
+  {
+    "id": "B-EA03",
+    "hypothesis": "Shared floating square-root/QR errors mask a common-embedding defect",
+    "execution": "exact_common_space.py",
+    "result": "1301 exact rational-Gaussian assertions;200 full joint-operator compressions pass; negative controls reject",
+    "status": "CLOSED",
+    "lane": "bridge",
+    "source_path": "lanes/bridge/attacks.json",
+    "source_sha256": "046891416f3c486ed3f8e8f9285eb554c844055d4438e30b65a9af7f6cfe5425",
+    "evidence": "exact_common_space.py"
+  },
+  {
+    "id": "B-EA04",
+    "hypothesis": "Infinite-dimensional proper isometry is silently treated as surjective",
+    "execution": "formal_isometry_bridge.py and explicit arbitrary-H operator argument",
+    "result": "Defect-block unitary proved using V*V only; omitting defect block rejected",
+    "status": "CLOSED",
+    "lane": "bridge",
+    "source_path": "lanes/bridge/attacks.json",
+    "source_sha256": "046891416f3c486ed3f8e8f9285eb554c844055d4438e30b65a9af7f6cfe5425",
+    "evidence": "formal_isometry_bridge.py and explicit arbitrary-H operator argument"
+  },
+  {
+    "id": "B-EA05",
+    "hypothesis": "Compression/SOS multiplication is falsely interchanged",
+    "execution": "compression_product_attack.py",
+    "result": "Shortcut fails exact test; legitimate compressed-square positive-defect factorization holds; baseline does not use shortcut",
+    "status": "CLOSED",
+    "lane": "bridge",
+    "source_path": "lanes/bridge/attacks.json",
+    "source_sha256": "046891416f3c486ed3f8e8f9285eb554c844055d4438e30b65a9af7f6cfe5425",
+    "evidence": "compression_product_attack.py"
+  },
+  {
+    "id": "B-EA06",
+    "hypothesis": "Mixed/non-normal/entangled state or nonseparable dimension invalidates transfer",
+    "execution": "analytic complete positive compression argument + exact entangled mixed state test",
+    "result": "Positive normalized functional extends by compression, tensor joint operator identity; exact state NPT minor -53/7056",
+    "status": "CLOSED",
+    "lane": "bridge",
+    "source_path": "lanes/bridge/attacks.json",
+    "source_sha256": "046891416f3c486ed3f8e8f9285eb554c844055d4438e30b65a9af7f6cfe5425",
+    "evidence": "analytic complete positive compression argument + exact entangled mixed state test"
+  },
+  {
+    "id": "PB-FIELD-01",
+    "route": "Eliminate s to Q[mu]/p and prove all weights by Sturm–Tarski, not interval arithmetic",
+    "status": "EXECUTED_PASS",
+    "receipt": "outputs/RUN_RECEIPTS/field/sturm_tarski_weights.json",
+    "result": "14 exact real positive weights and pivots; all >1/3000; twelve branches; exact minimum bracket; B inverse and endpoint-variation witnesses",
+    "lane": "field",
+    "source_path": "lanes/field/attacks.json",
+    "source_sha256": "8f24e02b63122d1d76840b05bd8157474a9b538e19f807a12b04ec844d359442",
+    "hypothesis": "Eliminate s to Q[mu]/p and prove all weights by Sturm–Tarski, not interval arithmetic",
+    "evidence": "outputs/RUN_RECEIPTS/field/sturm_tarski_weights.json"
+  },
+  {
+    "id": "PB-FIELD-02",
+    "route": "Independently reimplement elimination/signs with standard-library Fraction polynomial arrays",
+    "status": "EXECUTED_PASS",
+    "receipt": "outputs/RUN_RECEIPTS/field/fraction_sign_meta.json",
+    "result": "210 exact sign comparisons; independent Bezout inverse; 120-digit direct original-monomial diagnostic agrees in all twelve embeddings",
+    "failed_attempt": "outputs/RUN_RECEIPTS/field/fraction_sign_meta.attempt1.stderr",
+    "correction": "normalize [] versus [0] zero representation",
+    "lane": "field",
+    "source_path": "lanes/field/attacks.json",
+    "source_sha256": "8f24e02b63122d1d76840b05bd8157474a9b538e19f807a12b04ec844d359442",
+    "hypothesis": "Independently reimplement elimination/signs with standard-library Fraction polynomial arrays",
+    "evidence": "outputs/RUN_RECEIPTS/field/fraction_sign_meta.json"
+  },
+  {
+    "id": "PB-FIELD-03",
+    "route": "Replay unique A05 tensor-Bernstein sign engine against canonical frozen payload",
+    "status": "EXECUTED_PASS",
+    "receipt": "outputs/RUN_RECEIPTS/field/a05_bernstein_replay/positivity_bernstein_meta_results.json",
+    "result": "14 strictly positive lower bounds, 896 transform-grid identities, 14 sign-flip controls",
+    "adaptation": "No prior source modifications; only PAY and OUT globals rebound by replay wrapper",
+    "lane": "field",
+    "source_path": "lanes/field/attacks.json",
+    "source_sha256": "8f24e02b63122d1d76840b05bd8157474a9b538e19f807a12b04ec844d359442",
+    "hypothesis": "Replay unique A05 tensor-Bernstein sign engine against canonical frozen payload",
+    "evidence": "outputs/RUN_RECEIPTS/field/a05_bernstein_replay/positivity_bernstein_meta_results.json"
+  },
+  {
+    "id": "PB-FIELD-04",
+    "route": "Cross-review fresh attainment quartic-u/cubic-mu coefficient engine and actual embedding",
+    "status": "EXECUTED_PASS",
+    "receipt": "outputs/RUN_RECEIPTS/field/attainment_field_crossreview.json",
+    "result": "576 basis products,24 conjugations,24 scalar basis maps; d>4; positive cleared state and norm; phase sector fixed",
+    "lane": "field",
+    "source_path": "lanes/field/attacks.json",
+    "source_sha256": "8f24e02b63122d1d76840b05bd8157474a9b538e19f807a12b04ec844d359442",
+    "hypothesis": "Cross-review fresh attainment quartic-u/cubic-mu coefficient engine and actual embedding",
+    "evidence": "outputs/RUN_RECEIPTS/field/attainment_field_crossreview.json"
+  },
+  {
+    "id": "PB-FIELD-05",
+    "route": "Recompute Gram LDL and compact linkage in eliminated-univariate coefficient representation",
+    "status": "EXECUTED_PASS",
+    "receipt": "outputs/RUN_RECEIPTS/field/gram_elimination.json",
+    "result": "42 LDL entries and 1134 conjugated EL-to-compact entries; same sign oracle, independent additional data path",
+    "lane": "field",
+    "source_path": "lanes/field/attacks.json",
+    "source_sha256": "8f24e02b63122d1d76840b05bd8157474a9b538e19f807a12b04ec844d359442",
+    "hypothesis": "Recompute Gram LDL and compact linkage in eliminated-univariate coefficient representation",
+    "evidence": "outputs/RUN_RECEIPTS/field/gram_elimination.json"
+  },
+  {
+    "id": "NC-A01",
+    "kind": "fresh exact finite-field concrete representation",
+    "status": "TERMINAL_EXECUTED",
+    "receipt": "outputs/RUN_RECEIPTS/nc/finite_field_matrix.json",
+    "receipt_sha256": "12f8100cb353e29ee7b7266f5c1a8852f57d3649c8d87526402c7f3d07185757",
+    "command_metadata": "outputs/RUN_RECEIPTS/nc/finite_field_matrix.replay_meta.json",
+    "exit_code": 0,
+    "result": "PASS",
+    "lane": "nc",
+    "source_path": "lanes/nc/new_attacks.json",
+    "source_sha256": "d6dd96245eaae3e1aadf1ae91ac94d1062611b7ad3209fb7235a8923f65ac998",
+    "hypothesis": "",
+    "evidence": "outputs/RUN_RECEIPTS/nc/finite_field_matrix.json"
+  },
+  {
+    "id": "NC-A02",
+    "kind": "fresh cross-audit normal-form semantics",
+    "status": "TERMINAL_EXECUTED",
+    "receipt": "outputs/RUN_RECEIPTS/nc/cross_audit_normal_forms.json",
+    "receipt_sha256": "949e1d9f85e28f5f559676104a9679fbeda1e6f67d0bb791c547dace8ecf1109",
+    "command_metadata": "outputs/RUN_RECEIPTS/nc/cross_audit_normal_forms.replay_meta.json",
+    "exit_code": 0,
+    "result": "PASS",
+    "lane": "nc",
+    "source_path": "lanes/nc/new_attacks.json",
+    "source_sha256": "d6dd96245eaae3e1aadf1ae91ac94d1062611b7ad3209fb7235a8923f65ac998",
+    "hypothesis": "",
+    "evidence": "outputs/RUN_RECEIPTS/nc/cross_audit_normal_forms.json"
+  },
+  {
+    "id": "NC-A03",
+    "kind": "cross-audit harness defect adjudication",
+    "status": "TERMINAL_EXECUTED",
+    "receipt": "outputs/RUN_RECEIPTS/nc/a06_commutativization.json",
+    "receipt_sha256": "186b3c39061ee8fa2de8637810a1430beb9455600315844aa5e2eb0f00991f0c",
+    "command_metadata": "outputs/RUN_RECEIPTS/nc/a06_commutativization.replay_meta.json",
+    "exit_code": 0,
+    "result": "CONFIRMED_AUDITOR_HARNESS_DEFECT",
+    "lane": "nc",
+    "source_path": "lanes/nc/new_attacks.json",
+    "source_sha256": "d6dd96245eaae3e1aadf1ae91ac94d1062611b7ad3209fb7235a8923f65ac998",
+    "hypothesis": "",
+    "evidence": "outputs/RUN_RECEIPTS/nc/a06_commutativization.json"
+  },
+  {
+    "id": "NC-A04",
+    "kind": "cross-audit generic-order harness adjudication",
+    "status": "TERMINAL_EXECUTED",
+    "receipt": "outputs/RUN_RECEIPTS/nc/a06_matrix_order.json",
+    "receipt_sha256": "b95719dd5d57494af244a6c7c17bd14646cfada22930579dc18ecf3691f8f9dc",
+    "command_metadata": "outputs/RUN_RECEIPTS/nc/a06_matrix_order.replay_meta.json",
+    "exit_code": 0,
+    "result": "CONFIRMED_AUDITOR_GENERAL_WORD_ORDER_DEFECT",
+    "lane": "nc",
+    "source_path": "lanes/nc/new_attacks.json",
+    "source_sha256": "d6dd96245eaae3e1aadf1ae91ac94d1062611b7ad3209fb7235a8923f65ac998",
+    "hypothesis": "",
+    "evidence": "outputs/RUN_RECEIPTS/nc/a06_matrix_order.json"
+  },
+  {
+    "id": "NC-R01",
+    "kind": "unchanged prior standalone modular replay",
+    "status": "TERMINAL_EXECUTED",
+    "receipt": "outputs/RUN_RECEIPTS/nc/A03_modular.json",
+    "receipt_sha256": "b62101bcfefc4c46a0d2e105bd2541b3122da05cfc616f12cfd444a877551025",
+    "command_metadata": "outputs/RUN_RECEIPTS/nc/A03_modular.replay_meta.json",
+    "exit_code": 0,
+    "result": "PASS",
+    "lane": "nc",
+    "source_path": "lanes/nc/new_attacks.json",
+    "source_sha256": "d6dd96245eaae3e1aadf1ae91ac94d1062611b7ad3209fb7235a8923f65ac998",
+    "hypothesis": "",
+    "evidence": "outputs/RUN_RECEIPTS/nc/A03_modular.json"
+  },
+  {
+    "id": "NC-R02",
+    "kind": "unchanged prior all-embedding modular replay",
+    "status": "TERMINAL_EXECUTED",
+    "receipt": "outputs/RUN_RECEIPTS/nc/A04_modular.json",
+    "receipt_sha256": "00b2f9bbfbba4ff96819fb5b249417f08668bf591426533cbc52822f49f98858",
+    "command_metadata": "outputs/RUN_RECEIPTS/nc/A04_modular.replay_meta.json",
+    "exit_code": 0,
+    "result": "ALL_FINITE_FIELD_KILL_CHECKS_PASS",
+    "lane": "nc",
+    "source_path": "lanes/nc/new_attacks.json",
+    "source_sha256": "d6dd96245eaae3e1aadf1ae91ac94d1062611b7ad3209fb7235a8923f65ac998",
+    "hypothesis": "",
+    "evidence": "outputs/RUN_RECEIPTS/nc/A04_modular.json"
+  },
+  {
+    "id": "NC-R03",
+    "kind": "unchanged prior integer exact replay",
+    "status": "TERMINAL_EXECUTED",
+    "receipt": "outputs/RUN_RECEIPTS/nc/A07_exact.json",
+    "receipt_sha256": "ba24c4f9f4eb50df40f7b6cddf2e0698dd80f0ac121d755b4a7ea0896829fa1d",
+    "command_metadata": "outputs/RUN_RECEIPTS/nc/A07_exact.replay_meta.json",
+    "exit_code": 0,
+    "result": "PASS",
+    "lane": "nc",
+    "source_path": "lanes/nc/new_attacks.json",
+    "source_sha256": "d6dd96245eaae3e1aadf1ae91ac94d1062611b7ad3209fb7235a8923f65ac998",
+    "hypothesis": "",
+    "evidence": "outputs/RUN_RECEIPTS/nc/A07_exact.json"
+  },
+  {
+    "id": "NC-R04",
+    "kind": "prior radical exact replay with paths relocated in memory",
+    "status": "TERMINAL_EXECUTED",
+    "receipt": "outputs/RUN_RECEIPTS/nc/A05_replay/exact_sos_results.json",
+    "receipt_sha256": "db9ec47f56fe840d902b325a2298688a4fbb541e0b6690c78d18f68647cc5bc4",
+    "command_metadata": "outputs/RUN_RECEIPTS/nc/A05_replay.replay_meta.json",
+    "exit_code": 0,
+    "result": "PASS",
+    "lane": "nc",
+    "source_path": "lanes/nc/new_attacks.json",
+    "source_sha256": "d6dd96245eaae3e1aadf1ae91ac94d1062611b7ad3209fb7235a8923f65ac998",
+    "hypothesis": "",
+    "evidence": "outputs/RUN_RECEIPTS/nc/A05_replay/exact_sos_results.json"
+  },
+  {
+    "id": "NC-R05",
+    "kind": "unchanged prior radical exact replay with byte-identical input layout",
+    "status": "TERMINAL_EXECUTED",
+    "receipt": "outputs/RUN_RECEIPTS/nc/H01_crosscheck.json",
+    "receipt_sha256": "05208d468cca063c4554c151e49c56546de79bd7d9a4fa6700d8609ce80e7e44",
+    "command_metadata": "outputs/RUN_RECEIPTS/nc/H01_crosscheck.replay_meta.json",
+    "exit_code": 0,
+    "result": "exact_residual_zero",
+    "lane": "nc",
+    "source_path": "lanes/nc/new_attacks.json",
+    "source_sha256": "d6dd96245eaae3e1aadf1ae91ac94d1062611b7ad3209fb7235a8923f65ac998",
+    "hypothesis": "",
+    "evidence": "outputs/RUN_RECEIPTS/nc/H01_crosscheck.json"
+  },
+  {
+    "id": "NC-R06",
+    "kind": "unchanged prior compact exact replay",
+    "status": "TERMINAL_EXECUTED",
+    "receipt": "outputs/RUN_RECEIPTS/nc/A04_run_exact.json",
+    "receipt_sha256": "04cc507b96cfb7239491b3bf2f994e7128060827a257f0b3f8d69c0d697939a2",
+    "command_metadata": "outputs/RUN_RECEIPTS/nc/A04_run_exact.replay_meta.json",
+    "exit_code": 0,
+    "result": "PASS",
+    "lane": "nc",
+    "source_path": "lanes/nc/new_attacks.json",
+    "source_sha256": "d6dd96245eaae3e1aadf1ae91ac94d1062611b7ad3209fb7235a8923f65ac998",
+    "hypothesis": "",
+    "evidence": "outputs/RUN_RECEIPTS/nc/A04_run_exact.json"
+  },
+  {
+    "id": "NC-R07",
+    "kind": "unchanged prior full Gram and compact binding replay",
+    "status": "TERMINAL_EXECUTED",
+    "receipt": "outputs/RUN_RECEIPTS/nc/A04_run_gram.json",
+    "receipt_sha256": "16de657b2aa1325cefc3d81bc2f83294798da2dad3c85cb017acd168bef69fa5",
+    "command_metadata": "outputs/RUN_RECEIPTS/nc/A04_run_gram.replay_meta.json",
+    "exit_code": 0,
+    "result": "PASS",
+    "lane": "nc",
+    "source_path": "lanes/nc/new_attacks.json",
+    "source_sha256": "d6dd96245eaae3e1aadf1ae91ac94d1062611b7ad3209fb7235a8923f65ac998",
+    "hypothesis": "",
+    "evidence": "outputs/RUN_RECEIPTS/nc/A04_run_gram.json"
+  },
+  {
+    "id": "NC-A05",
+    "kind": "adjudicate abandoned size-bound proposal",
+    "status": "TERMINAL_EXECUTED",
+    "receipt": "outputs/RUN_RECEIPTS/nc/a07_size_bound.json",
+    "receipt_sha256": "846b4ddcb72253a98d4810c516e9b4cb5cc8890d249fde4be2b2d02747295758",
+    "result": "CONFIRMED_ABANDONED_HARNESS_PREMISE_INVALID",
+    "scope": "Uses A04 exact engine; not an independent SOS implementation",
+    "command_metadata": "outputs/RUN_RECEIPTS/nc/a07_size_bound.replay_meta.json",
+    "exit_code": 0,
+    "lane": "nc",
+    "source_path": "lanes/nc/new_attacks.json",
+    "source_sha256": "d6dd96245eaae3e1aadf1ae91ac94d1062611b7ad3209fb7235a8923f65ac998",
+    "hypothesis": "",
+    "evidence": "outputs/RUN_RECEIPTS/nc/a07_size_bound.json"
+  },
+  {
+    "id": "ATK-AT01",
+    "title": "Fresh quartic-u exact upper/lower linkage and28 saturation",
+    "kind": "INDEPENDENT_EXACT_REIMPLEMENTATION",
+    "status": "TERMINAL_EXECUTED",
+    "result": "PASS",
+    "receipt": "outputs/RUN_RECEIPTS/attainment/exact_linkage.json",
+    "sha256": "829b506d6b8685115cf2ce376857d2bf195c9e2231e097157720b0acd6afefeb",
+    "lane": "attainment",
+    "source_path": "lanes/attainment/attacks.json",
+    "source_sha256": "70782c928df0c327986bfe691096d49b95afc6336522aa37d4d8b8cb79566aa0",
+    "hypothesis": "Fresh quartic-u exact upper/lower linkage and28 saturation",
+    "evidence": "outputs/RUN_RECEIPTS/attainment/exact_linkage.json"
+  },
+  {
+    "id": "ATK-AT02",
+    "title": "Special-fixture tensor-order blindness and generic negative control",
+    "kind": "NEW_CORRELATED_ATTACK",
+    "status": "TERMINAL_EXECUTED",
+    "result": "CORRELATED_FIXTURE_BLIND_SPOT_CONFIRMED",
+    "receipt": "outputs/RUN_RECEIPTS/attainment/a07_tensor_control.json",
+    "sha256": "d0abf498c7ab1c888baad7a2aef6c46fc9e6f6933810b56ca6bf507e4eb7b911",
+    "lane": "attainment",
+    "source_path": "lanes/attainment/attacks.json",
+    "source_sha256": "70782c928df0c327986bfe691096d49b95afc6336522aa37d4d8b8cb79566aa0",
+    "hypothesis": "Special-fixture tensor-order blindness and generic negative control",
+    "evidence": "outputs/RUN_RECEIPTS/attainment/a07_tensor_control.json"
+  },
+  {
+    "id": "ATK-AT03",
+    "title": "A03 exact-float phase near-overshoot replay",
+    "kind": "PRIOR_CHECK_REPLAY",
+    "status": "TERMINAL_EXECUTED",
+    "result": "PASS",
+    "receipt": "outputs/RUN_RECEIPTS/attainment/a03_near_replay.json",
+    "sha256": "5dec2e298f9b7c8ba910d2f213ffb765f86f8ac4978ac00ae1f24cc00908d709",
+    "lane": "attainment",
+    "source_path": "lanes/attainment/attacks.json",
+    "source_sha256": "70782c928df0c327986bfe691096d49b95afc6336522aa37d4d8b8cb79566aa0",
+    "hypothesis": "A03 exact-float phase near-overshoot replay",
+    "evidence": "outputs/RUN_RECEIPTS/attainment/a03_near_replay.json"
+  },
+  {
+    "id": "ATK-AT04",
+    "title": "A04 saved Gaussian-rational replay",
+    "kind": "PRIOR_CHECK_REPLAY",
+    "status": "TERMINAL_EXECUTED",
+    "result": "ALL_NEAR_CANDIDATE_PHYSICAL_ENVELOPES_STRICTLY_BELOW_MU",
+    "receipt": "outputs/RUN_RECEIPTS/attainment/a04_rational_replay.json",
+    "sha256": "c184e5588ec827445715f67aec281681797fc08c9df343c7fffd7d7549040605",
+    "lane": "attainment",
+    "source_path": "lanes/attainment/attacks.json",
+    "source_sha256": "70782c928df0c327986bfe691096d49b95afc6336522aa37d4d8b8cb79566aa0",
+    "hypothesis": "A04 saved Gaussian-rational replay",
+    "evidence": "outputs/RUN_RECEIPTS/attainment/a04_rational_replay.json"
+  },
+  {
+    "id": "ATK-AT05",
+    "title": "Independent integer full-tensor envelopes for six A04 candidates",
+    "kind": "ALTERNATIVE_ARITHMETIC",
+    "status": "TERMINAL_EXECUTED",
+    "result": "PASS",
+    "receipt": "outputs/RUN_RECEIPTS/attainment/a04_integer_envelopes.json",
+    "sha256": "9228eea15029b951293053e618785bd282655539ccac2959204562a263bfcd74",
+    "lane": "attainment",
+    "source_path": "lanes/attainment/attacks.json",
+    "source_sha256": "70782c928df0c327986bfe691096d49b95afc6336522aa37d4d8b8cb79566aa0",
+    "hypothesis": "Independent integer full-tensor envelopes for six A04 candidates",
+    "evidence": "outputs/RUN_RECEIPTS/attainment/a04_integer_envelopes.json"
+  },
+  {
+    "id": "ATK-AT06",
+    "title": "New rigorous physical representative of A05 strongest candidate",
+    "kind": "NEW_CORRELATED_ATTACK",
+    "status": "TERMINAL_EXECUTED",
+    "result": "PASS",
+    "receipt": "outputs/RUN_RECEIPTS/attainment/a05_integer_envelope.json",
+    "sha256": "7b488f6e9f15179fb373c843077dcd55f5a53c7e87685cb9d647f5ed448e1458",
+    "lane": "attainment",
+    "source_path": "lanes/attainment/attacks.json",
+    "source_sha256": "70782c928df0c327986bfe691096d49b95afc6336522aa37d4d8b8cb79566aa0",
+    "hypothesis": "New rigorous physical representative of A05 strongest candidate",
+    "evidence": "outputs/RUN_RECEIPTS/attainment/a05_integer_envelope.json"
+  },
+  {
+    "id": "ATK-AT07",
+    "title": "Replay400 A06 candidates and complete truncated PVMs",
+    "kind": "AUDITOR_NEGATIVE_CONTROL",
+    "status": "TERMINAL_EXECUTED",
+    "result": "AUDITOR_HARNESS_DEFECT_CONFIRMED",
+    "receipt": "outputs/RUN_RECEIPTS/attainment/a06_search_health.json",
+    "sha256": "ad1afbbc0d45c13eb7fdec058c9e1973ca652450fc1f6b81f7ce70d325a30928",
+    "lane": "attainment",
+    "source_path": "lanes/attainment/attacks.json",
+    "source_sha256": "70782c928df0c327986bfe691096d49b95afc6336522aa37d4d8b8cb79566aa0",
+    "hypothesis": "Replay400 A06 candidates and complete truncated PVMs",
+    "evidence": "outputs/RUN_RECEIPTS/attainment/a06_search_health.json"
+  },
+  {
+    "id": "ATK-AT08",
+    "title": "Replay31 A06 optimizer starts with saved endpoints/statuses",
+    "kind": "PRIOR_ALGORITHM_NEW_REPLAY",
+    "status": "TERMINAL_EXECUTED",
+    "result": "NUMERICAL_REPLAY_COMPLETE",
+    "receipt": "outputs/RUN_RECEIPTS/attainment/a06_optimizer_replay.json",
+    "sha256": "26e5d56468f418ef59cf264211705f2339bfe71a4d5a3a7a3e83c7afb7992bde",
+    "lane": "attainment",
+    "source_path": "lanes/attainment/attacks.json",
+    "source_sha256": "70782c928df0c327986bfe691096d49b95afc6336522aa37d4d8b8cb79566aa0",
+    "hypothesis": "Replay31 A06 optimizer starts with saved endpoints/statuses",
+    "evidence": "outputs/RUN_RECEIPTS/attainment/a06_optimizer_replay.json"
+  },
+  {
+    "id": "ATK-AT09",
+    "title": "Exact physical representative of A06 fresh strongest endpoint",
+    "kind": "NEW_CORRELATED_ATTACK",
+    "status": "TERMINAL_EXECUTED",
+    "result": "PASS",
+    "receipt": "outputs/RUN_RECEIPTS/attainment/a06_integer_envelope.json",
+    "sha256": "15c185874d91dc47762ea3ee170b3a2f7dbacc516ce5fa74986ca71092962709",
+    "lane": "attainment",
+    "source_path": "lanes/attainment/attacks.json",
+    "source_sha256": "70782c928df0c327986bfe691096d49b95afc6336522aa37d4d8b8cb79566aa0",
+    "hypothesis": "Exact physical representative of A06 fresh strongest endpoint",
+    "evidence": "outputs/RUN_RECEIPTS/attainment/a06_integer_envelope.json"
+  },
+  {
+    "id": "ATK-AT10",
+    "title": "Independent * and literal-event meta-review of new finite-field route",
+    "kind": "CROSS_LANE_REVIEW",
+    "status": "TERMINAL_EXECUTED",
+    "result": "PASS",
+    "receipt": "outputs/RUN_RECEIPTS/attainment/nc_finite_field_review.json",
+    "sha256": "0c934240082d040021988232c6becd56b862a59abc4e1f8c8189f9bf96cfded6",
+    "lane": "attainment",
+    "source_path": "lanes/attainment/attacks.json",
+    "source_sha256": "70782c928df0c327986bfe691096d49b95afc6336522aa37d4d8b8cb79566aa0",
+    "hypothesis": "Independent * and literal-event meta-review of new finite-field route",
+    "evidence": "outputs/RUN_RECEIPTS/attainment/nc_finite_field_review.json"
+  },
+  {
+    "id": "ATK-AT11",
+    "title": "A07 unchanged random constructor AST replay and five-outcome normalization checks",
+    "kind": "AUDITOR_NEGATIVE_CONTROL",
+    "status": "TERMINAL_EXECUTED",
+    "result": "AUDITOR_HARNESS_DEFECT_CONFIRMED",
+    "receipt": "outputs/RUN_RECEIPTS/attainment/a07_sampling_health.json",
+    "sha256": "08fd5b907c03667e618ee54353636f95233a8410195df72cd71c40723d3b7c98",
+    "lane": "attainment",
+    "source_path": "lanes/attainment/attacks.json",
+    "source_sha256": "70782c928df0c327986bfe691096d49b95afc6336522aa37d4d8b8cb79566aa0",
+    "hypothesis": "A07 unchanged random constructor AST replay and five-outcome normalization checks",
+    "evidence": "outputs/RUN_RECEIPTS/attainment/a07_sampling_health.json"
+  }
+]

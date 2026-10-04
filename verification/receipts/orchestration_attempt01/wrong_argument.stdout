@@ -1,0 +1,32 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/orchestration_attempt01/fixture.py",
+    "--root",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/repo/artifact_v0.1.1",
+    "--output",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/orchestration_attempt01/wrong_argument/result.json",
+    "--mode",
+    "wrong_argument",
+    "--unsupported-argument"
+  ],
+  "cwd": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/orchestration_attempt01/wrong_argument",
+  "started_utc": "2026-10-04T10:07:33.958078+00:00",
+  "seconds": 0.02619508000498172,
+  "returncode": 2,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "optimization_flag": 0,
+  "PYTHONOPTIMIZE": null,
+  "script_sha256": "aa8e9d5338550c74888f5f3443933ec9c7a97224ba5c384f74adacf022c61fdb",
+  "input_sha256": {
+    "EXACT_KERNELS.json": "6e08746bf5a58addb6bb46beb00c7bdab29638b9290802bca5114bc47ae957a5",
+    "EXACT_SOS_CANDIDATE.json": "14324f3ea10a3b1304a02ce48b5572be7080b519c242f5802ed599f60325c649",
+    "POSITIVITY_CERTIFICATE.json": "22ba8a09e433fe269b805f9979f574e37e3262a33fdae5a71927b748a860e8de",
+    "SOS14.json": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2"
+  },
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "4ecb69453aa0f50c38740e85b6cb931737fd8ee8b497a7aad0d14c943421eef7",
+  "status": "FAIL",
+  "failure": "CHILD_NONZERO_EXIT"
+}

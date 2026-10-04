@@ -1,0 +1,30 @@
+{
+  "schema": "cglmp5.analytic-review.v1",
+  "status": "PASS",
+  "review_type": "Independent analytic source review, not proof-assistant verification and not finite numerical testing",
+  "scope": "R09 analytic arbitrary-dimensional local tensor-product five-outcome POVM bridge",
+  "reviewed_utc": "2026-10-04T10:18:39.410936+00:00",
+  "source_binding": {
+    "artifact_v0.1.1/POVM_BRIDGE.md": "5f68b8909a82a6244e21b353c0d18172cc9c6e1782a3502285d95f6a01602c50",
+    "artifact_v0.1.1/PROOF.md": "2dcb36db093d076483b0b6d77991aa3fc0b282847357b48a033cbbb3a0ced39e",
+    "artifact_v0.1.1/ROOT_EMBEDDING.md": "889b41152e69d3b3912e02e3cf50d5faa2d47acd2ed9a9270d871b4abf084038"
+  },
+  "checks": {
+    "same_fixed_embedding_for_both_settings": "PASS: K=H direct_sum M, J h=(h,0) is independent of x; V_x and W_x may vary with x",
+    "isometry_and_defect": "PASS: V_x*V_x=I from bounded positive square roots and finite POVM sum; D_x=I-V_x V_x* is orthogonal projection; D_x V_x=0",
+    "unitary_completion": "PASS: W_x(h,k)=(V_x h+D_x k,V_x* k); W_x*(l,g)=(V_x*l,D_x l+V_x g); W_x*W_x=I and W_x W_x*=I by V_x*V_x=I, D_x V_x=0, D_x^2=D_x",
+    "complete_five_outcome_pvm": "PASS: Q_a direct_sum delta_a0 I_H are orthogonal complete PVM on M direct_sum H; conjugation by W_x gives PVM on fixed K; omitted extra summand would fail completeness",
+    "effect_compression": "PASS: W_x J h=(V_x h,0), so J*P_a|x J=V_x* Q_a V_x=E_a|x for both settings",
+    "separate_complements": "PASS: identifying each dilation H direct_sum K_x and putting both into H direct_sum K_0 direct_sum K_1, extending unused components by outcome 0, uses same original-H inclusion",
+    "joint_tensor_compression": "PASS: (J_A tensor J_B)*(P_A tensor P_B)(J_A tensor J_B)=E_A tensor E_B for every outcome/setting; no same-party product factorization invoked",
+    "states": "PASS: single enlarged density operator or positive functional phi_tilde(T)=phi(J_AB* T J_AB) is positive normalized and preserves all joint probabilities; no state depends on setting",
+    "arbitrary_spaces": "PASS: construction uses finite direct sums, bounded positive square roots, isometries and tensor products valid at any Hilbert dimension including nonseparable; no complement-cardinality identification or finite approximation assumed",
+    "scope_boundary": "PASS: tensor-product local POVM theorem, bounded cross-party commuting PVM identity; no abstract commuting-POVM dilation claim"
+  },
+  "limitations": [
+    "Analytic review does not constitute Lean/formal verification, human peer review or infallibility proof.",
+    "Finite R09 diagnostics supplement this argument and do not establish universal quantifiers.",
+    "Final manuscript must express the same construction and scope; manuscript review is separate."
+  ],
+  "note": "PROOF header now explicitly version0.1.1; same mathematical construction rechecked unchanged."
+}

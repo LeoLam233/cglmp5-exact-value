@@ -1,0 +1,46 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/scientific_attempt01/stage/outputs/INDEPENDENT_CHECKS/nc/adjudicate_a06_commutativization.py"
+  ],
+  "cwd": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/scientific_attempt01/runs/R06_true_abelian_quotient",
+  "elapsed_seconds": 11.539008621002722,
+  "name": "R06_true_abelian_quotient",
+  "optimize": 0,
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "result_path": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/scientific_attempt01/stage/outputs/RUN_RECEIPTS/nc/a06_commutativization.json",
+  "result_sha256": "e95c7936a2247b669256e288b9fcd9cc31a48aa413b648449804ad4b4fc48119",
+  "returncode": 0,
+  "script_sha256": "b5965e945a6fd2c707bc3f1dbb5eabfde9b2b333a608020abf0207cb5bd3d2c7",
+  "semantic_result": {
+    "input_sha256": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+    "interpretation": "A06 falsely credits malformed exponent counting and incompatible word ordering as a commutativization detector. A true quotient preserves the baseline identity and hides a commutator corruption. Proper noncommutative checker rejects the corruption. Central baseline identity unaffected.",
+    "results": {
+      "A06_buggy_U0_squared": [
+        [
+          0,
+          1
+        ]
+      ],
+      "A06_buggy_map": false,
+      "baseline_noncommutative": true,
+      "baseline_true_abelianization": true,
+      "commutator_mutant_noncommutative": false,
+      "commutator_mutant_true_abelianization": true,
+      "true_abelian_U0_squared": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    "seconds": 10.807483393997245,
+    "source_sha256": "f5934f64b1058a5a9798ac3cfd6323d66483d03f0a00106c72ec6e6dd88d548d",
+    "status": "CONFIRMED_AUDITOR_HARNESS_DEFECT"
+  },
+  "semantic_status": "PASS",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "096130d0c9c88d69aba0a337e8370945eb0ef960e21886c5000cb529c17ce47d",
+  "unchanged_source_replay": true
+}

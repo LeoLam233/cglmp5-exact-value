@@ -1,0 +1,1 @@
+FAIL: guard originally used recursive paper.rglob and incorrectly required ignored clean_build duplicate sources in source_binding. Fixed to published paper root source files. No mathematical checker failed.

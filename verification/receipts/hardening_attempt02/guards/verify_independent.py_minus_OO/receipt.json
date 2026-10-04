@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-OO",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt02/baseline/verify_independent.py",
+    "--root",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt02/baseline"
+  ],
+  "entrypoint": "verify_independent.py",
+  "gate": "R13",
+  "label": "minus_OO",
+  "returncode": 1,
+  "status": "PASS",
+  "stderr_sha256": "0824ff10260548839e87b55c2338b9ae35cc79e3945c8d9b0d3701cad38dfed7",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/repo/verification/guarded_replay.py", line 30, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/repo/verification/guarded_replay.py", line 17, in main
+    root=a.root.resolve();out=a.output.resolve();script=a.script.resolve();require(not out.exists(),'STALE_OUTPUT_DIRECTORY: output must not already exist');out.mkdir(parents=True);result=out/'result.json'
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/repo/verification/guarded_replay.py", line 14, in require
+    if not v:raise RuntimeError(m)
+             ^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: STALE_OUTPUT_DIRECTORY: output must not already exist

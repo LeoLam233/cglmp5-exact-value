@@ -1,0 +1,246 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/cached_status/verify_independent.py",
+    "--root",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/cached_status",
+    "--output",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/cached_status/verify_independent.py.run/result.json"
+  ],
+  "cwd": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/cached_status/verify_independent.py.run",
+  "elapsed_seconds": 0.7783965800044825,
+  "entrypoint": "verify_independent.py",
+  "expected": "annotative",
+  "gate": "R04",
+  "input_sha256": {
+    "EXACT_KERNELS.json": "6e08746bf5a58addb6bb46beb00c7bdab29638b9290802bca5114bc47ae957a5",
+    "EXACT_SOS_CANDIDATE.json": "45b688b09cb47b73b64ab62382c1de970eab92f617607a081a498d792606a1ba",
+    "POSITIVITY_CERTIFICATE.json": "22ba8a09e433fe269b805f9979f574e37e3262a33fdae5a71927b748a860e8de",
+    "SOS14.json": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2"
+  },
+  "label": "cached_status",
+  "returncode": 0,
+  "semantic_result": {
+    "checker": "independent cyclotomic-basis standard-library implementation; same author/agent, not an external audit",
+    "elapsed_seconds": 0.7262992460018722,
+    "physical": {
+      "deterministic_normalization_tests": 625,
+      "dimension_for_attainment": [
+        5,
+        5
+      ],
+      "full_Bell_eigenvector_coordinates": 25,
+      "local_bound": 2,
+      "pairwise_probability_coefficients": 100,
+      "projector_to_unitary_entries": 100,
+      "state_positive_and_normalizable": true
+    },
+    "positivity": {
+      "blocks": {
+        "1": {
+          "dimension": 2,
+          "exact_LDL": true,
+          "strict_positive_pivots": 2
+        },
+        "6": {
+          "dimension": 4,
+          "exact_LDL": true,
+          "strict_positive_pivots": 4
+        },
+        "7": {
+          "dimension": 3,
+          "exact_LDL": true,
+          "strict_positive_pivots": 3
+        },
+        "8": {
+          "dimension": 3,
+          "exact_LDL": true,
+          "strict_positive_pivots": 3
+        },
+        "9": {
+          "dimension": 2,
+          "exact_LDL": true,
+          "strict_positive_pivots": 2
+        }
+      },
+      "minimum_rational_lower_bound": "14870792191401658624894049701234194302376305633914077127575307967498648929923763137988638356892777031370389150498097563412648738532494414651149188627837310686476107021349214782690487842761837223462254752467734726311965412274904274514147858310688731425349682518329732146917711218936126250500562263355460706368420309519274433289218366913757037952077258410470937867034864066071614889316509158742351373868372125562247439122347373055878377386582049973726355384089038535201216041344463574480008191355805460206519378501052474574268764779269116196235428586420469962955693411190310202428152965032190555201212706258504217842892518322063771560559449078373162615801930635690393310067563715062398077146976794913438891320001662247026083363687216609502890377128169746088645316160570046970491422107945225887795057141001203608215571715604543344796947810367234942488705895077163737547193635327668286484237482562931907285649992715006212773971508220979361240315695510981893520382951/41481895412168893633321000167202615944462992810609843474716043547756462436648392773239680650018530940234118627148101224700660460708432965425313349059982972628871658903060842423208568346440318422276655563085194218888911839389640663623818145102304938009320835218016901212052475967036668839115880534784333468451241422306100010747482487553904336980582936041192884781868196894473589694826539676518396194267198140190986234310141856605413475719268242193298781576523259019762925162682962996963836209694852944521424459069502510946165328093828049343884229811675885230169673272499687142886472492422721760150665701550437123689656385184695451086162239269446385535238418993083801194792258148537353629054877605374672098441167912114109469962603681863549915249630186733003703564142158886590686106961822332343742530896615120538956984767462167050523170883888902180124895207281855491185425153414875703041362187806768961607409094661502423159235413996131614509964396561150837167342223360",
+      "pivots_certified": 14
+    },
+    "receipt": {
+      "annotation_policy": "Only required mathematical inputs and fixed declarations are enforced. Cached statuses, display spectra, stored universes/enclosures, discovery metadata and unknown annotations are not mathematical premises; see SCHEMA.md.",
+      "checked_claims": [
+        "1681-word exact Gram identity",
+        "exact LDL and actual-branch strictly positive pivots",
+        "full-space physical attainer and standard-event conventions"
+      ],
+      "checker_entrypoint": "verify_independent.py",
+      "checker_version": "cglmp5-verifier-v0.1.1",
+      "document_hash_scope": "bytes bound for comparison only; no machine verification of arbitrary prose or historical claims",
+      "document_sha256": {
+        "POVM_BRIDGE.md": "5f68b8909a82a6244e21b353c0d18172cc9c6e1782a3502285d95f6a01602c50",
+        "PROOF.md": "5cab16f4133a5766c37a1aaa8d5ff5ce39d0b59a7137b4b3d6d3a4b805feeb83",
+        "README.md": "943fd7e4220d4754e459158463e252abefd9177ea6c19f1c2e0ed65b244ee125",
+        "ROOT_EMBEDDING.md": "889b41152e69d3b3912e02e3cf50d5faa2d47acd2ed9a9270d871b4abf084038",
+        "SCHEMA.md": "4c63078df7ffdd02cf594a8a7a1fafeff0152b5259489e550d20cd4ed75b4703"
+      },
+      "enforced_target": {
+        "actual_embedding": {
+          "i": "positive imaginary unit",
+          "s": "positive sqrt(5)",
+          "u": "positive sqrt(10+2*s)",
+          "zeta": "(u+i*(s-1))/4=exp(i*pi/10)"
+        },
+        "analytic_bridge": "POVM_BRIDGE.md; same fixed local J for both settings; this analytic proof is not machine-formalized",
+        "mu_polynomial_coefficients": [
+          5,
+          0,
+          -65,
+          0,
+          144,
+          96,
+          16
+        ],
+        "operator_relations": "U_r^5=I; U_r*=U_r^-1; only cross-party (even/odd) commutation",
+        "polynomial_coefficient_order": "descending powers t^6 through t^0",
+        "root_selector": "unique real root mu>3; p(3)<0; p strictly increasing on [3,infinity)",
+        "scalar_basis": "n[a+2*b+6*c+12*e]*s^a*(5*mu)^b*u^c*i^e / d; a,c,e in {0,1}; b in {0,1,2}",
+        "scope": "arbitrary local Hilbert dimensions and local five-outcome POVMs; explicit C^5 tensor C^5 attainer",
+        "standard_events": {
+          "k": [
+            0,
+            1
+          ],
+          "local_bound": 2,
+          "negative": [
+            "A0=B0-k-1",
+            "B0=A1-k",
+            "A1=B1-k-1",
+            "B1=A0-k-1"
+          ],
+          "outcomes": "0,1,2,3,4; all equalities modulo 5",
+          "positive": [
+            "A0=B0+k",
+            "B0=A1+k+1",
+            "A1=B1+k",
+            "B1=A0+k"
+          ],
+          "weight": "1-k/2"
+        },
+        "theorem_id": "CGLMP5.STANDARD.LOCAL-BOUND-2.ARBITRARY-DIMENSION.LOCAL-5-POVM.EXACT-MAXIMUM.v1"
+      },
+      "enforced_target_sha256": "2d11c4b9c485088a012690b63d1ab4f394eb1b02c670a8b0385a6cccb8afe282",
+      "execution": {
+        "PYTHONOPTIMIZE": null,
+        "argv": [
+          "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/cached_status/verify_independent.py",
+          "--root",
+          "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/cached_status",
+          "--output",
+          "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/cached_status/verify_independent.py.run/result.json"
+        ],
+        "cwd": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/cached_status/verify_independent.py.run",
+        "dependencies": "Python standard library only",
+        "implementation": "CPython",
+        "input_root": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/cached_status",
+        "optimize": 0,
+        "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+        "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+        "utc": "2026-10-04T10:07:58.330784+00:00"
+      },
+      "inputs": [
+        {
+          "bytes": 935169,
+          "file": "EXACT_KERNELS.json",
+          "gram_Q_words": 81,
+          "polynomial_words": 0,
+          "rational_endpoints": 0,
+          "resolved_path": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/cached_status/EXACT_KERNELS.json",
+          "sha256": "6e08746bf5a58addb6bb46beb00c7bdab29638b9290802bca5114bc47ae957a5",
+          "unverified_top_level_annotations": [
+            "elapsed_seconds",
+            "field_relations_file",
+            "fourier_reduced_entries",
+            "status",
+            "words"
+          ],
+          "valid_integer_scalars": 1200
+        },
+        {
+          "bytes": 132801,
+          "file": "EXACT_SOS_CANDIDATE.json",
+          "gram_Q_words": 0,
+          "polynomial_words": 0,
+          "rational_endpoints": 0,
+          "resolved_path": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/cached_status/EXACT_SOS_CANDIDATE.json",
+          "sha256": "45b688b09cb47b73b64ab62382c1de970eab92f617607a081a498d792606a1ba",
+          "unverified_top_level_annotations": [
+            "coefficient_zero_residual",
+            "elapsed_seconds",
+            "free_columns",
+            "free_parameter_rounding_denominator",
+            "maximum_parameter_height_bits",
+            "meta",
+            "noncommutative_word_universe",
+            "numerical_eigenvalues_not_a_positivity_proof",
+            "parameters",
+            "pivot_columns",
+            "pivot_rank",
+            "pivot_rows",
+            "rows_checked_exactly",
+            "status"
+          ],
+          "valid_integer_scalars": 84
+        },
+        {
+          "bytes": 182479,
+          "file": "POSITIVITY_CERTIFICATE.json",
+          "gram_Q_words": 0,
+          "polynomial_words": 0,
+          "rational_endpoints": 55,
+          "resolved_path": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/cached_status/POSITIVITY_CERTIFICATE.json",
+          "sha256": "22ba8a09e433fe269b805f9979f574e37e3262a33fdae5a71927b748a860e8de",
+          "unverified_top_level_annotations": [
+            "all_pivots_strictly_positive",
+            "bits",
+            "elapsed_seconds",
+            "minimum_pivot_rational_lower_bound",
+            "physical_strategy",
+            "root_justification",
+            "status"
+          ],
+          "valid_integer_scalars": 57
+        }
+      ],
+      "limits": "This receipt does not establish external validation, human peer review, formal verification, independent model ancestry, or a trustworthy execution history by itself.",
+      "schema": "cglmp5.verification-receipt.v1",
+      "source_sha256": {
+        "kill_tests.py": "db14847bb09df888daefa444f56d831b12d97bcfd48db0c0a6daa18bbc9dd511",
+        "strict_schema.py": "12c8d6d0867a31f48610d879c0aaefe3c9ccc04d6fdd3c62d94104b78a1ddd0b",
+        "validate_integer_encoding.py": "e7cd9a7c482696cee1427a5f3d1e98311033ae1e08af3135869050ca9070878a",
+        "verification_receipt.py": "81b28999c492a858815f933cee4d7551d8239841bfd54a5cc9ece0d89d87d767",
+        "verify_independent.py": "ea9be28959de0412e4c47f33eab0c16f9bfb8f31cd4774a7b0c0add5a255fad4",
+        "verify_sos14.py": "25b39226dddb11c9689846e686edb8307fdfb23f2d9776777a93b43928b5f8b2",
+        "verify_statement.py": "29c98cc47f3419985de474af7c7962bcfbd60b0ce87b28a80eec2d0ba03b36d2"
+      }
+    },
+    "status": "PASS",
+    "word_check": {
+      "all_coefficients_identically_zero": true,
+      "full_word_coefficients_exactly_checked": 1681,
+      "operator_basis": 81,
+      "positive_block_total_size": 14
+    }
+  },
+  "source_sha256": {
+    "kill_tests.py": "db14847bb09df888daefa444f56d831b12d97bcfd48db0c0a6daa18bbc9dd511",
+    "strict_schema.py": "12c8d6d0867a31f48610d879c0aaefe3c9ccc04d6fdd3c62d94104b78a1ddd0b",
+    "validate_integer_encoding.py": "e7cd9a7c482696cee1427a5f3d1e98311033ae1e08af3135869050ca9070878a",
+    "verification_receipt.py": "81b28999c492a858815f933cee4d7551d8239841bfd54a5cc9ece0d89d87d767",
+    "verify_independent.py": "ea9be28959de0412e4c47f33eab0c16f9bfb8f31cd4774a7b0c0add5a255fad4",
+    "verify_sos14.py": "25b39226dddb11c9689846e686edb8307fdfb23f2d9776777a93b43928b5f8b2",
+    "verify_statement.py": "29c98cc47f3419985de474af7c7962bcfbd60b0ce87b28a80eec2d0ba03b36d2"
+  },
+  "status": "PASS",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "a46f1f93e703535d8a42d9d655d3515894ad18aae756671552bbc783fef5ac3a"
+}

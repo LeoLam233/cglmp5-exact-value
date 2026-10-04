@@ -1,0 +1,13 @@
+{
+  "status": "AUDITOR_HARNESS_DEFECT_CONFIRMED",
+  "source_sha256": "2476d98e89e26900fb17a99f7bbc85355f5cacd1bdba86b44475311a2b81659a",
+  "trials": 400,
+  "invalid_truncated_projective_candidates": 105,
+  "valid_original_candidates": 295,
+  "all_corrected_candidates_complete_error": 1.5307674708043958e-15,
+  "best_original_random_score": 1.460443938980493,
+  "best_corrected_random_score": 1.460443938980493,
+  "best_valid_POVM_score": 1.460443938980493,
+  "scope": "Affected only A06 supplementary random projective branch d>5. The common-space construction and independent spectral-unitary dimension scan are different valid routes.",
+  "elapsed_seconds": 1.1026575565338135
+}

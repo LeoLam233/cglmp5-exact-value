@@ -1,0 +1,562 @@
+{
+  "schema": "cglmp5.release-gate.v1",
+  "release": "v0.1.1",
+  "status": "PASS",
+  "created_utc": "2026-10-04T10:22:16.232033+00:00",
+  "gates": {
+    "R01": {
+      "status": "PASS",
+      "semantic_result": "Immutable outer/nested/payload/current manifests match; frozen tag bytes unchanged; original-to-curated maps retained; manifest scopes distinguished.",
+      "receipts": [
+        {
+          "path": "verification/receipts/integrity_final.json",
+          "sha256": "cff5ee0b79c6192b069ae4689d5b6381d70b7369d9fa1d2664f4e00380554f83"
+        },
+        {
+          "path": "verification/receipts/replay_source_identity.json",
+          "sha256": "4e991235fc58614a92f8ea7d6ca23647e29aceec1e32c7205b80c2ea258cb02f"
+        }
+      ]
+    },
+    "R02": {
+      "status": "PASS",
+      "semantic_result": "117 actual consumer executions reject malformed exact scalar JSON by SchemaError before mathematical arithmetic.",
+      "receipts": [
+        {
+          "path": "verification/receipts/hardening_attempt02/SUMMARY.json",
+          "sha256": "6cba87c5e326907610e78c035844061be0de867279b5801fb88796289e65b25a"
+        }
+      ],
+      "executions": 117,
+      "coverage": "Each mathematical consumer receives every malformed family in each file it actually consumes; combined preflight covers all four files."
+    },
+    "R03": {
+      "status": "PASS",
+      "semantic_result": "40 actual consumer executions reject malformed compact/Gram Q words and absent fields; integer-string word policy explicit.",
+      "receipts": [
+        {
+          "path": "verification/receipts/hardening_attempt02/SUMMARY.json",
+          "sha256": "6cba87c5e326907610e78c035844061be0de867279b5801fb88796289e65b25a"
+        }
+      ],
+      "executions": 40
+    },
+    "R04": {
+      "status": "PASS",
+      "semantic_result": "19 metadata/prose mutations enforce fixed declarations or disclose annotations; actual theorem remains fixed and input/source/prose hashes match.",
+      "receipts": [
+        {
+          "path": "verification/receipts/hardening_attempt02/SUMMARY.json",
+          "sha256": "6cba87c5e326907610e78c035844061be0de867279b5801fb88796289e65b25a"
+        },
+        {
+          "path": "verification/receipts/receipt_binding.json",
+          "sha256": "1c9a83c0975fbf3a11666048df6308b37b6f0a2214eb26b51f421ce09068d8a3"
+        },
+        {
+          "path": "verification/receipts/guarded_supplement/receipt_binding_guarded/receipt.json",
+          "sha256": "baf29989af5a306df14da24e842d81245e1ea282f4afe634aa13226dce4efed6"
+        }
+      ],
+      "executions": 19
+    },
+    "R05": {
+      "status": "PASS",
+      "semantic_result": "Six mathematical invariances retained, including compatible conjugation; duplicate diagnostic ID rejected only as canonical traceability policy; explicit-zero stored/nonzero counts165/164 separated.",
+      "receipts": [
+        {
+          "path": "verification/receipts/hardening_attempt02/SUMMARY.json",
+          "sha256": "6cba87c5e326907610e78c035844061be0de867279b5801fb88796289e65b25a"
+        },
+        {
+          "path": "verification/receipts/receipt_binding.json",
+          "sha256": "1c9a83c0975fbf3a11666048df6308b37b6f0a2214eb26b51f421ce09068d8a3"
+        },
+        {
+          "path": "verification/receipts/guarded_supplement/receipt_binding_guarded/receipt.json",
+          "sha256": "baf29989af5a306df14da24e842d81245e1ea282f4afe634aa13226dce4efed6"
+        }
+      ],
+      "executions": 7
+    },
+    "R06": {
+      "status": "PASS",
+      "semantic_result": "Characteristic-zero compact273/Gram1681 residuals zero; 42 LDL/1134 E-L checks; alternate engine, true abelian quotient and injected NC commutator controls. Finite-field102 cases are diagnostic.",
+      "receipts": [
+        {
+          "path": "verification/receipts/scientific_attempt02/runs/R06_A04_compact/receipt.json",
+          "sha256": "8cc1596d10ed60fd7ae523de97a9c50a6cd1cf6e72d43641609f23185e4c9945"
+        },
+        {
+          "path": "verification/receipts/scientific_attempt02/runs/R06_A04_full_gram/receipt.json",
+          "sha256": "a86e2dc3ba7e324051c3aeda5e425cfd5df38f18d69997c2d23632cdc4f8425d"
+        },
+        {
+          "path": "verification/receipts/scientific_attempt02/runs/R06_gram_linkage/receipt.json",
+          "sha256": "edf96d6b8465e24be2e83d85ceaaaeb0d9ce4d6b16028ea16032061b4e574acd"
+        },
+        {
+          "path": "verification/receipts/scientific_attempt02/runs/R06_true_abelian_quotient/receipt.json",
+          "sha256": "3105c578c8f2bcd8ca6cd503475efd2f5a477257ba4d564134a3d94c360fae62"
+        },
+        {
+          "path": "verification/receipts/scientific_attempt02/runs/R06_expanded_letter_normalizers/receipt.json",
+          "sha256": "291d42359087ac1533f5ebd552f527db3b0fb34fea0a559cf405896a386cb77d"
+        },
+        {
+          "path": "verification/receipts/scientific_attempt02/runs/R06_finite_field_matrices/receipt.json",
+          "sha256": "f11b5e2b9c277d230cd71c71f5aa255f5dbeee3469317ffd1ceeddc3d2503796"
+        },
+        {
+          "path": "verification/receipts/guarded_supplement/exact_abelian_guarded/receipt.json",
+          "sha256": "b1461c39f36ec41d2ea4a9072185a798d44a632dc9ea3b3f22f5ab34f7df7a3e"
+        }
+      ]
+    },
+    "R07": {
+      "status": "PASS",
+      "semantic_result": "Largest real branch selected; all14 actual weights >1/3000; independent Fraction210 sign comparisons; actual coefficient reevaluation across12 compatible embeddings loses positivity on wrong branches; zero/nonreal/negative controls rejected.",
+      "receipts": [
+        {
+          "path": "verification/receipts/scientific_attempt02/runs/R07_sturm_tarski/receipt.json",
+          "sha256": "1b5fd9302cd2b238b9f278ec06e08e023fe839dde75712772da1aeac0bb8d127"
+        },
+        {
+          "path": "verification/receipts/scientific_attempt02/runs/R07_fraction_sign/receipt.json",
+          "sha256": "cfda477285f5cabf2c574dc985fd2c4721fe129b0aa284d6e65dc48144f0168e"
+        },
+        {
+          "path": "verification/receipts/hardening_attempt02/SUMMARY.json",
+          "sha256": "6cba87c5e326907610e78c035844061be0de867279b5801fb88796289e65b25a"
+        }
+      ]
+    },
+    "R08": {
+      "status": "PASS",
+      "semantic_result": "100 literal event coefficients,625 deterministic assignments,20 Fourier projectors,625 full Bell entries,25 eigenvector coordinates,28 saturation vectors/700 coordinates exact; phase/D-shift controls nonzero; actual embedding map and positive state denominator/norm verified.",
+      "receipts": [
+        {
+          "path": "verification/receipts/scientific_attempt02/runs/R08_full_attainment/receipt.json",
+          "sha256": "377add7cb43461e0de38acd499e0b3f2d60839b3f41f6debaf0a64b33a43e080"
+        },
+        {
+          "path": "verification/receipts/scientific_attempt02/runs/R08_embedding_crossmap/receipt.json",
+          "sha256": "7cf586fa56e824301cf039feda94b8a58ed2ff56b829eb9698d880f952718d3a"
+        }
+      ]
+    },
+    "R09": {
+      "status": "PASS",
+      "semantic_result": "Fixed common J:1301 exact checks and200 joint compressions, zero/rank-deficient effects, unequal dimensions, entangled mixed state, proper-isometry defect, wrong-setting/omitted-completion/compression-product controls; analytic arbitrary-dimensional review separately identified.",
+      "receipts": [
+        {
+          "path": "verification/receipts/scientific_attempt02/runs/R09_exact_common_J/receipt.json",
+          "sha256": "a9207aab4ecbe16ab5ce05dbf51c5964efc1b822ea13804e347e0a93d50d9516"
+        },
+        {
+          "path": "verification/receipts/scientific_attempt02/runs/R09_formal_proper_isometry/receipt.json",
+          "sha256": "e502af421a15033ef5fd5a69f6c09e643a3b7cc81695f3d2cbfd1b958849116b"
+        },
+        {
+          "path": "verification/receipts/scientific_attempt02/runs/R09_compression_not_multiplicative/receipt.json",
+          "sha256": "1076793097876e8581ae343a4150906fcee953712bfa351e051415fda160df8c"
+        },
+        {
+          "path": "verification/receipts/scientific_attempt02/runs/R09_wrong_setting_embedding/receipt.json",
+          "sha256": "e3706a200cc552615a2b4514b50d2a1a6cde34882c87443928df1114f909f864"
+        },
+        {
+          "path": "verification/receipts/review/analytic_bridge_review.json",
+          "sha256": "65001ff29eb48342eaf9889a42d90ffde0c3f541a48c5d2a524e6792c54b02c7"
+        }
+      ]
+    },
+    "R10": {
+      "status": "PASS",
+      "semantic_result": "Generic tensor/same-party ordering defects exposed away from optimizer;400 repaired sampling cases complete; additional12 exact rational PVM families/60 outcomes use all columns with explicit PSD witnesses and noncommuting settings.",
+      "receipts": [
+        {
+          "path": "verification/receipts/scientific_attempt02/runs/R10_generic_tensor_order/receipt.json",
+          "sha256": "70596eaaa1b279f490abfe2e5af3915024c16d760f8e1eb8533bcfb558ef294f"
+        },
+        {
+          "path": "verification/receipts/scientific_attempt02/runs/R10_same_party_order/receipt.json",
+          "sha256": "c9cbd722ab4f6451f39539bd71d659fe7195d6c50266a0b72a7490f9205c95da"
+        },
+        {
+          "path": "verification/receipts/scientific_attempt02/runs/R10_invalid_sample_diagnostics/receipt.json",
+          "sha256": "fb24ca8d11b25d8547669a043c72d679665a42a3bb468cc50ffaa648f0fc1869"
+        },
+        {
+          "path": "verification/receipts/scientific_attempt02/runs/R10_complete_five_outcome_samples/receipt.json",
+          "sha256": "cfd8678c12b381f0c7ec0e0e93c738a9a2708cc4fac30e538dec7cd875fc590a"
+        },
+        {
+          "path": "verification/receipts/generic_rational_PVMs.json",
+          "sha256": "5f5274897624251c20d680fa1a35f1b8b2265e43780a2a2c4506a757ea3f2ebb"
+        },
+        {
+          "path": "verification/receipts/guarded_supplement/generic_PVM_guarded/receipt.json",
+          "sha256": "40a95e5b148575a380c073a778cbd1ed14f501c4b3948e0a24cdff2a6865e591"
+        }
+      ]
+    },
+    "R11": {
+      "status": "PASS",
+      "semantic_result": "Nine compact mathematical mutations rejected by ArithmeticError; true coordinate negation distinguished from tripling;12 inherited kill tests cover Gram coefficient/drop, phase reversal, lowered bound and invalid state interfaces.",
+      "receipts": [
+        {
+          "path": "verification/receipts/hardening_attempt02/SUMMARY.json",
+          "sha256": "6cba87c5e326907610e78c035844061be0de867279b5801fb88796289e65b25a"
+        },
+        {
+          "path": "verification/receipts/kill_tests.json",
+          "sha256": "83b1768ad55343148aaedc252b3f66390d9565bf28448e6f84f25be31f164ee4"
+        }
+      ]
+    },
+    "R12": {
+      "status": "PASS",
+      "semantic_result": "Preserved raw binary64 arrays fail exact unitarity; all31 historical optimizer statuses retained and identified as historical; six A04 plus A05/A06 defined repaired representatives have exact strict below-mu enclosures; no global-bound inference.",
+      "receipts": [
+        {
+          "path": "verification/receipts/scientific_attempt02/runs/R12_a04_exact_envelopes/receipt.json",
+          "sha256": "84dca603b68b5cd66c4c8b435b8408e3c5d736b08c2d40ca58bfb119d57caea3"
+        },
+        {
+          "path": "verification/receipts/scientific_attempt02/runs/R12_a05_exact_envelopes/receipt.json",
+          "sha256": "73e0a469fad0f2881f0daa5911b2d0ed122ecf7830ab9c2f41e5f1d0ea5ff77d"
+        },
+        {
+          "path": "verification/receipts/scientific_attempt02/runs/R12_a06_exact_envelopes/receipt.json",
+          "sha256": "4b5d5f68d55d3a793c8a33b67b09832da266432b977b684f66f29a66a424cf98"
+        },
+        {
+          "path": "verification/receipts/raw_candidate_diagnostics.json",
+          "sha256": "20eec37470b956c2af54b0b08b3040c071d36dd3bf3b6e100cf3fd1b5e8e762b"
+        },
+        {
+          "path": "verification/receipts/guarded_supplement/raw_candidate_guarded/receipt.json",
+          "sha256": "36b6846a1feb2548e6b76446cf4d4ac634069372505b532f6bf4fb068fa1da70"
+        }
+      ]
+    },
+    "R13": {
+      "status": "PASS",
+      "semantic_result": "All four entrypoints refuse-O/-OO/optimization environment; six orchestration fixtures distinguish semantic PASS/zero residual from FAIL+exit0, nonzero residual, wrong CLI, incomplete output and stale receipt.",
+      "receipts": [
+        {
+          "path": "verification/receipts/hardening_attempt02/SUMMARY.json",
+          "sha256": "6cba87c5e326907610e78c035844061be0de867279b5801fb88796289e65b25a"
+        },
+        {
+          "path": "verification/receipts/orchestration_attempt01/SUMMARY.json",
+          "sha256": "98d6f3c6bbe8469ef7c1e45e1ce454b2454acf94eb0784933ac1e87c999250fb"
+        }
+      ]
+    },
+    "R14": {
+      "status": "PASS",
+      "semantic_result": "Fresh relocated five-entrypoint replay with spaces/unrelated cwd and exact source/input/dependency binding; all failed attempts retained; archived source/finding coverage and analytic/editorial limits explicitly reviewed.",
+      "receipts": [
+        {
+          "path": "verification/receipts/relocation_attempt01/SUMMARY.json",
+          "sha256": "5c0b4d5cb1ef21e1d529fe53d7002eb40baca02c48da186c05d112ccd676768f"
+        },
+        {
+          "path": "verification/receipts/scientific_attempt02/staging_manifest.json",
+          "sha256": "53b2e691e96a5cd22945fe9ba56230d452fe05b58fea59160a30b2d450d5cd5c"
+        },
+        {
+          "path": "verification/receipts/scientific_attempt01/SUMMARY.json",
+          "sha256": "86815b384a03c4edbaf05402f8874eb11f4bf555b55efd26bf6aaf0a010eb094"
+        },
+        {
+          "path": "verification/receipts/hardening_attempt01/SUMMARY.json",
+          "sha256": "7884374ced687e44131beb1467c8500fc1bd665cc325797433f4c1a349d6f864"
+        },
+        {
+          "path": "verification/receipts/review/editorial_review.json",
+          "sha256": "bff479d67225254d0e915d70ad17f5031f91fda7e2e7ed167e079f8158fb8ee5"
+        },
+        {
+          "path": "verification/receipts/review/analytic_bridge_review.json",
+          "sha256": "65001ff29eb48342eaf9889a42d90ffde0c3f541a48c5d2a524e6792c54b02c7"
+        }
+      ]
+    }
+  },
+  "source_binding": {
+    ".gitattributes": "81e3bc62a34dc04083a9216c8c5feac77c6bd36b69f9176d8bda5ad9067f9697",
+    ".github/workflows/release-v0.1.1.yml": "558528b4c451bdfbfbacfef1c1b9fa61e9ad427bca7a369c2bd2bc84b7c27f88",
+    ".github/workflows/verify.yml": "ca13a8801d57b0682a0841c65be7fd0f7af38948a6f7b8a5054eabeea7656ae1",
+    ".gitignore": "d25ba5a8c1f83bf5b68bda4cb3797b62241e152cbdc5fa6d5545daa56cbc3d1b",
+    "AUTHORSHIP.md": "e4995e27f3e8b856840b65d633e3731ec31dca5c25152bee42650045aae42504",
+    "CITATION.cff": "79c099f662786f84c39c6867f7b8c4a6b44a062e68616dd3f5cd0402616c37ba",
+    "README.md": "520c41c30f0d93d6f17fb03455b5e518e54c05e58b9f46e18e344144bd1d44ae",
+    "RELEASE_NOTES.md": "e84c2e4f230a944580def90039ff2ee999f0332680bee0a5cc4b1965096e26d3",
+    "RELEASE_v0.1.1.md": "27e0306f42e6e3fc014d5311a8b64be64237fa2670c912c13c378f15658f9326",
+    "SHA256SUMS.txt": "09b0632ade3a9979b2dc52178fda7b18e10aed81d27b008ec051f17dc7572669",
+    "artifact_v0.1.1/EXACT_KERNELS.json": "6e08746bf5a58addb6bb46beb00c7bdab29638b9290802bca5114bc47ae957a5",
+    "artifact_v0.1.1/EXACT_SOS_CANDIDATE.json": "14324f3ea10a3b1304a02ce48b5572be7080b519c242f5802ed599f60325c649",
+    "artifact_v0.1.1/MANIFEST.sha256": "b4002a160f47d14df6c876faa74c7635bcbf38e60a145535ddbb36c010715d18",
+    "artifact_v0.1.1/POSITIVITY_CERTIFICATE.json": "22ba8a09e433fe269b805f9979f574e37e3262a33fdae5a71927b748a860e8de",
+    "artifact_v0.1.1/POVM_BRIDGE.md": "5f68b8909a82a6244e21b353c0d18172cc9c6e1782a3502285d95f6a01602c50",
+    "artifact_v0.1.1/PROOF.md": "2dcb36db093d076483b0b6d77991aa3fc0b282847357b48a033cbbb3a0ced39e",
+    "artifact_v0.1.1/README.md": "f9602235188808cfecd221d919a2e9f123afda57f7eb6d5f9361c72f32bcd043",
+    "artifact_v0.1.1/ROOT_EMBEDDING.md": "889b41152e69d3b3912e02e3cf50d5faa2d47acd2ed9a9270d871b4abf084038",
+    "artifact_v0.1.1/SCHEMA.md": "deee903c20902d634726a94774243e3e8ac6bd7fc1fd4270fef329c9f17df041",
+    "artifact_v0.1.1/SOS14.json": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+    "artifact_v0.1.1/kill_tests.py": "db14847bb09df888daefa444f56d831b12d97bcfd48db0c0a6daa18bbc9dd511",
+    "artifact_v0.1.1/strict_schema.py": "12c8d6d0867a31f48610d879c0aaefe3c9ccc04d6fdd3c62d94104b78a1ddd0b",
+    "artifact_v0.1.1/validate_integer_encoding.py": "e7cd9a7c482696cee1427a5f3d1e98311033ae1e08af3135869050ca9070878a",
+    "artifact_v0.1.1/verification/CANDIDATE.json": "99ad5b8432298f5a3ca8b4cd62bf6e14f2aee4b8c20aee7734087eea0bfdace5",
+    "artifact_v0.1.1/verification/RECORD.md": "e84dbd033d581fea965c2fb016218f8e6e9eb75ad7e6cc3ea64830f6a6672b02",
+    "artifact_v0.1.1/verification/receipts/audit_algebra/FIRST_REPORT_IDENTITY.json": "c9156e70e96ec6a5cc9dc84708991f923187ce31503b515975f7ab69f01715e5",
+    "artifact_v0.1.1/verification/receipts/audit_algebra/REPORT.md": "a4875314b3ce9542ede3b1e48b9be46f3d52adf2c0713cc1c12100342ecbe7d5",
+    "artifact_v0.1.1/verification/receipts/audit_algebra/attack_results.json": "c01ac85d0ee735f0c4aed8835067c2f1a94bd341d05572174679879f23463fc9",
+    "artifact_v0.1.1/verification/receipts/audit_algebra/attacks.log": "8bf4808f224ee2db3d4f559114c9c383f1de318d82229fb2c13d8e42984eb39a",
+    "artifact_v0.1.1/verification/receipts/audit_algebra/audit_attacks.py": "9d8397e9f1ebda006ad41f2655df0af85e0dd2482fe064949c257536e0d37b25",
+    "artifact_v0.1.1/verification/receipts/audit_algebra/audit_exact.py": "0d6f4f59a2dad96dbc3529d5a2b6a6680d5b0e7e34364bf986d3ecff12c3d851",
+    "artifact_v0.1.1/verification/receipts/audit_algebra/independent_exact.log": "4c05bfca785c7274ba0efd24db6782838d83499309959223d6f595f6b7dd7e15",
+    "artifact_v0.1.1/verification/receipts/audit_algebra/independent_results.json": "08b06452f7296aaf7fa3e331a1c5a13d698cef5ca86c1a14c6da97bd9f843466",
+    "artifact_v0.1.1/verification/receipts/audit_algebra/mutants/coefficient_plus_one/SOS14.json": "2bb6fa94a82df9f3c171c9a991288bcc02bf72f4444a7bce89c1fac1be229a7e",
+    "artifact_v0.1.1/verification/receipts/audit_algebra/mutants/dropped_term/SOS14.json": "8336d73defd67b7127133b1445319fe4663ddfa949156ccf2d2de8c7a142dae0",
+    "artifact_v0.1.1/verification/receipts/audit_algebra/mutants/imaginary_weight/SOS14.json": "bb07ce16d4a75513333253b2afb38fb78d4256edd31d61337092072ff1a6e420",
+    "artifact_v0.1.1/verification/receipts/audit_algebra/mutants/negative_sqrt5_branch/SOS14.json": "f4f6c06184d0c3a1143eb6438d5f9df85258b8973677b80299f73d2aa089ece2",
+    "artifact_v0.1.1/verification/receipts/audit_algebra/mutants/negative_weight/SOS14.json": "a25c208bb28b9fdfb268308a4e43493ef51c1ab167ce8b69fc5634cd3866507a",
+    "artifact_v0.1.1/verification/receipts/audit_algebra/mutants/nonintegral_n_accepted/SOS14.json": "0f73c47832f286e8b637efe11bcd3865092786925a97bee17924bce8cb4dc513",
+    "artifact_v0.1.1/verification/receipts/audit_algebra/mutants/same_party_generator_relabel/SOS14.json": "63cde2332ca049d5698fd3287d542470b98d295d48c6cc3f9cee8b3443247ecf",
+    "artifact_v0.1.1/verification/receipts/audit_algebra/mutants/wrong_root_box/SOS14.json": "0a6c257ef54fee1db79bd87c7e290bac40c4e753a4b0f34830b40274b7c42c2f",
+    "artifact_v0.1.1/verification/receipts/audit_algebra/supplied_independent.log": "5156474dc113efea24e852519cb87ca249d83a96f698f2b8f4dcc9fe532f7a38",
+    "artifact_v0.1.1/verification/receipts/audit_algebra/supplied_independent_result.json": "08abc470f800820c2c792014a9ce154d0e90ed55d28b17e57fd5be7fca4ec6a6",
+    "artifact_v0.1.1/verification/receipts/audit_algebra/supplied_sos.log": "bf3daeea83f0eda408f61fb43ebc81bb23e7ffb707b0139ee845d06a84b4c214",
+    "artifact_v0.1.1/verification/receipts/audit_algebra/supplied_sos_result.json": "328ca270b15f824f734e70a8d0838e9908a92b5bafdae5be85b5f23d52cb85c8",
+    "artifact_v0.1.1/verification/receipts/audit_algebra/supplied_statement.log": "38f146fea0a4be449191bee89f5880e6ec011613f09d810d6bff53c315e5165a",
+    "artifact_v0.1.1/verification/receipts/audit_algebra/supplied_statement_result.json": "04a5a8dd6f1f9d81de8a9235537472e9e71ce7d3a433283be116b93a34e639c0",
+    "artifact_v0.1.1/verification/receipts/audit_physics/FREEZE_MANIFEST.json": "f90123bf8b865ed4ab1d41a20a2dc877207ac48be0635507328b92eba93448ae",
+    "artifact_v0.1.1/verification/receipts/audit_physics/REPORT_FIRST.md": "17bea8f706bba96c932bc68770c20d2a89198344958636c93108bad4040feae3",
+    "artifact_v0.1.1/verification/receipts/audit_physics/audit_exact.py": "5b45b102311e2e9e270b38e19e829b8ba087f6ac7b0af59adc5e04bf43f0ca6b",
+    "artifact_v0.1.1/verification/receipts/audit_physics/executed.log": "72c44fc00be55b2c90fbce1922deba5869c5f17ffc026dfd20af2c76576d5793",
+    "artifact_v0.1.1/verification/receipts/audit_physics/input_hashes.json": "2adadf9d59633b24eef5b61f580f98117d710dbebd0d8a4c031dcf90d8dd910e",
+    "artifact_v0.1.1/verification/receipts/audit_physics/results.json": "633fd7fea554880167cd7ff72ee15ec58fb2b744aa8101cfb96b85d564b5e9af",
+    "artifact_v0.1.1/verification/receipts/coordinator_checks.json": "325c9d5941063f91bb753f3b91d050f4784f258f8a9a76b8a2cf04c378de35ff",
+    "artifact_v0.1.1/verification/receipts/direct_mutations.json": "a5b81537f0a9a7b5baffd98e505d66de78ca239b60b1330f94b81ad9c6d5b097",
+    "artifact_v0.1.1/verification/receipts/input_views/audit_view/AUDIT_CONTRACT.md": "ef893832dafe600a240cbc86e2770e08634db0a78ddcbc51fd5750eda280b045",
+    "artifact_v0.1.1/verification/receipts/input_views/audit_view/EXACT_KERNELS.json": "6e08746bf5a58addb6bb46beb00c7bdab29638b9290802bca5114bc47ae957a5",
+    "artifact_v0.1.1/verification/receipts/input_views/audit_view/EXACT_SOS_CANDIDATE.json": "14324f3ea10a3b1304a02ce48b5572be7080b519c242f5802ed599f60325c649",
+    "artifact_v0.1.1/verification/receipts/input_views/audit_view/INPUT_IDENTITY.json": "e924170208c76a57fb5dbb3416df9fe3213fd573b17af9c189eed8acf40184eb",
+    "artifact_v0.1.1/verification/receipts/input_views/audit_view/POSITIVITY_CERTIFICATE.json": "22ba8a09e433fe269b805f9979f574e37e3262a33fdae5a71927b748a860e8de",
+    "artifact_v0.1.1/verification/receipts/input_views/audit_view/PROOF.md": "41737b9607c945ba3be463383a1b0bcb96e43404c326f6e114a6bb6dc6d88ff7",
+    "artifact_v0.1.1/verification/receipts/input_views/audit_view/ROOT_EMBEDDING.md": "81d1c2ba6bd17bdf358c24f61ef569774e9b8916149221d76c139a89f1e5a119",
+    "artifact_v0.1.1/verification/receipts/input_views/audit_view/SOS14.json": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+    "artifact_v0.1.1/verification/receipts/input_views/audit_view/verify_independent.py": "8aa54411ec9bbc79245e6e42db79a698dfcd11eb9853f331ac8221a662244fc3",
+    "artifact_v0.1.1/verification/receipts/input_views/audit_view/verify_sos14.py": "90bef7e72619c99222a08003ba5d0ab204b08cde021daf28cdc86aaa09281094",
+    "artifact_v0.1.1/verification/receipts/input_views/audit_view/verify_statement.py": "b94e281b07a63224b95fa2ece2482f5ed774c99fa461d51a37f0a61c8ac76d37",
+    "artifact_v0.1.1/verification/receipts/input_views/reconstruction_view/TARGET.md": "0480e476fde75b9cdc540066ad1bcfc36f2f6375a04afbf848396f24bdc5b61d",
+    "artifact_v0.1.1/verification/receipts/manifest_check.json": "bde480970d8eeadc4503964ea6cc665195e5d203207d86f19969a72c9a526f08",
+    "artifact_v0.1.1/verification/receipts/packaging_identity.json": "b603d7e0649e2907e9c01b3e75e54e3bc2e681e2d8332880c16009ccd40740ea",
+    "artifact_v0.1.1/verification/receipts/parser_adjudication.json": "2198c06cced199a9ece9a919b4552370d530c3a8741bb100b874f7cf636d3d7e",
+    "artifact_v0.1.1/verification/receipts/reconstruction/lower_worker/ENVIRONMENT_AND_COMMANDS.md": "5bf9385d6c8192012c903b2928e1cb7055dfa274a77a94b3a6faa7c34f529708",
+    "artifact_v0.1.1/verification/receipts/reconstruction/lower_worker/REPORT_FROZEN.md": "9a10cb83a19022aeb1b6c4be971ccd1df4550f4d439204e579f5b599bec4fdde",
+    "artifact_v0.1.1/verification/receipts/reconstruction/lower_worker/SHA256SUMS.txt": "5035433d028803c11b9da876853f1238b0753a116c2fac857c63191f3b8e2b7a",
+    "artifact_v0.1.1/verification/receipts/reconstruction/lower_worker/TARGET.exposed.md": "0480e476fde75b9cdc540066ad1bcfc36f2f6375a04afbf848396f24bdc5b61d",
+    "artifact_v0.1.1/verification/receipts/reconstruction/lower_worker/UNGUIDED_ADDENDUM.md": "7c5e981a40c6b55e3e3ec54c85ba705edefdc3b38170eb015a6c6d433aa4119d",
+    "artifact_v0.1.1/verification/receipts/reconstruction/lower_worker/checks.json": "b47c2b046444064ae30510fd09f5c8f95257e80978a7402dbec69d67de08078e",
+    "artifact_v0.1.1/verification/receipts/reconstruction/lower_worker/exact_computation.log": "8a27e0f249d6af077f614918389fa7db7ee2bbd4df83dc9e7d6133d3b938e6f3",
+    "artifact_v0.1.1/verification/receipts/reconstruction/lower_worker/reconstruct.py": "79b9c185531757f45bcf97dffc9744f78b9195a32dce3c5a4002b907b4b33aca",
+    "artifact_v0.1.1/verification/receipts/reconstruction/lower_worker/requirements.txt": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+    "artifact_v0.1.1/verification/receipts/reconstruction/lower_worker/run_stdout.log": "2389afa092cd1e302741022f09e151c367f1c4c39ee6578c2808837acc9291b6",
+    "artifact_v0.1.1/verification/receipts/replay/FULL_kill_tests.json": "d3d152f06a4da1fe5a707edc788a53e9096ba52ed21fc9612e11e657776eddb9",
+    "artifact_v0.1.1/verification/receipts/replay/FULL_kill_tests.log": "e91e659cc43c2b8e99b5d4faf63de4232f642ffe35accfe012161796d3e70ce9",
+    "artifact_v0.1.1/verification/receipts/replay/FULL_verify_independent.json": "08abc470f800820c2c792014a9ce154d0e90ed55d28b17e57fd5be7fca4ec6a6",
+    "artifact_v0.1.1/verification/receipts/replay/FULL_verify_independent.log": "b62739295f59cddfacfe7136014930e80d15d7770e98d7319617c0448eedfb4b",
+    "artifact_v0.1.1/verification/receipts/replay/FULL_verify_sos14.json": "10dc151063bf4f010b291d8f0f62fb65fa45ef7dfae67f7bc54980705a2089af",
+    "artifact_v0.1.1/verification/receipts/replay/FULL_verify_sos14.log": "9e39cf896048eb732894c8b056c94eeb09e2558abc66a4a521862c184860acb0",
+    "artifact_v0.1.1/verification/receipts/replay/FULL_verify_statement.json": "712e2e248ed477cafe55edf1c7a4cddee1c2c4a69b0434a92e5355515d2c4107",
+    "artifact_v0.1.1/verification/receipts/replay/FULL_verify_statement.log": "db4d0bcf9c8ebf565c159b60dbb0501f457fbf18d4ad8ca0202a821c6f661f8f",
+    "artifact_v0.1.1/verification/receipts/replay/PROOF_kill_tests.json": "d3d152f06a4da1fe5a707edc788a53e9096ba52ed21fc9612e11e657776eddb9",
+    "artifact_v0.1.1/verification/receipts/replay/PROOF_kill_tests.log": "e91e659cc43c2b8e99b5d4faf63de4232f642ffe35accfe012161796d3e70ce9",
+    "artifact_v0.1.1/verification/receipts/replay/PROOF_verify_independent.json": "6f8cbfab1d80085e24dbcb268940169825f73da279de7b7d008d8c483f9c2838",
+    "artifact_v0.1.1/verification/receipts/replay/PROOF_verify_independent.log": "0f7996c1aa1d0310eec02f3ac4850d443092e1fa7cba8c061d98516bf8e31e1a",
+    "artifact_v0.1.1/verification/receipts/replay/PROOF_verify_sos14.json": "328ca270b15f824f734e70a8d0838e9908a92b5bafdae5be85b5f23d52cb85c8",
+    "artifact_v0.1.1/verification/receipts/replay/PROOF_verify_sos14.log": "91fafa560a2f2b6b7e992d29e3c055172551b424a063e6d463d5ce2cf78a98cc",
+    "artifact_v0.1.1/verification/receipts/replay/PROOF_verify_statement.json": "04a5a8dd6f1f9d81de8a9235537472e9e71ce7d3a433283be116b93a34e639c0",
+    "artifact_v0.1.1/verification/receipts/replay/PROOF_verify_statement.log": "99c8ee401d057dbac21de4a3a08bd17f0a8b6e0682489f779d8c0f2a209d0a4d",
+    "artifact_v0.1.1/verification/receipts/replay/REPLAY_RECEIPT.json": "0d5734c9340a6c63df97b41dad5264685be89787ea001d50517375bba08d1e10",
+    "artifact_v0.1.1/verification/receipts/scientific_identity.json": "cd4a9213bc4dd93f14f5781be45483b7fdbda856ab4cb5ec2f6aed76f9e9ad64",
+    "artifact_v0.1.1/verification/receipts/source_metadata.json": "52f67802edd4c48b14d4234249cc74de65cb89150fddaef3894a86c44744fc3e",
+    "artifact_v0.1.1/verification_receipt.py": "81b28999c492a858815f933cee4d7551d8239841bfd54a5cc9ece0d89d87d767",
+    "artifact_v0.1.1/verify_independent.py": "ea9be28959de0412e4c47f33eab0c16f9bfb8f31cd4774a7b0c0add5a255fad4",
+    "artifact_v0.1.1/verify_sos14.py": "25b39226dddb11c9689846e686edb8307fdfb23f2d9776777a93b43928b5f8b2",
+    "artifact_v0.1.1/verify_statement.py": "29c98cc47f3419985de474af7c7962bcfbd60b0ce87b28a80eec2d0ba03b36d2",
+    "artifact_v0.1/EXACT_KERNELS.json": "6e08746bf5a58addb6bb46beb00c7bdab29638b9290802bca5114bc47ae957a5",
+    "artifact_v0.1/EXACT_SOS_CANDIDATE.json": "14324f3ea10a3b1304a02ce48b5572be7080b519c242f5802ed599f60325c649",
+    "artifact_v0.1/MANIFEST.sha256": "e36aaaac6be58bf4f77b966841597b74f3457e465ae603fa38e3aba3150e5654",
+    "artifact_v0.1/POSITIVITY_CERTIFICATE.json": "22ba8a09e433fe269b805f9979f574e37e3262a33fdae5a71927b748a860e8de",
+    "artifact_v0.1/PROOF.md": "a2080e3685bfdc8e899d471f39a15a4ed6cf87767a9357703d2c065a8dd2b4ee",
+    "artifact_v0.1/README.md": "943fd7e4220d4754e459158463e252abefd9177ea6c19f1c2e0ed65b244ee125",
+    "artifact_v0.1/ROOT_EMBEDDING.md": "81d1c2ba6bd17bdf358c24f61ef569774e9b8916149221d76c139a89f1e5a119",
+    "artifact_v0.1/SOS14.json": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+    "artifact_v0.1/kill_tests.py": "ba178151141acaf84891ef0610b2d3027c135e08a057c62b53151f373ecac8f7",
+    "artifact_v0.1/validate_integer_encoding.py": "d4f9c72acbc54acbbedc21132848c52260cc2aaba0b3301f0237459bef4ffb6b",
+    "artifact_v0.1/verification/CANDIDATE.json": "99ad5b8432298f5a3ca8b4cd62bf6e14f2aee4b8c20aee7734087eea0bfdace5",
+    "artifact_v0.1/verification/RECORD.md": "e84dbd033d581fea965c2fb016218f8e6e9eb75ad7e6cc3ea64830f6a6672b02",
+    "artifact_v0.1/verification/receipts/audit_algebra/FIRST_REPORT_IDENTITY.json": "c9156e70e96ec6a5cc9dc84708991f923187ce31503b515975f7ab69f01715e5",
+    "artifact_v0.1/verification/receipts/audit_algebra/REPORT.md": "a4875314b3ce9542ede3b1e48b9be46f3d52adf2c0713cc1c12100342ecbe7d5",
+    "artifact_v0.1/verification/receipts/audit_algebra/attack_results.json": "c01ac85d0ee735f0c4aed8835067c2f1a94bd341d05572174679879f23463fc9",
+    "artifact_v0.1/verification/receipts/audit_algebra/attacks.log": "8bf4808f224ee2db3d4f559114c9c383f1de318d82229fb2c13d8e42984eb39a",
+    "artifact_v0.1/verification/receipts/audit_algebra/audit_attacks.py": "9d8397e9f1ebda006ad41f2655df0af85e0dd2482fe064949c257536e0d37b25",
+    "artifact_v0.1/verification/receipts/audit_algebra/audit_exact.py": "0d6f4f59a2dad96dbc3529d5a2b6a6680d5b0e7e34364bf986d3ecff12c3d851",
+    "artifact_v0.1/verification/receipts/audit_algebra/independent_exact.log": "4c05bfca785c7274ba0efd24db6782838d83499309959223d6f595f6b7dd7e15",
+    "artifact_v0.1/verification/receipts/audit_algebra/independent_results.json": "08b06452f7296aaf7fa3e331a1c5a13d698cef5ca86c1a14c6da97bd9f843466",
+    "artifact_v0.1/verification/receipts/audit_algebra/mutants/coefficient_plus_one/SOS14.json": "2bb6fa94a82df9f3c171c9a991288bcc02bf72f4444a7bce89c1fac1be229a7e",
+    "artifact_v0.1/verification/receipts/audit_algebra/mutants/dropped_term/SOS14.json": "8336d73defd67b7127133b1445319fe4663ddfa949156ccf2d2de8c7a142dae0",
+    "artifact_v0.1/verification/receipts/audit_algebra/mutants/imaginary_weight/SOS14.json": "bb07ce16d4a75513333253b2afb38fb78d4256edd31d61337092072ff1a6e420",
+    "artifact_v0.1/verification/receipts/audit_algebra/mutants/negative_sqrt5_branch/SOS14.json": "f4f6c06184d0c3a1143eb6438d5f9df85258b8973677b80299f73d2aa089ece2",
+    "artifact_v0.1/verification/receipts/audit_algebra/mutants/negative_weight/SOS14.json": "a25c208bb28b9fdfb268308a4e43493ef51c1ab167ce8b69fc5634cd3866507a",
+    "artifact_v0.1/verification/receipts/audit_algebra/mutants/nonintegral_n_accepted/SOS14.json": "0f73c47832f286e8b637efe11bcd3865092786925a97bee17924bce8cb4dc513",
+    "artifact_v0.1/verification/receipts/audit_algebra/mutants/same_party_generator_relabel/SOS14.json": "63cde2332ca049d5698fd3287d542470b98d295d48c6cc3f9cee8b3443247ecf",
+    "artifact_v0.1/verification/receipts/audit_algebra/mutants/wrong_root_box/SOS14.json": "0a6c257ef54fee1db79bd87c7e290bac40c4e753a4b0f34830b40274b7c42c2f",
+    "artifact_v0.1/verification/receipts/audit_algebra/supplied_independent.log": "5156474dc113efea24e852519cb87ca249d83a96f698f2b8f4dcc9fe532f7a38",
+    "artifact_v0.1/verification/receipts/audit_algebra/supplied_independent_result.json": "08abc470f800820c2c792014a9ce154d0e90ed55d28b17e57fd5be7fca4ec6a6",
+    "artifact_v0.1/verification/receipts/audit_algebra/supplied_sos.log": "bf3daeea83f0eda408f61fb43ebc81bb23e7ffb707b0139ee845d06a84b4c214",
+    "artifact_v0.1/verification/receipts/audit_algebra/supplied_sos_result.json": "328ca270b15f824f734e70a8d0838e9908a92b5bafdae5be85b5f23d52cb85c8",
+    "artifact_v0.1/verification/receipts/audit_algebra/supplied_statement.log": "38f146fea0a4be449191bee89f5880e6ec011613f09d810d6bff53c315e5165a",
+    "artifact_v0.1/verification/receipts/audit_algebra/supplied_statement_result.json": "04a5a8dd6f1f9d81de8a9235537472e9e71ce7d3a433283be116b93a34e639c0",
+    "artifact_v0.1/verification/receipts/audit_physics/FREEZE_MANIFEST.json": "f90123bf8b865ed4ab1d41a20a2dc877207ac48be0635507328b92eba93448ae",
+    "artifact_v0.1/verification/receipts/audit_physics/REPORT_FIRST.md": "17bea8f706bba96c932bc68770c20d2a89198344958636c93108bad4040feae3",
+    "artifact_v0.1/verification/receipts/audit_physics/audit_exact.py": "5b45b102311e2e9e270b38e19e829b8ba087f6ac7b0af59adc5e04bf43f0ca6b",
+    "artifact_v0.1/verification/receipts/audit_physics/executed.log": "72c44fc00be55b2c90fbce1922deba5869c5f17ffc026dfd20af2c76576d5793",
+    "artifact_v0.1/verification/receipts/audit_physics/input_hashes.json": "2adadf9d59633b24eef5b61f580f98117d710dbebd0d8a4c031dcf90d8dd910e",
+    "artifact_v0.1/verification/receipts/audit_physics/results.json": "633fd7fea554880167cd7ff72ee15ec58fb2b744aa8101cfb96b85d564b5e9af",
+    "artifact_v0.1/verification/receipts/coordinator_checks.json": "325c9d5941063f91bb753f3b91d050f4784f258f8a9a76b8a2cf04c378de35ff",
+    "artifact_v0.1/verification/receipts/direct_mutations.json": "a5b81537f0a9a7b5baffd98e505d66de78ca239b60b1330f94b81ad9c6d5b097",
+    "artifact_v0.1/verification/receipts/input_views/audit_view/AUDIT_CONTRACT.md": "ef893832dafe600a240cbc86e2770e08634db0a78ddcbc51fd5750eda280b045",
+    "artifact_v0.1/verification/receipts/input_views/audit_view/EXACT_KERNELS.json": "6e08746bf5a58addb6bb46beb00c7bdab29638b9290802bca5114bc47ae957a5",
+    "artifact_v0.1/verification/receipts/input_views/audit_view/EXACT_SOS_CANDIDATE.json": "14324f3ea10a3b1304a02ce48b5572be7080b519c242f5802ed599f60325c649",
+    "artifact_v0.1/verification/receipts/input_views/audit_view/INPUT_IDENTITY.json": "e924170208c76a57fb5dbb3416df9fe3213fd573b17af9c189eed8acf40184eb",
+    "artifact_v0.1/verification/receipts/input_views/audit_view/POSITIVITY_CERTIFICATE.json": "22ba8a09e433fe269b805f9979f574e37e3262a33fdae5a71927b748a860e8de",
+    "artifact_v0.1/verification/receipts/input_views/audit_view/PROOF.md": "41737b9607c945ba3be463383a1b0bcb96e43404c326f6e114a6bb6dc6d88ff7",
+    "artifact_v0.1/verification/receipts/input_views/audit_view/ROOT_EMBEDDING.md": "81d1c2ba6bd17bdf358c24f61ef569774e9b8916149221d76c139a89f1e5a119",
+    "artifact_v0.1/verification/receipts/input_views/audit_view/SOS14.json": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+    "artifact_v0.1/verification/receipts/input_views/audit_view/verify_independent.py": "8aa54411ec9bbc79245e6e42db79a698dfcd11eb9853f331ac8221a662244fc3",
+    "artifact_v0.1/verification/receipts/input_views/audit_view/verify_sos14.py": "90bef7e72619c99222a08003ba5d0ab204b08cde021daf28cdc86aaa09281094",
+    "artifact_v0.1/verification/receipts/input_views/audit_view/verify_statement.py": "b94e281b07a63224b95fa2ece2482f5ed774c99fa461d51a37f0a61c8ac76d37",
+    "artifact_v0.1/verification/receipts/input_views/reconstruction_view/TARGET.md": "0480e476fde75b9cdc540066ad1bcfc36f2f6375a04afbf848396f24bdc5b61d",
+    "artifact_v0.1/verification/receipts/manifest_check.json": "bde480970d8eeadc4503964ea6cc665195e5d203207d86f19969a72c9a526f08",
+    "artifact_v0.1/verification/receipts/packaging_identity.json": "b603d7e0649e2907e9c01b3e75e54e3bc2e681e2d8332880c16009ccd40740ea",
+    "artifact_v0.1/verification/receipts/parser_adjudication.json": "2198c06cced199a9ece9a919b4552370d530c3a8741bb100b874f7cf636d3d7e",
+    "artifact_v0.1/verification/receipts/reconstruction/lower_worker/ENVIRONMENT_AND_COMMANDS.md": "5bf9385d6c8192012c903b2928e1cb7055dfa274a77a94b3a6faa7c34f529708",
+    "artifact_v0.1/verification/receipts/reconstruction/lower_worker/REPORT_FROZEN.md": "9a10cb83a19022aeb1b6c4be971ccd1df4550f4d439204e579f5b599bec4fdde",
+    "artifact_v0.1/verification/receipts/reconstruction/lower_worker/SHA256SUMS.txt": "5035433d028803c11b9da876853f1238b0753a116c2fac857c63191f3b8e2b7a",
+    "artifact_v0.1/verification/receipts/reconstruction/lower_worker/TARGET.exposed.md": "0480e476fde75b9cdc540066ad1bcfc36f2f6375a04afbf848396f24bdc5b61d",
+    "artifact_v0.1/verification/receipts/reconstruction/lower_worker/UNGUIDED_ADDENDUM.md": "7c5e981a40c6b55e3e3ec54c85ba705edefdc3b38170eb015a6c6d433aa4119d",
+    "artifact_v0.1/verification/receipts/reconstruction/lower_worker/checks.json": "b47c2b046444064ae30510fd09f5c8f95257e80978a7402dbec69d67de08078e",
+    "artifact_v0.1/verification/receipts/reconstruction/lower_worker/exact_computation.log": "8a27e0f249d6af077f614918389fa7db7ee2bbd4df83dc9e7d6133d3b938e6f3",
+    "artifact_v0.1/verification/receipts/reconstruction/lower_worker/reconstruct.py": "79b9c185531757f45bcf97dffc9744f78b9195a32dce3c5a4002b907b4b33aca",
+    "artifact_v0.1/verification/receipts/reconstruction/lower_worker/requirements.txt": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+    "artifact_v0.1/verification/receipts/reconstruction/lower_worker/run_stdout.log": "2389afa092cd1e302741022f09e151c367f1c4c39ee6578c2808837acc9291b6",
+    "artifact_v0.1/verification/receipts/replay/FULL_kill_tests.json": "d3d152f06a4da1fe5a707edc788a53e9096ba52ed21fc9612e11e657776eddb9",
+    "artifact_v0.1/verification/receipts/replay/FULL_kill_tests.log": "e91e659cc43c2b8e99b5d4faf63de4232f642ffe35accfe012161796d3e70ce9",
+    "artifact_v0.1/verification/receipts/replay/FULL_verify_independent.json": "08abc470f800820c2c792014a9ce154d0e90ed55d28b17e57fd5be7fca4ec6a6",
+    "artifact_v0.1/verification/receipts/replay/FULL_verify_independent.log": "b62739295f59cddfacfe7136014930e80d15d7770e98d7319617c0448eedfb4b",
+    "artifact_v0.1/verification/receipts/replay/FULL_verify_sos14.json": "10dc151063bf4f010b291d8f0f62fb65fa45ef7dfae67f7bc54980705a2089af",
+    "artifact_v0.1/verification/receipts/replay/FULL_verify_sos14.log": "9e39cf896048eb732894c8b056c94eeb09e2558abc66a4a521862c184860acb0",
+    "artifact_v0.1/verification/receipts/replay/FULL_verify_statement.json": "712e2e248ed477cafe55edf1c7a4cddee1c2c4a69b0434a92e5355515d2c4107",
+    "artifact_v0.1/verification/receipts/replay/FULL_verify_statement.log": "db4d0bcf9c8ebf565c159b60dbb0501f457fbf18d4ad8ca0202a821c6f661f8f",
+    "artifact_v0.1/verification/receipts/replay/PROOF_kill_tests.json": "d3d152f06a4da1fe5a707edc788a53e9096ba52ed21fc9612e11e657776eddb9",
+    "artifact_v0.1/verification/receipts/replay/PROOF_kill_tests.log": "e91e659cc43c2b8e99b5d4faf63de4232f642ffe35accfe012161796d3e70ce9",
+    "artifact_v0.1/verification/receipts/replay/PROOF_verify_independent.json": "6f8cbfab1d80085e24dbcb268940169825f73da279de7b7d008d8c483f9c2838",
+    "artifact_v0.1/verification/receipts/replay/PROOF_verify_independent.log": "0f7996c1aa1d0310eec02f3ac4850d443092e1fa7cba8c061d98516bf8e31e1a",
+    "artifact_v0.1/verification/receipts/replay/PROOF_verify_sos14.json": "328ca270b15f824f734e70a8d0838e9908a92b5bafdae5be85b5f23d52cb85c8",
+    "artifact_v0.1/verification/receipts/replay/PROOF_verify_sos14.log": "91fafa560a2f2b6b7e992d29e3c055172551b424a063e6d463d5ce2cf78a98cc",
+    "artifact_v0.1/verification/receipts/replay/PROOF_verify_statement.json": "04a5a8dd6f1f9d81de8a9235537472e9e71ce7d3a433283be116b93a34e639c0",
+    "artifact_v0.1/verification/receipts/replay/PROOF_verify_statement.log": "99c8ee401d057dbac21de4a3a08bd17f0a8b6e0682489f779d8c0f2a209d0a4d",
+    "artifact_v0.1/verification/receipts/replay/REPLAY_RECEIPT.json": "0d5734c9340a6c63df97b41dad5264685be89787ea001d50517375bba08d1e10",
+    "artifact_v0.1/verification/receipts/scientific_identity.json": "cd4a9213bc4dd93f14f5781be45483b7fdbda856ab4cb5ec2f6aed76f9e9ad64",
+    "artifact_v0.1/verification/receipts/source_metadata.json": "52f67802edd4c48b14d4234249cc74de65cb89150fddaef3894a86c44744fc3e",
+    "artifact_v0.1/verify_independent.py": "8aa54411ec9bbc79245e6e42db79a698dfcd11eb9853f331ac8221a662244fc3",
+    "artifact_v0.1/verify_sos14.py": "90bef7e72619c99222a08003ba5d0ab204b08cde021daf28cdc86aaa09281094",
+    "artifact_v0.1/verify_statement.py": "b94e281b07a63224b95fa2ece2482f5ed774c99fa461d51a37f0a61c8ac76d37",
+    "audits/phase_b_2026-10-04/AUDITOR_COVERAGE_MATRIX.json": "fe0fab1586c6ad2f979c5d833952131d3c5ff3d3430a30fc6a6134b9ab4d4aec",
+    "audits/phase_b_2026-10-04/AUDITOR_COVERAGE_MATRIX.md": "f4660f2a9e83704d25fd39abae5ac7712bbd2ef2afc011c3c533a5fad3e7edab",
+    "audits/phase_b_2026-10-04/CONSOLIDATED_REVISION_PLAN.md": "8b6e51e280ea03afd0fbaa73b5f0afd9e055f5d480c9f36e1b9e5a10cb1d4edf",
+    "audits/phase_b_2026-10-04/CORRELATED_FAILURE_REPORT.md": "edc5b36b8d8cc71e3bc8d319d0e6e2015fc5333426643005725625ef34dda245",
+    "audits/phase_b_2026-10-04/FINAL_PHASE_B_REPORT.md": "287a2dbe4956338788d6e4dbdd0224a0844f3fdfb6923226f4bf474894df68d4",
+    "audits/phase_b_2026-10-04/MASTER_FINDINGS_LEDGER.json": "40e9d054823ae46adce7719df6a9be7c65f73692643b4ce131f2fa35e69c3ae3",
+    "audits/phase_b_2026-10-04/MASTER_FINDINGS_LEDGER.md": "5332a453d212f48f5d487d073d885808c76f10f3b7a6d3eeed9f49f9e0b49280",
+    "audits/phase_b_2026-10-04/NEW_ATTACK_LEDGER.json": "adfcb1df2b5f9a5f71c291a2fc484dc8914826b6c9f580010532db72bef7eec6",
+    "audits/phase_b_2026-10-04/PRESERVED_SOURCE_MAP.json": "28abb41de8da0a789ce216443ab3ccbaeace737d09312f6e671a4a17a12d4653",
+    "audits/phase_b_2026-10-04/REGRESSION_TEST_PLAN.md": "8261ab7c15003512daf04c759832f53a8ea8a32ecc95264f18f766c60d4168fe",
+    "audits/phase_b_2026-10-04/SOURCE_FINDING_CROSSWALK.json": "93f3ef48825053fe9a9765c832571cf2c53b45c60b2485880fc9ec1245d5ecbf",
+    "audits/web6pro_2026-10-04/AUDIT_REPORT_ZH.md": "408d7de43a32b425a2ef236076ed60a50bba9d4bc7ba0fac7e8752f5a387094c",
+    "audits/web6pro_2026-10-04/OUTPUT_SHA256SUMS.txt": "ac3d6bd6f4cb276409790cb104a9153c282532d66e769b53c8047b71ae9dae54",
+    "audits/web6pro_2026-10-04/README.md": "e0686aa4eb5da7c64378a7f3e3d2e4bbea578b5bea8289d352153054d944a136",
+    "audits/web6pro_2026-10-04/audit.py": "e62763b13b0dbba0ff38f2c01fc7c1efb68feee27051a334f381f57ebc41407c",
+    "audits/web6pro_2026-10-04/audit_results.json": "0c88ce6a7a26080e6ded375c1e73c576e7ea5a2274507808bc8a2448f6ac81b9",
+    "audits/web6pro_2026-10-04/audit_run.log": "bdfef0590cd7db8ee43583b7809b912bbc1f4ab858908c9a9e16608a65cb9be8",
+    "audits/web6pro_2026-10-04/crosscheck.py": "98600f8a694821ad10c728bb7f906150bf294688562b57c1ef11f5074a32d22b",
+    "audits/web6pro_2026-10-04/crosscheck_results.json": "9cec9249955ae4b77ef1ee20096cbe69fe93757c7d4aa569d50c1bec2daa0d14",
+    "audits/web6pro_2026-10-04/crosscheck_run.log": "6875985502a52f225c177e2189c148d396855bbbdb6f787cc008ee0e00e31f68",
+    "audits/web6pro_2026-10-04/environment.json": "993e8a127f6ebe6e8469a988acdb94c13ab7cd082b632c185135dc1ba8401f1f",
+    "audits/web6pro_2026-10-04/negative_control_results.json": "69db5133149afb3d2dd2d7d7a786744ee05fdebc9e539ed35683351017bf3b81",
+    "audits/web6pro_2026-10-04/negative_controls.py": "9343f4e8ecba40d22491a560562009ca28e2f96abc7dfe8c99274774a11dca27",
+    "audits/web6pro_2026-10-04/negative_controls_run.log": "2b5c2ce80fbe20197e933a146ea76d69225b67b75c4ad54e62fd7b97fc3ab841",
+    "docs/LEAN_HANDOFF.md": "2729d2af3fef09f991de0691af12dda0bd717a586cefe8faec56f72a62553f85",
+    "docs/PHASE_B_ERRATA.md": "f9bce0dee918729471794620e3a987a7877ee0974391810a5ae56d735e25c596",
+    "docs/PROVENANCE.md": "896fc8e7f9ba8d2da0381ca83c54bb233a9aa81b9c269cddd4d07f9c12b492bf",
+    "paper/.gitignore": "bdb383e8fe3c4a433ad9d6437811686fef405f5d15dc84e803b72b3b2d840256",
+    "paper/README.md": "0eff5ee909ffd5c653bb1e9aa1579fd7dfe0bc50cfd06ce443b5ba5540732c4b",
+    "paper/SOURCE_SHA256SUMS.txt": "95ad7d774ad052694a0cfd8c4578022533147175b8bab5c0590448054acebb0f",
+    "paper/build.sh": "f5ec72615f8702e4ec709f85fb3036002457c740fc5a284d472dc88292e8148f",
+    "paper/check_paper_data.py": "09c6bb94d02fdc560d6c9e6cd335e26d785060b92e466279eb96e991223bc73a",
+    "paper/kernel_data.tex": "7c1d9d753fb7ee70375028cea9b5edf4abd50487ac4d5168d47d166bfe70f681",
+    "paper/main.pdf": "3b1f512aae295dba43acef3b75b6aa82186201a1748798b17f628b465f9ac37d",
+    "paper/main.tex": "3284a967e877b0235fe3bb33ee7836578a4196e3457d54740550c392432b4673",
+    "paper/minor_bounds.tex": "67ab64997964600f69e532ff147a404b7859a2618227304a5f322bad85dea00b",
+    "paper/parameter_assignments.tex": "cd58d75feb750529879cc905f1cfdf28af91e13eacee67716a61fcc38c9c1413",
+    "paper/parameter_data.tex": "ded1dcbcb7d84137793680eb629c93b69d44b225451064261e52e1c936bb2f78",
+    "paper/phase_supports.tex": "88a732ac89e5fa4680e6c728adfc9a844f3807b5a5a8363e12cb384bd8260580",
+    "paper/references.bib": "dae5f2917539c0a690241613f0069687ddcd3a1f14046c3d39f41f18ada535f9",
+    "paper/validation/BIBLIOGRAPHY_VERIFICATION.json": "77fdd682dddf4fc31ac3e73e44a3e17b79474ac2e1e9d8db51d91d28560af465",
+    "paper/validation/BUILD_HISTORY.json": "ec38c40b23f61ea58722c6fd7dceedbf3c588cf1c8cdeb8251c5b25644937391",
+    "paper/validation/BUILD_VALIDATION.json": "b6177f6d6b4d5954603ed09bade383d323ec8a9b7dc22736b9f0df3dd3de915b",
+    "paper/validation/build_attempt_02.txt": "f31106133e78925e8cbe61e40475816ea7e7365c7adf2ce53924aea3a04ef00e",
+    "paper/validation/build_attempt_03.txt": "0886d2ba9c5f1665095f28c637618ea085adbb79a523d8f393f823de991a4113",
+    "paper/validation/build_attempt_04.txt": "3e1057431e206c5a82f77a58f8a6075d4cf20c6fb5915bd011482ac21eea3e62",
+    "paper/validation/build_attempt_05.txt": "6826d9a27dbb039f1e5224dd433c4426b342c553ed8395fa47b8465da44401cc",
+    "paper/validation/build_final.txt": "5a5aea0750a515078c5f020672b0884a0ac44267b52dd403887260a5ce3f3bc0",
+    "paper/validation/build_final_tex.txt": "a762e48ce27d46757a7e9ed32c79814081d720c54530f6b6a22638651a5d398a",
+    "paper/validation/clean_build.txt": "6924e4fece61c2a4549bc1c9eb6ce4da6f9e1387d1bb02791f1765420aaaa508",
+    "paper/validation/data_check_stdout.txt": "1136b8d906cc595416a8cc27f2f46d4553f93c81fd0d82dba1dd0b15da458b48",
+    "paper/validation/data_correspondence.json": "8991580827d3229c37f7493674d778da560b74dd709e353aa5704082a0181bbb",
+    "paper/validation/format_build.txt": "3416c4d9ffe5d7f30235b3b571ca8c3d9ffb2dde03c7e873337ba94bb704eb2b",
+    "paper/validation/main_extracted.txt": "69b8070063bf7289968827a303141ab8aab4d7e31652a5b62d42f8e1fc661baa",
+    "paper/validation/pdffonts.txt": "dad891e4f8c75f6982e0a416d5025d72045a61899825f4203b545a6cc847695c",
+    "paper/validation/pdfinfo.txt": "3a7520e2372f12d80a295a1a0a856d064ae28060835832e2c9bb8b0b97c2ae01",
+    "paper/validation/pre_final_render_hashes.json": "02b016aa11b36cbda85cc2dfa75fe83b9e38180f794f3f908a067f947f8943a3",
+    "scripts/check_core_results.py": "e2182fa544ab0397f140de319b187ff90aaf827e749430202702b83308f29a7a",
+    "scripts/check_release_gate.py": "b185b50665741cc31084f71e0b7b61738846485519319e1484a9a555a8de8809",
+    "scripts/test_release_gate.py": "7d1985038d742adb63c3be50bcd95f105f8a0508d93fb0f28c2df441fb871212",
+    "scripts/verify_release_assets.py": "ab3ec37e4d40c2689b262f38e66bfa8a6e2af371a3560a119d82cbe21c2ff9d9",
+    "verification/README.md": "6044bc6f59400a5d88a7d8c3da5dd19dd7f92f1cc71cc0a6cd069bd1efa341c1",
+    "verification/assemble_release_gate.py": "492d08e0fd4917e38d53d2c691b0c1eb6aad330c03a4c10aff1bea0f4c799b63",
+    "verification/check_exact_abelian.py": "46bc9c39c470a489abfc7183cec7a41ccd178274c807865d720d708035cbbf64",
+    "verification/check_generic_pvms.py": "160599bdd0f55c3946b7dfca3e57802f2f6a07a5ca5c67c6e7a351e65662bd76",
+    "verification/check_integrity.py": "575e34c3c85bbb4c4da34dbc10d64f38c6970778e687a299d30deb1a984896d4",
+    "verification/check_raw_candidates.py": "b3907acc65070f3856bc79ed46118b687ee53f9184d98a9a723fb77b6b3a7c4f",
+    "verification/check_receipt_binding.py": "9b064ad8ec0eaec5a136d5a11e0c538903fe1b245490975add884c682f52281f",
+    "verification/check_relocation.py": "19852bed5ef330b36055b3aad0f69c3982d02a761665d5553028fda7b7ecd3ac",
+    "verification/collect_receipts.py": "fbda5adb1b1f3310b1ac505f2cc7fbf9301f8d827e6bbfbfcc7c29870ee95f1e",
+    "verification/guarded_replay.py": "fdbec70f02357d677fa5fa706c97dfaf797b9d271b7177bff3211ed99a126a3a",
+    "verification/package_evidence.py": "c27bdac719618f1567deee520b2564f64eb224b301e62277ed465e73a01f9cc7",
+    "verification/replay_hardening.py": "1039519293a6e6f2a3a9349e4b10bf1d3cc9239b8a20239b9e3c9999a2817d41",
+    "verification/replay_scientific.py": "95fa7bcc7277ff4adf4ec1a6f6987f3053d1f2a5f35a09378f7acf08e4df89c4",
+    "verification/test_orchestration.py": "27bc000e52025b792fc8b23671df87c46d547d4c4a7ee411f4a73ca02538cc10",
+    "SOURCE_MANIFEST.sha256": "260c787bf11d1f0c3fedb531958825e258fae35e6c52a5824335a23d37de9518"
+  },
+  "scientific_changes": "NONE: exact coefficient tables byte-identical to v0.1.0",
+  "scope": "Current semantic component execution plus explicitly labeled independent analytic/editorial review. Historical failure receipts remain FAIL and do not count as scientific PASS. No formal verification, human peer review, absolute novelty or independent-model guarantee.",
+  "phase_b_archive_sha256": "12e2864ed19d99500b72d4aefe6e2b27939fb67c05aa355b38b997456a55fc43"
+}

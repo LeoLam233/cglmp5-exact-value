@@ -1,0 +1,36 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/EXACT_KERNELS_word_bad_exponent/verify_independent.py",
+    "--root",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/EXACT_KERNELS_word_bad_exponent",
+    "--output",
+    "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/EXACT_KERNELS_word_bad_exponent/verify_independent.py.run/result.json"
+  ],
+  "cwd": "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt01/cases/EXACT_KERNELS_word_bad_exponent/verify_independent.py.run",
+  "elapsed_seconds": 0.07311334399855696,
+  "entrypoint": "verify_independent.py",
+  "expected": "schema",
+  "failure": "rejection was not intended schema invariant",
+  "gate": "R03",
+  "input_sha256": {
+    "EXACT_KERNELS.json": "2e49cda8116ede67f3ffa0d233834c93a7c5f54c65d2ff1d3388125702b5bae0",
+    "EXACT_SOS_CANDIDATE.json": "14324f3ea10a3b1304a02ce48b5572be7080b519c242f5802ed599f60325c649",
+    "POSITIVITY_CERTIFICATE.json": "22ba8a09e433fe269b805f9979f574e37e3262a33fdae5a71927b748a860e8de",
+    "SOS14.json": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2"
+  },
+  "label": "EXACT_KERNELS_word_bad_exponent",
+  "returncode": 1,
+  "source_sha256": {
+    "kill_tests.py": "db14847bb09df888daefa444f56d831b12d97bcfd48db0c0a6daa18bbc9dd511",
+    "strict_schema.py": "12c8d6d0867a31f48610d879c0aaefe3c9ccc04d6fdd3c62d94104b78a1ddd0b",
+    "validate_integer_encoding.py": "e7cd9a7c482696cee1427a5f3d1e98311033ae1e08af3135869050ca9070878a",
+    "verification_receipt.py": "81b28999c492a858815f933cee4d7551d8239841bfd54a5cc9ece0d89d87d767",
+    "verify_independent.py": "ea9be28959de0412e4c47f33eab0c16f9bfb8f31cd4774a7b0c0add5a255fad4",
+    "verify_sos14.py": "25b39226dddb11c9689846e686edb8307fdfb23f2d9776777a93b43928b5f8b2",
+    "verify_statement.py": "29c98cc47f3419985de474af7c7962bcfbd60b0ce87b28a80eec2d0ba03b36d2"
+  },
+  "status": "FAIL",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "8c75ae6b4693b050a8948cb27d9e2f55be954fedb9177a9da2ba5efd8fe210ea"
+}

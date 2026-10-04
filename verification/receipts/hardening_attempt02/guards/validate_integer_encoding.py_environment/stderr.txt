@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt02/baseline/validate_integer_encoding.py", line 5, in <module>
+    from strict_schema import FILES, check, integer, unique_object, require_normal_python
+  File "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt02/baseline/strict_schema.py", line 43, in <module>
+    require_normal_python()
+  File "/workspace/scratch/e6e0818fcb8f/release_v011_20261004/regression_work/hardening_attempt02/baseline/strict_schema.py", line 40, in require_normal_python
+    raise RuntimeError('NORMAL_PYTHON_REQUIRED: reject -O, -OO and nonzero PYTHONOPTIMIZE')
+RuntimeError: NORMAL_PYTHON_REQUIRED: reject -O, -OO and nonzero PYTHONOPTIMIZE

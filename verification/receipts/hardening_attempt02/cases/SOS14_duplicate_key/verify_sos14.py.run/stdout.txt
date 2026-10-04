@@ -1,0 +1,6 @@
+{
+  "status": "FAIL",
+  "checker_version": "cglmp5-verifier-v0.1.1",
+  "error_type": "SchemaError",
+  "error": "duplicate JSON key: __duplicate__"
+}
