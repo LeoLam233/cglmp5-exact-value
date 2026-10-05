@@ -17,7 +17,6 @@ jobs:
       LEAN_NUM_THREADS: '1'
       PYTHONDONTWRITEBYTECODE: '1'
       PIP_DISABLE_PIP_VERSION_CHECK: '1'
-      CGLMP5_BUILD_LOCK_DIR: ${{ runner.temp }}/cglmp5-build-slots
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:

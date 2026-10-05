@@ -2,7 +2,7 @@
 # Excludes only SOURCE_MANIFEST.sha256 itself; ignored build products are not source.
 # Audit/replay receipts produced after freezing are external, separately hashed assets.
 81e3bc62a34dc04083a9216c8c5feac77c6bd36b69f9176d8bda5ad9067f9697  .gitattributes
-21a3bb913f2f29e3941660571d11e49a2e9fe753a2507e7a849fe84d591468d9  .github/workflows/lean-verification.yml
+664d58c26675ff309fb0975ae49ca5d038ec9c860ec8248fb9e21e2ad33f328d  .github/workflows/lean-verification.yml
 558528b4c451bdfbfbacfef1c1b9fa61e9ad427bca7a369c2bd2bc84b7c27f88  .github/workflows/release-v0.1.1.yml
 88740a4f1531439f290aede82cae6b23aecd374f30f261cb3221e52eac4acdf5  .github/workflows/release-v0.2.0.yml
 a162513cad45d7ae3d649996f7814013ad8685c5d34e85d8ce82419f16a51a3d  .github/workflows/verify.yml
