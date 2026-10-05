@@ -1,0 +1,145 @@
+{
+  "kind": "production_source_mutation_precompletion_not_final_audit",
+  "results": [
+    {
+      "name": "event_shift",
+      "source": "CGLMP5/Events.lean",
+      "original_sha256": "a61e026955f0a3f74e36fc17addc3fe9e258f5e1ea3e2df790016d909d8b745b",
+      "mutation_sha256": "84a582d41851e148909f83d3c980b54a6594439bacf30ddd008b9ef1ff891e3b",
+      "old": "a.val == (b.val + shift) % 5",
+      "new": "a.val == (b.val + shift + 1) % 5",
+      "runs": [
+        {
+          "mode": "original",
+          "exit_code": 0,
+          "passed": true,
+          "unrelated_error": false,
+          "seconds": 6.618
+        },
+        {
+          "mode": "mutated",
+          "exit_code": 1,
+          "passed": true,
+          "unrelated_error": false,
+          "seconds": 3.591
+        }
+      ],
+      "source_unchanged_during_case": true,
+      "passed": true
+    },
+    {
+      "name": "same_party_order",
+      "source": "CGLMP5/Words.lean",
+      "original_sha256": "ccad2f02d5e698553d8a99598df8fa28f89699108cecf65dd7468b81fb0f910e",
+      "mutation_sha256": "fb4a6d90eb2940911ae5e7c805bf866af4d7d6f1d7027339309618936d958857",
+      "old": "else (a.1, k) :: w",
+      "new": "else w ++ [(a.1, k)]",
+      "runs": [
+        {
+          "mode": "original",
+          "exit_code": 0,
+          "passed": true,
+          "unrelated_error": false,
+          "seconds": 2.061
+        },
+        {
+          "mode": "mutated",
+          "exit_code": 1,
+          "passed": true,
+          "unrelated_error": false,
+          "seconds": 2.052
+        }
+      ],
+      "source_unchanged_during_case": true,
+      "passed": true
+    },
+    {
+      "name": "root_embedding_sign",
+      "source": "CGLMP5/Root.lean",
+      "original_sha256": "55dcfa4e13c59cbda17acce783b0a4553c590e205301e1a8afe091faa0926d16",
+      "mutation_sha256": "ff51756171eb6f513fa0111e78809ce9325e0151d322ceb4aec4083223f0b33c",
+      "old": "def mu : \u211d := Classical.choose exists_mu",
+      "new": "def mu : \u211d := -(Classical.choose exists_mu)",
+      "runs": [
+        {
+          "mode": "original",
+          "exit_code": 0,
+          "passed": true,
+          "unrelated_error": false,
+          "seconds": 3.917
+        },
+        {
+          "mode": "mutated",
+          "exit_code": 1,
+          "passed": true,
+          "unrelated_error": false,
+          "seconds": 4.546
+        }
+      ],
+      "source_unchanged_during_case": true,
+      "passed": true
+    },
+    {
+      "name": "weight_sign",
+      "source": "CGLMP5/Positivity.lean",
+      "original_sha256": "6e324fc91c9687e1b7669bf926cb917fa1ceb6798f054b4372dac28ae4218b24",
+      "mutation_sha256": "70961504513b3e00ed8bd48a1f97f85825668bdbce0ba41ac74d60e185b5e69c",
+      "old": "Scalar.evalReal (CanonicalData.weight j)",
+      "new": "-Scalar.evalReal (CanonicalData.weight j)",
+      "runs": [
+        {
+          "mode": "original",
+          "exit_code": 0,
+          "passed": true,
+          "unrelated_error": false,
+          "seconds": 2.78
+        },
+        {
+          "mode": "mutated",
+          "exit_code": 1,
+          "passed": true,
+          "unrelated_error": false,
+          "seconds": 2.948
+        }
+      ],
+      "source_unchanged_during_case": true,
+      "passed": true
+    },
+    {
+      "name": "setting_dependent_J",
+      "source": "CGLMP5/POVMDilation.lean",
+      "original_sha256": "e0edf7be67de31ee3d493f5d4a9383fe2136d3969caba8d7ac89bb6f5d530795",
+      "mutation_sha256": "3516fe4ab26ee4b875acc16ecc305bd16547d55c116993cda278e8c0808757d5",
+      "old": "compression commonJ (E.dilate.effect a) = E.effect a",
+      "new": "compression (defectUnitary E.analysis \u2218L commonJ) (E.dilate.effect a) = E.effect a",
+      "runs": [
+        {
+          "mode": "original",
+          "exit_code": 0,
+          "passed": true,
+          "unrelated_error": false,
+          "seconds": 5.598
+        },
+        {
+          "mode": "mutated",
+          "exit_code": 1,
+          "passed": true,
+          "unrelated_error": false,
+          "seconds": 6.187
+        }
+      ],
+      "source_unchanged_during_case": true,
+      "passed": true
+    }
+  ],
+  "complete": true,
+  "status": "PASS",
+  "verification_context": {
+    "recorded_utc": "2026-10-04T12:02:38.827823+00:00",
+    "lean_toolchain": "leanprover/lean4:v4.34.1",
+    "lake_manifest_sha256": "96b577b765d936e10a36a561304d42cb13e0a01feec4681ba18c495e03b95116",
+    "lean_executable": "/workspace/scratch/e6e0818fcb8f/ising_recovery_runtime_20261003T1833Z/lean-4.34.1-linux/bin/lean",
+    "lean_executable_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "note": "Run commands used this pinned absolute toolchain. Context annotation added immediately after completed execution; compiler stdout/stderr and original/mutant source hashes retained."
+  }
+}

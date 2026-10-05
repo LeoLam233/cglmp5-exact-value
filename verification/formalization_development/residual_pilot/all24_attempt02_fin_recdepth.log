@@ -1,0 +1,586 @@
+[limited-build] ticket215 acquired slot1: python -c import resource,subprocess,time,json; t=time.monotonic(); p=subprocess.run(["/workspace/scratch/e6e0818fcb8f/ising_recovery_runtime_20261003T1833Z/lean-4.34.1-linux/bin/lake","env","lean","-M","3000","-j","1","CGLMP5/SOSResidualSinglePilotAll272.lean"]); print(json.dumps({"returncode":p.returncode,"seconds":time.monotonic()-t,"maxrss_kib":resource.getrusage(resource.RUSAGE_CHILDREN).ru_maxrss}),flush=True); raise SystemExit(p.returncode)
+CGLMP5/SOSResidualSinglePilotAll272.lean:155:71: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, scale0, product0_0, scale1,
+    product0_1, scale2, product0_2, scale3, product0_3, scale4, product0_4, scale5, product0_5, scale6, product0_6,
+    scale7, product0_7, scale8, product0_8, scale9, product0_9, scale10, product0_10, scale11, product0_11, scale12,
+    product0_12, scale13, product0_13, scale14, product0_14, scale15, product0_15, scale16, product0_16, scale17,
+    product0_17, scale18, product0_18, scale19, product0_19, scale20, product0_20, scale21, product0_21, scale22,
+    product0_22, scale23, product0_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:155:81: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, scale0, product0_0, scale1,
+    product0_1, scale2, product0_2, scale3, product0_3, scale4, product0_4, scale5, product0_5, scale6, product0_6,
+    scale7, product0_7, scale8, product0_8, scale9, product0_9, scale10, product0_10, scale11, product0_11, scale12,
+    product0_12, scale13, product0_13, scale14, product0_14, scale15, product0_15, scale16, product0_16, scale17,
+    product0_17, scale18, product0_18, scale19, product0_19, scale20, product0_20, scale21, product0_21, scale22,
+    product0_22, scale23, product0_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:233:71: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, scale0, product1_0, scale1,
+    product1_1, scale2, product1_2, scale3, product1_3, scale4, product1_4, scale5, product1_5, scale6, product1_6,
+    scale7, product1_7, scale8, product1_8, scale9, product1_9, scale10, product1_10, scale11, product1_11, scale12,
+    product1_12, scale13, product1_13, scale14, product1_14, scale15, product1_15, scale16, product1_16, scale17,
+    product1_17, scale18, product1_18, scale19, product1_19, scale20, product1_20, scale21, product1_21, scale22,
+    product1_22, scale23, product1_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:233:81: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, scale0, product1_0, scale1,
+    product1_1, scale2, product1_2, scale3, product1_3, scale4, product1_4, scale5, product1_5, scale6, product1_6,
+    scale7, product1_7, scale8, product1_8, scale9, product1_9, scale10, product1_10, scale11, product1_11, scale12,
+    product1_12, scale13, product1_13, scale14, product1_14, scale15, product1_15, scale16, product1_16, scale17,
+    product1_17, scale18, product1_18, scale19, product1_19, scale20, product1_20, scale21, product1_21, scale22,
+    product1_22, scale23, product1_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:311:71: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, scale0, product2_0, scale1,
+    product2_1, scale2, product2_2, scale3, product2_3, scale4, product2_4, scale5, product2_5, scale6, product2_6,
+    scale7, product2_7, scale8, product2_8, scale9, product2_9, scale10, product2_10, scale11, product2_11, scale12,
+    product2_12, scale13, product2_13, scale14, product2_14, scale15, product2_15, scale16, product2_16, scale17,
+    product2_17, scale18, product2_18, scale19, product2_19, scale20, product2_20, scale21, product2_21, scale22,
+    product2_22, scale23, product2_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:311:81: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, scale0, product2_0, scale1,
+    product2_1, scale2, product2_2, scale3, product2_3, scale4, product2_4, scale5, product2_5, scale6, product2_6,
+    scale7, product2_7, scale8, product2_8, scale9, product2_9, scale10, product2_10, scale11, product2_11, scale12,
+    product2_12, scale13, product2_13, scale14, product2_14, scale15, product2_15, scale16, product2_16, scale17,
+    product2_17, scale18, product2_18, scale19, product2_19, scale20, product2_20, scale21, product2_21, scale22,
+    product2_22, scale23, product2_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:389:71: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, scale0, product3_0, scale1,
+    product3_1, scale2, product3_2, scale3, product3_3, scale4, product3_4, scale5, product3_5, scale6, product3_6,
+    scale7, product3_7, scale8, product3_8, scale9, product3_9, scale10, product3_10, scale11, product3_11, scale12,
+    product3_12, scale13, product3_13, scale14, product3_14, scale15, product3_15, scale16, product3_16, scale17,
+    product3_17, scale18, product3_18, scale19, product3_19, scale20, product3_20, scale21, product3_21, scale22,
+    product3_22, scale23, product3_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:389:81: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, scale0, product3_0, scale1,
+    product3_1, scale2, product3_2, scale3, product3_3, scale4, product3_4, scale5, product3_5, scale6, product3_6,
+    scale7, product3_7, scale8, product3_8, scale9, product3_9, scale10, product3_10, scale11, product3_11, scale12,
+    product3_12, scale13, product3_13, scale14, product3_14, scale15, product3_15, scale16, product3_16, scale17,
+    product3_17, scale18, product3_18, scale19, product3_19, scale20, product3_20, scale21, product3_21, scale22,
+    product3_22, scale23, product3_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:467:71: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, scale0, product4_0, scale1,
+    product4_1, scale2, product4_2, scale3, product4_3, scale4, product4_4, scale5, product4_5, scale6, product4_6,
+    scale7, product4_7, scale8, product4_8, scale9, product4_9, scale10, product4_10, scale11, product4_11, scale12,
+    product4_12, scale13, product4_13, scale14, product4_14, scale15, product4_15, scale16, product4_16, scale17,
+    product4_17, scale18, product4_18, scale19, product4_19, scale20, product4_20, scale21, product4_21, scale22,
+    product4_22, scale23, product4_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:467:81: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, scale0, product4_0, scale1,
+    product4_1, scale2, product4_2, scale3, product4_3, scale4, product4_4, scale5, product4_5, scale6, product4_6,
+    scale7, product4_7, scale8, product4_8, scale9, product4_9, scale10, product4_10, scale11, product4_11, scale12,
+    product4_12, scale13, product4_13, scale14, product4_14, scale15, product4_15, scale16, product4_16, scale17,
+    product4_17, scale18, product4_18, scale19, product4_19, scale20, product4_20, scale21, product4_21, scale22,
+    product4_22, scale23, product4_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:545:71: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, scale0, product5_0, scale1,
+    product5_1, scale2, product5_2, scale3, product5_3, scale4, product5_4, scale5, product5_5, scale6, product5_6,
+    scale7, product5_7, scale8, product5_8, scale9, product5_9, scale10, product5_10, scale11, product5_11, scale12,
+    product5_12, scale13, product5_13, scale14, product5_14, scale15, product5_15, scale16, product5_16, scale17,
+    product5_17, scale18, product5_18, scale19, product5_19, scale20, product5_20, scale21, product5_21, scale22,
+    product5_22, scale23, product5_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:545:81: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, scale0, product5_0, scale1,
+    product5_1, scale2, product5_2, scale3, product5_3, scale4, product5_4, scale5, product5_5, scale6, product5_6,
+    scale7, product5_7, scale8, product5_8, scale9, product5_9, scale10, product5_10, scale11, product5_11, scale12,
+    product5_12, scale13, product5_13, scale14, product5_14, scale15, product5_15, scale16, product5_16, scale17,
+    product5_17, scale18, product5_18, scale19, product5_19, scale20, product5_20, scale21, product5_21, scale22,
+    product5_22, scale23, product5_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:623:71: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, scale0, product6_0, scale1,
+    product6_1, scale2, product6_2, scale3, product6_3, scale4, product6_4, scale5, product6_5, scale6, product6_6,
+    scale7, product6_7, scale8, product6_8, scale9, product6_9, scale10, product6_10, scale11, product6_11, scale12,
+    product6_12, scale13, product6_13, scale14, product6_14, scale15, product6_15, scale16, product6_16, scale17,
+    product6_17, scale18, product6_18, scale19, product6_19, scale20, product6_20, scale21, product6_21, scale22,
+    product6_22, scale23, product6_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:623:81: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, scale0, product6_0, scale1,
+    product6_1, scale2, product6_2, scale3, product6_3, scale4, product6_4, scale5, product6_5, scale6, product6_6,
+    scale7, product6_7, scale8, product6_8, scale9, product6_9, scale10, product6_10, scale11, product6_11, scale12,
+    product6_12, scale13, product6_13, scale14, product6_14, scale15, product6_15, scale16, product6_16, scale17,
+    product6_17, scale18, product6_18, scale19, product6_19, scale20, product6_20, scale21, product6_21, scale22,
+    product6_22, scale23, product6_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:701:71: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, scale0, product7_0, scale1,
+    product7_1, scale2, product7_2, scale3, product7_3, scale4, product7_4, scale5, product7_5, scale6, product7_6,
+    scale7, product7_7, scale8, product7_8, scale9, product7_9, scale10, product7_10, scale11, product7_11, scale12,
+    product7_12, scale13, product7_13, scale14, product7_14, scale15, product7_15, scale16, product7_16, scale17,
+    product7_17, scale18, product7_18, scale19, product7_19, scale20, product7_20, scale21, product7_21, scale22,
+    product7_22, scale23, product7_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:701:81: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, scale0, product7_0, scale1,
+    product7_1, scale2, product7_2, scale3, product7_3, scale4, product7_4, scale5, product7_5, scale6, product7_6,
+    scale7, product7_7, scale8, product7_8, scale9, product7_9, scale10, product7_10, scale11, product7_11, scale12,
+    product7_12, scale13, product7_13, scale14, product7_14, scale15, product7_15, scale16, product7_16, scale17,
+    product7_17, scale18, product7_18, scale19, product7_19, scale20, product7_20, scale21, product7_21, scale22,
+    product7_22, scale23, product7_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:779:71: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, scale0, product8_0, scale1,
+    product8_1, scale2, product8_2, scale3, product8_3, scale4, product8_4, scale5, product8_5, scale6, product8_6,
+    scale7, product8_7, scale8, product8_8, scale9, product8_9, scale10, product8_10, scale11, product8_11, scale12,
+    product8_12, scale13, product8_13, scale14, product8_14, scale15, product8_15, scale16, product8_16, scale17,
+    product8_17, scale18, product8_18, scale19, product8_19, scale20, product8_20, scale21, product8_21, scale22,
+    product8_22, scale23, product8_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:779:81: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, scale0, product8_0, scale1,
+    product8_1, scale2, product8_2, scale3, product8_3, scale4, product8_4, scale5, product8_5, scale6, product8_6,
+    scale7, product8_7, scale8, product8_8, scale9, product8_9, scale10, product8_10, scale11, product8_11, scale12,
+    product8_12, scale13, product8_13, scale14, product8_14, scale15, product8_15, scale16, product8_16, scale17,
+    product8_17, scale18, product8_18, scale19, product8_19, scale20, product8_20, scale21, product8_21, scale22,
+    product8_22, scale23, product8_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:857:71: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, scale0, product9_0, scale1,
+    product9_1, scale2, product9_2, scale3, product9_3, scale4, product9_4, scale5, product9_5, scale6, product9_6,
+    scale7, product9_7, scale8, product9_8, scale9, product9_9, scale10, product9_10, scale11, product9_11, scale12,
+    product9_12, scale13, product9_13, scale14, product9_14, scale15, product9_15, scale16, product9_16, scale17,
+    product9_17, scale18, product9_18, scale19, product9_19, scale20, product9_20, scale21, product9_21, scale22,
+    product9_22, scale23, product9_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:857:81: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, scale0, product9_0, scale1,
+    product9_1, scale2, product9_2, scale3, product9_3, scale4, product9_4, scale5, product9_5, scale6, product9_6,
+    scale7, product9_7, scale8, product9_8, scale9, product9_9, scale10, product9_10, scale11, product9_11, scale12,
+    product9_12, scale13, product9_13, scale14, product9_14, scale15, product9_15, scale16, product9_16, scale17,
+    product9_17, scale18, product9_18, scale19, product9_19, scale20, product9_20, scale21, product9_21, scale22,
+    product9_22, scale23, product9_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:935:71: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, scale0, product10_0, scale1,
+    product10_1, scale2, product10_2, scale3, product10_3, scale4, product10_4, scale5, product10_5, scale6,
+    product10_6, scale7, product10_7, scale8, product10_8, scale9, product10_9, scale10, product10_10, scale11,
+    product10_11, scale12, product10_12, scale13, product10_13, scale14, product10_14, scale15, product10_15, scale16,
+    product10_16, scale17, product10_17, scale18, product10_18, scale19, product10_19, scale20, product10_20, scale21,
+    product10_21, scale22, product10_22, scale23, product10_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:935:81: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, scale0, product10_0, scale1,
+    product10_1, scale2, product10_2, scale3, product10_3, scale4, product10_4, scale5, product10_5, scale6,
+    product10_6, scale7, product10_7, scale8, product10_8, scale9, product10_9, scale10, product10_10, scale11,
+    product10_11, scale12, product10_12, scale13, product10_13, scale14, product10_14, scale15, product10_15, scale16,
+    product10_16, scale17, product10_17, scale18, product10_18, scale19, product10_19, scale20, product10_20, scale21,
+    product10_21, scale22, product10_22, scale23, product10_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1013:71: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, scale0, product11_0, scale1,
+    product11_1, scale2, product11_2, scale3, product11_3, scale4, product11_4, scale5, product11_5, scale6,
+    product11_6, scale7, product11_7, scale8, product11_8, scale9, product11_9, scale10, product11_10, scale11,
+    product11_11, scale12, product11_12, scale13, product11_13, scale14, product11_14, scale15, product11_15, scale16,
+    product11_16, scale17, product11_17, scale18, product11_18, scale19, product11_19, scale20, product11_20, scale21,
+    product11_21, scale22, product11_22, scale23, product11_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1013:81: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, scale0, product11_0, scale1,
+    product11_1, scale2, product11_2, scale3, product11_3, scale4, product11_4, scale5, product11_5, scale6,
+    product11_6, scale7, product11_7, scale8, product11_8, scale9, product11_9, scale10, product11_10, scale11,
+    product11_11, scale12, product11_12, scale13, product11_13, scale14, product11_14, scale15, product11_15, scale16,
+    product11_16, scale17, product11_17, scale18, product11_18, scale19, product11_19, scale20, product11_20, scale21,
+    product11_21, scale22, product11_22, scale23, product11_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1091:71: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, scale0, product12_0, scale1,
+    product12_1, scale2, product12_2, scale3, product12_3, scale4, product12_4, scale5, product12_5, scale6,
+    product12_6, scale7, product12_7, scale8, product12_8, scale9, product12_9, scale10, product12_10, scale11,
+    product12_11, scale12, product12_12, scale13, product12_13, scale14, product12_14, scale15, product12_15, scale16,
+    product12_16, scale17, product12_17, scale18, product12_18, scale19, product12_19, scale20, product12_20, scale21,
+    product12_21, scale22, product12_22, scale23, product12_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1091:81: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, scale0, product12_0, scale1,
+    product12_1, scale2, product12_2, scale3, product12_3, scale4, product12_4, scale5, product12_5, scale6,
+    product12_6, scale7, product12_7, scale8, product12_8, scale9, product12_9, scale10, product12_10, scale11,
+    product12_11, scale12, product12_12, scale13, product12_13, scale14, product12_14, scale15, product12_15, scale16,
+    product12_16, scale17, product12_17, scale18, product12_18, scale19, product12_19, scale20, product12_20, scale21,
+    product12_21, scale22, product12_22, scale23, product12_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1169:71: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, scale0, product13_0, scale1,
+    product13_1, scale2, product13_2, scale3, product13_3, scale4, product13_4, scale5, product13_5, scale6,
+    product13_6, scale7, product13_7, scale8, product13_8, scale9, product13_9, scale10, product13_10, scale11,
+    product13_11, scale12, product13_12, scale13, product13_13, scale14, product13_14, scale15, product13_15, scale16,
+    product13_16, scale17, product13_17, scale18, product13_18, scale19, product13_19, scale20, product13_20, scale21,
+    product13_21, scale22, product13_22, scale23, product13_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1169:81: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, scale0, product13_0, scale1,
+    product13_1, scale2, product13_2, scale3, product13_3, scale4, product13_4, scale5, product13_5, scale6,
+    product13_6, scale7, product13_7, scale8, product13_8, scale9, product13_9, scale10, product13_10, scale11,
+    product13_11, scale12, product13_12, scale13, product13_13, scale14, product13_14, scale15, product13_15, scale16,
+    product13_16, scale17, product13_17, scale18, product13_18, scale19, product13_19, scale20, product13_20, scale21,
+    product13_21, scale22, product13_22, scale23, product13_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1247:71: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, scale0, product14_0, scale1,
+    product14_1, scale2, product14_2, scale3, product14_3, scale4, product14_4, scale5, product14_5, scale6,
+    product14_6, scale7, product14_7, scale8, product14_8, scale9, product14_9, scale10, product14_10, scale11,
+    product14_11, scale12, product14_12, scale13, product14_13, scale14, product14_14, scale15, product14_15, scale16,
+    product14_16, scale17, product14_17, scale18, product14_18, scale19, product14_19, scale20, product14_20, scale21,
+    product14_21, scale22, product14_22, scale23, product14_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1247:81: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, scale0, product14_0, scale1,
+    product14_1, scale2, product14_2, scale3, product14_3, scale4, product14_4, scale5, product14_5, scale6,
+    product14_6, scale7, product14_7, scale8, product14_8, scale9, product14_9, scale10, product14_10, scale11,
+    product14_11, scale12, product14_12, scale13, product14_13, scale14, product14_14, scale15, product14_15, scale16,
+    product14_16, scale17, product14_17, scale18, product14_18, scale19, product14_19, scale20, product14_20, scale21,
+    product14_21, scale22, product14_22, scale23, product14_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1325:71: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, scale0, product15_0, scale1,
+    product15_1, scale2, product15_2, scale3, product15_3, scale4, product15_4, scale5, product15_5, scale6,
+    product15_6, scale7, product15_7, scale8, product15_8, scale9, product15_9, scale10, product15_10, scale11,
+    product15_11, scale12, product15_12, scale13, product15_13, scale14, product15_14, scale15, product15_15, scale16,
+    product15_16, scale17, product15_17, scale18, product15_18, scale19, product15_19, scale20, product15_20, scale21,
+    product15_21, scale22, product15_22, scale23, product15_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1325:81: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, scale0, product15_0, scale1,
+    product15_1, scale2, product15_2, scale3, product15_3, scale4, product15_4, scale5, product15_5, scale6,
+    product15_6, scale7, product15_7, scale8, product15_8, scale9, product15_9, scale10, product15_10, scale11,
+    product15_11, scale12, product15_12, scale13, product15_13, scale14, product15_14, scale15, product15_15, scale16,
+    product15_16, scale17, product15_17, scale18, product15_18, scale19, product15_19, scale20, product15_20, scale21,
+    product15_21, scale22, product15_22, scale23, product15_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1403:71: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, scale0, product16_0, scale1,
+    product16_1, scale2, product16_2, scale3, product16_3, scale4, product16_4, scale5, product16_5, scale6,
+    product16_6, scale7, product16_7, scale8, product16_8, scale9, product16_9, scale10, product16_10, scale11,
+    product16_11, scale12, product16_12, scale13, product16_13, scale14, product16_14, scale15, product16_15, scale16,
+    product16_16, scale17, product16_17, scale18, product16_18, scale19, product16_19, scale20, product16_20, scale21,
+    product16_21, scale22, product16_22, scale23, product16_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1403:81: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, scale0, product16_0, scale1,
+    product16_1, scale2, product16_2, scale3, product16_3, scale4, product16_4, scale5, product16_5, scale6,
+    product16_6, scale7, product16_7, scale8, product16_8, scale9, product16_9, scale10, product16_10, scale11,
+    product16_11, scale12, product16_12, scale13, product16_13, scale14, product16_14, scale15, product16_15, scale16,
+    product16_16, scale17, product16_17, scale18, product16_18, scale19, product16_19, scale20, product16_20, scale21,
+    product16_21, scale22, product16_22, scale23, product16_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1481:71: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, scale0, product17_0, scale1,
+    product17_1, scale2, product17_2, scale3, product17_3, scale4, product17_4, scale5, product17_5, scale6,
+    product17_6, scale7, product17_7, scale8, product17_8, scale9, product17_9, scale10, product17_10, scale11,
+    product17_11, scale12, product17_12, scale13, product17_13, scale14, product17_14, scale15, product17_15, scale16,
+    product17_16, scale17, product17_17, scale18, product17_18, scale19, product17_19, scale20, product17_20, scale21,
+    product17_21, scale22, product17_22, scale23, product17_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1481:81: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, scale0, product17_0, scale1,
+    product17_1, scale2, product17_2, scale3, product17_3, scale4, product17_4, scale5, product17_5, scale6,
+    product17_6, scale7, product17_7, scale8, product17_8, scale9, product17_9, scale10, product17_10, scale11,
+    product17_11, scale12, product17_12, scale13, product17_13, scale14, product17_14, scale15, product17_15, scale16,
+    product17_16, scale17, product17_17, scale18, product17_18, scale19, product17_19, scale20, product17_20, scale21,
+    product17_21, scale22, product17_22, scale23, product17_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1559:71: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, scale0, product18_0, scale1,
+    product18_1, scale2, product18_2, scale3, product18_3, scale4, product18_4, scale5, product18_5, scale6,
+    product18_6, scale7, product18_7, scale8, product18_8, scale9, product18_9, scale10, product18_10, scale11,
+    product18_11, scale12, product18_12, scale13, product18_13, scale14, product18_14, scale15, product18_15, scale16,
+    product18_16, scale17, product18_17, scale18, product18_18, scale19, product18_19, scale20, product18_20, scale21,
+    product18_21, scale22, product18_22, scale23, product18_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1559:81: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, scale0, product18_0, scale1,
+    product18_1, scale2, product18_2, scale3, product18_3, scale4, product18_4, scale5, product18_5, scale6,
+    product18_6, scale7, product18_7, scale8, product18_8, scale9, product18_9, scale10, product18_10, scale11,
+    product18_11, scale12, product18_12, scale13, product18_13, scale14, product18_14, scale15, product18_15, scale16,
+    product18_16, scale17, product18_17, scale18, product18_18, scale19, product18_19, scale20, product18_20, scale21,
+    product18_21, scale22, product18_22, scale23, product18_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1637:71: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, scale0, product19_0, scale1,
+    product19_1, scale2, product19_2, scale3, product19_3, scale4, product19_4, scale5, product19_5, scale6,
+    product19_6, scale7, product19_7, scale8, product19_8, scale9, product19_9, scale10, product19_10, scale11,
+    product19_11, scale12, product19_12, scale13, product19_13, scale14, product19_14, scale15, product19_15, scale16,
+    product19_16, scale17, product19_17, scale18, product19_18, scale19, product19_19, scale20, product19_20, scale21,
+    product19_21, scale22, product19_22, scale23, product19_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1637:81: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, scale0, product19_0, scale1,
+    product19_1, scale2, product19_2, scale3, product19_3, scale4, product19_4, scale5, product19_5, scale6,
+    product19_6, scale7, product19_7, scale8, product19_8, scale9, product19_9, scale10, product19_10, scale11,
+    product19_11, scale12, product19_12, scale13, product19_13, scale14, product19_14, scale15, product19_15, scale16,
+    product19_16, scale17, product19_17, scale18, product19_18, scale19, product19_19, scale20, product19_20, scale21,
+    product19_21, scale22, product19_22, scale23, product19_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1715:71: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, scale0, product20_0, scale1,
+    product20_1, scale2, product20_2, scale3, product20_3, scale4, product20_4, scale5, product20_5, scale6,
+    product20_6, scale7, product20_7, scale8, product20_8, scale9, product20_9, scale10, product20_10, scale11,
+    product20_11, scale12, product20_12, scale13, product20_13, scale14, product20_14, scale15, product20_15, scale16,
+    product20_16, scale17, product20_17, scale18, product20_18, scale19, product20_19, scale20, product20_20, scale21,
+    product20_21, scale22, product20_22, scale23, product20_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1715:81: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, scale0, product20_0, scale1,
+    product20_1, scale2, product20_2, scale3, product20_3, scale4, product20_4, scale5, product20_5, scale6,
+    product20_6, scale7, product20_7, scale8, product20_8, scale9, product20_9, scale10, product20_10, scale11,
+    product20_11, scale12, product20_12, scale13, product20_13, scale14, product20_14, scale15, product20_15, scale16,
+    product20_16, scale17, product20_17, scale18, product20_18, scale19, product20_19, scale20, product20_20, scale21,
+    product20_21, scale22, product20_22, scale23, product20_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1793:71: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, scale0, product21_0, scale1,
+    product21_1, scale2, product21_2, scale3, product21_3, scale4, product21_4, scale5, product21_5, scale6,
+    product21_6, scale7, product21_7, scale8, product21_8, scale9, product21_9, scale10, product21_10, scale11,
+    product21_11, scale12, product21_12, scale13, product21_13, scale14, product21_14, scale15, product21_15, scale16,
+    product21_16, scale17, product21_17, scale18, product21_18, scale19, product21_19, scale20, product21_20, scale21,
+    product21_21, scale22, product21_22, scale23, product21_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1793:81: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, scale0, product21_0, scale1,
+    product21_1, scale2, product21_2, scale3, product21_3, scale4, product21_4, scale5, product21_5, scale6,
+    product21_6, scale7, product21_7, scale8, product21_8, scale9, product21_9, scale10, product21_10, scale11,
+    product21_11, scale12, product21_12, scale13, product21_13, scale14, product21_14, scale15, product21_15, scale16,
+    product21_16, scale17, product21_17, scale18, product21_18, scale19, product21_19, scale20, product21_20, scale21,
+    product21_21, scale22, product21_22, scale23, product21_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1871:71: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, scale0, product22_0, scale1,
+    product22_1, scale2, product22_2, scale3, product22_3, scale4, product22_4, scale5, product22_5, scale6,
+    product22_6, scale7, product22_7, scale8, product22_8, scale9, product22_9, scale10, product22_10, scale11,
+    product22_11, scale12, product22_12, scale13, product22_13, scale14, product22_14, scale15, product22_15, scale16,
+    product22_16, scale17, product22_17, scale18, product22_18, scale19, product22_19, scale20, product22_20, scale21,
+    product22_21, scale22, product22_22, scale23, product22_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1871:81: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, scale0, product22_0, scale1,
+    product22_1, scale2, product22_2, scale3, product22_3, scale4, product22_4, scale5, product22_5, scale6,
+    product22_6, scale7, product22_7, scale8, product22_8, scale9, product22_9, scale10, product22_10, scale11,
+    product22_11, scale12, product22_12, scale13, product22_13, scale14, product22_14, scale15, product22_15, scale16,
+    product22_16, scale17, product22_17, scale18, product22_18, scale19, product22_19, scale20, product22_20, scale21,
+    product22_21, scale22, product22_22, scale23, product22_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1949:71: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, scale0, product23_0, scale1,
+    product23_1, scale2, product23_2, scale3, product23_3, scale4, product23_4, scale5, product23_5, scale6,
+    product23_6, scale7, product23_7, scale8, product23_8, scale9, product23_9, scale10, product23_10, scale11,
+    product23_11, scale12, product23_12, scale13, product23_13, scale14, product23_14, scale15, product23_15, scale16,
+    product23_16, scale17, product23_17, scale18, product23_18, scale19, product23_19, scale20, product23_20, scale21,
+    product23_21, scale22, product23_22, scale23, product23_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1949:81: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, scale0, product23_0, scale1,
+    product23_1, scale2, product23_2, scale3, product23_3, scale4, product23_4, scale5, product23_5, scale6,
+    product23_6, scale7, product23_7, scale8, product23_8, scale9, product23_9, scale10, product23_10, scale11,
+    product23_11, scale12, product23_12, scale13, product23_13, scale14, product23_14, scale15, product23_15, scale16,
+    product23_16, scale17, product23_17, scale18, product23_18, scale19, product23_19, scale20, product23_20, scale21,
+    product23_21, scale22, product23_22, scale23, product23_23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotAll272.lean:1955:2: error: failed to synthesize
+  Fintype (Fin 24)
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+CGLMP5/SOSResidualSinglePilotAll272.lean:1956:10: error: maximum recursion depth has been reached
+use `set_option maxRecDepth <num>` to increase limit
+use `set_option diagnostics true` to get diagnostic information
+CGLMP5/SOSResidualSinglePilotAll272.lean:1957:2: error: No goals to be solved
+{"returncode": 1, "seconds": 73.57753187700291, "maxrss_kib": 1789756}

@@ -1,0 +1,1264 @@
+pre-completion-gate dependency inspection; not a final audit round
+Source snapshot before: b4a9b24f530ef23af6013cd013ea7b598d1334fd6dd18243e28fe828897dbb87
+Lean exit: 0
+
+CGLMP5.sextic_mu
+CGLMP5.sextic_mu : Eq.{1} (CGLMP5.sextic CGLMP5.mu) 0
+'CGLMP5.sextic_mu' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.mu_gt_three
+CGLMP5.mu_gt_three : LT.lt.{0} 3 CGLMP5.mu
+'CGLMP5.mu_gt_three' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.mu_largest_root
+CGLMP5.mu_largest_root : ∀ (t : ℝ), Eq.{1} (CGLMP5.sextic t) 0 → LE.le.{0} t CGLMP5.mu
+'CGLMP5.mu_largest_root' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.mu_unique_above_three
+CGLMP5.mu_unique_above_three : ∀ (t : ℝ), LE.le.{0} 3 t → Eq.{1} (CGLMP5.sextic t) 0 → Eq.{1} t CGLMP5.mu
+'CGLMP5.mu_unique_above_three' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.s_sq
+CGLMP5.s_sq : Eq.{1} (HPow.hPow.{0, 0, 0} CGLMP5.s 2) 5
+'CGLMP5.s_sq' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.s_pos
+CGLMP5.s_pos : LT.lt.{0} 0 CGLMP5.s
+'CGLMP5.s_pos' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.u_sq
+CGLMP5.u_sq : Eq.{1} (HPow.hPow.{0, 0, 0} CGLMP5.u 2) (HAdd.hAdd.{0, 0, 0} 10 (HMul.hMul.{0, 0, 0} 2 CGLMP5.s))
+'CGLMP5.u_sq' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.u_pos
+CGLMP5.u_pos : LT.lt.{0} 0 CGLMP5.u
+'CGLMP5.u_pos' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.mu_cubic
+CGLMP5.mu_cubic : Eq.{1} (HPow.hPow.{0, 0, 0} CGLMP5.mu 3)
+  (HSub.hSub.{0, 0, 0}
+    (HAdd.hAdd.{0, 0, 0}
+      (HAdd.hAdd.{0, 0, 0} (HMul.hMul.{0, 0, 0} CGLMP5.s (HPow.hPow.{0, 0, 0} CGLMP5.mu 2))
+        (HMul.hMul.{0, 0, 0} (HSub.hSub.{0, 0, 0} 4 (HDiv.hDiv.{0, 0, 0} (HMul.hMul.{0, 0, 0} 4 CGLMP5.s) 5))
+          CGLMP5.mu))
+      4)
+    (HDiv.hDiv.{0, 0, 0} (HMul.hMul.{0, 0, 0} 8 CGLMP5.s) 5))
+'CGLMP5.mu_cubic' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.x_cubic
+CGLMP5.x_cubic : Eq.{1} (HPow.hPow.{0, 0, 0} CGLMP5.x 3)
+  (HSub.hSub.{0, 0, 0}
+    (HAdd.hAdd.{0, 0, 0}
+      (HAdd.hAdd.{0, 0, 0} (HMul.hMul.{0, 0, 0} (HMul.hMul.{0, 0, 0} 5 CGLMP5.s) (HPow.hPow.{0, 0, 0} CGLMP5.x 2))
+        (HMul.hMul.{0, 0, 0} (HSub.hSub.{0, 0, 0} 100 (HMul.hMul.{0, 0, 0} 20 CGLMP5.s)) CGLMP5.x))
+      500)
+    (HMul.hMul.{0, 0, 0} 200 CGLMP5.s))
+'CGLMP5.x_cubic' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.zeta_eq_exp
+CGLMP5.zeta_eq_exp : Eq.{1} CGLMP5.zeta
+  (Complex.exp (HMul.hMul.{0, 0, 0} (↑(HDiv.hDiv.{0, 0, 0} Real.pi 10)) Complex.I))
+'CGLMP5.zeta_eq_exp' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.zeta_primitive
+CGLMP5.zeta_primitive : IsPrimitiveRoot.{0} CGLMP5.zeta 20
+'CGLMP5.zeta_primitive' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.coefficient_cyclic
+CGLMP5.coefficient_cyclic : ∀ (x y : CGLMP5.Setting) (a b : CGLMP5.Outcome),
+  Eq.{1} (CGLMP5.eventCoefficientTwo x y a b) (HSub.hSub.{0, 0, 0} 2 ↑(CGLMP5.eventResidue x y a b))
+'CGLMP5.coefficient_cyclic' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.cglmp_local_bound
+CGLMP5.cglmp_local_bound : ∀ (w : CGLMP5.Assignment → ℝ),
+  (∀ (σ : CGLMP5.Assignment), LE.le.{0} 0 (w σ)) →
+    Eq.{1} (∑ σ, w σ) 1 → LE.le.{0} (CGLMP5.cglmp (CGLMP5.localBehavior w)) 2
+'CGLMP5.cglmp_local_bound' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.cglmp_zero_assignment
+CGLMP5.cglmp_zero_assignment : Eq.{1}
+  (CGLMP5.cglmp (CGLMP5.deterministicBehavior (Prod.mk.{0, 0} (fun x => 0) fun x => 0))) 2
+'CGLMP5.cglmp_zero_assignment' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.PartyWord.eval_reduce
+@CGLMP5.PartyWord.eval_reduce.{u_1} : ∀ {M : Type u_1} [inst : Monoid.{u_1} M] (g : Fin 2 → M),
+  (∀ (i : Fin 2), Eq.{u_1 + 1} (HPow.hPow.{u_1, 0, u_1} (g i) 5) 1) →
+    ∀ (w : CGLMP5.PartyWord), Eq.{u_1 + 1} (CGLMP5.PartyWord.eval.{u_1} g w.reduce) (CGLMP5.PartyWord.eval.{u_1} g w)
+'CGLMP5.PartyWord.eval_reduce' depends on axioms: [propext]
+
+CGLMP5.PartyWord.eval_adjoint
+@CGLMP5.PartyWord.eval_adjoint.{u_1} : ∀ {G : Type u_1} [inst : Group.{u_1} G] (g : Fin 2 → G),
+  (∀ (i : Fin 2), Eq.{u_1 + 1} (HPow.hPow.{u_1, 0, u_1} (g i) 5) 1) →
+    ∀ (w : CGLMP5.PartyWord),
+      Eq.{u_1 + 1} (CGLMP5.PartyWord.eval.{u_1} g w.adjoint) (Inv.inv.{u_1} (CGLMP5.PartyWord.eval.{u_1} g w))
+'CGLMP5.PartyWord.eval_adjoint' depends on axioms: [propext]
+
+CGLMP5.PartyWord.eval_commute
+@CGLMP5.PartyWord.eval_commute.{u_1} : ∀ {M : Type u_1} [inst : Monoid.{u_1} M] (a b : Fin 2 → M),
+  (∀ (i j : Fin 2), Commute.{u_1} (a i) (b j)) →
+    ∀ (v w : CGLMP5.PartyWord), Commute.{u_1} (CGLMP5.PartyWord.eval.{u_1} a v) (CGLMP5.PartyWord.eval.{u_1} b w)
+'CGLMP5.PartyWord.eval_commute' depends on axioms: [propext]
+
+CGLMP5.Word.evalStar_mul
+@CGLMP5.Word.evalStar_mul.{u_1} : ∀ {R : Type u_1} [inst : Monoid.{u_1} R] [inst_1 : StarMul.{u_1} R]
+  (a b : Fin 2 → ↥(unitary.{u_1} R)),
+  (∀ (i : Fin 2), Eq.{u_1 + 1} (HPow.hPow.{u_1, 0, u_1} (a i) 5) 1) →
+    (∀ (i : Fin 2), Eq.{u_1 + 1} (HPow.hPow.{u_1, 0, u_1} (b i) 5) 1) →
+      (∀ (i j : Fin 2), Commute.{u_1} (a i) (b j)) →
+        ∀ (v w : CGLMP5.Word),
+          Eq.{u_1 + 1} (CGLMP5.Word.evalStar.{u_1} a b (v.mul w))
+            (HMul.hMul.{u_1, u_1, u_1} (CGLMP5.Word.evalStar.{u_1} a b v) (CGLMP5.Word.evalStar.{u_1} a b w))
+'CGLMP5.Word.evalStar_mul' depends on axioms: [propext, Quot.sound.{u}]
+
+CGLMP5.Word.evalStar_adjoint
+@CGLMP5.Word.evalStar_adjoint.{u_1} : ∀ {R : Type u_1} [inst : Monoid.{u_1} R] [inst_1 : StarMul.{u_1} R]
+  (a b : Fin 2 → ↥(unitary.{u_1} R)),
+  (∀ (i : Fin 2), Eq.{u_1 + 1} (HPow.hPow.{u_1, 0, u_1} (a i) 5) 1) →
+    (∀ (i : Fin 2), Eq.{u_1 + 1} (HPow.hPow.{u_1, 0, u_1} (b i) 5) 1) →
+      (∀ (i j : Fin 2), Commute.{u_1} (a i) (b j)) →
+        ∀ (w : CGLMP5.Word),
+          Eq.{u_1 + 1} (CGLMP5.Word.evalStar.{u_1} a b w.adjoint) (Star.star.{u_1} (CGLMP5.Word.evalStar.{u_1} a b w))
+'CGLMP5.Word.evalStar_adjoint' depends on axioms: [propext, Quot.sound.{u}]
+
+CGLMP5.CertificateSource.eval_separateSourceWord
+@CGLMP5.CertificateSource.eval_separateSourceWord.{u_1} : ∀ {M : Type u_1} [inst : Monoid.{u_1} M] (a b : Fin 2 → M),
+  (∀ (i j : Fin 2), Commute.{u_1} (a i) (b j)) →
+    ∀ (w : List.{0} (Prod.{0, 0} ℕ ℕ)),
+      (∀ (t : Prod.{0, 0} ℕ ℕ), Membership.mem.{0, 0} w t → LT.lt.{0} t.1 4) →
+        Eq.{u_1 + 1} (CGLMP5.Word.eval.{u_1} a b (CGLMP5.CertificateSource.separateSourceWord w))
+          (CGLMP5.CertificateSource.sourceEval.{u_1} a b w)
+'CGLMP5.CertificateSource.eval_separateSourceWord' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.CertificateSource.rawCoefficient_eval
+@CGLMP5.CertificateSource.rawCoefficient_eval.{u_1} : ∀ {R : Type u_1} [inst : Monoid.{u_1} R]
+  [inst_1 : StarMul.{u_1} R] (a b : Fin 2 → ↥(unitary.{u_1} R)),
+  (∀ (i j : Fin 2), Commute.{u_1} (a i) (b j)) →
+    ∀ (c : CGLMP5.CertificateSource.RawCoefficient),
+      c.valid →
+        Eq.{u_1 + 1} (CGLMP5.CertificateSource.rawEval.{u_1} a b c.word) (CGLMP5.Word.evalStar.{u_1} a b c.toWord)
+'CGLMP5.CertificateSource.rawCoefficient_eval' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.cyclicBell_eq_literal
+@CGLMP5.cyclicBell_eq_literal.{u_1} : ∀ {R : Type u_1} [inst : Ring.{u_1} R] [inst_1 : StarRing.{u_1} R]
+  [inst_2 : Algebra.{0, u_1} ℂ R] [StarModule.{0, u_1} ℂ R] (ω : ℂ),
+  Eq.{1} (HPow.hPow.{0, 0, 0} ω 5) 1 →
+    Eq.{1}
+        (HAdd.hAdd.{0, 0, 0}
+          (HAdd.hAdd.{0, 0, 0} (HAdd.hAdd.{0, 0, 0} (HAdd.hAdd.{0, 0, 0} 1 ω) (HPow.hPow.{0, 0, 0} ω 2))
+            (HPow.hPow.{0, 0, 0} ω 3))
+          (HPow.hPow.{0, 0, 0} ω 4))
+        0 →
+      ∀ (A B : Fin 2 → CGLMP5.PVM.{u_1} R),
+        (∀ (x y : Fin 2) (a b : Fin 5),
+            Commute.{u_1} (CGLMP5.PVM.effect.{u_1} (A x) a) (CGLMP5.PVM.effect.{u_1} (B y) b)) →
+          Eq.{u_1 + 1} (CGLMP5.cyclicBell.{u_1} ω A B) (CGLMP5.literalBell.{u_1} A B)
+'CGLMP5.cyclicBell_eq_literal' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.measurementUnitaries_fifth
+@CGLMP5.measurementUnitaries_fifth.{u_1} : ∀ {R : Type u_1} [inst : Ring.{u_1} R] [inst_1 : StarRing.{u_1} R]
+  [inst_2 : Algebra.{0, u_1} ℂ R] [inst_3 : StarModule.{0, u_1} ℂ R] (ω : ℂ)
+  (hunit : Eq.{1} (HMul.hMul.{0, 0, 0} (Star.star.{0} ω) ω) 1),
+  Eq.{1} (HPow.hPow.{0, 0, 0} ω 5) 1 →
+    ∀ (P : Fin 2 → CGLMP5.PVM.{u_1} R) (x : Fin 2),
+      Eq.{u_1 + 1} (HPow.hPow.{u_1, 0, u_1} (CGLMP5.measurementUnitaries.{u_1} ω hunit P x) 5) 1
+'CGLMP5.measurementUnitaries_fifth' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.measurementUnitaries_commute
+@CGLMP5.measurementUnitaries_commute.{u_1} : ∀ {R : Type u_1} [inst : Ring.{u_1} R] [inst_1 : StarRing.{u_1} R]
+  [inst_2 : Algebra.{0, u_1} ℂ R] [inst_3 : StarModule.{0, u_1} ℂ R] (ω : ℂ)
+  (hunit : Eq.{1} (HMul.hMul.{0, 0, 0} (Star.star.{0} ω) ω) 1) (A B : Fin 2 → CGLMP5.PVM.{u_1} R),
+  (∀ (x y : Fin 2) (a b : Fin 5), Commute.{u_1} (CGLMP5.PVM.effect.{u_1} (A x) a) (CGLMP5.PVM.effect.{u_1} (B y) b)) →
+    ∀ (x y : Fin 2),
+      Commute.{u_1} (CGLMP5.measurementUnitaries.{u_1} ω hunit A x) (CGLMP5.measurementUnitaries.{u_1} ω hunit B y)
+'CGLMP5.measurementUnitaries_commute' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.sosBell_eq_literal
+@CGLMP5.sosBell_eq_literal.{u_1} : ∀ {R : Type u_1} [inst : Ring.{u_1} R] [inst_1 : StarRing.{u_1} R]
+  [inst_2 : Algebra.{0, u_1} ℂ R] [inst_3 : StarModule.{0, u_1} ℂ R] (ω : ℂ)
+  (hunit : Eq.{1} (HMul.hMul.{0, 0, 0} (Star.star.{0} ω) ω) 1),
+  Eq.{1} (HPow.hPow.{0, 0, 0} ω 5) 1 →
+    Eq.{1}
+        (HAdd.hAdd.{0, 0, 0}
+          (HAdd.hAdd.{0, 0, 0} (HAdd.hAdd.{0, 0, 0} (HAdd.hAdd.{0, 0, 0} 1 ω) (HPow.hPow.{0, 0, 0} ω 2))
+            (HPow.hPow.{0, 0, 0} ω 3))
+          (HPow.hPow.{0, 0, 0} ω 4))
+        0 →
+      ∀ (A B : Fin 2 → CGLMP5.PVM.{u_1} R),
+        (∀ (x y : Fin 2) (a b : Fin 5),
+            Commute.{u_1} (CGLMP5.PVM.effect.{u_1} (A x) a) (CGLMP5.PVM.effect.{u_1} (B y) b)) →
+          Eq.{u_1 + 1}
+            (CGLMP5.SOS.bell.{u_1} ω (CGLMP5.measurementUnitaries.{u_1} ω hunit A)
+              (CGLMP5.measurementUnitaries.{u_1} ω hunit B))
+            (CGLMP5.literalBell.{u_1} A B)
+'CGLMP5.sosBell_eq_literal' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.State.expect_le_of_operator_bound
+@CGLMP5.State.expect_le_of_operator_bound.{u_1} : ∀ {H : Type u_1} [inst : NormedAddCommGroup.{u_1} H]
+  [inst_1 : InnerProductSpace.{0, u_1} ℂ H] [CompleteSpace.{u_1} H] (φ : CGLMP5.State.{u_1} H) {B : CGLMP5.Op.{u_1} H}
+  {μ : ℝ}, LE.le.{u_1} B (HSMul.hSMul.{0, u_1, u_1} (↑μ) 1) → LE.le.{0} (CGLMP5.State.expect.{u_1} φ B) μ
+'CGLMP5.State.expect_le_of_operator_bound' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.anticommutator_sum_nonneg
+@CGLMP5.anticommutator_sum_nonneg.{u_1,
+    u_2} : ∀ {H : Type u_1} [inst : NormedAddCommGroup.{u_1} H] [inst_1 : InnerProductSpace.{0, u_1} ℂ H]
+  [inst_2 : CompleteSpace.{u_1} H] {ι : Type u_2} [inst_3 : Fintype.{u_2} ι] (d : ι → ℝ) (R : ι → CGLMP5.Op.{u_1} H),
+  (∀ (j : ι), LE.le.{0} 0 (d j)) →
+    LE.le.{u_1} 0
+      (∑ j,
+        HSMul.hSMul.{0, u_1, u_1} (↑(d j))
+          (HAdd.hAdd.{u_1, u_1, u_1} (HMul.hMul.{u_1, u_1, u_1} (Star.star.{u_1} (R j)) (R j))
+            (HMul.hMul.{u_1, u_1, u_1} (R j) (Star.star.{u_1} (R j)))))
+'CGLMP5.anticommutator_sum_nonneg' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.operator_bound_of_sos
+@CGLMP5.operator_bound_of_sos.{u_1,
+    u_2} : ∀ {H : Type u_1} [inst : NormedAddCommGroup.{u_1} H] [inst_1 : InnerProductSpace.{0, u_1} ℂ H]
+  [inst_2 : CompleteSpace.{u_1} H] {ι : Type u_2} [inst_3 : Fintype.{u_2} ι] (μ : ℝ) (B : CGLMP5.Op.{u_1} H) (d : ι → ℝ)
+  (R : ι → CGLMP5.Op.{u_1} H),
+  (∀ (j : ι), LE.le.{0} 0 (d j)) →
+    Eq.{u_1 + 1} (HSub.hSub.{u_1, u_1, u_1} (HSMul.hSMul.{0, u_1, u_1} (↑μ) 1) B)
+        (∑ j,
+          HSMul.hSMul.{0, u_1, u_1} (↑(d j))
+            (HAdd.hAdd.{u_1, u_1, u_1} (HMul.hMul.{u_1, u_1, u_1} (Star.star.{u_1} (R j)) (R j))
+              (HMul.hMul.{u_1, u_1, u_1} (R j) (Star.star.{u_1} (R j))))) →
+      LE.le.{u_1} B (HSMul.hSMul.{0, u_1, u_1} (↑μ) 1)
+'CGLMP5.operator_bound_of_sos' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.state_bound_of_sos
+@CGLMP5.state_bound_of_sos.{u_1,
+    u_2} : ∀ {H : Type u_1} [inst : NormedAddCommGroup.{u_1} H] [inst_1 : InnerProductSpace.{0, u_1} ℂ H]
+  [inst_2 : CompleteSpace.{u_1} H] {ι : Type u_2} [inst_3 : Fintype.{u_2} ι] (φ : CGLMP5.State.{u_1} H) (μ : ℝ)
+  (B : CGLMP5.Op.{u_1} H) (d : ι → ℝ) (R : ι → CGLMP5.Op.{u_1} H),
+  (∀ (j : ι), LE.le.{0} 0 (d j)) →
+    Eq.{u_1 + 1} (HSub.hSub.{u_1, u_1, u_1} (HSMul.hSMul.{0, u_1, u_1} (↑μ) 1) B)
+        (∑ j,
+          HSMul.hSMul.{0, u_1, u_1} (↑(d j))
+            (HAdd.hAdd.{u_1, u_1, u_1} (HMul.hMul.{u_1, u_1, u_1} (Star.star.{u_1} (R j)) (R j))
+              (HMul.hMul.{u_1, u_1, u_1} (R j) (Star.star.{u_1} (R j))))) →
+      LE.le.{0} (CGLMP5.State.expect.{u_1} φ B) μ
+'CGLMP5.state_bound_of_sos' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.compression
+@CGLMP5.compression.{u_1,
+    u_2} : {H : Type u_1} →
+  {K : Type u_2} →
+    [inst : NormedAddCommGroup.{u_1} H] →
+      [inst_1 : InnerProductSpace.{0, u_1} ℂ H] →
+        [CompleteSpace.{u_1} H] →
+          [inst_3 : NormedAddCommGroup.{u_2} K] →
+            [inst_4 : InnerProductSpace.{0, u_2} ℂ K] →
+              [CompleteSpace.{u_2} K] →
+                ContinuousLinearMap.{0, 0, u_1, u_2} (RingHom.id.{0} ℂ) H K →
+                  PositiveLinearMap.{0, u_2, u_1} ℂ (CGLMP5.Op.{u_2} K) (CGLMP5.Op.{u_1} H)
+'CGLMP5.compression' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.State.pullback
+@CGLMP5.State.pullback.{u_1,
+    u_2} : {H : Type u_1} →
+  {K : Type u_2} →
+    [inst : NormedAddCommGroup.{u_1} H] →
+      [inst_1 : InnerProductSpace.{0, u_1} ℂ H] →
+        [inst_2 : CompleteSpace.{u_1} H] →
+          [inst_3 : NormedAddCommGroup.{u_2} K] →
+            [inst_4 : InnerProductSpace.{0, u_2} ℂ K] →
+              [inst_5 : CompleteSpace.{u_2} K] →
+                CGLMP5.State.{u_1} H →
+                  (J : ContinuousLinearMap.{0, 0, u_1, u_2} (RingHom.id.{0} ℂ) H K) →
+                    Eq.{u_1 + 1}
+                        (ContinuousLinearMap.comp.{0, 0, 0, u_1, u_2, u_1} (ContinuousLinearMap.adjoint.{0, u_1, u_2} J)
+                          J)
+                        (ContinuousLinearMap.id.{0, u_1} ℂ H) →
+                      CGLMP5.State.{u_2} K
+'CGLMP5.State.pullback' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.State.vector
+@CGLMP5.State.vector.{u_1} : {H : Type u_1} →
+  [inst : NormedAddCommGroup.{u_1} H] →
+    [inst_1 : InnerProductSpace.{0, u_1} ℂ H] → (ψ : H) → Eq.{1} (Inner.inner.{0, u_1} ℂ ψ ψ) 1 → CGLMP5.State.{u_1} H
+'CGLMP5.State.vector' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.tensor_ext
+@CGLMP5.tensor_ext.{u_1, u_2,
+    u_3} : ∀ {E : Type u_1} {G : Type u_2} [inst : NormedAddCommGroup.{u_1} E] [inst_1 : InnerProductSpace.{0, u_1} ℂ E]
+  [inst_2 : NormedAddCommGroup.{u_2} G] [inst_3 : InnerProductSpace.{0, u_2} ℂ G] {L : Type u_3}
+  [inst_4 : NormedAddCommGroup.{u_3} L] [inst_5 : NormedSpace.{0, u_3} ℂ L]
+  {f g : ContinuousLinearMap.{0, 0, max u_2 u_1, u_3} (RingHom.id.{0} ℂ) (CGLMP5.HTensor.{u_1, u_2} E G) L},
+  (∀ (x : E) (y : G), Eq.{u_3 + 1} (f (CGLMP5.tensorPure.{u_1, u_2} x y)) (g (CGLMP5.tensorPure.{u_1, u_2} x y))) →
+    Eq.{max (max (u_1 + 1) (u_2 + 1)) (u_3 + 1)} f g
+'CGLMP5.tensor_ext' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.tensorMap_comp
+@CGLMP5.tensorMap_comp.{u_1, u_2, u_3, u_4, u_5,
+    u_6} : ∀ {E : Type u_1} {F : Type u_2} {G : Type u_3} {H : Type u_4} {E' : Type u_5} {G' : Type u_6}
+  [inst : NormedAddCommGroup.{u_1} E] [inst_1 : InnerProductSpace.{0, u_1} ℂ E] [inst_2 : NormedAddCommGroup.{u_2} F]
+  [inst_3 : InnerProductSpace.{0, u_2} ℂ F] [inst_4 : NormedAddCommGroup.{u_3} G]
+  [inst_5 : InnerProductSpace.{0, u_3} ℂ G] [inst_6 : NormedAddCommGroup.{u_4} H]
+  [inst_7 : InnerProductSpace.{0, u_4} ℂ H] [inst_8 : NormedAddCommGroup.{u_5} E']
+  [inst_9 : InnerProductSpace.{0, u_5} ℂ E'] [inst_10 : NormedAddCommGroup.{u_6} G']
+  [inst_11 : InnerProductSpace.{0, u_6} ℂ G'] (f₁ : ContinuousLinearMap.{0, 0, u_1, u_2} (RingHom.id.{0} ℂ) E F)
+  (f₂ : ContinuousLinearMap.{0, 0, u_5, u_1} (RingHom.id.{0} ℂ) E' E)
+  (g₁ : ContinuousLinearMap.{0, 0, u_3, u_4} (RingHom.id.{0} ℂ) G H)
+  (g₂ : ContinuousLinearMap.{0, 0, u_6, u_3} (RingHom.id.{0} ℂ) G' G),
+  Eq.{max (max (max (u_2 + 1) (u_4 + 1)) (u_5 + 1)) (u_6 + 1)}
+    (CGLMP5.tensorMap.{u_5, u_2, u_6, u_4} (ContinuousLinearMap.comp.{0, 0, 0, u_5, u_1, u_2} f₁ f₂)
+      (ContinuousLinearMap.comp.{0, 0, 0, u_6, u_3, u_4} g₁ g₂))
+    (ContinuousLinearMap.comp.{0, 0, 0, max u_6 u_5, max u_3 u_1, max u_4 u_2}
+      (CGLMP5.tensorMap.{u_1, u_2, u_3, u_4} f₁ g₁) (CGLMP5.tensorMap.{u_5, u_1, u_6, u_3} f₂ g₂))
+'CGLMP5.tensorMap_comp' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.tensorMap_mul
+@CGLMP5.tensorMap_mul.{u_1,
+    u_2} : ∀ {E : Type u_1} {G : Type u_2} [inst : NormedAddCommGroup.{u_1} E] [inst_1 : InnerProductSpace.{0, u_1} ℂ E]
+  [inst_2 : NormedAddCommGroup.{u_2} G] [inst_3 : InnerProductSpace.{0, u_2} ℂ G] (f₁ f₂ : CGLMP5.Op.{u_1} E)
+  (g₁ g₂ : CGLMP5.Op.{u_2} G),
+  Eq.{max (u_1 + 1) (u_2 + 1)}
+    (CGLMP5.tensorMap.{u_1, u_1, u_2, u_2} (HMul.hMul.{u_1, u_1, u_1} f₁ f₂) (HMul.hMul.{u_2, u_2, u_2} g₁ g₂))
+    (HMul.hMul.{max u_1 u_2, max u_1 u_2, max u_1 u_2} (CGLMP5.tensorMap.{u_1, u_1, u_2, u_2} f₁ g₁)
+      (CGLMP5.tensorMap.{u_1, u_1, u_2, u_2} f₂ g₂))
+'CGLMP5.tensorMap_mul' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.tensorMap_cross_commute
+@CGLMP5.tensorMap_cross_commute.{u_1,
+    u_2} : ∀ {E : Type u_1} {G : Type u_2} [inst : NormedAddCommGroup.{u_1} E] [inst_1 : InnerProductSpace.{0, u_1} ℂ E]
+  [inst_2 : NormedAddCommGroup.{u_2} G] [inst_3 : InnerProductSpace.{0, u_2} ℂ G] (f : CGLMP5.Op.{u_1} E)
+  (g : CGLMP5.Op.{u_2} G),
+  Commute.{max u_2 u_1} (CGLMP5.tensorMap.{u_1, u_1, u_2, u_2} f 1) (CGLMP5.tensorMap.{u_1, u_1, u_2, u_2} 1 g)
+'CGLMP5.tensorMap_cross_commute' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.tensorMap_isometry
+@CGLMP5.tensorMap_isometry.{u_1, u_2, u_3,
+    u_4} : ∀ {E : Type u_1} {F : Type u_2} {G : Type u_3} {H : Type u_4} [inst : NormedAddCommGroup.{u_1} E]
+  [inst_1 : InnerProductSpace.{0, u_1} ℂ E] [inst_2 : NormedAddCommGroup.{u_2} F]
+  [inst_3 : InnerProductSpace.{0, u_2} ℂ F] [inst_4 : NormedAddCommGroup.{u_3} G]
+  [inst_5 : InnerProductSpace.{0, u_3} ℂ G] [inst_6 : NormedAddCommGroup.{u_4} H]
+  [inst_7 : InnerProductSpace.{0, u_4} ℂ H] [inst_8 : CompleteSpace.{u_1} E] [inst_9 : CompleteSpace.{u_2} F]
+  [inst_10 : CompleteSpace.{u_3} G] [inst_11 : CompleteSpace.{u_4} H]
+  (J : ContinuousLinearMap.{0, 0, u_1, u_2} (RingHom.id.{0} ℂ) E F)
+  (K : ContinuousLinearMap.{0, 0, u_3, u_4} (RingHom.id.{0} ℂ) G H),
+  Eq.{u_1 + 1} (ContinuousLinearMap.comp.{0, 0, 0, u_1, u_2, u_1} (ContinuousLinearMap.adjoint.{0, u_1, u_2} J) J)
+      (ContinuousLinearMap.id.{0, u_1} ℂ E) →
+    Eq.{u_3 + 1} (ContinuousLinearMap.comp.{0, 0, 0, u_3, u_4, u_3} (ContinuousLinearMap.adjoint.{0, u_3, u_4} K) K)
+        (ContinuousLinearMap.id.{0, u_3} ℂ G) →
+      Eq.{max (u_1 + 1) (u_3 + 1)}
+        (ContinuousLinearMap.comp.{0, 0, 0, max u_3 u_1, max u_2 u_4, max u_1 u_3}
+          (ContinuousLinearMap.adjoint.{0, max u_1 u_3, max u_2 u_4} (CGLMP5.tensorMap.{u_1, u_2, u_3, u_4} J K))
+          (CGLMP5.tensorMap.{u_1, u_2, u_3, u_4} J K))
+        (ContinuousLinearMap.id.{0, max u_3 u_1} ℂ (CGLMP5.HTensor.{u_1, u_3} E G))
+'CGLMP5.tensorMap_isometry' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.tensor_compression
+@CGLMP5.tensor_compression.{u_1, u_2, u_3,
+    u_4} : ∀ {E : Type u_1} {F : Type u_2} {G : Type u_3} {H : Type u_4} [inst : NormedAddCommGroup.{u_1} E]
+  [inst_1 : InnerProductSpace.{0, u_1} ℂ E] [inst_2 : NormedAddCommGroup.{u_2} F]
+  [inst_3 : InnerProductSpace.{0, u_2} ℂ F] [inst_4 : NormedAddCommGroup.{u_3} G]
+  [inst_5 : InnerProductSpace.{0, u_3} ℂ G] [inst_6 : NormedAddCommGroup.{u_4} H]
+  [inst_7 : InnerProductSpace.{0, u_4} ℂ H] [inst_8 : CompleteSpace.{u_1} E] [inst_9 : CompleteSpace.{u_2} F]
+  [inst_10 : CompleteSpace.{u_3} G] [inst_11 : CompleteSpace.{u_4} H]
+  (J : ContinuousLinearMap.{0, 0, u_1, u_2} (RingHom.id.{0} ℂ) E F)
+  (K : ContinuousLinearMap.{0, 0, u_3, u_4} (RingHom.id.{0} ℂ) G H) (A : CGLMP5.Op.{u_2} F) (B : CGLMP5.Op.{u_4} H),
+  Eq.{max (u_1 + 1) (u_3 + 1)}
+    ((CGLMP5.compression.{max u_3 u_1, max u_4 u_2} (CGLMP5.tensorMap.{u_1, u_2, u_3, u_4} J K))
+      (CGLMP5.tensorMap.{u_2, u_2, u_4, u_4} A B))
+    (CGLMP5.tensorMap.{u_1, u_1, u_3, u_3} ((CGLMP5.compression.{u_1, u_2} J) A) ((CGLMP5.compression.{u_3, u_4} K) B))
+'CGLMP5.tensor_compression' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.commonJ_isometry
+@CGLMP5.commonJ_isometry.{u_1} : ∀ {H : Type u_1} [inst : NormedAddCommGroup.{u_1} H]
+  [inst_1 : InnerProductSpace.{0, u_1} ℂ H] [inst_2 : CompleteSpace.{u_1} H],
+  Eq.{u_1 + 1}
+    (ContinuousLinearMap.comp.{0, 0, 0, u_1, u_1, u_1} (ContinuousLinearMap.adjoint.{0, u_1, u_1} CGLMP5.commonJ.{u_1})
+      CGLMP5.commonJ.{u_1})
+    (ContinuousLinearMap.id.{0, u_1} ℂ H)
+'CGLMP5.commonJ_isometry' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.POVM.dilate_compression
+@CGLMP5.POVM.dilate_compression.{u_1} : ∀ {H : Type u_1} [inst : NormedAddCommGroup.{u_1} H]
+  [inst_1 : InnerProductSpace.{0, u_1} ℂ H] [inst_2 : CompleteSpace.{u_1} H] (E : CGLMP5.POVM.{u_1} H) (a : Fin 5),
+  Eq.{u_1 + 1}
+    ((CGLMP5.compression.{u_1, u_1} CGLMP5.commonJ.{u_1}) (CGLMP5.PVM.effect.{u_1} (CGLMP5.POVM.dilate.{u_1} E) a))
+    (CGLMP5.POVM.effect.{u_1} E a)
+'CGLMP5.POVM.dilate_compression' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.common_dilation
+@CGLMP5.common_dilation.{u_1} : ∀ {H : Type u_1} [inst : NormedAddCommGroup.{u_1} H]
+  [inst_1 : InnerProductSpace.{0, u_1} ℂ H] [inst_2 : CompleteSpace.{u_1} H] (E : Fin 2 → CGLMP5.POVM.{u_1} H),
+  ∃ P,
+    ∀ (x : Fin 2) (a : Fin 5),
+      Eq.{u_1 + 1} ((CGLMP5.compression.{u_1, u_1} CGLMP5.commonJ.{u_1}) (CGLMP5.PVM.effect.{u_1} (P x) a))
+        (CGLMP5.POVM.effect.{u_1} (E x) a)
+'CGLMP5.common_dilation' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.cglmp_eq_expect_bell
+@CGLMP5.cglmp_eq_expect_bell.{u_1,
+    u_2} : ∀ {H : Type u_1} {K : Type u_2} [inst : NormedAddCommGroup.{u_1} H] [inst_1 : InnerProductSpace.{0, u_1} ℂ H]
+  [CompleteSpace.{u_1} H] [inst_3 : NormedAddCommGroup.{u_2} K] [inst_4 : InnerProductSpace.{0, u_2} ℂ K]
+  [CompleteSpace.{u_2} K] (φ : CGLMP5.State.{max u_2 u_1} (CGLMP5.HTensor.{u_1, u_2} H K))
+  (A : CGLMP5.Setting → CGLMP5.POVM.{u_1} H) (B : CGLMP5.Setting → CGLMP5.POVM.{u_2} K),
+  Eq.{1} (CGLMP5.cglmp (CGLMP5.jointProbability.{u_1, u_2} φ A B))
+    (CGLMP5.State.expect.{max u_1 u_2} φ (CGLMP5.bellOperator.{u_1, u_2} A B))
+'CGLMP5.cglmp_eq_expect_bell' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.jointProbability_dilate
+@CGLMP5.jointProbability_dilate.{u_1,
+    u_2} : ∀ {H : Type u_1} {K : Type u_2} [inst : NormedAddCommGroup.{u_1} H] [inst_1 : InnerProductSpace.{0, u_1} ℂ H]
+  [inst_2 : CompleteSpace.{u_1} H] [inst_3 : NormedAddCommGroup.{u_2} K] [inst_4 : InnerProductSpace.{0, u_2} ℂ K]
+  [inst_5 : CompleteSpace.{u_2} K] (φ : CGLMP5.State.{max u_2 u_1} (CGLMP5.HTensor.{u_1, u_2} H K))
+  (A : CGLMP5.Setting → CGLMP5.POVM.{u_1} H) (B : CGLMP5.Setting → CGLMP5.POVM.{u_2} K) (x y : CGLMP5.Setting)
+  (a b : CGLMP5.Outcome),
+  Eq.{1}
+    (CGLMP5.jointProbability.{u_1, u_2} (CGLMP5.dilateState.{u_1, u_2} φ)
+      (fun x => CGLMP5.PVM.toPOVM.{u_1} (CGLMP5.POVM.dilate.{u_1} (A x)))
+      (fun y => CGLMP5.PVM.toPOVM.{u_2} (CGLMP5.POVM.dilate.{u_2} (B y))) x y a b)
+    (CGLMP5.jointProbability.{u_1, u_2} φ A B x y a b)
+'CGLMP5.jointProbability_dilate' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.cglmp_dilate
+@CGLMP5.cglmp_dilate.{u_1,
+    u_2} : ∀ {H : Type u_1} {K : Type u_2} [inst : NormedAddCommGroup.{u_1} H] [inst_1 : InnerProductSpace.{0, u_1} ℂ H]
+  [inst_2 : CompleteSpace.{u_1} H] [inst_3 : NormedAddCommGroup.{u_2} K] [inst_4 : InnerProductSpace.{0, u_2} ℂ K]
+  [inst_5 : CompleteSpace.{u_2} K] (φ : CGLMP5.State.{max u_2 u_1} (CGLMP5.HTensor.{u_1, u_2} H K))
+  (A : CGLMP5.Setting → CGLMP5.POVM.{u_1} H) (B : CGLMP5.Setting → CGLMP5.POVM.{u_2} K),
+  Eq.{1}
+    (CGLMP5.cglmp
+      (CGLMP5.jointProbability.{u_1, u_2} (CGLMP5.dilateState.{u_1, u_2} φ)
+        (fun x => CGLMP5.PVM.toPOVM.{u_1} (CGLMP5.POVM.dilate.{u_1} (A x))) fun y =>
+        CGLMP5.PVM.toPOVM.{u_2} (CGLMP5.POVM.dilate.{u_2} (B y))))
+    (CGLMP5.cglmp (CGLMP5.jointProbability.{u_1, u_2} φ A B))
+'CGLMP5.cglmp_dilate' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.povm_bound_of_pvm_bound
+@CGLMP5.povm_bound_of_pvm_bound.{u_1,
+    u_2} : ∀ {H : Type u_1} {K : Type u_2} [inst : NormedAddCommGroup.{u_1} H] [inst_1 : InnerProductSpace.{0, u_1} ℂ H]
+  [inst_2 : CompleteSpace.{u_1} H] [inst_3 : NormedAddCommGroup.{u_2} K] [inst_4 : InnerProductSpace.{0, u_2} ℂ K]
+  [inst_5 : CompleteSpace.{u_2} K] (μ : ℝ),
+  (∀
+      (φ :
+        CGLMP5.State.{max u_2 u_1}
+          (CGLMP5.HTensor.{u_1, u_2} (CGLMP5.DilationSpace.{u_1} H) (CGLMP5.DilationSpace.{u_2} K)))
+      (A : CGLMP5.Setting → CGLMP5.PVM.{u_1} (CGLMP5.Op.{u_1} (CGLMP5.DilationSpace.{u_1} H)))
+      (B : CGLMP5.Setting → CGLMP5.PVM.{u_2} (CGLMP5.Op.{u_2} (CGLMP5.DilationSpace.{u_2} K))),
+      LE.le.{0}
+        (CGLMP5.cglmp
+          (CGLMP5.jointProbability.{u_1, u_2} φ (fun x => CGLMP5.PVM.toPOVM.{u_1} (A x)) fun y =>
+            CGLMP5.PVM.toPOVM.{u_2} (B y)))
+        μ) →
+    ∀ (φ : CGLMP5.State.{max u_2 u_1} (CGLMP5.HTensor.{u_1, u_2} H K)) (A : CGLMP5.Setting → CGLMP5.POVM.{u_1} H)
+      (B : CGLMP5.Setting → CGLMP5.POVM.{u_2} K), LE.le.{0} (CGLMP5.cglmp (CGLMP5.jointProbability.{u_1, u_2} φ A B)) μ
+'CGLMP5.povm_bound_of_pvm_bound' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.POVM.transport_compression
+@CGLMP5.POVM.transport_compression.{u_1,
+    u_2} : ∀ {H : Type u_1} {H' : Type u_2} [inst : NormedAddCommGroup.{u_1} H]
+  [inst_1 : InnerProductSpace.{0, u_1} ℂ H] [inst_2 : CompleteSpace.{u_1} H] [inst_3 : NormedAddCommGroup.{u_2} H']
+  [inst_4 : InnerProductSpace.{0, u_2} ℂ H'] [inst_5 : CompleteSpace.{u_2} H'] (E : CGLMP5.POVM.{u_1} H)
+  (e : LinearIsometryEquiv.{0, 0, u_1, u_2} (RingHom.id.{0} ℂ) H H') (a : Fin 5),
+  Eq.{u_1 + 1} ((CGLMP5.compression.{u_1, u_2} ↑↑e) (CGLMP5.POVM.effect.{u_2} (CGLMP5.POVM.transport.{u_1, u_2} E e) a))
+    (CGLMP5.POVM.effect.{u_1} E a)
+'CGLMP5.POVM.transport_compression' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.cglmp_transport
+@CGLMP5.cglmp_transport.{u_1, u_2, u_3,
+    u_4} : ∀ {H : Type u_1} {K : Type u_2} {H' : Type u_3} {K' : Type u_4} [inst : NormedAddCommGroup.{u_1} H]
+  [inst_1 : InnerProductSpace.{0, u_1} ℂ H] [inst_2 : CompleteSpace.{u_1} H] [inst_3 : NormedAddCommGroup.{u_2} K]
+  [inst_4 : InnerProductSpace.{0, u_2} ℂ K] [inst_5 : CompleteSpace.{u_2} K] [inst_6 : NormedAddCommGroup.{u_3} H']
+  [inst_7 : InnerProductSpace.{0, u_3} ℂ H'] [inst_8 : CompleteSpace.{u_3} H'] [inst_9 : NormedAddCommGroup.{u_4} K']
+  [inst_10 : InnerProductSpace.{0, u_4} ℂ K'] [inst_11 : CompleteSpace.{u_4} K']
+  (φ : CGLMP5.State.{max u_2 u_1} (CGLMP5.HTensor.{u_1, u_2} H K)) (A : CGLMP5.Setting → CGLMP5.POVM.{u_1} H)
+  (B : CGLMP5.Setting → CGLMP5.POVM.{u_2} K) (e : LinearIsometryEquiv.{0, 0, u_1, u_3} (RingHom.id.{0} ℂ) H H')
+  (f : LinearIsometryEquiv.{0, 0, u_2, u_4} (RingHom.id.{0} ℂ) K K'),
+  Eq.{1}
+    (CGLMP5.cglmp
+      (CGLMP5.jointProbability.{u_3, u_4} (CGLMP5.transportState.{u_1, u_2, u_3, u_4} φ e f)
+        (fun x => CGLMP5.POVM.transport.{u_1, u_3} (A x) e) fun y => CGLMP5.POVM.transport.{u_2, u_4} (B y) f))
+    (CGLMP5.cglmp (CGLMP5.jointProbability.{u_1, u_2} φ A B))
+'CGLMP5.cglmp_transport' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.commuting_pvm_bound_of_unitary_bound
+@CGLMP5.commuting_pvm_bound_of_unitary_bound.{u_1} : ∀ {H : Type u_1} [inst : NormedAddCommGroup.{u_1} H]
+  [inst_1 : InnerProductSpace.{0, u_1} ℂ H] [inst_2 : CompleteSpace.{u_1} H] (μ : ℝ) (ω : ℂ),
+  Eq.{1} (HMul.hMul.{0, 0, 0} (Star.star.{0} ω) ω) 1 →
+    Eq.{1} (HPow.hPow.{0, 0, 0} ω 5) 1 →
+      Eq.{1}
+          (HAdd.hAdd.{0, 0, 0}
+            (HAdd.hAdd.{0, 0, 0} (HAdd.hAdd.{0, 0, 0} (HAdd.hAdd.{0, 0, 0} 1 ω) (HPow.hPow.{0, 0, 0} ω 2))
+              (HPow.hPow.{0, 0, 0} ω 3))
+            (HPow.hPow.{0, 0, 0} ω 4))
+          0 →
+        (∀ (a b : Fin 2 → ↥(unitary.{u_1} (CGLMP5.Op.{u_1} H))),
+            (∀ (i : Fin 2), Eq.{u_1 + 1} (HPow.hPow.{u_1, 0, u_1} (a i) 5) 1) →
+              (∀ (i : Fin 2), Eq.{u_1 + 1} (HPow.hPow.{u_1, 0, u_1} (b i) 5) 1) →
+                (∀ (i j : Fin 2), Commute.{u_1} (a i) (b j)) →
+                  LE.le.{u_1} (CGLMP5.SOS.bell.{u_1} ω a b) (HSMul.hSMul.{0, u_1, u_1} (↑μ) 1)) →
+          ∀ (A B : Fin 2 → CGLMP5.PVM.{u_1} (CGLMP5.Op.{u_1} H)),
+            (∀ (x y : Fin 2) (a b : Fin 5),
+                Commute.{u_1} (CGLMP5.PVM.effect.{u_1} (A x) a) (CGLMP5.PVM.effect.{u_1} (B y) b)) →
+              LE.le.{u_1} (CGLMP5.literalBell.{u_1} A B) (HSMul.hSMul.{0, u_1, u_1} (↑μ) 1)
+'CGLMP5.commuting_pvm_bound_of_unitary_bound' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.tensor_pvm_bound_of_unitary_bound
+@CGLMP5.tensor_pvm_bound_of_unitary_bound.{u_1,
+    u_2} : ∀ {H : Type u_1} {K : Type u_2} [inst : NormedAddCommGroup.{u_1} H] [inst_1 : InnerProductSpace.{0, u_1} ℂ H]
+  [inst_2 : CompleteSpace.{u_1} H] [inst_3 : NormedAddCommGroup.{u_2} K] [inst_4 : InnerProductSpace.{0, u_2} ℂ K]
+  [inst_5 : CompleteSpace.{u_2} K] (μ : ℝ) (ω : ℂ),
+  Eq.{1} (HMul.hMul.{0, 0, 0} (Star.star.{0} ω) ω) 1 →
+    Eq.{1} (HPow.hPow.{0, 0, 0} ω 5) 1 →
+      Eq.{1}
+          (HAdd.hAdd.{0, 0, 0}
+            (HAdd.hAdd.{0, 0, 0} (HAdd.hAdd.{0, 0, 0} (HAdd.hAdd.{0, 0, 0} 1 ω) (HPow.hPow.{0, 0, 0} ω 2))
+              (HPow.hPow.{0, 0, 0} ω 3))
+            (HPow.hPow.{0, 0, 0} ω 4))
+          0 →
+        (∀ (a b : Fin 2 → ↥(unitary.{max u_2 u_1} (CGLMP5.Op.{max u_2 u_1} (CGLMP5.HTensor.{u_1, u_2} H K)))),
+            (∀ (i : Fin 2), Eq.{(max u_1 u_2) + 1} (HPow.hPow.{max u_1 u_2, 0, max u_1 u_2} (a i) 5) 1) →
+              (∀ (i : Fin 2), Eq.{(max u_1 u_2) + 1} (HPow.hPow.{max u_1 u_2, 0, max u_1 u_2} (b i) 5) 1) →
+                (∀ (i j : Fin 2), Commute.{max u_1 u_2} (a i) (b j)) →
+                  LE.le.{max u_1 u_2} (CGLMP5.SOS.bell.{max u_1 u_2} ω a b)
+                    (HSMul.hSMul.{0, max u_1 u_2, max u_1 u_2} (↑μ) 1)) →
+          ∀ (φ : CGLMP5.State.{max u_2 u_1} (CGLMP5.HTensor.{u_1, u_2} H K))
+            (A : CGLMP5.Setting → CGLMP5.PVM.{u_1} (CGLMP5.Op.{u_1} H))
+            (B : CGLMP5.Setting → CGLMP5.PVM.{u_2} (CGLMP5.Op.{u_2} K)),
+            LE.le.{0}
+              (CGLMP5.cglmp
+                (CGLMP5.jointProbability.{u_1, u_2} φ (fun x => CGLMP5.PVM.toPOVM.{u_1} (A x)) fun y =>
+                  CGLMP5.PVM.toPOVM.{u_2} (B y)))
+              μ
+'CGLMP5.tensor_pvm_bound_of_unitary_bound' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.tensor_povm_bound_of_unitary_bound
+@CGLMP5.tensor_povm_bound_of_unitary_bound.{u_1,
+    u_2} : ∀ {H : Type u_1} {K : Type u_2} [inst : NormedAddCommGroup.{u_1} H] [inst_1 : InnerProductSpace.{0, u_1} ℂ H]
+  [CompleteSpace.{u_1} H] [inst_3 : NormedAddCommGroup.{u_2} K] [inst_4 : InnerProductSpace.{0, u_2} ℂ K]
+  [CompleteSpace.{u_2} K] (μ : ℝ) (ω : ℂ),
+  Eq.{1} (HMul.hMul.{0, 0, 0} (Star.star.{0} ω) ω) 1 →
+    Eq.{1} (HPow.hPow.{0, 0, 0} ω 5) 1 →
+      Eq.{1}
+          (HAdd.hAdd.{0, 0, 0}
+            (HAdd.hAdd.{0, 0, 0} (HAdd.hAdd.{0, 0, 0} (HAdd.hAdd.{0, 0, 0} 1 ω) (HPow.hPow.{0, 0, 0} ω 2))
+              (HPow.hPow.{0, 0, 0} ω 3))
+            (HPow.hPow.{0, 0, 0} ω 4))
+          0 →
+        (∀
+            (a b :
+              Fin 2 →
+                ↥(unitary.{max u_2 u_1}
+                    (CGLMP5.Op.{max u_2 u_1}
+                      (CGLMP5.HTensor.{u_1, u_2} (CGLMP5.DilationSpace.{u_1} H) (CGLMP5.DilationSpace.{u_2} K))))),
+            (∀ (i : Fin 2), Eq.{(max u_1 u_2) + 1} (HPow.hPow.{max u_1 u_2, 0, max u_1 u_2} (a i) 5) 1) →
+              (∀ (i : Fin 2), Eq.{(max u_1 u_2) + 1} (HPow.hPow.{max u_1 u_2, 0, max u_1 u_2} (b i) 5) 1) →
+                (∀ (i j : Fin 2), Commute.{max u_1 u_2} (a i) (b j)) →
+                  LE.le.{max u_1 u_2} (CGLMP5.SOS.bell.{max u_1 u_2} ω a b)
+                    (HSMul.hSMul.{0, max u_1 u_2, max u_1 u_2} (↑μ) 1)) →
+          ∀ (φ : CGLMP5.State.{max u_2 u_1} (CGLMP5.HTensor.{u_1, u_2} H K)) (A : CGLMP5.Setting → CGLMP5.POVM.{u_1} H)
+            (B : CGLMP5.Setting → CGLMP5.POVM.{u_2} K),
+            LE.le.{0} (CGLMP5.cglmp (CGLMP5.jointProbability.{u_1, u_2} φ A B)) μ
+'CGLMP5.tensor_povm_bound_of_unitary_bound' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.Strategy.transport_value
+CGLMP5.Strategy.transport_value.{u_1, u_2, u_3,
+  u_4} : ∀ (S : CGLMP5.Strategy.{u_1, u_2}) {H : Type u_3} {K : Type u_4} [inst : NormedAddCommGroup.{u_3} H]
+  [inst_1 : InnerProductSpace.{0, u_3} ℂ H] [inst_2 : CompleteSpace.{u_3} H] [inst_3 : NormedAddCommGroup.{u_4} K]
+  [inst_4 : InnerProductSpace.{0, u_4} ℂ K] [inst_5 : CompleteSpace.{u_4} K]
+  (e : LinearIsometryEquiv.{0, 0, u_1, u_3} (RingHom.id.{0} ℂ) (CGLMP5.Strategy.Alice.{u_1, u_2} S) H)
+  (f : LinearIsometryEquiv.{0, 0, u_2, u_4} (RingHom.id.{0} ℂ) (CGLMP5.Strategy.Bob.{u_1, u_2} S) K),
+  Eq.{1} (CGLMP5.Strategy.value.{u_3, u_4} (CGLMP5.Strategy.transport.{u_1, u_2, u_3, u_4} S e f))
+    (CGLMP5.Strategy.value.{u_1, u_2} S)
+'CGLMP5.Strategy.transport_value' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.Strategy.lift_value
+CGLMP5.Strategy.lift_value.{u_1,
+  u_2} : ∀ (S : CGLMP5.Strategy.{0, 0}),
+  Eq.{1} (CGLMP5.Strategy.value.{u_1, u_2} (CGLMP5.Strategy.lift.{u_1, u_2} S)) (CGLMP5.Strategy.value.{0, 0} S)
+'CGLMP5.Strategy.lift_value' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.supremum_of_bound_attainment
+CGLMP5.supremum_of_bound_attainment.{u_1,
+  u_2} : ∀ (μ : ℝ),
+  (∀ (S : CGLMP5.Strategy.{u_1, u_2}), LE.le.{0} (CGLMP5.Strategy.value.{u_1, u_2} S) μ) →
+    (∃ S, Eq.{1} (CGLMP5.Strategy.value.{u_1, u_2} S) μ) → Eq.{1} (SupSet.sSup.{0} CGLMP5.quantumValues.{u_1, u_2}) μ
+'CGLMP5.supremum_of_bound_attainment' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.Attainment.physicalVector_norm
+CGLMP5.Attainment.physicalVector_norm : Eq.{1} (Norm.norm.{0} CGLMP5.Attainment.physicalVector) 1
+'CGLMP5.Attainment.physicalVector_norm' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.Attainment.physicalVector_eigen
+CGLMP5.Attainment.physicalVector_eigen : Eq.{1}
+  ((CGLMP5.literalBell.{0} CGLMP5.Attainment.fullAlice CGLMP5.Attainment.fullBob) CGLMP5.Attainment.physicalVector)
+  (HSMul.hSMul.{0, 0, 0} (↑CGLMP5.mu) CGLMP5.Attainment.physicalVector)
+'CGLMP5.Attainment.physicalVector_eigen' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.Attainment.cglmp_attainment
+CGLMP5.Attainment.cglmp_attainment : Eq.{1}
+  (CGLMP5.cglmp
+    (CGLMP5.jointProbability.{0, 0} CGLMP5.Attainment.physicalState
+      (fun x => CGLMP5.PVM.toPOVM.{0} (CGLMP5.Attainment.alicePVM x)) fun y =>
+      CGLMP5.PVM.toPOVM.{0} (CGLMP5.Attainment.bobPVM y)))
+  CGLMP5.mu
+'CGLMP5.Attainment.cglmp_attainment' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.Attainment.explicitStrategy_value
+CGLMP5.Attainment.explicitStrategy_value : Eq.{1} (CGLMP5.Strategy.value.{0, 0} CGLMP5.Attainment.explicitStrategy)
+  CGLMP5.mu
+'CGLMP5.Attainment.explicitStrategy_value' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.Attainment.exists_attaining_strategy
+CGLMP5.Attainment.exists_attaining_strategy : ∃ S, Eq.{1} (CGLMP5.Strategy.value.{0, 0} S) CGLMP5.mu
+'CGLMP5.Attainment.exists_attaining_strategy' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.Attainment.canonical_gamma
+CGLMP5.Attainment.canonical_gamma : Eq.{1} (List.map.{0, 0} CGLMP5.Scalar.eval CGLMP5.CanonicalData.gamma)
+  (List.map.{0, 0} (fun a => ↑a) (List.ofFn.{0} CGLMP5.Attainment.gamma))
+'CGLMP5.Attainment.canonical_gamma' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.weight_enclosure_lower
+CGLMP5.weight_enclosure_lower : ∀ (j : Fin 14),
+  LT.lt.{0} (1 / 3000)
+    (CGLMP5.Scalar.enclosure CGLMP5.ProofBounds.sI CGLMP5.ProofBounds.xI CGLMP5.ProofBounds.uI
+        (CGLMP5.CanonicalData.weight j)).lo
+'CGLMP5.weight_enclosure_lower' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.weight_gt_one_div_three_thousand
+CGLMP5.weight_gt_one_div_three_thousand : ∀ (j : Fin 14), LT.lt.{0} (1 / 3000) (CGLMP5.weightValue j)
+'CGLMP5.weight_gt_one_div_three_thousand' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.weight_positive
+CGLMP5.weight_positive : ∀ (j : Fin 14), LT.lt.{0} 0 (CGLMP5.weightValue j)
+'CGLMP5.weight_positive' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.weight_evaluation
+CGLMP5.weight_evaluation : ∀ (j : Fin 14), Eq.{1} (CGLMP5.CanonicalData.weight j).eval ↑(CGLMP5.weightValue j)
+'CGLMP5.weight_evaluation' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.ProofBounds.mu_contains
+CGLMP5.ProofBounds.mu_contains : CGLMP5.ProofBounds.muI.Contains CGLMP5.mu
+'CGLMP5.ProofBounds.mu_contains' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.ProofBounds.s_contains
+CGLMP5.ProofBounds.s_contains : CGLMP5.ProofBounds.sI.Contains CGLMP5.s
+'CGLMP5.ProofBounds.s_contains' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.ProofBounds.u_contains
+CGLMP5.ProofBounds.u_contains : CGLMP5.ProofBounds.uI.Contains CGLMP5.u
+'CGLMP5.ProofBounds.u_contains' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.ProofBounds.scalar_enclosure
+CGLMP5.ProofBounds.scalar_enclosure : ∀ (a : CGLMP5.Scalar),
+  (CGLMP5.Scalar.enclosure CGLMP5.ProofBounds.sI CGLMP5.ProofBounds.xI CGLMP5.ProofBounds.uI a).Contains a.evalReal
+'CGLMP5.ProofBounds.scalar_enclosure' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.CertificateSource.DecimalChunks.natural_sound
+@CGLMP5.CertificateSource.DecimalChunks.natural_sound : ∀ {d : CGLMP5.CertificateSource.DecimalChunks} {n : ℕ},
+  Eq.{1} d.natural (Option.some.{0} n) →
+    Eq.{1} (CGLMP5.CertificateSource.decimalNat (String.join d.chunks)) (Option.some.{0} n)
+'CGLMP5.CertificateSource.DecimalChunks.natural_sound' depends on axioms: [propext,
+ Classical.choice.{u},
+ Quot.sound.{u}]
+
+CGLMP5.CertificateSource.DecimalChunks.integer_sound
+@CGLMP5.CertificateSource.DecimalChunks.integer_sound : ∀ {d : CGLMP5.CertificateSource.DecimalChunks} {z : ℤ},
+  Eq.{1} d.integer (Option.some.{0} z) → Eq.{1} (CGLMP5.CertificateSource.decimalInt d.text) (Option.some.{0} z)
+'CGLMP5.CertificateSource.DecimalChunks.integer_sound' depends on axioms: [propext,
+ Classical.choice.{u},
+ Quot.sound.{u}]
+
+CGLMP5.CertificateSource.ChunkScalar.decode_sound
+@CGLMP5.CertificateSource.ChunkScalar.decode_sound : ∀ {s : CGLMP5.CertificateSource.ChunkScalar}
+  {r : CGLMP5.CertificateSource.RawScalar},
+  Eq.{1} s.decode (Option.some.{0} r) → Eq.{1} s.toText.decode (Option.some.{0} r)
+'CGLMP5.CertificateSource.ChunkScalar.decode_sound' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.CertificateSource.ChunkCoefficient.decode_sound
+@CGLMP5.CertificateSource.ChunkCoefficient.decode_sound : ∀ {c : CGLMP5.CertificateSource.ChunkCoefficient}
+  {r : CGLMP5.CertificateSource.RawCoefficient},
+  Eq.{1} c.decode (Option.some.{0} r) → Eq.{1} c.toText.decode (Option.some.{0} r)
+'CGLMP5.CertificateSource.ChunkCoefficient.decode_sound' depends on axioms: [propext,
+ Classical.choice.{u},
+ Quot.sound.{u}]
+
+CGLMP5.CertificateSource.ChunkTerm.decode_sound
+@CGLMP5.CertificateSource.ChunkTerm.decode_sound : ∀ {t : CGLMP5.CertificateSource.ChunkTerm}
+  {r : CGLMP5.CertificateSource.RawTerm},
+  Eq.{1} t.decode (Option.some.{0} r) → Eq.{1} t.toText.decode (Option.some.{0} r)
+'CGLMP5.CertificateSource.ChunkTerm.decode_sound' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.Scalar.canonical_denominator_nonzero
+CGLMP5.Scalar.canonical_denominator_nonzero : ∀ (d : ℕ), LT.lt.{0} 0 d → Ne.{1} (↑d) 0
+'CGLMP5.Scalar.canonical_denominator_nonzero' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.Scalar.eval_ofCanonical
+CGLMP5.Scalar.eval_ofCanonical : ∀ (n : Fin 24 → ℤ) (d : ℕ),
+  Eq.{1} (CGLMP5.Scalar.ofCanonical n d).eval
+    (HDiv.hDiv.{0, 0, 0} (∑ k, HMul.hMul.{0, 0, 0} (↑(n k)) (CGLMP5.Scalar.basisEval k)) ↑d)
+'CGLMP5.Scalar.eval_ofCanonical' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOSFinite.target_evaluation
+@CGLMP5.SOSFinite.target_evaluation.{u_1} : ∀ {R : Type u_1} [inst : Ring.{u_1} R] [inst_1 : StarRing.{u_1} R]
+  [inst_2 : Algebra.{0, u_1} ℂ R] (a b : Fin 2 → ↥(unitary.{u_1} R)),
+  Eq.{u_1 + 1}
+    (CGLMP5.SOS.evaluate.{u_1} a b
+      (List.map.{0, 0} (fun t => Prod.mk.{0, 0} t.1 t.2.eval) CGLMP5.SOSFinite.targetPolynomial))
+    (HSub.hSub.{u_1, u_1, u_1} (HSMul.hSMul.{0, u_1, u_1} (↑CGLMP5.mu) 1)
+      (CGLMP5.SOS.bell.{u_1} (HPow.hPow.{0, 0, 0} CGLMP5.zeta 4) a b))
+'CGLMP5.SOSFinite.target_evaluation' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.mu_mem_quantumValues
+CGLMP5.mu_mem_quantumValues.{u_1, u_2} : Membership.mem.{0, 0} CGLMP5.quantumValues.{u_1, u_2} CGLMP5.mu
+'CGLMP5.mu_mem_quantumValues' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.quantumValues_nonempty
+CGLMP5.quantumValues_nonempty.{u_1, u_2} : Set.Nonempty.{0} CGLMP5.quantumValues.{u_1, u_2}
+'CGLMP5.quantumValues_nonempty' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.mu_le_every_uniform_bound
+CGLMP5.mu_le_every_uniform_bound.{u_1,
+  u_2} : ∀ (b : ℝ),
+  (∀ (S : CGLMP5.Strategy.{u_1, u_2}), LE.le.{0} (CGLMP5.Strategy.value.{u_1, u_2} S) b) → LE.le.{0} CGLMP5.mu b
+'CGLMP5.mu_le_every_uniform_bound' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.State.mk
+@CGLMP5.State.mk.{u_1} : {H : Type u_1} →
+  [inst : NormedAddCommGroup.{u_1} H] →
+    [inst_1 : InnerProductSpace.{0, u_1} ℂ H] →
+      (functional : PositiveLinearMap.{0, u_1, 0} ℂ (CGLMP5.Op.{u_1} H) ℂ) →
+        Eq.{1} (functional 1) 1 → CGLMP5.State.{u_1} H
+'CGLMP5.State.mk' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.POVM.mk
+@CGLMP5.POVM.mk.{u_1} : {H : Type u_1} →
+  [inst : NormedAddCommGroup.{u_1} H] →
+    [inst_1 : InnerProductSpace.{0, u_1} ℂ H] →
+      (effect : Fin 5 → CGLMP5.Op.{u_1} H) →
+        (∀ (a : Fin 5), LE.le.{u_1} 0 (effect a)) → Eq.{u_1 + 1} (∑ a, effect a) 1 → CGLMP5.POVM.{u_1} H
+'CGLMP5.POVM.mk' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.PVM.mk
+@CGLMP5.PVM.mk.{u_1} : {R : Type u_1} →
+  [inst : Ring.{u_1} R] →
+    [inst_1 : StarRing.{u_1} R] →
+      (effect : Fin 5 → R) →
+        (∀ (a : Fin 5), Eq.{u_1 + 1} (Star.star.{u_1} (effect a)) (effect a)) →
+          (∀ (a b : Fin 5),
+              Eq.{u_1 + 1} (HMul.hMul.{u_1, u_1, u_1} (effect a) (effect b))
+                (ite.{u_1 + 1} (Eq.{1} a b) (effect a) 0)) →
+            Eq.{u_1 + 1} (∑ a, effect a) 1 → CGLMP5.PVM.{u_1} R
+'CGLMP5.PVM.mk' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.Strategy.mk
+CGLMP5.Strategy.mk.{u_1,
+  u_2} : (Alice : Type u_1) →
+  (Bob : Type u_2) →
+    [aliceNorm : NormedAddCommGroup.{u_1} Alice] →
+      [bobNorm : NormedAddCommGroup.{u_2} Bob] →
+        [aliceInner : InnerProductSpace.{0, u_1} ℂ Alice] →
+          [bobInner : InnerProductSpace.{0, u_2} ℂ Bob] →
+            [aliceComplete : CompleteSpace.{u_1} Alice] →
+              [bobComplete : CompleteSpace.{u_2} Bob] →
+                CGLMP5.State.{max u_2 u_1} (CGLMP5.HTensor.{u_1, u_2} Alice Bob) →
+                  (CGLMP5.Setting → CGLMP5.POVM.{u_1} Alice) →
+                    (CGLMP5.Setting → CGLMP5.POVM.{u_2} Bob) → CGLMP5.Strategy.{u_1, u_2}
+'CGLMP5.Strategy.mk' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOS.compact_identity
+@CGLMP5.SOS.compact_identity.{u_1} : ∀ {R : Type u_1} [inst : Ring.{u_1} R] [inst_1 : StarRing.{u_1} R]
+  [inst_2 : Algebra.{0, u_1} ℂ R] [StarModule.{0, u_1} ℂ R] (a b : Fin 2 → ↥(unitary.{u_1} R)),
+  (∀ (i : Fin 2), Eq.{u_1 + 1} (HPow.hPow.{u_1, 0, u_1} (a i) 5) 1) →
+    (∀ (i : Fin 2), Eq.{u_1 + 1} (HPow.hPow.{u_1, 0, u_1} (b i) 5) 1) →
+      (∀ (i j : Fin 2), Commute.{u_1} (a i) (b j)) →
+        Eq.{u_1 + 1}
+          (HSub.hSub.{u_1, u_1, u_1} (HSMul.hSMul.{0, u_1, u_1} (↑CGLMP5.mu) 1)
+            (CGLMP5.SOS.bell.{u_1} (HPow.hPow.{0, 0, 0} CGLMP5.zeta 4) a b))
+          (∑ j,
+            HSMul.hSMul.{0, u_1, u_1} (↑(CGLMP5.weightValue j))
+              (HAdd.hAdd.{u_1, u_1, u_1}
+                (HMul.hMul.{u_1, u_1, u_1} (Star.star.{u_1} (CGLMP5.SOS.realizingPolynomial.{u_1} a b j))
+                  (CGLMP5.SOS.realizingPolynomial.{u_1} a b j))
+                (HMul.hMul.{u_1, u_1, u_1} (CGLMP5.SOS.realizingPolynomial.{u_1} a b j)
+                  (Star.star.{u_1} (CGLMP5.SOS.realizingPolynomial.{u_1} a b j)))))
+'CGLMP5.SOS.compact_identity' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.commuting_pvm_sos_identity
+@CGLMP5.commuting_pvm_sos_identity.{u_1} : ∀ {H : Type u_1} [inst : NormedAddCommGroup.{u_1} H]
+  [inst_1 : InnerProductSpace.{0, u_1} ℂ H] [inst_2 : CompleteSpace.{u_1} H]
+  (A B : Fin 2 → CGLMP5.PVM.{u_1} (CGLMP5.Op.{u_1} H)),
+  (∀ (x y : Fin 2) (a b : Fin 5), Commute.{u_1} (CGLMP5.PVM.effect.{u_1} (A x) a) (CGLMP5.PVM.effect.{u_1} (B y) b)) →
+    Eq.{u_1 + 1} (HSub.hSub.{u_1, u_1, u_1} (HSMul.hSMul.{0, u_1, u_1} (↑CGLMP5.mu) 1) (CGLMP5.literalBell.{u_1} A B))
+      (∑ j,
+        HSMul.hSMul.{0, u_1, u_1} (↑(CGLMP5.weightValue j))
+          (HAdd.hAdd.{u_1, u_1, u_1}
+            (HMul.hMul.{u_1, u_1, u_1} (Star.star.{u_1} (CGLMP5.pvmResidual.{u_1} A B j))
+              (CGLMP5.pvmResidual.{u_1} A B j))
+            (HMul.hMul.{u_1, u_1, u_1} (CGLMP5.pvmResidual.{u_1} A B j)
+              (Star.star.{u_1} (CGLMP5.pvmResidual.{u_1} A B j)))))
+'CGLMP5.commuting_pvm_sos_identity' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.tensor_povm_upper
+@CGLMP5.tensor_povm_upper.{u_1,
+    u_2} : ∀ {H : Type u_1} {K : Type u_2} [inst : NormedAddCommGroup.{u_1} H] [inst_1 : InnerProductSpace.{0, u_1} ℂ H]
+  [CompleteSpace.{u_1} H] [inst_3 : NormedAddCommGroup.{u_2} K] [inst_4 : InnerProductSpace.{0, u_2} ℂ K]
+  [CompleteSpace.{u_2} K] (φ : CGLMP5.State.{max u_2 u_1} (CGLMP5.HTensor.{u_1, u_2} H K))
+  (A : CGLMP5.Setting → CGLMP5.POVM.{u_1} H) (B : CGLMP5.Setting → CGLMP5.POVM.{u_2} K),
+  LE.le.{0} (CGLMP5.cglmp (CGLMP5.jointProbability.{u_1, u_2} φ A B)) CGLMP5.mu
+'CGLMP5.tensor_povm_upper' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.CertificateSource.canonical_text_decode
+CGLMP5.CertificateSource.canonical_text_decode : Eq.{1}
+  (List.mapM.{0, 0, 0} CGLMP5.CertificateSource.TextTerm.decode
+    (List.map.{0, 0} CGLMP5.CertificateSource.ChunkTerm.toText CGLMP5.CertificateSource.sourceChunkTerms))
+  (Option.some.{0} CGLMP5.CertificateSource.rawTerms)
+'CGLMP5.CertificateSource.canonical_text_decode' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.cglmp5_exact
+CGLMP5.cglmp5_exact.{u_1,
+  u_2} : Eq.{1} (SupSet.sSup.{0} CGLMP5.quantumValues.{u_1, u_2}) CGLMP5.mu ∧
+  Eq.{1} (CGLMP5.sextic CGLMP5.mu) 0 ∧
+    (∀ (t : ℝ), Eq.{1} (CGLMP5.sextic t) 0 → LE.le.{0} t CGLMP5.mu) ∧
+      Eq.{1} (CGLMP5.Strategy.value.{0, 0} CGLMP5.Attainment.explicitStrategy) CGLMP5.mu
+'CGLMP5.cglmp5_exact' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.commuting_pvm_upper
+@CGLMP5.commuting_pvm_upper.{u_1} : ∀ {H : Type u_1} [inst : NormedAddCommGroup.{u_1} H]
+  [inst_1 : InnerProductSpace.{0, u_1} ℂ H] [inst_2 : CompleteSpace.{u_1} H]
+  (A B : Fin 2 → CGLMP5.PVM.{u_1} (CGLMP5.Op.{u_1} H)),
+  (∀ (x y : Fin 2) (a b : Fin 5), Commute.{u_1} (CGLMP5.PVM.effect.{u_1} (A x) a) (CGLMP5.PVM.effect.{u_1} (B y) b)) →
+    LE.le.{u_1} (CGLMP5.literalBell.{u_1} A B) (HSMul.hSMul.{0, u_1, u_1} (↑CGLMP5.mu) 1)
+'CGLMP5.commuting_pvm_upper' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.commuting_pvm_state_upper
+@CGLMP5.commuting_pvm_state_upper.{u_1} : ∀ {H : Type u_1} [inst : NormedAddCommGroup.{u_1} H]
+  [inst_1 : InnerProductSpace.{0, u_1} ℂ H] [inst_2 : CompleteSpace.{u_1} H] (φ : CGLMP5.State.{u_1} H)
+  (A B : Fin 2 → CGLMP5.PVM.{u_1} (CGLMP5.Op.{u_1} H)),
+  (∀ (x y : Fin 2) (a b : Fin 5), Commute.{u_1} (CGLMP5.PVM.effect.{u_1} (A x) a) (CGLMP5.PVM.effect.{u_1} (B y) b)) →
+    LE.le.{0} (CGLMP5.State.expect.{u_1} φ (CGLMP5.literalBell.{u_1} A B)) CGLMP5.mu
+'CGLMP5.commuting_pvm_state_upper' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.bounded_unitary_upper
+@CGLMP5.bounded_unitary_upper.{u_1} : ∀ {H : Type u_1} [inst : NormedAddCommGroup.{u_1} H]
+  [inst_1 : InnerProductSpace.{0, u_1} ℂ H] [inst_2 : CompleteSpace.{u_1} H]
+  (a b : Fin 2 → ↥(unitary.{u_1} (CGLMP5.Op.{u_1} H))),
+  (∀ (i : Fin 2), Eq.{u_1 + 1} (HPow.hPow.{u_1, 0, u_1} (a i) 5) 1) →
+    (∀ (i : Fin 2), Eq.{u_1 + 1} (HPow.hPow.{u_1, 0, u_1} (b i) 5) 1) →
+      (∀ (i j : Fin 2), Commute.{u_1} (a i) (b j)) →
+        LE.le.{u_1} (CGLMP5.SOS.bell.{u_1} (HPow.hPow.{0, 0, 0} CGLMP5.zeta 4) a b)
+          (HSMul.hSMul.{0, u_1, u_1} (↑CGLMP5.mu) 1)
+'CGLMP5.bounded_unitary_upper' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.Scalar.eval_mul
+CGLMP5.Scalar.eval_mul : ∀ (a b : CGLMP5.Scalar), Eq.{1} (a.mul b).eval (HMul.hMul.{0, 0, 0} a.eval b.eval)
+'CGLMP5.Scalar.eval_mul' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.Scalar.eval_pow
+CGLMP5.Scalar.eval_pow : ∀ (a : CGLMP5.Scalar) (n : ℕ), Eq.{1} (a.pow n).eval (HPow.hPow.{0, 0, 0} a.eval n)
+'CGLMP5.Scalar.eval_pow' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.CertificateSource.canonical_source_decode
+CGLMP5.CertificateSource.canonical_source_decode : Eq.{1}
+  (List.mapM.{0, 0, 0} CGLMP5.CertificateSource.ChunkTerm.decode CGLMP5.CertificateSource.sourceChunkTerms)
+  (Option.some.{0} CGLMP5.CertificateSource.rawTerms)
+'CGLMP5.CertificateSource.canonical_source_decode' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.strategy_value_le_mu
+CGLMP5.strategy_value_le_mu.{u_1,
+  u_2} : ∀ (S : CGLMP5.Strategy.{u_1, u_2}), LE.le.{0} (CGLMP5.Strategy.value.{u_1, u_2} S) CGLMP5.mu
+'CGLMP5.strategy_value_le_mu' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.quantumValues_isGreatest
+CGLMP5.quantumValues_isGreatest.{u_1, u_2} : IsGreatest.{0} CGLMP5.quantumValues.{u_1, u_2} CGLMP5.mu
+'CGLMP5.quantumValues_isGreatest' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.quantumValue_exact
+CGLMP5.quantumValue_exact.{u_1, u_2} : Eq.{1} (SupSet.sSup.{0} CGLMP5.quantumValues.{u_1, u_2}) CGLMP5.mu
+'CGLMP5.quantumValue_exact' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.CertificateSource.ChunkRational.decode_sound
+@CGLMP5.CertificateSource.ChunkRational.decode_sound : ∀ {q : CGLMP5.CertificateSource.ChunkRational}
+  {r : CGLMP5.CertificateSource.RawRational},
+  Eq.{1} q.decode (Option.some.{0} r) → Eq.{1} q.toText.decode (Option.some.{0} r)
+'CGLMP5.CertificateSource.ChunkRational.decode_sound' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.CertificateSource.ChunkBox.decode_sound
+@CGLMP5.CertificateSource.ChunkBox.decode_sound : ∀ {b : CGLMP5.CertificateSource.ChunkBox}
+  {r : CGLMP5.CertificateSource.RawBox},
+  Eq.{1} b.decode (Option.some.{0} r) → Eq.{1} b.toText.decode (Option.some.{0} r)
+'CGLMP5.CertificateSource.ChunkBox.decode_sound' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.CertificateSource.header_gamma_decode
+CGLMP5.CertificateSource.header_gamma_decode : Eq.{1}
+  (List.mapM.{0, 0, 0} CGLMP5.CertificateSource.ChunkScalar.decode CGLMP5.CertificateSource.sourceHeaderGamma)
+  (Option.some.{0} CGLMP5.CertificateSource.gammaRaw)
+'CGLMP5.CertificateSource.header_gamma_decode' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.CertificateSource.header_gamma_text_decode
+CGLMP5.CertificateSource.header_gamma_text_decode : Eq.{1}
+  (List.mapM.{0, 0, 0} CGLMP5.CertificateSource.TextScalar.decode
+    (List.map.{0, 0} CGLMP5.CertificateSource.ChunkScalar.toText CGLMP5.CertificateSource.sourceHeaderGamma))
+  (Option.some.{0} CGLMP5.CertificateSource.gammaRaw)
+'CGLMP5.CertificateSource.header_gamma_text_decode' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.CertificateSource.header_mu_box_decode
+CGLMP5.CertificateSource.header_mu_box_decode : Eq.{1} CGLMP5.CertificateSource.sourceHeaderMuBox.decode
+  (Option.some.{0} CGLMP5.CertificateSource.muBox)
+'CGLMP5.CertificateSource.header_mu_box_decode' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.CertificateSource.header_mu_box_text_decode
+CGLMP5.CertificateSource.header_mu_box_text_decode : Eq.{1} CGLMP5.CertificateSource.sourceHeaderMuBox.toText.decode
+  (Option.some.{0} CGLMP5.CertificateSource.muBox)
+'CGLMP5.CertificateSource.header_mu_box_text_decode' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.CertificateSource.header_s_box_decode
+CGLMP5.CertificateSource.header_s_box_decode : Eq.{1} CGLMP5.CertificateSource.sourceHeaderSBox.decode
+  (Option.some.{0} CGLMP5.CertificateSource.sBox)
+'CGLMP5.CertificateSource.header_s_box_decode' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.CertificateSource.header_s_box_text_decode
+CGLMP5.CertificateSource.header_s_box_text_decode : Eq.{1} CGLMP5.CertificateSource.sourceHeaderSBox.toText.decode
+  (Option.some.{0} CGLMP5.CertificateSource.sBox)
+'CGLMP5.CertificateSource.header_s_box_text_decode' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.CertificateSource.header_u_box_decode
+CGLMP5.CertificateSource.header_u_box_decode : Eq.{1} CGLMP5.CertificateSource.sourceHeaderUBox.decode
+  (Option.some.{0} CGLMP5.CertificateSource.uBox)
+'CGLMP5.CertificateSource.header_u_box_decode' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.CertificateSource.header_u_box_text_decode
+CGLMP5.CertificateSource.header_u_box_text_decode : Eq.{1} CGLMP5.CertificateSource.sourceHeaderUBox.toText.decode
+  (Option.some.{0} CGLMP5.CertificateSource.uBox)
+'CGLMP5.CertificateSource.header_u_box_text_decode' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.Attainment.canonical_header_gamma_evaluation
+CGLMP5.Attainment.canonical_header_gamma_evaluation : Eq.{1}
+  (Option.map.{0, 0}
+    (fun rs => List.map.{0, 0} CGLMP5.Scalar.eval (List.map.{0, 0} CGLMP5.CanonicalData.decodeScalar rs))
+    (List.mapM.{0, 0, 0} CGLMP5.CertificateSource.TextScalar.decode
+      (List.map.{0, 0} CGLMP5.CertificateSource.ChunkScalar.toText CGLMP5.CertificateSource.sourceHeaderGamma)))
+  (Option.some.{0} (List.map.{0, 0} (fun a => ↑a) (List.ofFn.{0} CGLMP5.Attainment.gamma)))
+'CGLMP5.Attainment.canonical_header_gamma_evaluation' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.Scalar.eval_add
+CGLMP5.Scalar.eval_add : ∀ (a b : CGLMP5.Scalar), Eq.{1} (a.add b).eval (HAdd.hAdd.{0, 0, 0} a.eval b.eval)
+'CGLMP5.Scalar.eval_add' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.Scalar.eval_ofRat
+CGLMP5.Scalar.eval_ofRat : ∀ (q : ℚ), Eq.{1} (CGLMP5.Scalar.ofRat q).eval ↑q
+'CGLMP5.Scalar.eval_ofRat' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.Scalar.eval_conj
+CGLMP5.Scalar.eval_conj : ∀ (a : CGLMP5.Scalar), Eq.{1} a.conj.eval (Star.star.{0} a.eval)
+'CGLMP5.Scalar.eval_conj' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.Scalar.eval_eq_ofReal
+CGLMP5.Scalar.eval_eq_ofReal : ∀ (a : CGLMP5.Scalar), a.isReal → Eq.{1} a.eval ↑a.evalReal
+'CGLMP5.Scalar.eval_eq_ofReal' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.Scalar.mulCoeff_sound
+CGLMP5.Scalar.mulCoeff_sound : ∀ (i j : Fin 24),
+  Eq.{1} (∑ k, HMul.hMul.{0, 0, 0} (↑(CGLMP5.Scalar.mulCoeff i j k)) (CGLMP5.Scalar.basisEval k))
+    (HMul.hMul.{0, 0, 0} (CGLMP5.Scalar.basisEval i) (CGLMP5.Scalar.basisEval j))
+'CGLMP5.Scalar.mulCoeff_sound' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.Scalar.eval_zeta
+CGLMP5.Scalar.eval_zeta : Eq.{1} CGLMP5.Scalar.zetaExact.eval CGLMP5.zeta
+'CGLMP5.Scalar.eval_zeta' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.Scalar.eval_mu
+CGLMP5.Scalar.eval_mu : Eq.{1} CGLMP5.Scalar.muExact.eval ↑CGLMP5.mu
+'CGLMP5.Scalar.eval_mu' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOS.evaluate_mul
+@CGLMP5.SOS.evaluate_mul.{u_1} : ∀ {R : Type u_1} [inst : Ring.{u_1} R] [inst_1 : StarRing.{u_1} R]
+  [inst_2 : Algebra.{0, u_1} ℂ R] (a b : Fin 2 → ↥(unitary.{u_1} R)),
+  (∀ (i : Fin 2), Eq.{u_1 + 1} (HPow.hPow.{u_1, 0, u_1} (a i) 5) 1) →
+    (∀ (i : Fin 2), Eq.{u_1 + 1} (HPow.hPow.{u_1, 0, u_1} (b i) 5) 1) →
+      (∀ (i j : Fin 2), Commute.{u_1} (a i) (b j)) →
+        ∀ (p q : CGLMP5.SOS.Polynomial),
+          Eq.{u_1 + 1} (CGLMP5.SOS.evaluate.{u_1} a b (CGLMP5.SOS.polyMul p q))
+            (HMul.hMul.{u_1, u_1, u_1} (CGLMP5.SOS.evaluate.{u_1} a b p) (CGLMP5.SOS.evaluate.{u_1} a b q))
+'CGLMP5.SOS.evaluate_mul' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOS.evaluate_adjoint
+@CGLMP5.SOS.evaluate_adjoint.{u_1} : ∀ {R : Type u_1} [inst : Ring.{u_1} R] [inst_1 : StarRing.{u_1} R]
+  [inst_2 : Algebra.{0, u_1} ℂ R] (a b : Fin 2 → ↥(unitary.{u_1} R)),
+  (∀ (i : Fin 2), Eq.{u_1 + 1} (HPow.hPow.{u_1, 0, u_1} (a i) 5) 1) →
+    (∀ (i : Fin 2), Eq.{u_1 + 1} (HPow.hPow.{u_1, 0, u_1} (b i) 5) 1) →
+      (∀ (i j : Fin 2), Commute.{u_1} (a i) (b j)) →
+        ∀ [StarModule.{0, u_1} ℂ R] (p : CGLMP5.SOS.Polynomial),
+          Eq.{u_1 + 1} (CGLMP5.SOS.evaluate.{u_1} a b (CGLMP5.SOS.polyAdjoint p))
+            (Star.star.{u_1} (CGLMP5.SOS.evaluate.{u_1} a b p))
+'CGLMP5.SOS.evaluate_adjoint' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOS.evaluate_anticommutator
+@CGLMP5.SOS.evaluate_anticommutator.{u_1} : ∀ {R : Type u_1} [inst : Ring.{u_1} R] [inst_1 : StarRing.{u_1} R]
+  [inst_2 : Algebra.{0, u_1} ℂ R] (a b : Fin 2 → ↥(unitary.{u_1} R)),
+  (∀ (i : Fin 2), Eq.{u_1 + 1} (HPow.hPow.{u_1, 0, u_1} (a i) 5) 1) →
+    (∀ (i : Fin 2), Eq.{u_1 + 1} (HPow.hPow.{u_1, 0, u_1} (b i) 5) 1) →
+      (∀ (i j : Fin 2), Commute.{u_1} (a i) (b j)) →
+        ∀ [StarModule.{0, u_1} ℂ R] (c : ℂ) (p : CGLMP5.SOS.Polynomial),
+          Eq.{u_1 + 1} (CGLMP5.SOS.evaluate.{u_1} a b (CGLMP5.SOS.polyAnticommutator c p))
+            (HSMul.hSMul.{0, u_1, u_1} c
+              (HAdd.hAdd.{u_1, u_1, u_1}
+                (HMul.hMul.{u_1, u_1, u_1} (Star.star.{u_1} (CGLMP5.SOS.evaluate.{u_1} a b p))
+                  (CGLMP5.SOS.evaluate.{u_1} a b p))
+                (HMul.hMul.{u_1, u_1, u_1} (CGLMP5.SOS.evaluate.{u_1} a b p)
+                  (Star.star.{u_1} (CGLMP5.SOS.evaluate.{u_1} a b p)))))
+'CGLMP5.SOS.evaluate_anticommutator' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOS.evaluate_eq_of_coefficients
+@CGLMP5.SOS.evaluate_eq_of_coefficients.{u_1} : ∀ {R : Type u_1} [inst : Ring.{u_1} R] [inst_1 : StarRing.{u_1} R]
+  [inst_2 : Algebra.{0, u_1} ℂ R] (a b : Fin 2 → ↥(unitary.{u_1} R)) (p q : CGLMP5.SOS.Polynomial)
+  (support : Finset.{0} CGLMP5.Word),
+  (∀ (t : Prod.{0, 0} CGLMP5.Word ℂ), Membership.mem.{0, 0} p t → Membership.mem.{0, 0} support t.1) →
+    (∀ (t : Prod.{0, 0} CGLMP5.Word ℂ), Membership.mem.{0, 0} q t → Membership.mem.{0, 0} support t.1) →
+      (∀ (w : CGLMP5.Word),
+          Membership.mem.{0, 0} support w → Eq.{1} (CGLMP5.SOS.coefficient p w) (CGLMP5.SOS.coefficient q w)) →
+        Eq.{u_1 + 1} (CGLMP5.SOS.evaluate.{u_1} a b p) (CGLMP5.SOS.evaluate.{u_1} a b q)
+'CGLMP5.SOS.evaluate_eq_of_coefficients' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOSFinite.eval_sumScalars
+CGLMP5.SOSFinite.eval_sumScalars : ∀ (ss : List.{0} CGLMP5.Scalar),
+  Eq.{1} (CGLMP5.SOSFinite.sumScalars ss).eval (List.sum.{0} (List.map.{0, 0} CGLMP5.Scalar.eval ss))
+'CGLMP5.SOSFinite.eval_sumScalars' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOSFinite.coefficient_complexPolynomial
+CGLMP5.SOSFinite.coefficient_complexPolynomial : ∀ (p : List.{0} (Prod.{0, 0} CGLMP5.Word CGLMP5.Scalar))
+  (w : CGLMP5.Word),
+  Eq.{1} (CGLMP5.SOS.coefficient (CGLMP5.SOSFinite.complexPolynomial p) w) (CGLMP5.SOSFinite.scalarCoefficient p w).eval
+'CGLMP5.SOSFinite.coefficient_complexPolynomial' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOSFinite.evaluate_indexed
+@CGLMP5.SOSFinite.evaluate_indexed.{u_1,
+    u_2} : ∀ {R : Type u_1} [inst : Ring.{u_1} R] [inst_1 : StarRing.{u_1} R] [inst_2 : Algebra.{0, u_1} ℂ R]
+  (a b : Fin 2 → ↥(unitary.{u_1} R)) {ι : Type u_2} [inst_3 : Fintype.{u_2} ι] [inst_4 : DecidableEq.{u_2 + 1} ι]
+  (word : ι → CGLMP5.Word) (es : List.{u_2} (Prod.{u_2, 0} ι CGLMP5.Scalar)),
+  Eq.{u_1 + 1} (CGLMP5.SOS.evaluate.{u_1} a b (List.map.{u_2, 0} (fun t => Prod.mk.{0, 0} (word t.1) t.2.eval) es))
+    (∑ i,
+      HSMul.hSMul.{0, u_1, u_1}
+        (CGLMP5.SOSFinite.sumScalars
+            (List.map.{u_2, 0} Prod.snd.{u_2, 0}
+              (List.filter.{u_2} (fun t => Decidable.decide (Eq.{u_2 + 1} t.1 i)) es))).eval
+        (CGLMP5.Word.evalStar.{u_1} a b (word i)))
+'CGLMP5.SOSFinite.evaluate_indexed' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOSFinite.evaluate_indexed_eq
+@CGLMP5.SOSFinite.evaluate_indexed_eq.{u_1,
+    u_2} : ∀ {R : Type u_1} [inst : Ring.{u_1} R] [inst_1 : StarRing.{u_1} R] [inst_2 : Algebra.{0, u_1} ℂ R]
+  (a b : Fin 2 → ↥(unitary.{u_1} R)) {ι : Type u_2} [Fintype.{u_2} ι] [inst_4 : DecidableEq.{u_2 + 1} ι]
+  (word : ι → CGLMP5.Word) (es fs : List.{u_2} (Prod.{u_2, 0} ι CGLMP5.Scalar)),
+  (∀ (i : ι),
+      Eq.{1}
+        (CGLMP5.SOSFinite.sumScalars
+          (List.map.{u_2, 0} Prod.snd.{u_2, 0} (List.filter.{u_2} (fun t => Decidable.decide (Eq.{u_2 + 1} t.1 i)) es)))
+        (CGLMP5.SOSFinite.sumScalars
+          (List.map.{u_2, 0} Prod.snd.{u_2, 0}
+            (List.filter.{u_2} (fun t => Decidable.decide (Eq.{u_2 + 1} t.1 i)) fs)))) →
+    Eq.{u_1 + 1} (CGLMP5.SOS.evaluate.{u_1} a b (List.map.{u_2, 0} (fun t => Prod.mk.{0, 0} (word t.1) t.2.eval) es))
+      (CGLMP5.SOS.evaluate.{u_1} a b (List.map.{u_2, 0} (fun t => Prod.mk.{0, 0} (word t.1) t.2.eval) fs))
+'CGLMP5.SOSFinite.evaluate_indexed_eq' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.Scalar.mul_ofCanonical
+CGLMP5.Scalar.mul_ofCanonical : ∀ (n m : Fin 24 → ℤ) (d e : ℕ) (k : Fin 24),
+  Eq.{1} ((CGLMP5.Scalar.ofCanonical n d).mul (CGLMP5.Scalar.ofCanonical m e) k)
+    (HDiv.hDiv.{0, 0, 0} ↑(CGLMP5.Scalar.mulNumerator n m k) ↑(HMul.hMul.{0, 0, 0} d e))
+'CGLMP5.Scalar.mul_ofCanonical' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOSFinite.common_denominator_term
+CGLMP5.SOSFinite.common_denominator_term : ∀ (N : ℤ) (D L : ℕ),
+  LT.lt.{0} 0 D →
+    LT.lt.{0} 0 L →
+      Eq.{1} (HMod.hMod.{0, 0, 0} L D) 0 →
+        Eq.{1} (HDiv.hDiv.{0, 0, 0} ↑N ↑D)
+          (HDiv.hDiv.{0, 0, 0} ↑(HMul.hMul.{0, 0, 0} (↑(HDiv.hDiv.{0, 0, 0} L D)) N) ↑L)
+'CGLMP5.SOSFinite.common_denominator_term' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOSFinite.list_common_denominator
+CGLMP5.SOSFinite.list_common_denominator : ∀ (terms : List.{0} (Prod.{0, 0} ℤ ℕ)) (L : ℕ),
+  LT.lt.{0} 0 L →
+    (∀ (t : Prod.{0, 0} ℤ ℕ), Membership.mem.{0, 0} terms t → LT.lt.{0} 0 t.2) →
+      (∀ (t : Prod.{0, 0} ℤ ℕ), Membership.mem.{0, 0} terms t → Eq.{1} (HMod.hMod.{0, 0, 0} L t.2) 0) →
+        Eq.{1} (List.sum.{0} (List.map.{0, 0} (fun t => HDiv.hDiv.{0, 0, 0} ↑t.1 ↑t.2) terms))
+          (HDiv.hDiv.{0, 0, 0}
+            ↑(List.sum.{0} (List.map.{0, 0} (fun t => HMul.hMul.{0, 0, 0} (↑(HDiv.hDiv.{0, 0, 0} L t.2)) t.1) terms))
+            ↑L)
+'CGLMP5.SOSFinite.list_common_denominator' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOSFinite.list_common_denominator_eq
+CGLMP5.SOSFinite.list_common_denominator_eq : ∀ (terms : List.{0} (Prod.{0, 0} ℤ ℕ)) (L : ℕ) (N : ℤ) (D : ℕ),
+  LT.lt.{0} 0 L →
+    LT.lt.{0} 0 D →
+      (∀ (t : Prod.{0, 0} ℤ ℕ), Membership.mem.{0, 0} terms t → LT.lt.{0} 0 t.2) →
+        (∀ (t : Prod.{0, 0} ℤ ℕ), Membership.mem.{0, 0} terms t → Eq.{1} (HMod.hMod.{0, 0, 0} L t.2) 0) →
+          Eq.{1} (HMod.hMod.{0, 0, 0} L D) 0 →
+            Eq.{1}
+                (List.sum.{0} (List.map.{0, 0} (fun t => HMul.hMul.{0, 0, 0} (↑(HDiv.hDiv.{0, 0, 0} L t.2)) t.1) terms))
+                (HMul.hMul.{0, 0, 0} (↑(HDiv.hDiv.{0, 0, 0} L D)) N) →
+              Eq.{1} (List.sum.{0} (List.map.{0, 0} (fun t => HDiv.hDiv.{0, 0, 0} ↑t.1 ↑t.2) terms))
+                (HDiv.hDiv.{0, 0, 0} ↑N ↑D)
+'CGLMP5.SOSFinite.list_common_denominator_eq' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOSFinite.featureValue_as_fraction
+CGLMP5.SOSFinite.featureValue_as_fraction : ∀ (f : CGLMP5.SOSFinite.Feature) (k : Fin 24),
+  Eq.{1} (CGLMP5.SOSFinite.featureValue f k)
+    (HDiv.hDiv.{0, 0, 0}
+      ↑(CGLMP5.Scalar.mulNumerator (CGLMP5.SOSFinite.gramNumerator f.1) (CGLMP5.SOSFinite.phaseNumerator f.2) k)
+      ↑(HMul.hMul.{0, 0, 0} (CGLMP5.SOSFinite.gramDenominator f.1) (CGLMP5.SOSFinite.phaseDenominator f.2)))
+'CGLMP5.SOSFinite.featureValue_as_fraction' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOSFinite.fiberValue_as_fraction
+CGLMP5.SOSFinite.fiberValue_as_fraction : ∀ (i : Fin 273) (k : Fin 24),
+  (∀ (f : CGLMP5.SOSFinite.Feature),
+      Membership.mem.{0, 0} (CGLMP5.SOSFinite.fiber i) f →
+        Eq.{1}
+          (HMod.hMod.{0, 0, 0} (CGLMP5.SOSFinite.commonDenominator i)
+            (HMul.hMul.{0, 0, 0} (CGLMP5.SOSFinite.gramDenominator f.1) (CGLMP5.SOSFinite.phaseDenominator f.2)))
+          0) →
+    Eq.{1} (CGLMP5.SOSFinite.fiberValue i k)
+      (HDiv.hDiv.{0, 0, 0} ↑(CGLMP5.SOSFinite.integerNumerator i k) ↑(CGLMP5.SOSFinite.commonDenominator i))
+'CGLMP5.SOSFinite.fiberValue_as_fraction' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOSFinite.fiberValue_eq_target_of_integer
+CGLMP5.SOSFinite.fiberValue_eq_target_of_integer : ∀ (i : Fin 273),
+  (∀ (f : CGLMP5.SOSFinite.Feature),
+      Membership.mem.{0, 0} (CGLMP5.SOSFinite.fiber i) f →
+        Eq.{1}
+          (HMod.hMod.{0, 0, 0} (CGLMP5.SOSFinite.commonDenominator i)
+            (HMul.hMul.{0, 0, 0} (CGLMP5.SOSFinite.gramDenominator f.1) (CGLMP5.SOSFinite.phaseDenominator f.2)))
+          0) →
+    (∀ (k : Fin 24),
+        Eq.{1} (HMul.hMul.{0, 0, 0} (CGLMP5.SOSFinite.integerNumerator i k) ↑(CGLMP5.SOSFinite.targetDenominator i))
+          (HMul.hMul.{0, 0, 0} (CGLMP5.SOSFinite.targetNumerator i k) ↑(CGLMP5.SOSFinite.commonDenominator i))) →
+      Eq.{1} (CGLMP5.SOSFinite.fiberValue i) (CGLMP5.SOSFinite.targetAt i)
+'CGLMP5.SOSFinite.fiberValue_eq_target_of_integer' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOSFinite.integer_residual
+CGLMP5.SOSFinite.integer_residual : ∀ (i : Fin 273), CGLMP5.SOSFinite.integerResidualClaim i
+'CGLMP5.SOSFinite.integer_residual' depends on axioms: [propext]
+
+CGLMP5.SOSFinite.denominator_divides
+CGLMP5.SOSFinite.denominator_divides : ∀ (i : Fin 273) (f : CGLMP5.SOSFinite.Feature),
+  Membership.mem.{0, 0} (CGLMP5.SOSFinite.fiber i) f →
+    Eq.{1}
+      (HMod.hMod.{0, 0, 0} (CGLMP5.SOSFinite.commonDenominator i)
+        (HMul.hMul.{0, 0, 0} (CGLMP5.SOSFinite.gramDenominator f.1) (CGLMP5.SOSFinite.phaseDenominator f.2)))
+      0
+'CGLMP5.SOSFinite.denominator_divides' depends on axioms: [propext]
+
+CGLMP5.SOSFinite.reflected_evaluation_eq_target
+@CGLMP5.SOSFinite.reflected_evaluation_eq_target.{u_1} : ∀ {R : Type u_1} [inst : Ring.{u_1} R]
+  [inst_1 : StarRing.{u_1} R] [inst_2 : Algebra.{0, u_1} ℂ R] (a b : Fin 2 → ↥(unitary.{u_1} R)),
+  Eq.{u_1 + 1} (CGLMP5.SOS.evaluate.{u_1} a b (CGLMP5.SOSFinite.complexPolynomial CGLMP5.SOSFinite.reflectedPolynomial))
+    (CGLMP5.SOS.evaluate.{u_1} a b (CGLMP5.SOSFinite.complexPolynomial CGLMP5.SOSFinite.targetPolynomial))
+'CGLMP5.SOSFinite.reflected_evaluation_eq_target' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOSFinite.reflected_index_coefficients
+CGLMP5.SOSFinite.reflected_index_coefficients : ∀ (i : Fin 273),
+  Eq.{1}
+    (CGLMP5.SOSFinite.sumScalars
+      (List.map.{0, 0} Prod.snd.{0, 0}
+        (List.filter.{0} (fun t => Decidable.decide (Eq.{1} t.1 i)) CGLMP5.SOSFinite.indexedScalarFeatures)))
+    (CGLMP5.SOSFinite.sumScalars
+      (List.map.{0, 0} Prod.snd.{0, 0}
+        (List.filter.{0} (fun t => Decidable.decide (Eq.{1} t.1 i)) CGLMP5.SOSFinite.targetIndexedPolynomial)))
+'CGLMP5.SOSFinite.reflected_index_coefficients' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOSFinite.reflected_sos_evaluation
+@CGLMP5.SOSFinite.reflected_sos_evaluation.{u_1} : ∀ {R : Type u_1} [inst : Ring.{u_1} R] [inst_1 : StarRing.{u_1} R]
+  [inst_2 : Algebra.{0, u_1} ℂ R] [StarModule.{0, u_1} ℂ R] (a b : Fin 2 → ↥(unitary.{u_1} R)),
+  (∀ (i : Fin 2), Eq.{u_1 + 1} (HPow.hPow.{u_1, 0, u_1} (a i) 5) 1) →
+    (∀ (i : Fin 2), Eq.{u_1 + 1} (HPow.hPow.{u_1, 0, u_1} (b i) 5) 1) →
+      (∀ (i j : Fin 2), Commute.{u_1} (a i) (b j)) →
+        Eq.{u_1 + 1}
+          (CGLMP5.SOS.evaluate.{u_1} a b (CGLMP5.SOSFinite.complexPolynomial CGLMP5.SOSFinite.reflectedPolynomial))
+          (∑ j,
+            HSMul.hSMul.{0, u_1, u_1} (↑(CGLMP5.weightValue j))
+              (HAdd.hAdd.{u_1, u_1, u_1}
+                (HMul.hMul.{u_1, u_1, u_1} (Star.star.{u_1} (CGLMP5.SOS.realizingPolynomial.{u_1} a b j))
+                  (CGLMP5.SOS.realizingPolynomial.{u_1} a b j))
+                (HMul.hMul.{u_1, u_1, u_1} (CGLMP5.SOS.realizingPolynomial.{u_1} a b j)
+                  (Star.star.{u_1} (CGLMP5.SOS.realizingPolynomial.{u_1} a b j)))))
+'CGLMP5.SOSFinite.reflected_sos_evaluation' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOSFinite.termReflected_evaluation
+@CGLMP5.SOSFinite.termReflected_evaluation.{u_1} : ∀ {R : Type u_1} [inst : Ring.{u_1} R] [inst_1 : StarRing.{u_1} R]
+  [inst_2 : Algebra.{0, u_1} ℂ R] [StarModule.{0, u_1} ℂ R] (a b : Fin 2 → ↥(unitary.{u_1} R)),
+  (∀ (i : Fin 2), Eq.{u_1 + 1} (HPow.hPow.{u_1, 0, u_1} (a i) 5) 1) →
+    (∀ (i : Fin 2), Eq.{u_1 + 1} (HPow.hPow.{u_1, 0, u_1} (b i) 5) 1) →
+      (∀ (i j : Fin 2), Commute.{u_1} (a i) (b j)) →
+        ∀ (j : Fin 14),
+          Eq.{u_1 + 1}
+            (CGLMP5.SOS.evaluate.{u_1} a b
+              (CGLMP5.SOSFinite.complexPolynomial (CGLMP5.SOSFinite.termReflectedPolynomial j)))
+            (HSMul.hSMul.{0, u_1, u_1} (↑(CGLMP5.weightValue j))
+              (HAdd.hAdd.{u_1, u_1, u_1}
+                (HMul.hMul.{u_1, u_1, u_1} (Star.star.{u_1} (CGLMP5.SOS.realizingPolynomial.{u_1} a b j))
+                  (CGLMP5.SOS.realizingPolynomial.{u_1} a b j))
+                (HMul.hMul.{u_1, u_1, u_1} (CGLMP5.SOS.realizingPolynomial.{u_1} a b j)
+                  (Star.star.{u_1} (CGLMP5.SOS.realizingPolynomial.{u_1} a b j)))))
+'CGLMP5.SOSFinite.termReflected_evaluation' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOSFinite.gram_evaluation
+CGLMP5.SOSFinite.gram_evaluation : ∀ (h : Fin 135),
+  Eq.{1} (CGLMP5.SOSFinite.gram h).eval
+    (HMul.hMul.{0, 0, 0}
+      (HMul.hMul.{0, 0, 0} (CGLMP5.CanonicalData.weight (CGLMP5.SOSFinite.gramOrigin h).1).eval
+        (Star.star.{0} (CGLMP5.SOSFinite.core (CGLMP5.SOSFinite.gramOrigin h).2.1).eval))
+      (CGLMP5.SOSFinite.core (CGLMP5.SOSFinite.gramOrigin h).2.2).eval)
+'CGLMP5.SOSFinite.gram_evaluation' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOSFinite.phase_pair_evaluation
+CGLMP5.SOSFinite.phase_pair_evaluation : ∀ (p q : Fin 20),
+  Eq.{1} (CGLMP5.SOSFinite.phase (CGLMP5.SOSFinite.phaseDifference p q)).eval
+    (HMul.hMul.{0, 0, 0} (Star.star.{0} (CGLMP5.SOSFinite.phase p).eval) (CGLMP5.SOSFinite.phase q).eval)
+'CGLMP5.SOSFinite.phase_pair_evaluation' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOSFinite.reflected_index_coefficients_of
+CGLMP5.SOSFinite.reflected_index_coefficients_of : (∀ (i : Fin 273) (f : CGLMP5.SOSFinite.Feature),
+    Membership.mem.{0, 0} (CGLMP5.SOSFinite.fiber i) f →
+      Eq.{1}
+        (HMod.hMod.{0, 0, 0} (CGLMP5.SOSFinite.commonDenominator i)
+          (HMul.hMul.{0, 0, 0} (CGLMP5.SOSFinite.gramDenominator f.1) (CGLMP5.SOSFinite.phaseDenominator f.2)))
+        0) →
+  (∀ (i : Fin 273), CGLMP5.SOSFinite.integerResidualClaim i) →
+    (∀ (i : Fin 273) (k : Fin 24),
+        Eq.{1}
+          (CGLMP5.SOSFinite.sumScalars
+            (List.map.{0, 0} Prod.snd.{0, 0}
+              (List.filter.{0} (fun t => Decidable.decide (Eq.{1} t.1 i)) CGLMP5.SOSFinite.targetIndexedPolynomial))
+            k)
+          (CGLMP5.SOSFinite.targetAt i k)) →
+      ∀ (i : Fin 273),
+        Eq.{1}
+          (CGLMP5.SOSFinite.sumScalars
+            (List.map.{0, 0} Prod.snd.{0, 0}
+              (List.filter.{0} (fun t => Decidable.decide (Eq.{1} t.1 i)) CGLMP5.SOSFinite.indexedScalarFeatures)))
+          (CGLMP5.SOSFinite.sumScalars
+            (List.map.{0, 0} Prod.snd.{0, 0}
+              (List.filter.{0} (fun t => Decidable.decide (Eq.{1} t.1 i)) CGLMP5.SOSFinite.targetIndexedPolynomial)))
+'CGLMP5.SOSFinite.reflected_index_coefficients_of' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOSFinite.reflected_evaluation_eq_target_of
+@CGLMP5.SOSFinite.reflected_evaluation_eq_target_of.{u_1} : ∀ {R : Type u_1} [inst : Ring.{u_1} R]
+  [inst_1 : StarRing.{u_1} R] [inst_2 : Algebra.{0, u_1} ℂ R] (a b : Fin 2 → ↥(unitary.{u_1} R)),
+  (∀ (i : Fin 273),
+      Eq.{1}
+        (CGLMP5.SOSFinite.sumScalars
+          (List.map.{0, 0} Prod.snd.{0, 0}
+            (List.filter.{0} (fun t => Decidable.decide (Eq.{1} t.1 i)) CGLMP5.SOSFinite.indexedScalarFeatures)))
+        (CGLMP5.SOSFinite.sumScalars
+          (List.map.{0, 0} Prod.snd.{0, 0}
+            (List.filter.{0} (fun t => Decidable.decide (Eq.{1} t.1 i)) CGLMP5.SOSFinite.targetIndexedPolynomial)))) →
+    Eq.{1}
+        (List.map.{0, 0} (fun t => Prod.mk.{0, 0} (CGLMP5.SOSFinite.wordAt t.1) t.2)
+          CGLMP5.SOSFinite.targetIndexedPolynomial)
+        CGLMP5.SOSFinite.targetPolynomial →
+      Eq.{u_1 + 1}
+        (CGLMP5.SOS.evaluate.{u_1} a b (CGLMP5.SOSFinite.complexPolynomial CGLMP5.SOSFinite.reflectedPolynomial))
+        (CGLMP5.SOS.evaluate.{u_1} a b (CGLMP5.SOSFinite.complexPolynomial CGLMP5.SOSFinite.targetPolynomial))
+'CGLMP5.SOSFinite.reflected_evaluation_eq_target_of' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+CGLMP5.SOSFinite.phasePolynomial_eq_canonical
+CGLMP5.SOSFinite.phasePolynomial_eq_canonical : ∀ (j : Fin 14),
+  Eq.{1}
+    (CGLMP5.SOS.phasePolynomial.{0, 0} (fun c => (CGLMP5.SOSFinite.core (CGLMP5.SOSFinite.localCore j c)).eval)
+      (fun p => (CGLMP5.SOSFinite.phase p).eval) (CGLMP5.SOSFinite.localTerms j))
+    (List.map.{0, 0} (fun t => Prod.mk.{0, 0} t.1 t.2.eval) (CGLMP5.CanonicalData.polynomial j))
+'CGLMP5.SOSFinite.phasePolynomial_eq_canonical' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+
+PENDING

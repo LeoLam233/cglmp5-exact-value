@@ -1,0 +1,8 @@
+{
+  "format_version": 1,
+  "actual_sos_coefficient_corruption": {
+    "status": "ready",
+    "runner": "scripts/run_lean_sos_corruption.py",
+    "note": "Development control verified: original six-module shadow baseline passes; gramNumerator 0 0 +1 with matching lookup literal leaves five numeric modules valid, then unchanged residual000 rejects at coordinate_0_0 with a kernel decide false diagnostic. No import, stale lookup, or resource error. Frozen candidate replay with --require-clean-tree remains mandatory."
+  }
+}

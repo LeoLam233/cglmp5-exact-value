@@ -1,0 +1,4 @@
+/tmp/cglmp-negative-7xu6u6em/wrong_root_branch.lean:4:23: error: linarith failed to find a contradiction
+a✝ : 3 ≤ mu
+⊢ False
+failed

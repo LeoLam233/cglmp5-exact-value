@@ -1,0 +1,8 @@
+{
+  "module": "CGLMP5.SOSIndexFiber123",
+  "started_utc": "2026-10-04T13:32:18.832771+00:00",
+  "elapsed_seconds": 2.3788226949982345,
+  "exit_code": 0,
+  "source_sha256": "9d626793ae26b4f8c74e30729f0bdb0cf137f3206b06e7fe3893abf5d8a8d99b",
+  "log": "verification/formalization_development/feature_checks/SOSIndexFiber123.log"
+}

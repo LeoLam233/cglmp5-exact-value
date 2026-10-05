@@ -1,0 +1,23 @@
+{
+  "correction_id": "GATE-RESOURCE-REJECTION-01",
+  "date_utc": "2026-10-04T14:53:33.322718+00:00",
+  "candidate1_commit": "34f168cd1261a0a05e53cb347ec3dcfabe5a6027",
+  "candidate1_tree": "d5666a779101269c2f0c4e90c95714c297208c5d",
+  "scope": "Historical negative-control classification correction, not a mathematical proof defect or final audit round",
+  "affected_case": "proper_isometry_surjective",
+  "historical_classification": "PASS",
+  "corrected_classification": "INVALID_INFRASTRUCTURE_REJECTION",
+  "reason": "The archived diagnostic is only stuck CompleteSpace typeclass inference, not the intended reversed-isometry equation rejection. The previous broad classifier incorrectly accepted it. The old source, logs and receipts remain unchanged as historical evidence.",
+  "historical_artifact_sha256": {
+    "verification/lean_negative_controls/runs/20261004T115337Z/proper_isometry_surjective.log": "01807cb7f6f305752cc61a5a663742c6cd5acb2128424a9fbb0a1a57cb809236",
+    "verification/lean_negative_controls/runs/20261004T115337Z/receipt.json": "3451ca0df717af3e6bd304792d15566426ded5bb8691312ec338235855e133be",
+    "verification/lean_negative_controls/runs/20261004T120258Z/proper_isometry_surjective.log": "783b97f02bc525e674b7766aaea5a998ef595230c390fecb017b0f6d879a4a04",
+    "verification/lean_negative_controls/runs/20261004T120258Z/receipt.json": "bd99be6548815d8036adbff86bac2c17d9eec5be32faa45ab122c4e36d22f054"
+  },
+  "repair": "The negative fixture now explicitly instantiates commonJ_isometry with H := \u2102; production isometry and nonsurjectivity theorems are unchanged. Shared per-case proof-diagnostic classification rejects resource, parser, import, typeclass and other infrastructure failures.",
+  "required_new_evidence": "A fresh actual typed semantic rejection of the corrected fixture in the clean candidate gate. No such new compile is asserted by this correction record.",
+  "original_fixture_source": {
+    "path": "verification/lean_negative_controls/history/proper_isometry_surjective_before_explicit_H.lean.txt",
+    "sha256": "1e6e5eeddd06fcce64bd2e31d0874b4aa710348cdbe44d6721477e1f396ac4ee"
+  }
+}

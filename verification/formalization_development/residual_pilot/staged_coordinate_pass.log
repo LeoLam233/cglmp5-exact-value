@@ -1,0 +1,30 @@
+[limited-build] ticket104 acquired slot0: python -c import resource,subprocess,time,json; t=time.monotonic(); p=subprocess.run(["/workspace/scratch/e6e0818fcb8f/ising_recovery_runtime_20261003T1833Z/lean-4.34.1-linux/bin/lake","env","lean","-M","3000","-j","1","CGLMP5/SOSResidualSinglePilotStaged.lean"]); print(json.dumps({"returncode":p.returncode,"seconds":time.monotonic()-t,"maxrss_kib":resource.getrusage(resource.RUSAGE_CHILDREN).ru_maxrss}),flush=True); raise SystemExit(p.returncode)
+CGLMP5/SOSResidualSinglePilotStaged.lean:155:72: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.snd, stageScale0, stageProduct0,
+    stageScale1, stageProduct1, stageScale2, stageProduct2, stageScale3, stageProduct3, stageScale4, stageProduct4,
+    stageScale5, stageProduct5, stageScale6, stageProduct6, stageScale7, stageProduct7, stageScale8, stageProduct8,
+    stageScale9, stageProduct9, stageScale10, stageProduct10, stageScale11, stageProduct11, stageScale12,
+    stageProduct12, stageScale13, stageProduct13, stageScale14, stageProduct14, stageScale15, stageProduct15,
+    stageScale16, stageProduct16, stageScale17, stageProduct17, stageScale18, stageProduct18, stageScale19,
+    stageProduct19, stageScale20, stageProduct20, stageScale21, stageProduct21, stageScale22, stageProduct22,
+    stageScale23, stageProduct23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CGLMP5/SOSResidualSinglePilotStaged.lean:155:82: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.map_cons, List.map_nil, List.sum_cons, List.sum_nil, Prod.fst, stageScale0, stageProduct0,
+    stageScale1, stageProduct1, stageScale2, stageProduct2, stageScale3, stageProduct3, stageScale4, stageProduct4,
+    stageScale5, stageProduct5, stageScale6, stageProduct6, stageScale7, stageProduct7, stageScale8, stageProduct8,
+    stageScale9, stageProduct9, stageScale10, stageProduct10, stageScale11, stageProduct11, stageScale12,
+    stageProduct12, stageScale13, stageProduct13, stageScale14, stageProduct14, stageScale15, stageProduct15,
+    stageScale16, stageProduct16, stageScale17, stageProduct17, stageScale18, stageProduct18, stageScale19,
+    stageProduct19, stageScale20, stageProduct20, stageScale21, stageProduct21, stageScale22, stageProduct22,
+    stageScale23, stageProduct23]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+{"returncode": 0, "seconds": 5.372482222999679, "maxrss_kib": 2586100}

@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-04T11:13:50.413573+00:00",
+  "tag": "54dc6cabee9b272dd35da736ef9a2208fc715bb8",
+  "commit": "73b99dd22af68bd7a10927124d0b4ea7d6e8b78f",
+  "initial_tree": "4f5d801bd2ee973493355eca9fc425af116c6081",
+  "assets": {
+    "CGLMP5_PhaseB_checkpoint_20261004T092328Z_FINAL_COMPLETE.zip": {
+      "sha256": "12e2864ed19d99500b72d4aefe6e2b27939fb67c05aa355b38b997456a55fc43",
+      "bytes": 23638156,
+      "metadata_match": true
+    },
+    "CGLMP5_v0.1.1_source_and_regression.zip": {
+      "sha256": "dd19ead2fc08aedf504d2af7573bafcc58eb875638572c55c6ac05c4f9e64618",
+      "bytes": 29905351,
+      "metadata_match": true
+    },
+    "main.pdf": {
+      "sha256": "3b1f512aae295dba43acef3b75b6aa82186201a1748798b17f628b465f9ac37d",
+      "bytes": 476940,
+      "metadata_match": true
+    },
+    "REMOTE_VERIFICATION.json": {
+      "sha256": "2c9cfdc3c2c57a9398f63f377d8f3a8660995a3268e9d23fcded4e7b8af61a9a",
+      "bytes": 14652,
+      "metadata_match": true
+    },
+    "SHA256SUMS.v0.1.1.txt": {
+      "sha256": "d9eb4cda112ce1b6490d76bb85e94f1c577e48b4675062ca90d0655a908e05a5",
+      "bytes": 308,
+      "metadata_match": true
+    }
+  },
+  "canonical_json": {
+    "SOS14.json": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+    "EXACT_KERNELS.json": "6e08746bf5a58addb6bb46beb00c7bdab29638b9290802bca5114bc47ae957a5",
+    "EXACT_SOS_CANDIDATE.json": "14324f3ea10a3b1304a02ce48b5572be7080b519c242f5802ed599f60325c649",
+    "POSITIVITY_CERTIFICATE.json": "22ba8a09e433fe269b805f9979f574e37e3262a33fdae5a71927b748a860e8de"
+  },
+  "receipt_self_authentication": "Remote API digest and separately downloaded bytes compared; not recursive receipt self-authentication."
+}

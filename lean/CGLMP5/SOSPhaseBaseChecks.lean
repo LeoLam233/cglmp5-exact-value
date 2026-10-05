@@ -1,0 +1,70 @@
+import CGLMP5.SOSCompressedData
+
+namespace CGLMP5.SOSFinite
+
+set_option Elab.async false
+set_option maxHeartbeats 0
+set_option maxRecDepth 200000
+
+theorem phase_zero : phase 0 = Scalar.ofRat 1 := by
+  apply funext
+  decide +kernel
+
+theorem phase_step_0 : ∀ k : Fin 24, Scalar.mul (phase 0) Scalar.zetaExact k = phase 1 k := by
+  decide +kernel
+
+theorem phase_step_1 : ∀ k : Fin 24, Scalar.mul (phase 1) Scalar.zetaExact k = phase 2 k := by
+  decide +kernel
+
+theorem phase_step_2 : ∀ k : Fin 24, Scalar.mul (phase 2) Scalar.zetaExact k = phase 3 k := by
+  decide +kernel
+
+theorem phase_step_3 : ∀ k : Fin 24, Scalar.mul (phase 3) Scalar.zetaExact k = phase 4 k := by
+  decide +kernel
+
+theorem phase_step_4 : ∀ k : Fin 24, Scalar.mul (phase 4) Scalar.zetaExact k = phase 5 k := by
+  decide +kernel
+
+theorem phase_step_5 : ∀ k : Fin 24, Scalar.mul (phase 5) Scalar.zetaExact k = phase 6 k := by
+  decide +kernel
+
+theorem phase_step_6 : ∀ k : Fin 24, Scalar.mul (phase 6) Scalar.zetaExact k = phase 7 k := by
+  decide +kernel
+
+theorem phase_step_7 : ∀ k : Fin 24, Scalar.mul (phase 7) Scalar.zetaExact k = phase 8 k := by
+  decide +kernel
+
+theorem phase_step_8 : ∀ k : Fin 24, Scalar.mul (phase 8) Scalar.zetaExact k = phase 9 k := by
+  decide +kernel
+
+theorem phase_step_9 : ∀ k : Fin 24, Scalar.mul (phase 9) Scalar.zetaExact k = phase 10 k := by
+  decide +kernel
+
+theorem phase_step_10 : ∀ k : Fin 24, Scalar.mul (phase 10) Scalar.zetaExact k = phase 11 k := by
+  decide +kernel
+
+theorem phase_step_11 : ∀ k : Fin 24, Scalar.mul (phase 11) Scalar.zetaExact k = phase 12 k := by
+  decide +kernel
+
+theorem phase_step_12 : ∀ k : Fin 24, Scalar.mul (phase 12) Scalar.zetaExact k = phase 13 k := by
+  decide +kernel
+
+theorem phase_step_13 : ∀ k : Fin 24, Scalar.mul (phase 13) Scalar.zetaExact k = phase 14 k := by
+  decide +kernel
+
+theorem phase_step_14 : ∀ k : Fin 24, Scalar.mul (phase 14) Scalar.zetaExact k = phase 15 k := by
+  decide +kernel
+
+theorem phase_step_15 : ∀ k : Fin 24, Scalar.mul (phase 15) Scalar.zetaExact k = phase 16 k := by
+  decide +kernel
+
+theorem phase_step_16 : ∀ k : Fin 24, Scalar.mul (phase 16) Scalar.zetaExact k = phase 17 k := by
+  decide +kernel
+
+theorem phase_step_17 : ∀ k : Fin 24, Scalar.mul (phase 17) Scalar.zetaExact k = phase 18 k := by
+  decide +kernel
+
+theorem phase_step_18 : ∀ k : Fin 24, Scalar.mul (phase 18) Scalar.zetaExact k = phase 19 k := by
+  decide +kernel
+
+end CGLMP5.SOSFinite

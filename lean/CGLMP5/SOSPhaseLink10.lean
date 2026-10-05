@@ -1,0 +1,53 @@
+import CGLMP5.SOSCompressedCheck10
+import CGLMP5.SOSPhaseLinkBase
+
+namespace CGLMP5.SOSFinite
+noncomputable section
+set_option maxRecDepth 200000
+set_option maxHeartbeats 2000000
+lemma source_phase_polynomial_10
+(hmul : ∀ a b : Scalar, Scalar.eval (Scalar.mul a b) = Scalar.eval a * Scalar.eval b) :
+    SOS.phasePolynomial (fun c => Scalar.eval (core (localCore 10 c)))
+      (fun p => Scalar.eval (phase p)) (localTerms 10) =
+      (CanonicalData.polynomial 10).map (fun t => (t.1, Scalar.eval t.2)) := by
+  have h0 := congrArg Scalar.eval (funext source_phase_10_0)
+  have h1 := congrArg Scalar.eval (funext source_phase_10_1)
+  have h2 := congrArg Scalar.eval (funext source_phase_10_2)
+  have h3 := congrArg Scalar.eval (funext source_phase_10_3)
+  have h4 := congrArg Scalar.eval (funext source_phase_10_4)
+  have h5 := congrArg Scalar.eval (funext source_phase_10_5)
+  have h6 := congrArg Scalar.eval (funext source_phase_10_6)
+  have h7 := congrArg Scalar.eval (funext source_phase_10_7)
+  have h8 := congrArg Scalar.eval (funext source_phase_10_8)
+  have h9 := congrArg Scalar.eval (funext source_phase_10_9)
+  have h10 := congrArg Scalar.eval (funext source_phase_10_10)
+  have h11 := congrArg Scalar.eval (funext source_phase_10_11)
+  simp only [hmul] at h0 h1 h2 h3 h4 h5 h6 h7 h8 h9 h10 h11
+  change ([(⟨[], [(0, 3)]⟩, Scalar.eval (core 21) * Scalar.eval (phase 0)),
+    (⟨[], [(1, 3)]⟩, Scalar.eval (core 21) * Scalar.eval (phase 4)),
+    (⟨[(0, 1)], [(1, 2)]⟩, Scalar.eval (core 2) * Scalar.eval (phase 0)),
+    (⟨[(0, 2)], [(0, 1)]⟩, Scalar.eval (core 2) * Scalar.eval (phase 0)),
+    (⟨[(0, 3)], []⟩, Scalar.eval (core 21) * Scalar.eval (phase 8)),
+    (⟨[(0, 4)], [(0, 4)]⟩, Scalar.eval (core 22) * Scalar.eval (phase 0)),
+    (⟨[(0, 4)], [(1, 4)]⟩, Scalar.eval (core 22) * Scalar.eval (phase 12)),
+    (⟨[(1, 1)], [(0, 2)]⟩, Scalar.eval (core 2) * Scalar.eval (phase 12)),
+    (⟨[(1, 2)], [(1, 1)]⟩, Scalar.eval (core 2) * Scalar.eval (phase 4)),
+    (⟨[(1, 3)], []⟩, Scalar.eval (core 21) * Scalar.eval (phase 12)),
+    (⟨[(1, 4)], [(0, 4)]⟩, Scalar.eval (core 22) * Scalar.eval (phase 12)),
+    (⟨[(1, 4)], [(1, 4)]⟩, Scalar.eval (core 22) * Scalar.eval (phase 4))] : SOS.Polynomial) =
+    [(⟨[], [(0, 3)]⟩, Scalar.eval (canonicalCoefficient 10 0)),
+    (⟨[], [(1, 3)]⟩, Scalar.eval (canonicalCoefficient 10 1)),
+    (⟨[(0, 1)], [(1, 2)]⟩, Scalar.eval (canonicalCoefficient 10 2)),
+    (⟨[(0, 2)], [(0, 1)]⟩, Scalar.eval (canonicalCoefficient 10 3)),
+    (⟨[(0, 3)], []⟩, Scalar.eval (canonicalCoefficient 10 4)),
+    (⟨[(0, 4)], [(0, 4)]⟩, Scalar.eval (canonicalCoefficient 10 5)),
+    (⟨[(0, 4)], [(1, 4)]⟩, Scalar.eval (canonicalCoefficient 10 6)),
+    (⟨[(1, 1)], [(0, 2)]⟩, Scalar.eval (canonicalCoefficient 10 7)),
+    (⟨[(1, 2)], [(1, 1)]⟩, Scalar.eval (canonicalCoefficient 10 8)),
+    (⟨[(1, 3)], []⟩, Scalar.eval (canonicalCoefficient 10 9)),
+    (⟨[(1, 4)], [(0, 4)]⟩, Scalar.eval (canonicalCoefficient 10 10)),
+    (⟨[(1, 4)], [(1, 4)]⟩, Scalar.eval (canonicalCoefficient 10 11))]
+  simp only [h0, h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11, phase_zero_eval, mul_one]
+
+end
+end CGLMP5.SOSFinite

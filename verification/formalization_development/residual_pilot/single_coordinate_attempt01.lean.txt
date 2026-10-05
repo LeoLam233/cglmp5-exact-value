@@ -1,0 +1,15 @@
+import CGLMP5.SOSIntegerResidualDefinitions
+
+namespace CGLMP5.SOSFinite.SinglePilot
+
+set_option Elab.async false
+set_option maxHeartbeats 0
+set_option maxRecDepth 200000
+
+/-- Separate opaque theorem boundary for one coordinate of the exact residual. -/
+theorem residual272_coord0 :
+    integerNumerator 272 0 * (targetDenominator 272 : ℤ) =
+      targetNumerator 272 0 * (commonDenominator 272 : ℤ) := by
+  decide +kernel
+
+end CGLMP5.SOSFinite.SinglePilot

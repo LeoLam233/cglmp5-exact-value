@@ -1,0 +1,71 @@
+{
+  "next": 179,
+  "exit_code": 0,
+  "elapsed_seconds": 19.27073057499365,
+  "results": [
+    {
+      "module": "CGLMP5.SOSIndexFiber171",
+      "started_utc": "2026-10-04T13:38:04.701201+00:00",
+      "elapsed_seconds": 3.165366086002905,
+      "exit_code": 0,
+      "source_sha256": "50ab8094478f9366012a26cbb68e4c431f78cc20f86daca7ac1d17b43c68e25a",
+      "log": "verification/formalization_development/feature_checks/SOSIndexFiber171.log"
+    },
+    {
+      "module": "CGLMP5.SOSIndexFiber172",
+      "started_utc": "2026-10-04T13:38:07.867085+00:00",
+      "elapsed_seconds": 2.2150515939865727,
+      "exit_code": 0,
+      "source_sha256": "49764caa1d6d978ca7b13b05dbecbfcf2217e67d28ff2870896e2f34cdccb175",
+      "log": "verification/formalization_development/feature_checks/SOSIndexFiber172.log"
+    },
+    {
+      "module": "CGLMP5.SOSIndexFiber173",
+      "started_utc": "2026-10-04T13:38:10.082583+00:00",
+      "elapsed_seconds": 2.4497209410037613,
+      "exit_code": 0,
+      "source_sha256": "f84db3f4ef6d83d425be3fecf95c60de615d8d5bc7cafdce20dc92ec0e93c703",
+      "log": "verification/formalization_development/feature_checks/SOSIndexFiber173.log"
+    },
+    {
+      "module": "CGLMP5.SOSIndexFiber174",
+      "started_utc": "2026-10-04T13:38:12.532837+00:00",
+      "elapsed_seconds": 2.3524768030038103,
+      "exit_code": 0,
+      "source_sha256": "e2580064949d285a070be6fff1b86bf466908c1046b55df189085373a2d82023",
+      "log": "verification/formalization_development/feature_checks/SOSIndexFiber174.log"
+    },
+    {
+      "module": "CGLMP5.SOSIndexFiber175",
+      "started_utc": "2026-10-04T13:38:14.885759+00:00",
+      "elapsed_seconds": 2.32726924099552,
+      "exit_code": 0,
+      "source_sha256": "ec4f738d802614dca8f3102681ad6772e4e3b28fcb45170d8012d111cd71544a",
+      "log": "verification/formalization_development/feature_checks/SOSIndexFiber175.log"
+    },
+    {
+      "module": "CGLMP5.SOSIndexFiber176",
+      "started_utc": "2026-10-04T13:38:17.213420+00:00",
+      "elapsed_seconds": 2.3745735729899025,
+      "exit_code": 0,
+      "source_sha256": "6447ce7456119802907a08947a1f52ed3e737abba1ff9335b526d4d7084e66ab",
+      "log": "verification/formalization_development/feature_checks/SOSIndexFiber176.log"
+    },
+    {
+      "module": "CGLMP5.SOSIndexFiber177",
+      "started_utc": "2026-10-04T13:38:19.588397+00:00",
+      "elapsed_seconds": 2.1072287510032766,
+      "exit_code": 0,
+      "source_sha256": "257b68a0f9f7d1b176ca35e4a8a0f6b662c1855caff279a438b6bc19d9cd9bd5",
+      "log": "verification/formalization_development/feature_checks/SOSIndexFiber177.log"
+    },
+    {
+      "module": "CGLMP5.SOSIndexFiber178",
+      "started_utc": "2026-10-04T13:38:21.696146+00:00",
+      "elapsed_seconds": 2.2753635850094724,
+      "exit_code": 0,
+      "source_sha256": "805b70d450b82eefef139544158f3fc3ffe759610c98308af1c14d6331fd2e86",
+      "log": "verification/formalization_development/feature_checks/SOSIndexFiber178.log"
+    }
+  ]
+}

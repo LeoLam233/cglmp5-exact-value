@@ -1,0 +1,63 @@
+{
+  "next": 154,
+  "exit_code": 0,
+  "elapsed_seconds": 18.1969997369888,
+  "results": [
+    {
+      "module": "CGLMP5.SOSIndexFiber147",
+      "started_utc": "2026-10-04T13:35:06.862132+00:00",
+      "elapsed_seconds": 4.499253235000651,
+      "exit_code": 0,
+      "source_sha256": "c7c132c94e4d4ec8e1c881070716f09f8449d70b628803b329d53be15c199747",
+      "log": "verification/formalization_development/feature_checks/SOSIndexFiber147.log"
+    },
+    {
+      "module": "CGLMP5.SOSIndexFiber148",
+      "started_utc": "2026-10-04T13:35:11.362353+00:00",
+      "elapsed_seconds": 2.286978875999921,
+      "exit_code": 0,
+      "source_sha256": "edc4bb1027d28abb746f023e6742dcda23613bd9643bae099ff5081450230c5f",
+      "log": "verification/formalization_development/feature_checks/SOSIndexFiber148.log"
+    },
+    {
+      "module": "CGLMP5.SOSIndexFiber149",
+      "started_utc": "2026-10-04T13:35:13.649788+00:00",
+      "elapsed_seconds": 2.2755707089963835,
+      "exit_code": 0,
+      "source_sha256": "7144d1f6e5f612877498bf0cb4672a3eff4e14d030b373b2ed3d7ad28bfb90f4",
+      "log": "verification/formalization_development/feature_checks/SOSIndexFiber149.log"
+    },
+    {
+      "module": "CGLMP5.SOSIndexFiber150",
+      "started_utc": "2026-10-04T13:35:15.925979+00:00",
+      "elapsed_seconds": 2.1488679950125515,
+      "exit_code": 0,
+      "source_sha256": "5966c483c4f8eeed3a37f5c575b5f969851dea3a1c77401ce8d549bbd5305f2a",
+      "log": "verification/formalization_development/feature_checks/SOSIndexFiber150.log"
+    },
+    {
+      "module": "CGLMP5.SOSIndexFiber151",
+      "started_utc": "2026-10-04T13:35:18.075842+00:00",
+      "elapsed_seconds": 2.2258268120058347,
+      "exit_code": 0,
+      "source_sha256": "7201cb0fe005608fe14744181a9aa5014d3bbbda0ba4ee1e9d4808c38ba506c1",
+      "log": "verification/formalization_development/feature_checks/SOSIndexFiber151.log"
+    },
+    {
+      "module": "CGLMP5.SOSIndexFiber152",
+      "started_utc": "2026-10-04T13:35:20.302066+00:00",
+      "elapsed_seconds": 2.300951682002051,
+      "exit_code": 0,
+      "source_sha256": "25a29885690203460da1e929b829667109aa6d23e95f729cf87bfb3529f13e6f",
+      "log": "verification/formalization_development/feature_checks/SOSIndexFiber152.log"
+    },
+    {
+      "module": "CGLMP5.SOSIndexFiber153",
+      "started_utc": "2026-10-04T13:35:22.603407+00:00",
+      "elapsed_seconds": 2.455205121994368,
+      "exit_code": 0,
+      "source_sha256": "e20da9c06517d341e6f7bd0223d1bc301740e91fd07298480aa85ca8209f1dcc",
+      "log": "verification/formalization_development/feature_checks/SOSIndexFiber153.log"
+    }
+  ]
+}

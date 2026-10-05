@@ -1,6 +1,6 @@
-# CGLMP5 exact quantum value — proof-carrying candidate v0.1.1
+# CGLMP5 exact quantum value — Lean formalization
 
-This repository archives an **AI-assisted exact proof candidate** for the standard five-outcome CGLMP Bell inequality. The claimed theorem is that, for arbitrary local Hilbert-space dimensions and arbitrary local five-outcome POVMs,
+This repository preserves the **AI-assisted exact proof artifact** at v0.1.1 and supplies a Lean formalization of the same standard five-outcome CGLMP theorem. For arbitrary local Hilbert-space dimensions and arbitrary local tensor-product five-outcome POVMs,
 
 \[
 \sup I_5 = \mu,
@@ -20,7 +20,24 @@ numerically
 
 A five-dimensional bipartite strategy attains equality. The universal upper bound is carried by an exact 14-term positive noncommutative sum-of-squares certificate.
 
-**Status.** The candidate has undergone exact replay, separated-context AI adversarial audits, mutation tests, a restricted-input reconstruction of the attaining lower-bound branch, and a later independent adversarial audit that reimplemented the load-bearing exact checks in two algebraic representations. No load-bearing defect has been found in the checks completed so far. This is **not** a claim of human peer review, formal verification, or exhaustive mathematical certification.
+**Evidence and release scope.** The complete Lean theorem family, exact source binding and explicit physical attainer are described in [FORMALIZATION_REPORT.md](FORMALIZATION_REPORT.md). Acceptance of a v0.2.0 release requires a clean relocated whole-tree build, genuine fresh-environment kernel replay, exact axiom/type inspection, destructive controls, and three sequential hostile audits on one identical source tree, followed by integrated-commit CI and downloaded-asset verification. Those execution results are established by separately hashed release receipts, not by this README. Internal AI verification is not human peer review.
+
+## Lean proof and replay
+
+- [Complete theorem/source overview](FORMALIZATION_REPORT.md)
+- [Published statement versus Lean](STATEMENT_ALIGNMENT.md)
+- [Manuscript and exact-data source map](SOURCE_MAP.md)
+- [Exact root/bridge axiom sets](AXIOM_AUDIT.md)
+- [Pinned clean replay instructions](docs/LEAN_REPLAY.md)
+- [v0.2.0 acceptance and receipt contract](RELEASE_v0.2.0.md)
+
+The proof uses Lean 4.34.1 and pinned mathlib dependencies. The public module
+`CGLMP5` imports the complete production tree, including independent semantic
+controls. The original v0.1.1 scientific target is unchanged; no finite-dimensional,
+projective-only, pure-state-only or numerical replacement is used.
+
+The historical v0.1.1 checks listed below remain useful provenance. They do not
+substitute for the Lean completion gate or any of the three same-tree audit rounds.
 
 ## Start here
 
@@ -71,10 +88,19 @@ python3 -B artifact_v0.1.1/verify_sos14.py --root artifact_v0.1.1 --output "$REC
 python3 -B artifact_v0.1.1/verify_independent.py --root artifact_v0.1.1 --output "$RECEIPTS/verify_independent.json"
 python3 -B artifact_v0.1.1/verify_statement.py --root artifact_v0.1.1 --output "$RECEIPTS/verify_statement.json"
 python3 scripts/check_core_results.py "$RECEIPTS"
-python3 scripts/check_release_gate.py --root .
+# The recorded R01-R14 gate binds the old release's complete files, not v0.2.0.
+test "$(git rev-parse refs/tags/v0.1.1)" = 54dc6cabee9b272dd35da736ef9a2208fc715bb8
+test "$(git rev-parse 'refs/tags/v0.1.1^{commit}')" = 73b99dd22af68bd7a10927124d0b4ea7d6e8b78f
+HISTORICAL="$(mktemp -d -t cglmp5-v011.XXXXXX)"
+git archive 73b99dd22af68bd7a10927124d0b4ea7d6e8b78f | tar -x -C "$HISTORICAL"
+(
+  cd "$HISTORICAL"
+  python3 -B scripts/test_release_gate.py
+  python3 -B scripts/check_release_gate.py --root .
+)
 ```
 
-The first commands recompute the core identities and actual-embedding signs. The last command validates the packaged R01–R14 acceptance statuses and source/receipt hashes; it does not independently rerun every audit. The full regression replay instructions are under [`verification/`](verification/). Do not run mathematical checkers with `-O`, `-OO`, or nonzero `PYTHONOPTIMIZE`. An exited process is insufficient: require the intended semantic result, and retain failed runs.
+The first commands recompute the current canonical core identities and actual-embedding signs. The final block validates the packaged R01–R14 acceptance statuses and source/receipt hashes in an exact archive of the pinned v0.1.1 commit; it does not independently rerun every audit or bind the updated README, citation, source manifest, or editorial paper maintenance. Historical receipt hashes are not rewritten to describe newer files. The current printed-data check and the Lean release gates are separate checks of the current candidate. The full regression replay instructions are under [`verification/`](verification/). Do not run mathematical checkers with `-O`, `-OO`, or nonzero `PYTHONOPTIMIZE`. An exited process is insufficient: require the intended semantic result, and retain failed runs.
 
 The strict input and canonical-format policies are documented in [`artifact_v0.1.1/SCHEMA.md`](artifact_v0.1.1/SCHEMA.md). A packaging rejection of a mathematically equivalent serialization is not a disproof of the represented identity.
 
@@ -114,7 +140,7 @@ The research and verification workflow was AI-assisted. AI systems are not liste
 
 `v0.1.1` adds the publication manuscript, accepted non-load-bearing Phase-B hardening, and source-bound regression evidence. It leaves the theorem, root polynomial, certificate coefficients, attaining strategy, `artifact_v0.1/`, and the existing `v0.1.0` tag unchanged.
 
-Lean formalization has **not** started in this release. The completed Lean milestone is reserved for **v0.2.0**. See the [future Lean source map](docs/LEAN_HANDOFF.md).
+At the historical **v0.1.1** release, Lean formalization had not started. The completed Lean milestone belongs to **v0.2.0** under the same-tree acceptance requirements described above. The [frozen Lean handoff](docs/LEAN_HANDOFF.md) records the original formalization contract.
 
 ## v0.1.1 evidence discipline
 

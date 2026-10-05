@@ -1,0 +1,4 @@
+import Mathlib.Data.Rat.Cast.Defs
+namespace CGLMP5.SOSFinite.RatImportPilot
+def decode (n : Int) (d : Nat) : ℚ := (n : ℚ) / d
+end CGLMP5.SOSFinite.RatImportPilot

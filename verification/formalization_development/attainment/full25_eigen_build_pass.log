@@ -1,0 +1,302 @@
+⚠ [2116/2402] Replayed CGLMP5.Root
+warning: CGLMP5/Root.lean:148:63: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: CGLMP5/Root.lean:148:77: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: CGLMP5/Root.lean:148:89: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2120/2402] Replayed CGLMP5.AttainmentAlgebra
+warning: CGLMP5/AttainmentAlgebra.lean:33:0: automatically included section variable(s) unused in theorem `CGLMP5.Attainment.f1_mul_u`:
+  hm
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hm in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: CGLMP5/AttainmentAlgebra.lean:37:0: automatically included section variable(s) unused in theorem `CGLMP5.Attainment.two_s_mul_f3`:
+  hu
+  hm
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hu hm in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: CGLMP5/AttainmentAlgebra.lean:41:0: automatically included section variable(s) unused in theorem `CGLMP5.Attainment.f1_sq`:
+  hm
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hm in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: CGLMP5/AttainmentAlgebra.lean:49:0: automatically included section variable(s) unused in theorem `CGLMP5.Attainment.row_zero`:
+  hm
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hm in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: CGLMP5/AttainmentAlgebra.lean:53:0: automatically included section variable(s) unused in theorem `CGLMP5.Attainment.row_one`:
+  hu
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hu in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: CGLMP5/AttainmentAlgebra.lean:65:0: automatically included section variable(s) unused in theorem `CGLMP5.Attainment.s_bounds`:
+  hm
+  hupos
+  hmthree
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hm hupos hmthree in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: CGLMP5/AttainmentAlgebra.lean:68:0: automatically included section variable(s) unused in theorem `CGLMP5.Attainment.u_gt_three`:
+  hs
+  hm
+  hmthree
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hs hm hmthree in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: CGLMP5/AttainmentAlgebra.lean:82:0: automatically included section variable(s) unused in theorem `CGLMP5.Attainment.f3_pos`:
+  hs
+  hu
+  hm
+  hmthree
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hs hu hm hmthree in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: CGLMP5/AttainmentAlgebra.lean:86:0: automatically included section variable(s) unused in theorem `CGLMP5.Attainment.f4_pos`:
+  hs
+  hu
+  hm
+  hupos
+  hmthree
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hs hu hm hupos hmthree in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: CGLMP5/AttainmentAlgebra.lean:128:0: automatically included section variable(s) unused in theorem `CGLMP5.Attainment.coeffB_eq_formula`:
+  hspos
+  hupos
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hspos hupos in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: CGLMP5/AttainmentAlgebra.lean:142:0: automatically included section variable(s) unused in theorem `CGLMP5.Attainment.schmidtNormSq_pos`:
+  hs
+  hu
+  hm
+  hspos
+  hupos
+  hmthree
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hs hu hm hspos hupos hmthree in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [2430/2465] Replayed CGLMP5.AttainmentState
+warning: CGLMP5/AttainmentState.lean:42:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2433/2465] Replayed CGLMP5.Words
+warning: CGLMP5/Words.lean:68:27: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [push, Prod.snd, hz, ↓reduceIte, hmz, eval_cons]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: CGLMP5/Words.lean:68:37: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [push, Prod.fst, hz, ↓reduceIte, hmz, eval_cons]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [2437/2465] Replayed CGLMP5.AttainmentCoefficient
+warning: CGLMP5/AttainmentCoefficient.lean:21:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentCoefficient.lean:21:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentCoefficient.lean:23:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentCoefficient.lean:23:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentCoefficient.lean:25:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentCoefficient.lean:25:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentCoefficient.lean:27:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentCoefficient.lean:27:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [2438/2465] Replayed CGLMP5.AttainmentColumn0
+warning: CGLMP5/AttainmentColumn0.lean:16:4: Unused tactic linter: `all_goals
+  linear_combination (norm := (ring_nf <;> simp [Complex.I_sq, Complex.I_pow_three] <;> ring)) 0 * hs` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/AttainmentColumn0.lean:16:14: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn0.lean:20:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn0.lean:20:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn0.lean:24:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn0.lean:24:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn0.lean:28:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn0.lean:28:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn0.lean:32:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn0.lean:32:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [2439/2465] Replayed CGLMP5.AttainmentColumn1
+warning: CGLMP5/AttainmentColumn1.lean:20:4: Unused tactic linter: `all_goals
+  linear_combination (norm := (ring_nf <;> simp [Complex.I_sq, Complex.I_pow_three] <;> ring)) 0 * hs` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/AttainmentColumn1.lean:16:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn1.lean:16:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn1.lean:20:14: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn1.lean:24:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn1.lean:24:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn1.lean:28:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn1.lean:28:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn1.lean:32:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn1.lean:32:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [2440/2465] Replayed CGLMP5.AttainmentColumn2
+warning: CGLMP5/AttainmentColumn2.lean:24:4: Unused tactic linter: `all_goals
+  linear_combination (norm := (ring_nf <;> simp [Complex.I_sq, Complex.I_pow_three] <;> ring)) 0 * hs` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/AttainmentColumn2.lean:16:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn2.lean:16:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn2.lean:20:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn2.lean:20:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn2.lean:24:14: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn2.lean:28:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn2.lean:28:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn2.lean:32:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn2.lean:32:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [2441/2465] Replayed CGLMP5.AttainmentColumn3
+warning: CGLMP5/AttainmentColumn3.lean:28:4: Unused tactic linter: `all_goals
+  linear_combination (norm := (ring_nf <;> simp [Complex.I_sq, Complex.I_pow_three] <;> ring)) 0 * hs` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/AttainmentColumn3.lean:16:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn3.lean:16:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn3.lean:20:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn3.lean:20:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn3.lean:24:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn3.lean:24:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn3.lean:28:14: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn3.lean:32:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn3.lean:32:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [2442/2465] Replayed CGLMP5.AttainmentColumn4
+warning: CGLMP5/AttainmentColumn4.lean:32:4: Unused tactic linter: `all_goals
+  linear_combination (norm := (ring_nf <;> simp [Complex.I_sq, Complex.I_pow_three] <;> ring)) 0 * hs` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/AttainmentColumn4.lean:16:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn4.lean:16:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn4.lean:20:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn4.lean:20:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn4.lean:24:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn4.lean:24:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn4.lean:28:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn4.lean:28:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentColumn4.lean:32:14: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [2465/2465] Built CGLMP5.AttainmentEigen (2.5s)
+warning: CGLMP5/AttainmentEigen.lean:36:68: `if_true` has been deprecated: Use `ite_true` instead
+Build completed successfully (2465 jobs).

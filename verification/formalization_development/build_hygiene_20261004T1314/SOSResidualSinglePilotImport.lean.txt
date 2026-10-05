@@ -1,0 +1,2 @@
+import CGLMP5.SOSIntegerResidualDefinitions
+#check CGLMP5.SOSFinite.integerNumerator

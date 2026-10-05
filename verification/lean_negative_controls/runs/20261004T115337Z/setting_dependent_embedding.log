@@ -1,0 +1,6 @@
+/tmp/cglmp-negative-4sywcplc/setting_dependent_embedding.lean:6:2: error: Type mismatch
+  POVM.dilate_compression halfPOVM 0
+has type
+  (compression commonJ) (halfPOVM.dilate.effect 0) = halfPOVM.effect 0
+but is expected to have type
+  (compression (defectUnitary halfPOVM.analysis ∘SL commonJ)) (halfPOVM.dilate.effect 0) = halfPOVM.effect 0

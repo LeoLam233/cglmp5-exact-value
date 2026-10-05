@@ -1,0 +1,30 @@
+[limited-build] acquired slot0: /workspace/scratch/e6e0818fcb8f/ising_recovery_runtime_20261003T1833Z/lean-4.34.1-linux/bin/lake env lean /tmp/cglmp-source-mutation-p78ri79q/Words.lean
+/tmp/cglmp-source-mutation-p78ri79q/Words.lean:70:6: error: unsolved goals
+case neg
+M : Type u_1
+inst✝ : Monoid M
+g : Fin 2 → M
+hfive : ∀ (i : Fin 2), g i ^ 5 = 1
+i : Fin 2
+n : ℕ
+hn : g i ^ n = g i ^ (n % 5)
+hz : ¬n % 5 = 0
+t : List Letter
+j : Fin 2
+m : ℕ
+hij : ¬i = j
+⊢ g j ^ m * (eval g t * g i ^ (n % 5)) = g i ^ (n % 5) * (g j ^ m * eval g t)
+/tmp/cglmp-source-mutation-p78ri79q/Words.lean:68:27: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [push, Prod.snd, hz, ↓reduceIte, hmz, eval_cons]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/tmp/cglmp-source-mutation-p78ri79q/Words.lean:68:37: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [push, Prod.fst, hz, ↓reduceIte, hmz, eval_cons]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

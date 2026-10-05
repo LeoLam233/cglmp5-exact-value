@@ -1,0 +1,147 @@
+[limited-build] ticket252 acquired slot0: /workspace/scratch/e6e0818fcb8f/ising_recovery_runtime_20261003T1833Z/lean-4.34.1-linux/bin/lake build CGLMP5.SOSPhaseLinear05
+⚠ [851/851] Built CGLMP5.SOSPhaseLinear05 (7.4s)
+warning: CGLMP5/SOSPhaseLinear05.lean:14:15: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:14:15: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:20:15: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:20:15: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:26:15: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:26:15: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:32:15: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:32:15: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:38:15: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:38:15: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:44:15: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:44:15: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:50:15: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:50:15: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:56:15: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:56:15: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:62:15: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:62:15: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:68:15: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:68:15: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:74:15: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:74:15: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:80:15: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:80:15: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:86:15: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:86:15: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:92:15: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:92:15: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:98:15: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:98:15: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:104:15: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:104:15: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:110:15: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:110:15: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:116:15: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:116:15: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:122:15: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:122:15: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:128:15: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:128:15: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:134:15: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:134:15: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:140:15: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:140:15: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:146:15: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:146:15: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:152:15: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/SOSPhaseLinear05.lean:152:15: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Build completed successfully (851 jobs).

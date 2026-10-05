@@ -1,0 +1,10 @@
+CGLMP5.common_dilation.{u_1} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H] [CompleteSpace H]
+  (E : Fin 2 → POVM H) : ∃ P, ∀ (x : Fin 2) (a : Fin 5), (compression commonJ) ((P x).effect a) = (E x).effect a
+CGLMP5.compression_not_multiplicative :
+  (compression commonJ) (halfPOVM.dilate.effect 0 * halfPOVM.dilate.effect 0) ≠
+    (compression commonJ) (halfPOVM.dilate.effect 0) * (compression commonJ) (halfPOVM.dilate.effect 0)
+CGLMP5.commonJ_comp_adjoint_ne_one : commonJ ∘SL adjoint commonJ ≠ 1
+CGLMP5.rotatedCommonJ_isometry.{u_1} {H : Type u_1} [NormedAddCommGroup H] [InnerProductSpace ℂ H] [CompleteSpace H]
+  (E : POVM H) : adjoint (rotatedCommonJ E) ∘SL rotatedCommonJ E = ContinuousLinearMap.id ℂ H
+CGLMP5.changing_embedding_changes_effect :
+  (compression (rotatedCommonJ halfPOVM)) (halfPOVM.dilate.effect 0) ≠ (compression commonJ) (halfPOVM.dilate.effect 0)

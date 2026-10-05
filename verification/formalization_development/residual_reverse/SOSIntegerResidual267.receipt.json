@@ -1,0 +1,12 @@
+{
+  "module": "CGLMP5.SOSIntegerResidual267",
+  "started_utc": "2026-10-04T13:47:22.703721+00:00",
+  "source_sha256": "393536b89b95751cc4b77fd474128a991404997997f38b8786752dbed0db85ff",
+  "probe_exit_code": 3,
+  "probe_log": "verification/formalization_development/residual_reverse/SOSIntegerResidual267.probe.log",
+  "action": "kernel build",
+  "build_exit_code": 0,
+  "build_log": "verification/formalization_development/residual_reverse/SOSIntegerResidual267.build.log",
+  "elapsed_seconds": 10.465243208003812,
+  "exit_code": 0
+}

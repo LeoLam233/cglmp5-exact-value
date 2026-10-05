@@ -1,0 +1,4 @@
+/tmp/cglmp-negative-lcokxjsy/wrong_weight_sign.lean:4:35: error: linarith failed to find a contradiction
+a✝ : -weightValue 9 ≤ 0
+⊢ False
+failed

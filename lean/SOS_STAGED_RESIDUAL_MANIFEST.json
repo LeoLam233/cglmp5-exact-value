@@ -1,0 +1,8 @@
+{
+  "canonical_sha256": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+  "word_count": 273,
+  "coordinate_count": 6552,
+  "method": "opaque literal lookup + exact scale certificates + universally proved sparse phase action + kernel integer residual",
+  "source_scales": 3329,
+  "phase_pair_count": 1161
+}

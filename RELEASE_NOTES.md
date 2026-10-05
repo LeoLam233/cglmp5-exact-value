@@ -1,5 +1,13 @@
 # Release notes
 
+## v0.2.0 — Lean formalization acceptance contract
+
+The candidate source tree contains the full original theorem in Lean, including arbitrary local Hilbert spaces and normalized positive states, local tensor-product five-outcome POVMs, the largest sextic root, the bounded commuting-PVM SOS identity, and explicit full25-dimensional attainment. Canonical v0.1.1 data and handoff remain unchanged. Concurrent current-main prior-work attribution/PDF maintenance is preserved separately in `docs/CURRENT_MAIN_EDITORIAL_INTEGRATION.json`; every manuscript TeX byte outside that explicit bibliography paragraph is unchanged.
+
+Release acceptance is recorded externally: clean relocated build, genuine fresh-environment kernel replay, exact type/axiom inspection, source and mutation controls, three sequential hostile audits on the same tree, final backup, integrated-commit CI and remote asset readback. See [RELEASE_v0.2.0.md](RELEASE_v0.2.0.md). A source version field or this section alone is not a claim that those gates have passed.
+
+The v0.1.1 and v0.1.0 sections below preserve their historical scope.
+
 ## v0.1.1 — 2026-10-04
 
 Additive manuscript and non-load-bearing Phase-B hardening release. The central theorem, exact root polynomial, certificate coefficients and attaining strategy are unchanged.

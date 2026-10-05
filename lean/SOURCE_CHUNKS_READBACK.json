@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "canonical_sha256": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+  "reconstructed_sha256": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+  "bytes": 581335,
+  "bindings": [
+    {
+      "file": "lean/CGLMP5/CertificateChunkData00.lean",
+      "sha256": "e3deb550c2d5bc366bbee1c60b65bf4cf636e8813d4dcefa0e2ba08a58279c12",
+      "scalar_bindings": 17,
+      "word_bindings": 16
+    },
+    {
+      "file": "lean/CGLMP5/CertificateChunkData01.lean",
+      "sha256": "82a02f5b3d86e02f0176eae4bc1f08349c13a6a7b22d94f3c13535842964cf38",
+      "scalar_bindings": 13,
+      "word_bindings": 12
+    },
+    {
+      "file": "lean/CGLMP5/CertificateChunkData02.lean",
+      "sha256": "9e997274c05bf1818fab64732857de280389af0280e5894ccc73d9bbf59124be",
+      "scalar_bindings": 17,
+      "word_bindings": 16
+    },
+    {
+      "file": "lean/CGLMP5/CertificateChunkData03.lean",
+      "sha256": "9918670e167e79af79f93c4d2d8fa77489b1f1ddb16b7d088c2f0cb65d2eb881",
+      "scalar_bindings": 13,
+      "word_bindings": 12
+    },
+    {
+      "file": "lean/CGLMP5/CertificateChunkData04.lean",
+      "sha256": "dcb3b9ecc75b33b24e665115520b087530207a62f0ae4348851e619d635f38d7",
+      "scalar_bindings": 9,
+      "word_bindings": 8
+    },
+    {
+      "file": "lean/CGLMP5/CertificateChunkData05.lean",
+      "sha256": "8504bc050b174d64bab67ac16e4e00d77671f3b57b70b1b0221ec6fbf7d25b39",
+      "scalar_bindings": 5,
+      "word_bindings": 4
+    },
+    {
+      "file": "lean/CGLMP5/CertificateChunkData06.lean",
+      "sha256": "c3a5501e8a021acf3e7cccdf3c4f8e993c4dcb9176a25e0fa2fe4fd39d69cfec",
+      "scalar_bindings": 17,
+      "word_bindings": 16
+    },
+    {
+      "file": "lean/CGLMP5/CertificateChunkData07.lean",
+      "sha256": "75bfb75636bcbdf7ee20b284a2077ad417fd44946f0025c3785b636876d7fb16",
+      "scalar_bindings": 13,
+      "word_bindings": 12
+    },
+    {
+      "file": "lean/CGLMP5/CertificateChunkData08.lean",
+      "sha256": "d62ff3aa79d3d51bde20a9f1396153f531c90ba9d98f29a7b95925e5ba600ce9",
+      "scalar_bindings": 9,
+      "word_bindings": 8
+    },
+    {
+      "file": "lean/CGLMP5/CertificateChunkData09.lean",
+      "sha256": "6b89fc7e5ce7f149b0afd4da1a9e6e057e7bb630cfc6c5426cfaa310116c2360",
+      "scalar_bindings": 17,
+      "word_bindings": 16
+    },
+    {
+      "file": "lean/CGLMP5/CertificateChunkData10.lean",
+      "sha256": "80e56a9785e63d680718dc83ee6bf25e9a052d5e97260c2e9732496dcd346f45",
+      "scalar_bindings": 13,
+      "word_bindings": 12
+    },
+    {
+      "file": "lean/CGLMP5/CertificateChunkData11.lean",
+      "sha256": "19615920aba33daaca4141f757ca916216cf3c25f2b64227ab34f70fafe3dfb7",
+      "scalar_bindings": 5,
+      "word_bindings": 4
+    },
+    {
+      "file": "lean/CGLMP5/CertificateChunkData12.lean",
+      "sha256": "c755dbfb32412c22de3364c4aba221158314279ecfa421e706ec4fed20d2e93b",
+      "scalar_bindings": 17,
+      "word_bindings": 16
+    },
+    {
+      "file": "lean/CGLMP5/CertificateChunkData13.lean",
+      "sha256": "17008c4818b9907302cc1c99b095cca4c08cb87896b198c5ea27b314a5027b39",
+      "scalar_bindings": 13,
+      "word_bindings": 12
+    },
+    {
+      "file": "lean/CGLMP5/CertificateHeaderData.lean",
+      "sha256": "728228ec8a2c31cf56f31b9ae069c8b71ffa33286493cc5abef21587a96e33a6",
+      "gamma_scalars": 5,
+      "embedding_box_integer_strings": 12
+    }
+  ],
+  "scope": "Actual emitted source fragments structurally read back, all164coefficient records/all14weights/all5gamma scalars/all3embedding boxes/source word labels/static metadata prefix compared exactly. Kernel decoding equality in CertificateSource.canonical_source_decode is a separate proof gate."
+}

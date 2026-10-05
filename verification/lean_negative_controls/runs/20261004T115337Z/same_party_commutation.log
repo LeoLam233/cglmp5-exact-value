@@ -1,0 +1,4 @@
+/tmp/cglmp-negative-r34oxly_/same_party_commutation.lean:4:88: error: Tactic `decide` proved that the proposition
+  { alice := [(0, 1)], bob := [] }.mul { alice := [(1, 1)], bob := [] } =
+    { alice := [(1, 1)], bob := [] }.mul { alice := [(0, 1)], bob := [] }
+is false

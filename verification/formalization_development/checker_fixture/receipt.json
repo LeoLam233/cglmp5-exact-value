@@ -1,0 +1,114 @@
+{
+  "purpose": "controlled external-only invalid-object test of import trust versus genuine kernel replay; not an audit round",
+  "status": "COMPLETE_OBSERVATIONS",
+  "commands": [
+    {
+      "label": "compile_ValidObject",
+      "command": [
+        "lean",
+        "-R",
+        "/workspace/scratch/e6e0818fcb8f/formalization_v020_20261004/coordination/trust_semantics_fixture_20261004T1356",
+        "-o",
+        "/workspace/scratch/e6e0818fcb8f/formalization_v020_20261004/coordination/trust_semantics_fixture_20261004T1356/ValidObject.olean",
+        "/workspace/scratch/e6e0818fcb8f/formalization_v020_20261004/coordination/trust_semantics_fixture_20261004T1356/ValidObject.lean"
+      ],
+      "exit": 0,
+      "timeout": false,
+      "seconds": 2.0697418009949615
+    },
+    {
+      "label": "compile_InvalidObject",
+      "command": [
+        "lean",
+        "-R",
+        "/workspace/scratch/e6e0818fcb8f/formalization_v020_20261004/coordination/trust_semantics_fixture_20261004T1356",
+        "-o",
+        "/workspace/scratch/e6e0818fcb8f/formalization_v020_20261004/coordination/trust_semantics_fixture_20261004T1356/InvalidObject.olean",
+        "/workspace/scratch/e6e0818fcb8f/formalization_v020_20261004/coordination/trust_semantics_fixture_20261004T1356/InvalidObject.lean"
+      ],
+      "exit": 0,
+      "timeout": false,
+      "seconds": 0.9843854419887066
+    },
+    {
+      "label": "import_trust0_Valid",
+      "command": [
+        "lean",
+        "--trust=0",
+        "-DmaxRecDepth=200000",
+        "-DmaxHeartbeats=0",
+        "/workspace/scratch/e6e0818fcb8f/formalization_v020_20261004/coordination/trust_semantics_fixture_20261004T1356/ImportValid.lean"
+      ],
+      "exit": 0,
+      "timeout": false,
+      "seconds": 0.8710017440025695
+    },
+    {
+      "label": "import_trust0_Invalid",
+      "command": [
+        "lean",
+        "--trust=0",
+        "-DmaxRecDepth=200000",
+        "-DmaxHeartbeats=0",
+        "/workspace/scratch/e6e0818fcb8f/formalization_v020_20261004/coordination/trust_semantics_fixture_20261004T1356/ImportInvalid.lean"
+      ],
+      "exit": 0,
+      "timeout": false,
+      "seconds": 0.8350876260083169
+    },
+    {
+      "label": "checker_module_ValidObject",
+      "command": [
+        "leanchecker",
+        "-v",
+        "ValidObject"
+      ],
+      "exit": 0,
+      "timeout": false,
+      "seconds": 2.5157297200057656
+    },
+    {
+      "label": "checker_module_InvalidObject",
+      "command": [
+        "leanchecker",
+        "-v",
+        "InvalidObject"
+      ],
+      "exit": 1,
+      "timeout": false,
+      "seconds": 2.4276189630036242
+    },
+    {
+      "label": "checker_fresh_ValidObject",
+      "command": [
+        "leanchecker",
+        "--fresh",
+        "-v",
+        "ValidObject"
+      ],
+      "exit": 0,
+      "timeout": false,
+      "seconds": 113.5528142760013
+    },
+    {
+      "label": "checker_fresh_InvalidObject",
+      "command": [
+        "leanchecker",
+        "--fresh",
+        "-v",
+        "InvalidObject"
+      ],
+      "exit": 1,
+      "timeout": false,
+      "seconds": 114.52133167500142
+    }
+  ],
+  "source_object_hashes": {
+    "InvalidObject.lean": "e75b3fde02ca7394a832b307d6cbb86dc4c6a5295ee4e60a87c469eaf4d7e2d4",
+    "ImportInvalid.lean": "18cae08da68e039d66a593444a13fffbe1800d52213dd70358a20bf40fd3d9c5",
+    "InvalidObject.olean": "107cf57931d7c2275749027244ea66502023264c7f38233a87016516318281bc",
+    "ValidObject.lean": "4af82eba130f715dca7381885bf7f1feecbe80eaf3962cf263a584222137bcce",
+    "ImportValid.lean": "acc0e957f88e5a30bd6c65fcb33a0f14bfac1e5ac69ea60519660563770ee275",
+    "ValidObject.olean": "a8a90c549f237fb5d6693d61eeefa71ca888c10e7d6df5630e813f34aa10c566"
+  }
+}

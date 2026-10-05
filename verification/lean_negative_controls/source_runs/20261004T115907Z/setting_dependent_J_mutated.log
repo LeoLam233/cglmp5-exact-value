@@ -1,0 +1,11 @@
+[limited-build] acquired slot0: /workspace/scratch/e6e0818fcb8f/ising_recovery_runtime_20261003T1833Z/lean-4.34.1-linux/bin/lake env lean /tmp/cglmp-source-mutation-x1hhfna1/POVMDilation.lean
+/tmp/cglmp-source-mutation-x1hhfna1/POVMDilation.lean:63:2: error: 'change' tactic failed, pattern
+  (adjoint commonJ) ((E.dilate.effect a) (commonJ h)) = ?m.132
+is not definitionally equal to target
+  ((compression (defectUnitary E.analysis ∘SL commonJ)) (E.dilate.effect a)) h = (E.effect a) h
+/tmp/cglmp-source-mutation-x1hhfna1/POVMDilation.lean:76:37: error: Type mismatch
+  POVM.dilate_compression (E x) a
+has type
+  (compression (defectUnitary (E x).analysis ∘SL commonJ)) ((E x).dilate.effect a) = (E x).effect a
+but is expected to have type
+  (compression commonJ) (((fun x => (E x).dilate) x).effect a) = (E x).effect a

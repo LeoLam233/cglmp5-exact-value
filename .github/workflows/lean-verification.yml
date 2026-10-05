@@ -1,0 +1,78 @@
+name: Kernel-checked Lean formalization
+on:
+  push:
+    branches: [main, 'release/**', 'formalization/**']
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: lean-verification-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  lean:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    env:
+      LEAN_NUM_THREADS: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+      PIP_DISABLE_PIP_VERSION_CHECK: '1'
+      CGLMP5_BUILD_LOCK_DIR: ${{ runner.temp }}/cglmp5-build-slots
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Reject incomplete final roots and missing SOS mutation hook
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/cglmp5-receipts"
+          python -B verification/lean/test_inspection_inventory.py 2>&1 | tee "$RUNNER_TEMP/cglmp5-receipts/inspection_guard_tests.log"
+          python -B verification/lean/check_mapped_inventory.py --output "$RUNNER_TEMP/cglmp5-receipts/MAPPED_INVENTORY.json"
+          python -B verification/lean/test_mapped_inventory.py 2>&1 | tee "$RUNNER_TEMP/cglmp5-receipts/mapped_inventory_guard_tests.log"
+          python -O -B verification/lean/test_mapped_inventory.py 2>&1 | tee "$RUNNER_TEMP/cglmp5-receipts/mapped_inventory_optimized_guard_tests.log"
+          python -B verification/lean/test_axiom_report.py 2>&1 | tee "$RUNNER_TEMP/cglmp5-receipts/axiom_report_guard_tests.log"
+          python -O -B verification/lean/test_axiom_report.py 2>&1 | tee "$RUNNER_TEMP/cglmp5-receipts/axiom_report_optimized_guard_tests.log"
+          python -B scripts/test_negative_control_support.py 2>&1 | tee "$RUNNER_TEMP/cglmp5-receipts/immutability_guard_tests.log"
+          python -B scripts/test_lean_rejection.py 2>&1 | tee "$RUNNER_TEMP/cglmp5-receipts/semantic_rejection_guard_tests.log"
+          python -O -B scripts/test_lean_rejection.py 2>&1 | tee "$RUNNER_TEMP/cglmp5-receipts/semantic_rejection_optimized_guard_tests.log"
+          python -B verification/lean/ci/test_ci_configuration.py 2>&1 | tee "$RUNNER_TEMP/cglmp5-receipts/ci_guard_tests.log"
+          python -B scripts/test_source_readback.py 2>&1 | tee "$RUNNER_TEMP/cglmp5-receipts/source_readback_guard_tests.log"
+          python -B scripts/test_source_manifest.py 2>&1 | tee "$RUNNER_TEMP/cglmp5-receipts/source_manifest_guard_tests.log"
+          python -B scripts/test_integrated_ci.py 2>&1 | tee "$RUNNER_TEMP/cglmp5-receipts/integrated_ci_guard_tests.log"
+          python -B scripts/test_audit_receipts.py 2>&1 | tee "$RUNNER_TEMP/cglmp5-receipts/audit_receipt_guard_tests.log"
+          python -O -B scripts/test_audit_receipts.py 2>&1 | tee "$RUNNER_TEMP/cglmp5-receipts/audit_receipt_optimized_guard_tests.log"
+          python -B scripts/test_lean_replay_paths.py 2>&1 | tee "$RUNNER_TEMP/cglmp5-receipts/path_containment_guard_tests.log"
+          python -B verification/lean/test_kernel_replay_pipeline.py 2>&1 | tee "$RUNNER_TEMP/cglmp5-receipts/kernel_pipeline_tests.log"
+          python -B verification/lean/test_checker_fixture_classifier.py 2>&1 | tee "$RUNNER_TEMP/cglmp5-receipts/checker_fixture_classifier_tests.log"
+          python -O -B verification/lean/test_checker_fixture_classifier.py 2>&1 | tee "$RUNNER_TEMP/cglmp5-receipts/checker_fixture_classifier_optimized_tests.log"
+          python -B verification/lean/test_sos_corruption_classifier.py 2>&1 | tee "$RUNNER_TEMP/cglmp5-receipts/sos_classifier_tests.log"
+          python -O -B verification/lean/test_sos_corruption_classifier.py 2>&1 | tee "$RUNNER_TEMP/cglmp5-receipts/sos_classifier_optimized_tests.log"
+          if [[ -n "$(git status --porcelain=v1 --untracked-files=all)" ]]; then git status --short; exit 1; fi
+          python -B scripts/check_lean_completion_readiness.py --output "$RUNNER_TEMP/cglmp5-receipts/READINESS.json"
+          python -B scripts/check_source_manifest.py 2>&1 | tee "$RUNNER_TEMP/cglmp5-receipts/source_manifest.log"
+      - name: Install hash-pinned archive reader
+        run: python -m pip install --require-hashes --no-deps -r verification/lean/ci/requirements.txt
+      - name: Fetch exact Lean runtime, manifest dependencies and restricted mathlib cache
+        run: python -B scripts/setup_lean_ci.py --work-dir "$RUNNER_TEMP/cglmp5-runtime"
+      - name: Rebuild every production module and run strict completion gates
+        run: |
+          set -euo pipefail
+          python -B scripts/run_lean_verification.py \
+            --output-dir "$RUNNER_TEMP/cglmp5-receipts/replay" \
+            --archive "$RUNNER_TEMP/cglmp5-runtime/lean-4.34.1-linux.tar.zst" \
+            --runtime "$RUNNER_TEMP/cglmp5-runtime/lean-4.34.1-linux"
+      - name: Preserve read-only verification receipts, including failures
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: lean-verification-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ runner.temp }}/cglmp5-receipts/
+            ${{ runner.temp }}/cglmp5-runtime/*.json
+            ${{ runner.temp }}/cglmp5-runtime/*.log
+          if-no-files-found: error
+          retention-days: 30

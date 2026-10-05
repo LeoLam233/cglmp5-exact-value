@@ -1,0 +1,139 @@
+{
+  "scope": "Build-hygiene preparation; not a final audit round. Original scientific target unchanged.",
+  "timestamp_utc": "2026-10-04T13:15:31.097258+00:00",
+  "owner_authorization": {
+    "owner": "formalize_full_attainment",
+    "message_utc": "2026-10-04T13:12:27Z",
+    "scope": "Explicit approval to archive these seven obsolete successful benchmarks, retaining All272 and All272Values."
+  },
+  "entries": [
+    {
+      "module": "CGLMP5.SOSIntegerStagingPhaseLiteralPilot",
+      "original_path": "lean/CGLMP5/SOSIntegerStagingPhaseLiteralPilot.lean",
+      "archive_path": "verification/formalization_development/build_hygiene_20261004T1314/SOSIntegerStagingPhaseLiteralPilot.lean.txt",
+      "sha256": "fbdcfe757ebed2e3cd825ab9a79f5d4170a1023e0fcf935c84323d8b948d6087",
+      "bytes": 521,
+      "prior_imported_by": [],
+      "classification": "owner-confirmed obsolete successful benchmark",
+      "reason": "Successful phase-arithmetic benchmark superseded by production phase_linear_2_0.",
+      "historical_success_receipt": {
+        "path": "verification/formalization_development/residual_pilot/generic_phase_linear_pilot_pass.log",
+        "sha256": "74ef588b86d01f52bf6958942dfe97a5ca91b82617fe201e534ff49bbd4b4bef",
+        "note": "Preserved historical owner receipt; not upgraded to a current-tree replay."
+      }
+    },
+    {
+      "module": "CGLMP5.SOSResidualSinglePilotStage",
+      "original_path": "lean/CGLMP5/SOSResidualSinglePilotStage.lean",
+      "archive_path": "verification/formalization_development/build_hygiene_20261004T1314/SOSResidualSinglePilotStage.lean.txt",
+      "sha256": "35554dc44b4a5172b757d71beca7755c54946ec5e612f14cc1335b6639046410",
+      "bytes": 1523,
+      "prior_imported_by": [],
+      "classification": "owner-confirmed obsolete successful benchmark",
+      "reason": "Successful staging benchmark superseded by the retained all24-coordinate All272 witness.",
+      "historical_success_receipt": {
+        "path": "verification/formalization_development/residual_pilot/feature_stage_pass.log",
+        "sha256": "b883e0140bbbc23dc4e582c21a891ed220f4f62b2360635ccd21c5948f20d2bb",
+        "note": "Preserved historical owner receipt; not upgraded to a current-tree replay."
+      }
+    },
+    {
+      "module": "CGLMP5.SOSResidualSinglePilotStaged",
+      "original_path": "lean/CGLMP5/SOSResidualSinglePilotStaged.lean",
+      "archive_path": "verification/formalization_development/build_hygiene_20261004T1314/SOSResidualSinglePilotStaged.lean.txt",
+      "sha256": "3e06b8d721c4b2908e2dcefd98950667f68643e80d48f6f6cf94da9ba06214fe",
+      "bytes": 33076,
+      "prior_imported_by": [],
+      "classification": "owner-confirmed obsolete successful benchmark",
+      "reason": "Successful staging benchmark superseded by the retained all24-coordinate All272 witness.",
+      "historical_success_receipt": {
+        "path": "verification/formalization_development/residual_pilot/staged_coordinate_pass.log",
+        "sha256": "f2b7fca303bf0981378d9f8471348ccef1d67d77509c158d5fb55df983b1fcd3",
+        "note": "Preserved historical owner receipt; not upgraded to a current-tree replay."
+      }
+    },
+    {
+      "module": "CGLMP5.SOSResidualSinglePilotGround",
+      "original_path": "lean/CGLMP5/SOSResidualSinglePilotGround.lean",
+      "archive_path": "verification/formalization_development/build_hygiene_20261004T1314/SOSResidualSinglePilotGround.lean.txt",
+      "sha256": "2300e6d720127238d68ff0aa13fdf5075f891073cf6510d6341eb3e1b022ee5f",
+      "bytes": 67684,
+      "prior_imported_by": [],
+      "classification": "owner-confirmed obsolete successful benchmark",
+      "reason": "Standalone successful arithmetic performance benchmark; not a required scientific witness.",
+      "historical_success_receipt": {
+        "path": "verification/formalization_development/residual_pilot/ground_expression_pass.log",
+        "sha256": "eb7116dcf0243d89f7169fcc95f3ff16d934e5afa7edc708919473130a818c16",
+        "note": "Preserved historical owner receipt; not upgraded to a current-tree replay."
+      }
+    },
+    {
+      "module": "CGLMP5.SOSResidualSinglePilotGroundCore",
+      "original_path": "lean/CGLMP5/SOSResidualSinglePilotGroundCore.lean",
+      "archive_path": "verification/formalization_development/build_hygiene_20261004T1314/SOSResidualSinglePilotGroundCore.lean.txt",
+      "sha256": "64aa1c7d757a911b2bfd065e87177c6b7f78266832c649db82ad29f3109319fa",
+      "bytes": 67658,
+      "prior_imported_by": [],
+      "classification": "owner-confirmed obsolete successful benchmark",
+      "reason": "Standalone successful core arithmetic performance benchmark; not a required scientific witness.",
+      "historical_success_receipt": {
+        "path": "verification/formalization_development/residual_pilot/ground_core_pass.log",
+        "sha256": "d1bf1aae57dee608fc116a269c3e493155fdfd3fe57d35dea033cb532b8dd77d",
+        "note": "Preserved historical owner receipt; not upgraded to a current-tree replay."
+      }
+    },
+    {
+      "module": "CGLMP5.SOSResidualSinglePilotImport",
+      "original_path": "lean/CGLMP5/SOSResidualSinglePilotImport.lean",
+      "archive_path": "verification/formalization_development/build_hygiene_20261004T1314/SOSResidualSinglePilotImport.lean.txt",
+      "sha256": "2ab4257624a91a2ab8e8ba677eca17acf21cf73013e7cfeaf22268ef0d4a34d0",
+      "bytes": 85,
+      "prior_imported_by": [],
+      "classification": "owner-confirmed obsolete successful benchmark",
+      "reason": "Import-cost benchmark; no required scientific conclusion.",
+      "historical_success_receipt": {
+        "path": "verification/formalization_development/residual_pilot/import_baseline.log",
+        "sha256": "9be0b59de9bf86cd10437304ba4cc9ff08b6d09d1613f1ff83f099e402652082",
+        "note": "Preserved historical owner receipt; not upgraded to a current-tree replay."
+      }
+    },
+    {
+      "module": "CGLMP5.SOSResidualSinglePilotRatImport",
+      "original_path": "lean/CGLMP5/SOSResidualSinglePilotRatImport.lean",
+      "archive_path": "verification/formalization_development/build_hygiene_20261004T1314/SOSResidualSinglePilotRatImport.lean.txt",
+      "sha256": "c969787fcc3395db8c3982cb4978c45398246ef3aed4958200479de4c0aae041",
+      "bytes": 166,
+      "prior_imported_by": [],
+      "classification": "owner-confirmed obsolete successful benchmark",
+      "reason": "Import-cost benchmark; no required scientific conclusion.",
+      "historical_success_receipt": {
+        "path": "verification/formalization_development/residual_pilot/rat_import_baseline.log",
+        "sha256": "4059cc35b96ea66640da64606e63ac5f4f9aee8ec952969285571e27b9b8ded6",
+        "note": "Preserved historical owner receipt; not upgraded to a current-tree replay."
+      }
+    },
+    {
+      "module": "CGLMP5.CertificateProbe",
+      "original_path": "lean/CGLMP5/CertificateProbe.lean",
+      "archive_path": "verification/formalization_development/build_hygiene_20261004T1314/CertificateProbe.lean.txt",
+      "sha256": "e4f4d5e5b222ad4ece8c8f6ec64c1c6e2e27247ec516891f2feb588f93debb1d",
+      "bytes": 366,
+      "prior_imported_by": [],
+      "classification": "owner-confirmed obsolete successful performance probe",
+      "reason": "Abandoned Int-toString source-render route; one80-digit numeral, #check output and toy concatenation; not a production witness.",
+      "owner_authorization": {
+        "owner": "formalize_cglmp5_v020",
+        "message_utc": "2026-10-04T13:18:05Z"
+      },
+      "historical_success_receipt": {
+        "path": null,
+        "note": "Owner confirmed historical success; original source and hash preserved; no separate log supplied."
+      }
+    }
+  ],
+  "retained_witnesses": [
+    "CGLMP5.SOSResidualSinglePilotAll272",
+    "CGLMP5.SOSResidualSinglePilotAll272Values"
+  ],
+  "logs_pending_owner_paths": false
+}

@@ -1,0 +1,15 @@
+import CGLMP5.SOSDenominatorSemantics
+import Mathlib.Data.Fin.VecNotation
+import Mathlib.Tactic.NormNum
+
+namespace CGLMP5.SOSFinite.PhaseLiteralPilot
+set_option Elab.async false
+set_option maxHeartbeats 0
+set_option maxRecDepth 200000
+
+theorem phase2_coordinate0 (n : Fin 24 → Int) :
+    Scalar.mulNumerator n (![2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 1, 0, 0, 0, 0]) 0 = 2*n 0 + 10*n 1 - 40*n 19 := by
+  norm_num [Scalar.mulNumerator, Scalar.mulTerms]
+  ring
+
+end CGLMP5.SOSFinite.PhaseLiteralPilot

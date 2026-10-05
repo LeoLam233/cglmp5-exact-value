@@ -1,0 +1,29 @@
+{
+  "status": "development conditional statement preflight passed; final production closure and audits pending",
+  "scope_probe": "ScopePreflight.lean",
+  "scope_probe_sha256": "174bb5d5b429a2cee42a8c14a568ae224c808535df01201243fc0c2fe61f59e9",
+  "build_log": "scope_build.log",
+  "production_sources_at_review": {
+    "OperatorTheorem": "1553bbbd2bd1aabcb1cd55b959668e99996cf31924556398081a76541c8887c4",
+    "Main": "78c648a9fa656a52deef5e1439e1677ec0f9d18f9118f24db1bf94589ea2c52f",
+    "LowerValue": "0d0ec4aac6bebe1ea26198f3271e19bc3b065ce16691c44bb650fa8b992ea555",
+    "Strategy": "0801e7ec917cc0ec2c6d98fb43a2f455919415a33aa48c8b34eb9d8d3979cede",
+    "StrategyTransport": "d022938c2fc6bd7993f0a9ea99ee939710df887a25d6856ca8673651728e69d3",
+    "HilbertULift": "27dfdedb43d4cad8ca27c11ef6729f0b04be22780a3e4fd6cfe2ced0ea1f99c0",
+    "Operator": "c9aa743f127f01ea13970a5b8bd586a0c16ff15e7b831bbd2bc3b42e0f71322a",
+    "OperatorUpper": "f46faa930e90d266020bce4c4d12d2ee3de344536aa78ed6001299c2a48f1e35",
+    "Tensor": "59ccd05155a18c4703a1970209e4f0646cb6ac9d645ae6f4cbea2335ea41fec0",
+    "POVMConstruction": "aa805c4d9b4982b20a204ade040f23d1ec2bdcf327eccb830a5aa5853b472df2",
+    "POVMDilation": "e0edf7be67de31ee3d493f5d4a9383fe2136d3969caba8d7ac89bb6f5d530795",
+    "POVMTransfer": "7b88c4791486f13b615c6e501ea63564221730d82041afbe521b08d5be17c9b7",
+    "POVMProbabilities": "1f2335b2ab64c9935c8a85803b467dcf8294a1a3f6e3942e45b3ce2148cb1fb8",
+    "POVMTransport": "88b1d98d8ad1f5797111fe6e77320af4d02007842055063223fafb5f6832654d",
+    "Measurements": "b831673cbcfa6111a9ec489beadc1bfe6679eea4c9d7a59fbf2659cb93912958",
+    "Events": "a61e026955f0a3f74e36fc17addc3fe9e258f5e1ea3e2df790016d909d8b745b",
+    "OperatorRoot": "81cbe6e09fb0d06fff37d58eaf08464e873ed5eb0dc177db0fb4e3dba7dbcc1d",
+    "SOSIdentity": "9e40e7f6852781ef5cd0e5fd4602a31f2c28d94f9cf0ef807ad0f7e63db827a2",
+    "Attainment": "42fc86c43b6b61dc7c8c4d1b4176fd5b2f77c10670b86d628788e8507243f8f6",
+    "AttainmentSpectralLink": "ca7a29f7b7f1b0af7c9634bcc2f17f3db267f82f1b7dac7edb39bd67b47b2b87",
+    "AttainmentSourceHeader": "3973c8cd6b5eeb7e8940c9ae2d11cc38df47b7a9d82d02b006b28c0ceeb7dbd1"
+  }
+}

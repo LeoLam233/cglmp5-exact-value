@@ -1,0 +1,7 @@
+import CGLMP5.CertificateSyntax
+set_option maxRecDepth 10000
+set_option maxHeartbeats 0
+example : toString (872988541239076607863411152495223108595436144467142283690345581030069235937417 : ℕ) = "872988541239076607863411152495223108595436144467142283690345581030069235937417" := by decide +kernel
+#check Nat
+example : "abc" ++ "def" = "abcdef" := by rfl
+#check Int

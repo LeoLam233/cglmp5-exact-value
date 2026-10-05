@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-04T14:35:40.717124+00:00",
+  "scope": "Preserve concurrent user bibliography/PDF maintenance; original v0.1.1 mathematical target unchanged",
+  "canonical_tag": "v0.1.1",
+  "canonical_commit": "73b99dd22af68bd7a10927124d0b4ea7d6e8b78f",
+  "editorial_commit": "1e3282749c9fce2163aaeb8415d8936db88d43ad",
+  "editorial_tree": "f65a6470f6ec9f8f3c4e15086f76e5df0fe0de46",
+  "changed_paths": [
+    "SOURCE_MANIFEST.sha256",
+    "paper/README.md",
+    "paper/SOURCE_SHA256SUMS.txt",
+    "paper/main.pdf",
+    "paper/main.tex",
+    "paper/references.bib",
+    "paper/validation/BIBLIOGRAPHY_ORCID_2026-10-04.json",
+    "verification/release_gate.json"
+  ],
+  "protected_paths_unchanged": [
+    "artifact_v0.1",
+    "artifact_v0.1.1",
+    "docs/LEAN_HANDOFF.md"
+  ],
+  "main_tex_exact_single_replacement": {
+    "before": "nonmaximally entangled states have a substantial history. Zohren and Gill",
+    "after": "nonmaximally entangled states have a substantial history. Ac\\'in, Durt,\nGisin, and Latorre \\cite{AcinDurtGisinLatorre} showed that nonmaximally\nentangled states give larger CGLMP violations than maximally entangled\nstates with these measurements. Their Bell-operator calculation already\nreports $3.0157$ for $d=5$ in Table~I; it does not supply the unrestricted\nquantum upper-bound certificate proved here. Zohren and Gill",
+    "all_other_bytes_identical": true
+  },
+  "canonical_main_tex_sha256": "3284a967e877b0235fe3bb33ee7836578a4196e3457d54740550c392432b4673",
+  "current_paper_sha256": {
+    "paper/README.md": "d1abe69408df131b7424be4d4f7e6977dc350d93fbe30f889cb5a1601564fb14",
+    "paper/SOURCE_SHA256SUMS.txt": "fd36676c4558d37b9b07502af02d0ad055afea839745c62dbc60ba193c18263c",
+    "paper/main.pdf": "ae822a016d84c49e0cff9458bad12830ab60690e3e385d60a2451ad9e7f59564",
+    "paper/main.tex": "bc080d86cdd44ffe7332f389dd94ed6e1411d779b53a5c1c6d9f6e9779f068dd",
+    "paper/references.bib": "5a21dd7b39f2fee971fa2912f80ee46a130fb4fb6b311b3fcbd2716c3fec5243",
+    "paper/validation/BIBLIOGRAPHY_ORCID_2026-10-04.json": "3a26773b9e644f0a7f24fa5c20de3a92a814410d4ba15e6659e26accfc6bec35"
+  },
+  "scientific_target_changed": false,
+  "frozen_tags_rewritten": false
+}

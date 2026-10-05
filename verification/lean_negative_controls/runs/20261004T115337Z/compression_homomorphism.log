@@ -1,0 +1,7 @@
+/tmp/cglmp-negative-josai421/compression_homomorphism.lean:7:2: error: Tactic `rfl` failed: The left-hand side
+  (compression commonJ) (halfPOVM.dilate.effect 0 * halfPOVM.dilate.effect 0)
+is not definitionally equal to the right-hand side
+  (compression commonJ) (halfPOVM.dilate.effect 0) * (compression commonJ) (halfPOVM.dilate.effect 0)
+
+⊢ (compression commonJ) (halfPOVM.dilate.effect 0 * halfPOVM.dilate.effect 0) =
+    (compression commonJ) (halfPOVM.dilate.effect 0) * (compression commonJ) (halfPOVM.dilate.effect 0)

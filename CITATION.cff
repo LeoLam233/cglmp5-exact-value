@@ -1,15 +1,17 @@
 cff-version: 1.2.0
 message: "If you use this research artifact, please cite this repository release."
-title: "CGLMP5 exact quantum value — proof-carrying candidate"
+title: "CGLMP5 exact quantum value — Lean formalization"
 type: software
 authors:
   - family-names: Lin
     given-names: Dehao
     orcid: "https://orcid.org/0009-0001-4551-8490"
-version: 0.1.1
-date-released: 2026-10-04
+version: 0.2.0
 repository-code: "https://github.com/LeoLam233/cglmp5-exact-value"
 abstract: >-
-  AI-assisted exact proof candidate for the quantum maximum of the standard
-  five-outcome CGLMP Bell inequality, with a formal manuscript and an exact positive noncommutative
-  sum-of-squares certificate, reproducibility materials, and adversarial audits.
+  AI-assisted exact proof artifact and Lean formalization of the quantum maximum
+  of the standard five-outcome CGLMP Bell inequality, for arbitrary local Hilbert
+  spaces and tensor-product five-outcome POVMs, with an exact positive
+  noncommutative sum-of-squares certificate and full five-dimensional bipartite
+  attainment. Release acceptance is documented by separate same-tree kernel,
+  reproducibility, adversarial-audit, CI and remote-verification receipts.

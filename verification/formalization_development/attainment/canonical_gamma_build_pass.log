@@ -1,0 +1,135 @@
+⚠ [2116/2188] Replayed CGLMP5.Root
+warning: CGLMP5/Root.lean:148:63: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: CGLMP5/Root.lean:148:77: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: CGLMP5/Root.lean:148:89: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2120/2188] Replayed CGLMP5.AttainmentAlgebra
+warning: CGLMP5/AttainmentAlgebra.lean:33:0: automatically included section variable(s) unused in theorem `CGLMP5.Attainment.f1_mul_u`:
+  hm
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hm in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: CGLMP5/AttainmentAlgebra.lean:37:0: automatically included section variable(s) unused in theorem `CGLMP5.Attainment.two_s_mul_f3`:
+  hu
+  hm
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hu hm in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: CGLMP5/AttainmentAlgebra.lean:41:0: automatically included section variable(s) unused in theorem `CGLMP5.Attainment.f1_sq`:
+  hm
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hm in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: CGLMP5/AttainmentAlgebra.lean:49:0: automatically included section variable(s) unused in theorem `CGLMP5.Attainment.row_zero`:
+  hm
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hm in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: CGLMP5/AttainmentAlgebra.lean:53:0: automatically included section variable(s) unused in theorem `CGLMP5.Attainment.row_one`:
+  hu
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hu in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: CGLMP5/AttainmentAlgebra.lean:65:0: automatically included section variable(s) unused in theorem `CGLMP5.Attainment.s_bounds`:
+  hm
+  hupos
+  hmthree
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hm hupos hmthree in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: CGLMP5/AttainmentAlgebra.lean:68:0: automatically included section variable(s) unused in theorem `CGLMP5.Attainment.u_gt_three`:
+  hs
+  hm
+  hmthree
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hs hm hmthree in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: CGLMP5/AttainmentAlgebra.lean:82:0: automatically included section variable(s) unused in theorem `CGLMP5.Attainment.f3_pos`:
+  hs
+  hu
+  hm
+  hmthree
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hs hu hm hmthree in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: CGLMP5/AttainmentAlgebra.lean:86:0: automatically included section variable(s) unused in theorem `CGLMP5.Attainment.f4_pos`:
+  hs
+  hu
+  hm
+  hupos
+  hmthree
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hs hu hm hupos hmthree in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: CGLMP5/AttainmentAlgebra.lean:128:0: automatically included section variable(s) unused in theorem `CGLMP5.Attainment.coeffB_eq_formula`:
+  hspos
+  hupos
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hspos hupos in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: CGLMP5/AttainmentAlgebra.lean:142:0: automatically included section variable(s) unused in theorem `CGLMP5.Attainment.schmidtNormSq_pos`:
+  hs
+  hu
+  hm
+  hspos
+  hupos
+  hmthree
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hs hu hm hspos hupos hmthree in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [2430/2452] Replayed CGLMP5.AttainmentState
+warning: CGLMP5/AttainmentState.lean:42:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2431/2452] Replayed CGLMP5.Words
+warning: CGLMP5/Words.lean:68:27: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [push, Prod.snd, hz, ↓reduceIte, hmz, eval_cons]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: CGLMP5/Words.lean:68:37: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [push, Prod.fst, hz, ↓reduceIte, hmz, eval_cons]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [2449/2452] Replayed CGLMP5.ScalarDefs
+warning: CGLMP5/ScalarDefs.lean:52:61: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/ScalarDefs.lean:52:61: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [2452/2452] Built CGLMP5.AttainmentSource (8.1s)
+warning: CGLMP5/AttainmentSource.lean:14:6: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CGLMP5/AttainmentSource.lean:14:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: CGLMP5/AttainmentSource.lean:14:16: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: CGLMP5/AttainmentSource.lean:14:28: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Build completed successfully (2452 jobs).

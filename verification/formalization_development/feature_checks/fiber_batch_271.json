@@ -1,0 +1,23 @@
+{
+  "next": 273,
+  "exit_code": 0,
+  "elapsed_seconds": 4.6222938800056,
+  "results": [
+    {
+      "module": "CGLMP5.SOSIndexFiber271",
+      "started_utc": "2026-10-04T13:43:20.744309+00:00",
+      "elapsed_seconds": 2.341390201007016,
+      "exit_code": 0,
+      "source_sha256": "a395c10107ef715222bb176554613be6fe3d01915887dd22a23037ca4fe16700",
+      "log": "verification/formalization_development/feature_checks/SOSIndexFiber271.log"
+    },
+    {
+      "module": "CGLMP5.SOSIndexFiber272",
+      "started_utc": "2026-10-04T13:43:23.086255+00:00",
+      "elapsed_seconds": 2.278780085995095,
+      "exit_code": 0,
+      "source_sha256": "e1406ed0ea43247f27ae3fc37cfc228ffb46e889c18f5cbff525b2573d1c11cf",
+      "log": "verification/formalization_development/feature_checks/SOSIndexFiber272.log"
+    }
+  ]
+}

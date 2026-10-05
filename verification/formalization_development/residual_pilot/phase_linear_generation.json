@@ -1,0 +1,12 @@
+{
+  "kind": "kernel_checked_sparse_phase_formula_generation",
+  "source_files": {
+    "lean/CGLMP5/SOSIntegerData.lean": "e1892a80cb9bb2e397282b71438897ef424b84b2ee69c14e2c1208b1fbb219cf",
+    "lean/CGLMP5/ScalarTableData.lean": "24fe6355bf221b6231003e803616ee573b8844d32d6ba1e6ddc2415b173b6604"
+  },
+  "phase_count": 20,
+  "coordinate_count": 24,
+  "formula_count": 480,
+  "max_nonzero_terms": 4,
+  "proof_method": "Opaque rfl lookup equalities, then Lean norm_num/ring for symbolic integer vectors. No external result is trusted."
+}

@@ -1,0 +1,101 @@
+name: Publish accepted v0.2.0
+on:
+  workflow_dispatch:
+    inputs:
+      expected_commit:
+        description: 'Exact accepted integrated main commit (40 lowercase hex characters)'
+        required: true
+        type: string
+      expected_tree:
+        description: 'Identical Git tree accepted by all three sequential audit rounds'
+        required: true
+        type: string
+      acceptance_receipt_sha256:
+        description: 'SHA-256 of the externally verified complete acceptance receipt; dispatch only after every gate'
+        required: true
+        type: string
+permissions:
+  contents: read
+jobs:
+  release:
+    if: github.ref == 'refs/heads/main' && github.repository == 'LeoLam233/cglmp5-exact-value'
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Verify exact accepted source and immutable historical inputs
+        env:
+          EXPECTED_COMMIT: ${{ inputs.expected_commit }}
+          EXPECTED_TREE: ${{ inputs.expected_tree }}
+          ACCEPTANCE_SHA256: ${{ inputs.acceptance_receipt_sha256 }}
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/cglmp5-release"
+          [[ "$EXPECTED_COMMIT" =~ ^[0-9a-f]{40}$ ]]
+          [[ "$EXPECTED_TREE" =~ ^[0-9a-f]{40}$ ]]
+          [[ "$ACCEPTANCE_SHA256" =~ ^[0-9a-f]{64}$ ]]
+          test "$(git rev-parse HEAD)" = "$EXPECTED_COMMIT"
+          test "$(git rev-parse HEAD^{tree})" = "$EXPECTED_TREE"
+          test -z "$(git status --porcelain)"
+          python3 -B scripts/check_lean_frozen_inputs.py --output "$RUNNER_TEMP/cglmp5-release/FROZEN_INPUTS.json"
+          python3 -B scripts/check_source_manifest.py
+          python3 -B scripts/check_lean_completion_readiness.py --output "$RUNNER_TEMP/cglmp5-release/READINESS.json"
+          python3 -B scripts/test_integrated_ci.py
+      - name: Require completed CI on the integrated main commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          EXPECTED_COMMIT: ${{ inputs.expected_commit }}
+        run: |
+          set -euo pipefail
+          gh api --paginate "repos/$GH_REPO/actions/runs?head_sha=$EXPECTED_COMMIT&per_page=100" \
+            --jq '.workflow_runs[] | {id, path, head_sha, head_branch, event, run_number, run_attempt, conclusion, status, html_url} | @json' \
+            > "$RUNNER_TEMP/cglmp5-release/integrated-runs.jsonl"
+          python3 -B scripts/verify_integrated_ci.py --commit "$EXPECTED_COMMIT" \
+            --runs-jsonl "$RUNNER_TEMP/cglmp5-release/integrated-runs.jsonl" --output "$RUNNER_TEMP/cglmp5-release/INTEGRATED_CI.json"
+          test "$(gh api "repos/$GH_REPO/git/ref/heads/main" --jq .object.sha)" = "$EXPECTED_COMMIT"
+      - name: Create annotated tag and draft release, never replace either
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          EXPECTED_COMMIT: ${{ inputs.expected_commit }}
+          EXPECTED_TREE: ${{ inputs.expected_tree }}
+          ACCEPTANCE_SHA256: ${{ inputs.acceptance_receipt_sha256 }}
+        run: |
+          set -euo pipefail
+          STATE="$RUNNER_TEMP/cglmp5-release"
+          # Listing is authenticated and includes drafts. Any API error stops before mutation.
+          gh api --paginate "repos/$GH_REPO/releases?per_page=100" \
+            --jq '.[] | select(.tag_name == "v0.2.0") | {id, tag_name, draft, html_url} | @json' \
+            > "$STATE/existing-releases.jsonl"
+          git ls-remote --tags origin refs/tags/v0.2.0 > "$STATE/existing-tag-ref.txt"
+          if test -s "$STATE/existing-releases.jsonl" || test -s "$STATE/existing-tag-ref.txt"; then
+            echo 'A v0.2.0 tag or release already exists; refusing replacement or a partial-state retry.' >&2
+            exit 1
+          fi
+          MESSAGE="CGLMP5 v0.2.0: complete original-scope Lean formalization; three sequential internal hostile audits accepted tree $EXPECTED_TREE. Acceptance receipt SHA-256: $ACCEPTANCE_SHA256."
+          gh api --method POST "repos/$GH_REPO/git/tags" \
+            -f tag=v0.2.0 -f message="$MESSAGE" -f object="$EXPECTED_COMMIT" -f type=commit \
+            > "$STATE/tag-object.json"
+          TAG_OBJECT="$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1]))["sha"])' "$STATE/tag-object.json")"
+          [[ "$TAG_OBJECT" =~ ^[0-9a-f]{40}$ ]]
+          gh api --method POST "repos/$GH_REPO/git/refs" -f ref=refs/tags/v0.2.0 -f sha="$TAG_OBJECT" \
+            > "$STATE/tag-ref-created.json"
+          gh release create v0.2.0 --verify-tag --draft --title 'CGLMP5 v0.2.0 — Lean formalization' \
+            --notes-file RELEASE_v0.2.0.md paper/main.pdf | tee "$STATE/release-create.txt"
+          gh api "repos/$GH_REPO/git/ref/tags/v0.2.0" > "$STATE/tag-ref-readback.json"
+          gh release view v0.2.0 --json tagName,targetCommitish,isDraft,isPrerelease,url \
+            | tee "$STATE/draft-release-readback.json"
+      - name: Preserve publication responses and gate receipts even on partial failure
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: v020-publication-attempt-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/cglmp5-release/
+          if-no-files-found: warn

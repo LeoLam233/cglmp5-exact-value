@@ -1,0 +1,15 @@
+{
+  "canonical_path": "artifact_v0.1.1/SOS14.json",
+  "canonical_sha256": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+  "canonical_bytes": 581335,
+  "numeric_fields": {
+    "gamma_scalars": 5,
+    "embedding_boxes": 3,
+    "endpoint_decimal_strings": 12
+  },
+  "method": "lossless <=9 digit fragments; kernel parser checks exact values; generic soundness proves uninterrupted decimal text semantics",
+  "generated": {
+    "CertificateHeaderData.lean": "728228ec8a2c31cf56f31b9ae069c8b71ffa33286493cc5abef21587a96e33a6",
+    "CertificateHeaderProofs.lean": "41e9e91acf476b92f311590054678af0f9af4cbe3a542b007b465935e3878623"
+  }
+}

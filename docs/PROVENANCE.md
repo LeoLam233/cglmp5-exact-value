@@ -1,5 +1,7 @@
 # Provenance, frozen evidence and release boundaries
 
+**Historical scope:** this document records the v0.1.1 release and its earlier evidence. Statements below about “the release” and the absence of proof-assistant verification refer to that historical version. The additive v0.2.0 formalization and its separate acceptance requirements are documented in [FORMALIZATION_REPORT.md](../FORMALIZATION_REPORT.md) and [RELEASE_v0.2.0.md](../RELEASE_v0.2.0.md). Frozen tagged history is unchanged.
+
 ## Three distinct objects
 
 1. **Frozen scientific baseline.** [`artifact_v0.1/`](../artifact_v0.1/) retains the original theorem, root polynomial, exact coefficient tables, physical strategy, proof notes and historical verifier sources. The public `v0.1.0` tag is not moved. Historical statements inside this directory are read in their original context.

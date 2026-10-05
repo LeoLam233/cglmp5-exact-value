@@ -1,0 +1,5 @@
+[limited-build] ticket93 acquired slot1: python -c import resource,subprocess,time,json; t=time.monotonic(); p=subprocess.run(["/workspace/scratch/e6e0818fcb8f/ising_recovery_runtime_20261003T1833Z/lean-4.34.1-linux/bin/lake","env","lean","-M","3000","-j","1","CGLMP5/SOSResidualSinglePilotStaged.lean"]); print(json.dumps({"returncode":p.returncode,"seconds":time.monotonic()-t,"maxrss_kib":resource.getrusage(resource.RUSAGE_CHILDREN).ru_maxrss}),flush=True); raise SystemExit(p.returncode)
+CGLMP5/SOSResidualSinglePilotStaged.lean:151:59: error: maximum recursion depth has been reached
+use `set_option maxRecDepth <num>` to increase limit
+use `set_option diagnostics true` to get diagnostic information
+{"returncode": 1, "seconds": 5.107702848996269, "maxrss_kib": 2585460}

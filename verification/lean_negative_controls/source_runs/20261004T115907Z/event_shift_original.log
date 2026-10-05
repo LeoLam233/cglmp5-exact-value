@@ -1,0 +1,8 @@
+[limited-build] acquired slot0: /workspace/scratch/e6e0818fcb8f/ising_recovery_runtime_20261003T1833Z/lean-4.34.1-linux/bin/lake env lean /tmp/cglmp-source-mutation-p_hoq894/Events.lean
+/tmp/cglmp-source-mutation-p_hoq894/Events.lean:89:51: warning: This simp argument is unused:
+  mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [cglmp, Finset.mul_sum, mul_left_comm, mul_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

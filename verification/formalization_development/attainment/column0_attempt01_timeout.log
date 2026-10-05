@@ -1,0 +1,66 @@
+⚠ [2117/2169] Replayed CGLMP5.Root
+warning: CGLMP5/Root.lean:148:63: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: CGLMP5/Root.lean:148:77: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: CGLMP5/Root.lean:148:89: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2165/2169] Replayed CGLMP5.Words
+warning: CGLMP5/Words.lean:68:27: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [push, Prod.snd, hz, ↓reduceIte, hmz, eval_cons]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: CGLMP5/Words.lean:68:37: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [push, Prod.fst, hz, ↓reduceIte, hmz, eval_cons]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [2168/2169] Replayed CGLMP5.AttainmentCoefficient
+warning: CGLMP5/AttainmentCoefficient.lean:21:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentCoefficient.lean:21:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentCoefficient.lean:23:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentCoefficient.lean:23:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentCoefficient.lean:25:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentCoefficient.lean:25:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentCoefficient.lean:27:55: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CGLMP5/AttainmentCoefficient.lean:27:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+✖ [2169/2169] Building CGLMP5.AttainmentColumn0 (147s)
+trace: .> LEAN_PATH=/workspace/scratch/e6e0818fcb8f/formalization_v020_20261004/repo/lean/.lake/packages/Cli/.lake/build/lib/lean:/workspace/scratch/e6e0818fcb8f/formalization_v020_20261004/repo/lean/.lake/packages/batteries/.lake/build/lib/lean:/workspace/scratch/e6e0818fcb8f/formalization_v020_20261004/repo/lean/.lake/packages/Qq/.lake/build/lib/lean:/workspace/scratch/e6e0818fcb8f/formalization_v020_20261004/repo/lean/.lake/packages/aesop/.lake/build/lib/lean:/workspace/scratch/e6e0818fcb8f/formalization_v020_20261004/repo/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/scratch/e6e0818fcb8f/formalization_v020_20261004/repo/lean/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/scratch/e6e0818fcb8f/formalization_v020_20261004/repo/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/scratch/e6e0818fcb8f/formalization_v020_20261004/repo/lean/.lake/packages/plausible/.lake/build/lib/lean:/workspace/scratch/e6e0818fcb8f/formalization_v020_20261004/repo/lean/.lake/packages/mathlib/.lake/build/lib/lean:/workspace/scratch/e6e0818fcb8f/formalization_v020_20261004/repo/lean/.lake/build/lib/lean /workspace/scratch/e6e0818fcb8f/ising_recovery_runtime_20261003T1833Z/lean-4.34.1-linux/bin/lean /workspace/scratch/e6e0818fcb8f/formalization_v020_20261004/repo/lean/CGLMP5/AttainmentColumn0.lean -o /workspace/scratch/e6e0818fcb8f/formalization_v020_20261004/repo/lean/.lake/build/lib/lean/CGLMP5/AttainmentColumn0.olean -i /workspace/scratch/e6e0818fcb8f/formalization_v020_20261004/repo/lean/.lake/build/lib/lean/CGLMP5/AttainmentColumn0.ilean -c /workspace/scratch/e6e0818fcb8f/formalization_v020_20261004/repo/lean/.lake/build/ir/CGLMP5/AttainmentColumn0.c --setup /workspace/scratch/e6e0818fcb8f/formalization_v020_20261004/repo/lean/.lake/build/ir/CGLMP5/AttainmentColumn0.setup.json --json
+error: CGLMP5/AttainmentColumn0.lean:93:4: Tactic `simp` failed with a nested error:
+(deterministic) timeout at `whnf`, maximum number of heartbeats (1600000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: CGLMP5/AttainmentColumn0.lean:5:0: (deterministic) timeout at `whnf`, maximum number of heartbeats (1600000) has been reached
+
+Note: Use `set_option maxHeartbeats <num>` to set the limit.
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+Some required targets logged failures:
+- CGLMP5.AttainmentColumn0
+error: build failed

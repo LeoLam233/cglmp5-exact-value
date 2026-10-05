@@ -1,0 +1,5862 @@
+{
+  "format_version": 1,
+  "purpose": "Exact type/axiom inspection of final roots, semantic bridge interfaces, and every project declaration named by the three source maps. Definition types are distinguished from theorem roots. This inventory is not a proof or final audit verdict.",
+  "declarations": [
+    {
+      "module": "CGLMP5.Root",
+      "name": "CGLMP5.sextic_mu",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.Root",
+      "name": "CGLMP5.mu_gt_three",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.Root",
+      "name": "CGLMP5.mu_largest_root",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.Root",
+      "name": "CGLMP5.mu_unique_above_three",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.Root",
+      "name": "CGLMP5.s_sq",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.Root",
+      "name": "CGLMP5.s_pos",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.Root",
+      "name": "CGLMP5.u_sq",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.Root",
+      "name": "CGLMP5.u_pos",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.Root",
+      "name": "CGLMP5.mu_cubic",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.Root",
+      "name": "CGLMP5.x_cubic",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.Root",
+      "name": "CGLMP5.zeta_eq_exp",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.Root",
+      "name": "CGLMP5.zeta_primitive",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.Events",
+      "name": "CGLMP5.coefficient_cyclic",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Events",
+      "name": "CGLMP5.cglmp_local_bound",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Events",
+      "name": "CGLMP5.cglmp_zero_assignment",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Words",
+      "name": "CGLMP5.PartyWord.eval_reduce",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Words",
+      "name": "CGLMP5.PartyWord.eval_adjoint",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Words",
+      "name": "CGLMP5.PartyWord.eval_commute",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Words",
+      "name": "CGLMP5.Word.evalStar_mul",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Words",
+      "name": "CGLMP5.Word.evalStar_adjoint",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SourceWordBridge",
+      "name": "CGLMP5.CertificateSource.eval_separateSourceWord",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.SourceWordBridge",
+      "name": "CGLMP5.CertificateSource.rawCoefficient_eval",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.BellBridge",
+      "name": "CGLMP5.cyclicBell_eq_literal",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.BellBridge",
+      "name": "CGLMP5.measurementUnitaries_fifth",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.BellBridge",
+      "name": "CGLMP5.measurementUnitaries_commute",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.BellBridge",
+      "name": "CGLMP5.sosBell_eq_literal",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Operator",
+      "name": "CGLMP5.State.expect_le_of_operator_bound",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Operator",
+      "name": "CGLMP5.anticommutator_sum_nonneg",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Operator",
+      "name": "CGLMP5.operator_bound_of_sos",
+      "status": "ready",
+      "role": "closed conditional transfer interface; not an instantiated final upper/supremum theorem",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Operator",
+      "name": "CGLMP5.state_bound_of_sos",
+      "status": "ready",
+      "role": "closed conditional transfer interface; not an instantiated final upper/supremum theorem",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Operator",
+      "name": "CGLMP5.compression",
+      "status": "ready",
+      "role": "model/data definition type: closed load-bearing theorem/interface",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Operator",
+      "name": "CGLMP5.State.pullback",
+      "status": "ready",
+      "role": "model/data definition type: closed load-bearing theorem/interface",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Operator",
+      "name": "CGLMP5.State.vector",
+      "status": "ready",
+      "role": "model/data definition type: closed load-bearing theorem/interface",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Tensor",
+      "name": "CGLMP5.tensor_ext",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Tensor",
+      "name": "CGLMP5.tensorMap_comp",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Tensor",
+      "name": "CGLMP5.tensorMap_mul",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Tensor",
+      "name": "CGLMP5.tensorMap_cross_commute",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Tensor",
+      "name": "CGLMP5.tensorMap_isometry",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Tensor",
+      "name": "CGLMP5.tensor_compression",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.POVMDilation",
+      "name": "CGLMP5.commonJ_isometry",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.POVMDilation",
+      "name": "CGLMP5.POVM.dilate_compression",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.POVMDilation",
+      "name": "CGLMP5.common_dilation",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.POVMTransfer",
+      "name": "CGLMP5.cglmp_eq_expect_bell",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.POVMTransfer",
+      "name": "CGLMP5.jointProbability_dilate",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.POVMTransfer",
+      "name": "CGLMP5.cglmp_dilate",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.POVMTransfer",
+      "name": "CGLMP5.povm_bound_of_pvm_bound",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.POVMTransport",
+      "name": "CGLMP5.POVM.transport_compression",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.POVMTransport",
+      "name": "CGLMP5.cglmp_transport",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.OperatorUpper",
+      "name": "CGLMP5.commuting_pvm_bound_of_unitary_bound",
+      "status": "ready",
+      "role": "closed conditional transfer interface; not an instantiated final upper/supremum theorem",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.OperatorUpper",
+      "name": "CGLMP5.tensor_pvm_bound_of_unitary_bound",
+      "status": "ready",
+      "role": "closed conditional transfer interface; not an instantiated final upper/supremum theorem",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.OperatorUpper",
+      "name": "CGLMP5.tensor_povm_bound_of_unitary_bound",
+      "status": "ready",
+      "role": "closed conditional transfer interface; not an instantiated final upper/supremum theorem",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.StrategyTransport",
+      "name": "CGLMP5.Strategy.transport_value",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.StrategyTransport",
+      "name": "CGLMP5.Strategy.lift_value",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Strategy",
+      "name": "CGLMP5.supremum_of_bound_attainment",
+      "status": "ready",
+      "role": "closed conditional transfer interface; not an instantiated final upper/supremum theorem",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Attainment",
+      "name": "CGLMP5.Attainment.physicalVector_norm",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.Attainment",
+      "name": "CGLMP5.Attainment.physicalVector_eigen",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.Attainment",
+      "name": "CGLMP5.Attainment.cglmp_attainment",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Attainment",
+      "name": "CGLMP5.Attainment.explicitStrategy_value",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Attainment",
+      "name": "CGLMP5.Attainment.exists_attaining_strategy",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.AttainmentSource",
+      "name": "CGLMP5.Attainment.canonical_gamma",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Positivity",
+      "name": "CGLMP5.weight_enclosure_lower",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.Positivity",
+      "name": "CGLMP5.weight_gt_one_div_three_thousand",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.Positivity",
+      "name": "CGLMP5.weight_positive",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.Positivity",
+      "name": "CGLMP5.weight_evaluation",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.EmbeddingBounds",
+      "name": "CGLMP5.ProofBounds.mu_contains",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.EmbeddingBounds",
+      "name": "CGLMP5.ProofBounds.s_contains",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.EmbeddingBounds",
+      "name": "CGLMP5.ProofBounds.u_contains",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.EmbeddingBounds",
+      "name": "CGLMP5.ProofBounds.scalar_enclosure",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.SourceDecimalSoundness",
+      "name": "CGLMP5.CertificateSource.DecimalChunks.natural_sound",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SourceDecimalSoundness",
+      "name": "CGLMP5.CertificateSource.DecimalChunks.integer_sound",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SourceDecimalSoundness",
+      "name": "CGLMP5.CertificateSource.ChunkScalar.decode_sound",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SourceDecimalSoundness",
+      "name": "CGLMP5.CertificateSource.ChunkCoefficient.decode_sound",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SourceDecimalSoundness",
+      "name": "CGLMP5.CertificateSource.ChunkTerm.decode_sound",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.ScalarEncoding",
+      "name": "CGLMP5.Scalar.canonical_denominator_nonzero",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.ScalarEncoding",
+      "name": "CGLMP5.Scalar.eval_ofCanonical",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.SOSTarget",
+      "name": "CGLMP5.SOSFinite.target_evaluation",
+      "status": "ready",
+      "role": "closed load-bearing theorem/interface",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.LowerValue",
+      "name": "CGLMP5.mu_mem_quantumValues",
+      "status": "ready",
+      "role": "actual explicit attainer transported into every pair of universes",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.LowerValue",
+      "name": "CGLMP5.quantumValues_nonempty",
+      "status": "ready",
+      "role": "actual explicit attainer transported into every pair of universes",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.LowerValue",
+      "name": "CGLMP5.mu_le_every_uniform_bound",
+      "status": "ready",
+      "role": "actual explicit attainer transported into every pair of universes",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Operator",
+      "name": "CGLMP5.State.mk",
+      "status": "ready",
+      "role": "model constructor exposing every field, assumption and universe parameter",
+      "declaration_kind": "constructor"
+    },
+    {
+      "module": "CGLMP5.Operator",
+      "name": "CGLMP5.POVM.mk",
+      "status": "ready",
+      "role": "model constructor exposing every field, assumption and universe parameter",
+      "declaration_kind": "constructor"
+    },
+    {
+      "module": "CGLMP5.Measurements",
+      "name": "CGLMP5.PVM.mk",
+      "status": "ready",
+      "role": "model constructor exposing every field, assumption and universe parameter",
+      "declaration_kind": "constructor"
+    },
+    {
+      "module": "CGLMP5.Strategy",
+      "name": "CGLMP5.Strategy.mk",
+      "status": "ready",
+      "role": "model constructor exposing every field, assumption and universe parameter",
+      "declaration_kind": "constructor"
+    },
+    {
+      "module": "CGLMP5.SOSIdentity",
+      "name": "CGLMP5.SOS.compact_identity",
+      "status": "ready",
+      "role": "actual source-bound compact SOS identity",
+      "note": "Actual unconditional compact identity kernel-build PASS; historical build receipt verification/formalization_development/sos_identity_build.log. Only stated algebra/unitarity/order5/cross-party relations remain.",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.OperatorTheorem",
+      "name": "CGLMP5.commuting_pvm_sos_identity",
+      "status": "ready",
+      "role": "instantiated bounded commuting-PVM upper identity",
+      "note": "Actual OperatorTheorem upper surface kernel-build PASS, confirmed by owner; exact type/axiom capture follows final Main closure.",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.OperatorTheorem",
+      "name": "CGLMP5.tensor_povm_upper",
+      "status": "ready",
+      "role": "universal arbitrary-dimensional tensor-product POVM upper bound",
+      "note": "Actual OperatorTheorem upper surface kernel-build PASS, confirmed by owner; exact type/axiom capture follows final Main closure.",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.CertificateSource",
+      "name": "CGLMP5.CertificateSource.canonical_text_decode",
+      "status": "ready",
+      "role": "complete canonical source decoding and exact-byte linkage",
+      "note": "Complete source family checked in development: canonical source/text term decoders, eight header gamma/box decoders, generic chunk/decimal soundness, and actual physical gamma evaluation. Revised Lean-rendered whole-file readback PASS 2026-10-04 13:26 UTC: 581335 bytes, SHA256 1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2. Regeneration preserved all 230 generated files. Final frozen-candidate rerun remains required.",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Main",
+      "name": "CGLMP5.cglmp5_exact",
+      "status": "ready",
+      "role": "final attained maximum/supremum theorem",
+      "note": "Main/root kernel-build PASS; historical build receipt verification/formalization_development/main_root_build.log. Final clean whole-tree, genuine imported-object replay and audits remain separate gates.",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.OperatorTheorem",
+      "name": "CGLMP5.commuting_pvm_upper",
+      "status": "ready",
+      "role": "instantiated bounded-operator/state upper theorem",
+      "note": "Actual OperatorTheorem upper surface kernel-build PASS, confirmed by owner; exact type/axiom capture follows final Main closure.",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.OperatorTheorem",
+      "name": "CGLMP5.commuting_pvm_state_upper",
+      "status": "ready",
+      "role": "instantiated bounded-operator/state upper theorem",
+      "note": "Actual OperatorTheorem upper surface kernel-build PASS, confirmed by owner; exact type/axiom capture follows final Main closure.",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.OperatorTheorem",
+      "name": "CGLMP5.bounded_unitary_upper",
+      "status": "ready",
+      "role": "instantiated bounded-operator/state upper theorem",
+      "note": "Actual OperatorTheorem upper surface kernel-build PASS, confirmed by owner; exact type/axiom capture follows final Main closure.",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Scalar",
+      "name": "CGLMP5.Scalar.eval_mul",
+      "status": "ready",
+      "role": "complete scalar multiplication/power evaluation soundness",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.ScalarConstants",
+      "name": "CGLMP5.Scalar.eval_pow",
+      "status": "ready",
+      "role": "complete scalar multiplication/power evaluation soundness",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.CertificateSource",
+      "name": "CGLMP5.CertificateSource.canonical_source_decode",
+      "status": "ready",
+      "role": "exact decoded canonical source records",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Main",
+      "name": "CGLMP5.strategy_value_le_mu",
+      "status": "ready",
+      "role": "final unrestricted strategy bound",
+      "note": "Main/root kernel-build PASS; historical build receipt verification/formalization_development/main_root_build.log. Final clean whole-tree, genuine imported-object replay and audits remain separate gates.",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Main",
+      "name": "CGLMP5.quantumValues_isGreatest",
+      "status": "ready",
+      "role": "actual attained maximum over the unrestricted model",
+      "note": "Main/root kernel-build PASS; historical build receipt verification/formalization_development/main_root_build.log. Final clean whole-tree, genuine imported-object replay and audits remain separate gates.",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Main",
+      "name": "CGLMP5.quantumValue_exact",
+      "status": "ready",
+      "role": "final supremum equality for every pair of universes",
+      "note": "Main/root kernel-build PASS; historical build receipt verification/formalization_development/main_root_build.log. Final clean whole-tree, genuine imported-object replay and audits remain separate gates.",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.CertificateHeaderSyntax",
+      "name": "CGLMP5.CertificateSource.ChunkRational.decode_sound",
+      "status": "ready",
+      "role": "checked numeric header decoding and actual physical evaluation bridge; aggregate byte linkage tracked separately",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.CertificateHeaderSyntax",
+      "name": "CGLMP5.CertificateSource.ChunkBox.decode_sound",
+      "status": "ready",
+      "role": "checked numeric header decoding and actual physical evaluation bridge; aggregate byte linkage tracked separately",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.CertificateHeaderProofs",
+      "name": "CGLMP5.CertificateSource.header_gamma_decode",
+      "status": "ready",
+      "role": "checked numeric header decoding and actual physical evaluation bridge; aggregate byte linkage tracked separately",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.CertificateHeaderProofs",
+      "name": "CGLMP5.CertificateSource.header_gamma_text_decode",
+      "status": "ready",
+      "role": "checked numeric header decoding and actual physical evaluation bridge; aggregate byte linkage tracked separately",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.CertificateHeaderProofs",
+      "name": "CGLMP5.CertificateSource.header_mu_box_decode",
+      "status": "ready",
+      "role": "checked numeric header decoding and actual physical evaluation bridge; aggregate byte linkage tracked separately",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.CertificateHeaderProofs",
+      "name": "CGLMP5.CertificateSource.header_mu_box_text_decode",
+      "status": "ready",
+      "role": "checked numeric header decoding and actual physical evaluation bridge; aggregate byte linkage tracked separately",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.CertificateHeaderProofs",
+      "name": "CGLMP5.CertificateSource.header_s_box_decode",
+      "status": "ready",
+      "role": "checked numeric header decoding and actual physical evaluation bridge; aggregate byte linkage tracked separately",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.CertificateHeaderProofs",
+      "name": "CGLMP5.CertificateSource.header_s_box_text_decode",
+      "status": "ready",
+      "role": "checked numeric header decoding and actual physical evaluation bridge; aggregate byte linkage tracked separately",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.CertificateHeaderProofs",
+      "name": "CGLMP5.CertificateSource.header_u_box_decode",
+      "status": "ready",
+      "role": "checked numeric header decoding and actual physical evaluation bridge; aggregate byte linkage tracked separately",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.CertificateHeaderProofs",
+      "name": "CGLMP5.CertificateSource.header_u_box_text_decode",
+      "status": "ready",
+      "role": "checked numeric header decoding and actual physical evaluation bridge; aggregate byte linkage tracked separately",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.AttainmentSourceHeader",
+      "name": "CGLMP5.Attainment.canonical_header_gamma_evaluation",
+      "status": "ready",
+      "role": "checked numeric header decoding and actual physical evaluation bridge; aggregate byte linkage tracked separately",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.ScalarDefs",
+      "name": "CGLMP5.Scalar.eval_add",
+      "status": "ready",
+      "role": "closed exact scalar/polynomial/denominator evaluation bridge; stated premises remain explicit",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.ScalarDefs",
+      "name": "CGLMP5.Scalar.eval_ofRat",
+      "status": "ready",
+      "role": "closed exact scalar/polynomial/denominator evaluation bridge; stated premises remain explicit",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.ScalarDefs",
+      "name": "CGLMP5.Scalar.eval_conj",
+      "status": "ready",
+      "role": "closed exact scalar/polynomial/denominator evaluation bridge; stated premises remain explicit",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.ScalarDefs",
+      "name": "CGLMP5.Scalar.eval_eq_ofReal",
+      "status": "ready",
+      "role": "closed exact scalar/polynomial/denominator evaluation bridge; stated premises remain explicit",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.ScalarTable",
+      "name": "CGLMP5.Scalar.mulCoeff_sound",
+      "status": "ready",
+      "role": "closed exact scalar/polynomial/denominator evaluation bridge; stated premises remain explicit",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.ScalarConstantsData",
+      "name": "CGLMP5.Scalar.eval_zeta",
+      "status": "ready",
+      "role": "closed exact scalar/polynomial/denominator evaluation bridge; stated premises remain explicit",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.ScalarConstantsData",
+      "name": "CGLMP5.Scalar.eval_mu",
+      "status": "ready",
+      "role": "closed exact scalar/polynomial/denominator evaluation bridge; stated premises remain explicit",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.SOSPolynomial",
+      "name": "CGLMP5.SOS.evaluate_mul",
+      "status": "ready",
+      "role": "closed exact scalar/polynomial/denominator evaluation bridge; stated premises remain explicit",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPolynomial",
+      "name": "CGLMP5.SOS.evaluate_adjoint",
+      "status": "ready",
+      "role": "closed exact scalar/polynomial/denominator evaluation bridge; stated premises remain explicit",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPolynomial",
+      "name": "CGLMP5.SOS.evaluate_anticommutator",
+      "status": "ready",
+      "role": "closed exact scalar/polynomial/denominator evaluation bridge; stated premises remain explicit",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPolynomial",
+      "name": "CGLMP5.SOS.evaluate_eq_of_coefficients",
+      "status": "ready",
+      "role": "closed exact scalar/polynomial/denominator evaluation bridge; stated premises remain explicit",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSScalarPolynomial",
+      "name": "CGLMP5.SOSFinite.eval_sumScalars",
+      "status": "ready",
+      "role": "closed exact scalar/polynomial/denominator evaluation bridge; stated premises remain explicit",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSScalarPolynomial",
+      "name": "CGLMP5.SOSFinite.coefficient_complexPolynomial",
+      "status": "ready",
+      "role": "closed exact scalar/polynomial/denominator evaluation bridge; stated premises remain explicit",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSScalarPolynomial",
+      "name": "CGLMP5.SOSFinite.evaluate_indexed",
+      "status": "ready",
+      "role": "closed exact scalar/polynomial/denominator evaluation bridge; stated premises remain explicit",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSScalarPolynomial",
+      "name": "CGLMP5.SOSFinite.evaluate_indexed_eq",
+      "status": "ready",
+      "role": "closed exact scalar/polynomial/denominator evaluation bridge; stated premises remain explicit",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSDenominatorSemantics",
+      "name": "CGLMP5.Scalar.mul_ofCanonical",
+      "status": "ready",
+      "role": "closed exact scalar/polynomial/denominator evaluation bridge; stated premises remain explicit",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSDenominatorSemantics",
+      "name": "CGLMP5.SOSFinite.common_denominator_term",
+      "status": "ready",
+      "role": "closed exact scalar/polynomial/denominator evaluation bridge; stated premises remain explicit",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSDenominatorSemantics",
+      "name": "CGLMP5.SOSFinite.list_common_denominator",
+      "status": "ready",
+      "role": "closed exact scalar/polynomial/denominator evaluation bridge; stated premises remain explicit",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSDenominatorSemantics",
+      "name": "CGLMP5.SOSFinite.list_common_denominator_eq",
+      "status": "ready",
+      "role": "closed exact scalar/polynomial/denominator evaluation bridge; stated premises remain explicit",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSIntegerSemantics",
+      "name": "CGLMP5.SOSFinite.featureValue_as_fraction",
+      "status": "ready",
+      "role": "closed exact scalar/polynomial/denominator evaluation bridge; stated premises remain explicit",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSIntegerSemantics",
+      "name": "CGLMP5.SOSFinite.fiberValue_as_fraction",
+      "status": "ready",
+      "role": "closed exact scalar/polynomial/denominator evaluation bridge; stated premises remain explicit",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSIntegerSemantics",
+      "name": "CGLMP5.SOSFinite.fiberValue_eq_target_of_integer",
+      "status": "ready",
+      "role": "closed exact scalar/polynomial/denominator evaluation bridge; stated premises remain explicit",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSIntegerResidualChecks",
+      "name": "CGLMP5.SOSFinite.integer_residual",
+      "status": "ready",
+      "role": "closed load-bearing actual SOS arithmetic/evaluation bridge; any generic premises explicit in printed type",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSIntegerResidualChecks",
+      "name": "CGLMP5.SOSFinite.denominator_divides",
+      "status": "ready",
+      "role": "closed load-bearing actual SOS arithmetic/evaluation bridge; any generic premises explicit in printed type",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSReflection",
+      "name": "CGLMP5.SOSFinite.reflected_evaluation_eq_target",
+      "status": "ready",
+      "role": "closed load-bearing actual SOS arithmetic/evaluation bridge; any generic premises explicit in printed type",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSReflection",
+      "name": "CGLMP5.SOSFinite.reflected_index_coefficients",
+      "status": "ready",
+      "role": "closed load-bearing actual SOS arithmetic/evaluation bridge; any generic premises explicit in printed type",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSSemantics",
+      "name": "CGLMP5.SOSFinite.reflected_sos_evaluation",
+      "status": "ready",
+      "role": "closed load-bearing actual SOS arithmetic/evaluation bridge; any generic premises explicit in printed type",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSSemantics",
+      "name": "CGLMP5.SOSFinite.termReflected_evaluation",
+      "status": "ready",
+      "role": "closed load-bearing actual SOS arithmetic/evaluation bridge; any generic premises explicit in printed type",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSSemantics",
+      "name": "CGLMP5.SOSFinite.gram_evaluation",
+      "status": "ready",
+      "role": "closed load-bearing actual SOS arithmetic/evaluation bridge; any generic premises explicit in printed type",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSSemantics",
+      "name": "CGLMP5.SOSFinite.phase_pair_evaluation",
+      "status": "ready",
+      "role": "closed load-bearing actual SOS arithmetic/evaluation bridge; any generic premises explicit in printed type",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSReflectionCore",
+      "name": "CGLMP5.SOSFinite.reflected_index_coefficients_of",
+      "status": "ready",
+      "role": "closed load-bearing actual SOS arithmetic/evaluation bridge; any generic premises explicit in printed type",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSReflectionCore",
+      "name": "CGLMP5.SOSFinite.reflected_evaluation_eq_target_of",
+      "status": "ready",
+      "role": "closed load-bearing actual SOS arithmetic/evaluation bridge; any generic premises explicit in printed type",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLink",
+      "name": "CGLMP5.SOSFinite.phasePolynomial_eq_canonical",
+      "status": "ready",
+      "role": "closed load-bearing actual SOS arithmetic/evaluation bridge; any generic premises explicit in printed type",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.CertificateData",
+      "name": "CGLMP5.CertificateSource.rawTerms_valid",
+      "status": "ready",
+      "role": "source validity and scalar syntax bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.CanonicalData",
+      "name": "CGLMP5.CanonicalData.rawTerm_valid",
+      "status": "ready",
+      "role": "source validity and scalar syntax bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.CanonicalData",
+      "name": "CGLMP5.CanonicalData.weight_coordinates_length",
+      "status": "ready",
+      "role": "source validity and scalar syntax bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.CanonicalData",
+      "name": "CGLMP5.CanonicalData.weight_denominator_pos",
+      "status": "ready",
+      "role": "source validity and scalar syntax bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.CanonicalData",
+      "name": "CGLMP5.CanonicalData.weight_isReal",
+      "status": "ready",
+      "role": "source validity and scalar syntax bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SourceDecimalSoundness",
+      "name": "CGLMP5.CertificateSource.decimalFold_affine",
+      "status": "ready",
+      "role": "source decimal partition bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.Events",
+      "name": "CGLMP5.coefficient_deterministic",
+      "status": "ready",
+      "role": "literal event convention bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Events",
+      "name": "CGLMP5.deterministicTwo_le_four",
+      "status": "ready",
+      "role": "literal event convention bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Events",
+      "name": "CGLMP5.asymmetric_event_anchor",
+      "status": "ready",
+      "role": "literal event convention bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.ScalarDefs",
+      "name": "CGLMP5.Scalar.eval_neg",
+      "status": "ready",
+      "role": "scalar evaluation bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.SOSCompressedData",
+      "name": "CGLMP5.SOSFinite.gramIndex_origin",
+      "status": "ready",
+      "role": "source core index bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSCompressedChecks",
+      "name": "CGLMP5.SOSFinite.gram_pair_checked",
+      "status": "ready",
+      "role": "source core coefficient bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSCompressedChecks",
+      "name": "CGLMP5.SOSFinite.gram_weight_checked",
+      "status": "ready",
+      "role": "source core coefficient bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseChecks",
+      "name": "CGLMP5.SOSFinite.phase_pair_check",
+      "status": "ready",
+      "role": "phase expansion bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSExpansionChecks",
+      "name": "CGLMP5.SOSFinite.feature_expansion_checked",
+      "status": "ready",
+      "role": "word feature expansion bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSIndexFiberChecks",
+      "name": "CGLMP5.SOSFinite.index_fiber_checked",
+      "status": "ready",
+      "role": "normal-word coefficient fiber bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSIntegerDataSoundness",
+      "name": "CGLMP5.SOSFinite.gram_as_canonical",
+      "status": "ready",
+      "role": "exact integer extraction bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSIntegerDataSoundness",
+      "name": "CGLMP5.SOSFinite.phase_as_canonical",
+      "status": "ready",
+      "role": "exact integer extraction bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSIntegerDataSoundness",
+      "name": "CGLMP5.SOSFinite.target_as_canonical",
+      "status": "ready",
+      "role": "exact integer extraction bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSTargetChecks",
+      "name": "CGLMP5.SOSFinite.target_index_word_map",
+      "status": "ready",
+      "role": "literal target index bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSTargetChecks",
+      "name": "CGLMP5.SOSFinite.target_index_coefficients",
+      "status": "ready",
+      "role": "literal target index bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSSemantics",
+      "name": "CGLMP5.SOSFinite.local_gram_evaluation",
+      "status": "ready",
+      "role": "actual local scalar expansion bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSSemantics",
+      "name": "CGLMP5.SOSFinite.term_complex_eq_factored",
+      "status": "ready",
+      "role": "actual local scalar expansion bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSReflectionCore",
+      "name": "CGLMP5.SOSFinite.indexed_feature_coefficient",
+      "status": "ready",
+      "role": "actual coefficient collection bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSGramSemantics",
+      "name": "CGLMP5.SOS.evaluate_gramExpand",
+      "status": "ready",
+      "role": "generic represented Gram expansion bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSGramSemantics",
+      "name": "CGLMP5.SOS.evaluate_factoredGramExpand",
+      "status": "ready",
+      "role": "generic represented Gram expansion bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSFeatureSemantics",
+      "name": "CGLMP5.SOS.coefficient_featurePolynomial",
+      "status": "ready",
+      "role": "generic represented feature collection bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSFeatureSemantics",
+      "name": "CGLMP5.SOS.evaluate_featurePolynomial_eq",
+      "status": "ready",
+      "role": "generic represented feature collection bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSFeatureSemantics",
+      "name": "CGLMP5.SOS.evaluate_finRange_flatMap",
+      "status": "ready",
+      "role": "generic represented feature collection bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.POVM",
+      "name": "CGLMP5.defect_comp",
+      "status": "ready",
+      "role": "proper-isometry defect completion bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.POVM",
+      "name": "CGLMP5.adjoint_comp_defect",
+      "status": "ready",
+      "role": "proper-isometry defect completion bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.POVM",
+      "name": "CGLMP5.defect_sq",
+      "status": "ready",
+      "role": "proper-isometry defect completion bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.POVM",
+      "name": "CGLMP5.defectUnitary_adjoint",
+      "status": "ready",
+      "role": "proper-isometry defect completion bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.POVM",
+      "name": "CGLMP5.defectUnitary_sq",
+      "status": "ready",
+      "role": "proper-isometry defect completion bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.POVMConstruction",
+      "name": "CGLMP5.POVM.exists_sqrtEffect",
+      "status": "ready",
+      "role": "bounded positive-square-root bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.POVMConstruction",
+      "name": "CGLMP5.POVM.analysis_isometry",
+      "status": "ready",
+      "role": "bounded positive-square-root bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.POVMConstruction",
+      "name": "CGLMP5.commonCoordinatePVM",
+      "status": "ready",
+      "role": "model/data definition type: fixed common PVM construction",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.POVMDilation",
+      "name": "CGLMP5.POVM.analysis_compression",
+      "status": "ready",
+      "role": "fixed common embedding and effect bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.POVMDilation",
+      "name": "CGLMP5.POVM.dilationUnitary",
+      "status": "ready",
+      "role": "model/data definition type: fixed common embedding and effect bridge",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.POVMDilation",
+      "name": "CGLMP5.commonJ",
+      "status": "ready",
+      "role": "model/data definition type: setting-independent common embedding",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Tensor",
+      "name": "CGLMP5.tensorMap_adjoint",
+      "status": "ready",
+      "role": "completed tensor adjoint bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.OperatorUpper",
+      "name": "CGLMP5.literalBell_tensor",
+      "status": "ready",
+      "role": "literal tensor Bell bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.AttainmentFourierFormula",
+      "name": "CGLMP5.Attainment.alpha_values",
+      "status": "ready",
+      "role": "literal physical Fourier formula bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.AttainmentFourierFormula",
+      "name": "CGLMP5.Attainment.beta_values",
+      "status": "ready",
+      "role": "literal physical Fourier formula bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.AttainmentFourierFormula",
+      "name": "CGLMP5.Attainment.alice_fourier_formula",
+      "status": "ready",
+      "role": "literal physical Fourier formula bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.AttainmentFourierFormula",
+      "name": "CGLMP5.Attainment.bob_fourier_formula",
+      "status": "ready",
+      "role": "literal physical Fourier formula bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.AttainmentFourier",
+      "name": "CGLMP5.Attainment.fourier_orthonormal",
+      "status": "ready",
+      "role": "physical Fourier PVM admissibility",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.AttainmentFourier",
+      "name": "CGLMP5.Attainment.localProjection_sum",
+      "status": "ready",
+      "role": "physical Fourier PVM admissibility",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.AttainmentFourier",
+      "name": "CGLMP5.Attainment.localPVM",
+      "status": "ready",
+      "role": "model/data definition type: physical Fourier PVM admissibility",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.AttainmentAlgebra",
+      "name": "CGLMP5.Attainment.schmidtDenom_gt_four",
+      "status": "ready",
+      "role": "physical Schmidt formula and positivity",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.AttainmentAlgebra",
+      "name": "CGLMP5.Attainment.coeffA_eq_formula",
+      "status": "ready",
+      "role": "physical Schmidt formula and positivity",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.AttainmentAlgebra",
+      "name": "CGLMP5.Attainment.coeffB_eq_formula",
+      "status": "ready",
+      "role": "physical Schmidt formula and positivity",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.AttainmentAlgebra",
+      "name": "CGLMP5.Attainment.coeffA_pos",
+      "status": "ready",
+      "role": "physical Schmidt formula and positivity",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.AttainmentAlgebra",
+      "name": "CGLMP5.Attainment.coeffB_pos",
+      "status": "ready",
+      "role": "physical Schmidt formula and positivity",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.AttainmentAlgebra",
+      "name": "CGLMP5.Attainment.row_zero",
+      "status": "ready",
+      "role": "exact Schmidt row equations",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.AttainmentAlgebra",
+      "name": "CGLMP5.Attainment.row_one",
+      "status": "ready",
+      "role": "exact Schmidt row equations",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.AttainmentAlgebra",
+      "name": "CGLMP5.Attainment.row_two",
+      "status": "ready",
+      "role": "exact Schmidt row equations",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.AttainmentState",
+      "name": "CGLMP5.Attainment.state_apply",
+      "status": "ready",
+      "role": "full physical normalized coordinates",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.AttainmentState",
+      "name": "CGLMP5.Attainment.state_norm",
+      "status": "ready",
+      "role": "full physical normalized coordinates",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.TensorFinite",
+      "name": "CGLMP5.tensorEuclideanEquiv",
+      "status": "ready",
+      "role": "model/data definition type: complete finite tensor coordinate equivalence",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.AttainmentOperatorLink",
+      "name": "CGLMP5.tensorEuclideanEquiv_operator_kronecker",
+      "status": "ready",
+      "role": "physical tensor operator to matrix bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.AttainmentOperatorLink",
+      "name": "CGLMP5.Attainment.localProjection_eq_matrix",
+      "status": "ready",
+      "role": "physical projection to matrix bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.AttainmentOperatorLink",
+      "name": "CGLMP5.Attainment.jointProjection_eq_matrix",
+      "status": "ready",
+      "role": "physical projection to matrix bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.AttainmentSpectralLink",
+      "name": "CGLMP5.Attainment.literalBell_coordinates",
+      "status": "ready",
+      "role": "literal full tensor Bell matrix bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.AttainmentBellDefs",
+      "name": "CGLMP5.Attainment.edgeMatrix_off_diagonal",
+      "status": "ready",
+      "role": "full-space Bell invariance bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.AttainmentBellDefs",
+      "name": "CGLMP5.Attainment.matrixBell_off_diagonal",
+      "status": "ready",
+      "role": "full-space Bell invariance bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.AttainmentEigen",
+      "name": "CGLMP5.Attainment.matrixBell_diagonal_column",
+      "status": "ready",
+      "role": "full-space matrix equation bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.AttainmentEigen",
+      "name": "CGLMP5.Attainment.rawState_mulVec",
+      "status": "ready",
+      "role": "full-space matrix equation bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.AttainmentEigen",
+      "name": "CGLMP5.Attainment.rawState_eigen",
+      "status": "ready",
+      "role": "full-space matrix equation bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.AttainmentEigen",
+      "name": "CGLMP5.Attainment.state_eigen",
+      "status": "ready",
+      "role": "full-space matrix equation bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.AttainmentRows",
+      "name": "CGLMP5.Attainment.toeplitz_gamma",
+      "status": "ready",
+      "role": "actual Schmidt eigenvector bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.CertificateEmbeddingData",
+      "name": "CGLMP5.CertificateSource.gammaRaw",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.CertificateHeaderData",
+      "name": "CGLMP5.CertificateSource.headerLines",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.CanonicalData",
+      "name": "CGLMP5.CanonicalData.polynomial",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.CanonicalData",
+      "name": "CGLMP5.CanonicalData.rawTerm",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.CanonicalData",
+      "name": "CGLMP5.CanonicalData.weight",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.CertificateSource",
+      "name": "CGLMP5.CertificateSource.canonicalSourceBytes",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.CertificateData",
+      "name": "CGLMP5.CertificateSource.rawTerms",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.CertificateChunks",
+      "name": "CGLMP5.CertificateSource.ChunkScalar.decode",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.CertificateChunks",
+      "name": "CGLMP5.CertificateSource.DecimalChunks.natural",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.POVMConstruction",
+      "name": "CGLMP5.DilationAux",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "abbrev"
+    },
+    {
+      "module": "CGLMP5.POVMConstruction",
+      "name": "CGLMP5.DilationSpace",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "abbrev"
+    },
+    {
+      "module": "CGLMP5.Tensor",
+      "name": "CGLMP5.HTensor",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "abbrev"
+    },
+    {
+      "module": "CGLMP5.Operator",
+      "name": "CGLMP5.Op",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "abbrev"
+    },
+    {
+      "module": "CGLMP5.Events",
+      "name": "CGLMP5.Outcome",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "abbrev"
+    },
+    {
+      "module": "CGLMP5.POVMConstruction",
+      "name": "CGLMP5.POVM.analysis",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.WordSyntax",
+      "name": "CGLMP5.PartyWord.push",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.WordSyntax",
+      "name": "CGLMP5.PartyWord.reduce",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.CertificateSyntax",
+      "name": "CGLMP5.CertificateSource.RawCoefficient.valid",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.CertificateSyntax",
+      "name": "CGLMP5.CertificateSource.RawScalar.valid",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.CertificateSyntax",
+      "name": "CGLMP5.CertificateSource.RawTerm.valid",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.SOSRealization",
+      "name": "CGLMP5.SOS.realizingPolynomial",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.SOSCompressedData",
+      "name": "CGLMP5.SOSFinite.gram",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.ScalarSyntax",
+      "name": "CGLMP5.Scalar",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "abbrev"
+    },
+    {
+      "module": "CGLMP5.ScalarDefs",
+      "name": "CGLMP5.Scalar.eval",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Events",
+      "name": "CGLMP5.Setting",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "abbrev"
+    },
+    {
+      "module": "CGLMP5.Operator",
+      "name": "CGLMP5.State",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "structure"
+    },
+    {
+      "module": "CGLMP5.Operator",
+      "name": "CGLMP5.State.expect",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Strategy",
+      "name": "CGLMP5.Strategy.value",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Words",
+      "name": "CGLMP5.Word.evalStar",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.ScalarIntervals",
+      "name": "CGLMP5.QInterval.add",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.ScalarSyntax",
+      "name": "CGLMP5.Scalar.add",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.ScalarDefs",
+      "name": "CGLMP5.Scalar.basisEval",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.SOSDefinitions",
+      "name": "CGLMP5.SOS.bell",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.CertificateHeaderData",
+      "name": "CGLMP5.CertificateSource.canonicalHeaderPrefix",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Events",
+      "name": "CGLMP5.cglmp",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.ScalarSyntax",
+      "name": "CGLMP5.Scalar.conj",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.SOSCompressedData",
+      "name": "CGLMP5.SOSFinite.core",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Root",
+      "name": "CGLMP5.cos_pi_div_ten",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.BellBridge",
+      "name": "CGLMP5.cyclicBell",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.CertificateText",
+      "name": "CGLMP5.CertificateSource.decimalInt",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.CertificateText",
+      "name": "CGLMP5.CertificateSource.decimalNat",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.CertificateText",
+      "name": "CGLMP5.CertificateSource.decimalNatChars",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.CanonicalData",
+      "name": "CGLMP5.CanonicalData.decodeScalar",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.POVM",
+      "name": "CGLMP5.defect",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.POVMTransfer",
+      "name": "CGLMP5.dilateState",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.SOSDefinitions",
+      "name": "CGLMP5.SOS.edgeCoefficient",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.SOSDefinitions",
+      "name": "CGLMP5.SOS.edgeWord",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Spectral",
+      "name": "CGLMP5.PVM.eval",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Words",
+      "name": "CGLMP5.PartyWord.eval",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Words",
+      "name": "CGLMP5.Word.eval",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.ScalarDefs",
+      "name": "CGLMP5.Scalar.evalReal",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Words",
+      "name": "CGLMP5.Word.eval_adjoint",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Spectral",
+      "name": "CGLMP5.PVM.eval_mul",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Words",
+      "name": "CGLMP5.Word.eval_mul",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Spectral",
+      "name": "CGLMP5.PVM.eval_pow",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Events",
+      "name": "CGLMP5.eventCoefficientTwo",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Events",
+      "name": "CGLMP5.eventResidue",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Root",
+      "name": "CGLMP5.exists_mu",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.Attainment",
+      "name": "CGLMP5.Attainment.explicitStrategy",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.AttainmentAlgebra",
+      "name": "CGLMP5.Attainment.f1_mul_u",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.AttainmentFourier",
+      "name": "CGLMP5.Attainment.fourierBasis",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.SOSDefinitions",
+      "name": "CGLMP5.SOS.fourierCoeff",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.AttainmentState",
+      "name": "CGLMP5.Attainment.gamma",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.CanonicalData",
+      "name": "CGLMP5.CanonicalData.gamma",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.CertificateChunks",
+      "name": "CGLMP5.CertificateSource.DecimalChunks.integer",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.ScalarSyntax",
+      "name": "CGLMP5.Scalar.isReal",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.POVMTransfer",
+      "name": "CGLMP5.jointProbability",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.BellBridge",
+      "name": "CGLMP5.literalBell",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.BellBridge",
+      "name": "CGLMP5.measurementUnitaries",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Root",
+      "name": "CGLMP5.mu",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.CertificateEmbeddingData",
+      "name": "CGLMP5.CertificateSource.muBox",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Root",
+      "name": "CGLMP5.mu_lt_31_div_10",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.ScalarTableData",
+      "name": "CGLMP5.Scalar.mulTerms",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.ScalarSyntax",
+      "name": "CGLMP5.Scalar.neg",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.AttainmentState",
+      "name": "CGLMP5.Attainment.normSq",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.ScalarSyntax",
+      "name": "CGLMP5.Scalar.ofCanonical",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.SOSCompressedData",
+      "name": "CGLMP5.SOSFinite.phaseTerms",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.AttainmentPhases",
+      "name": "CGLMP5.Attainment.phase_eq_pow",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear00",
+      "name": "CGLMP5.SOSFinite.phase_linear_0_0",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear00",
+      "name": "CGLMP5.SOSFinite.phase_linear_0_1",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear00",
+      "name": "CGLMP5.SOSFinite.phase_linear_0_10",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear00",
+      "name": "CGLMP5.SOSFinite.phase_linear_0_11",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear00",
+      "name": "CGLMP5.SOSFinite.phase_linear_0_12",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear00",
+      "name": "CGLMP5.SOSFinite.phase_linear_0_13",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear00",
+      "name": "CGLMP5.SOSFinite.phase_linear_0_14",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear00",
+      "name": "CGLMP5.SOSFinite.phase_linear_0_15",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear00",
+      "name": "CGLMP5.SOSFinite.phase_linear_0_16",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear00",
+      "name": "CGLMP5.SOSFinite.phase_linear_0_17",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear00",
+      "name": "CGLMP5.SOSFinite.phase_linear_0_18",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear00",
+      "name": "CGLMP5.SOSFinite.phase_linear_0_19",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear00",
+      "name": "CGLMP5.SOSFinite.phase_linear_0_2",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear00",
+      "name": "CGLMP5.SOSFinite.phase_linear_0_20",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear00",
+      "name": "CGLMP5.SOSFinite.phase_linear_0_21",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear00",
+      "name": "CGLMP5.SOSFinite.phase_linear_0_22",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear00",
+      "name": "CGLMP5.SOSFinite.phase_linear_0_23",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear00",
+      "name": "CGLMP5.SOSFinite.phase_linear_0_3",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear00",
+      "name": "CGLMP5.SOSFinite.phase_linear_0_4",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear00",
+      "name": "CGLMP5.SOSFinite.phase_linear_0_5",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear00",
+      "name": "CGLMP5.SOSFinite.phase_linear_0_6",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear00",
+      "name": "CGLMP5.SOSFinite.phase_linear_0_7",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear00",
+      "name": "CGLMP5.SOSFinite.phase_linear_0_8",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear00",
+      "name": "CGLMP5.SOSFinite.phase_linear_0_9",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear10",
+      "name": "CGLMP5.SOSFinite.phase_linear_10_0",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear10",
+      "name": "CGLMP5.SOSFinite.phase_linear_10_1",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear10",
+      "name": "CGLMP5.SOSFinite.phase_linear_10_10",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear10",
+      "name": "CGLMP5.SOSFinite.phase_linear_10_11",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear10",
+      "name": "CGLMP5.SOSFinite.phase_linear_10_12",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear10",
+      "name": "CGLMP5.SOSFinite.phase_linear_10_13",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear10",
+      "name": "CGLMP5.SOSFinite.phase_linear_10_14",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear10",
+      "name": "CGLMP5.SOSFinite.phase_linear_10_15",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear10",
+      "name": "CGLMP5.SOSFinite.phase_linear_10_16",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear10",
+      "name": "CGLMP5.SOSFinite.phase_linear_10_17",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear10",
+      "name": "CGLMP5.SOSFinite.phase_linear_10_18",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear10",
+      "name": "CGLMP5.SOSFinite.phase_linear_10_19",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear10",
+      "name": "CGLMP5.SOSFinite.phase_linear_10_2",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear10",
+      "name": "CGLMP5.SOSFinite.phase_linear_10_20",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear10",
+      "name": "CGLMP5.SOSFinite.phase_linear_10_21",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear10",
+      "name": "CGLMP5.SOSFinite.phase_linear_10_22",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear10",
+      "name": "CGLMP5.SOSFinite.phase_linear_10_23",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear10",
+      "name": "CGLMP5.SOSFinite.phase_linear_10_3",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear10",
+      "name": "CGLMP5.SOSFinite.phase_linear_10_4",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear10",
+      "name": "CGLMP5.SOSFinite.phase_linear_10_5",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear10",
+      "name": "CGLMP5.SOSFinite.phase_linear_10_6",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear10",
+      "name": "CGLMP5.SOSFinite.phase_linear_10_7",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear10",
+      "name": "CGLMP5.SOSFinite.phase_linear_10_8",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear10",
+      "name": "CGLMP5.SOSFinite.phase_linear_10_9",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear11",
+      "name": "CGLMP5.SOSFinite.phase_linear_11_0",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear11",
+      "name": "CGLMP5.SOSFinite.phase_linear_11_1",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear11",
+      "name": "CGLMP5.SOSFinite.phase_linear_11_10",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear11",
+      "name": "CGLMP5.SOSFinite.phase_linear_11_11",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear11",
+      "name": "CGLMP5.SOSFinite.phase_linear_11_12",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear11",
+      "name": "CGLMP5.SOSFinite.phase_linear_11_13",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear11",
+      "name": "CGLMP5.SOSFinite.phase_linear_11_14",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear11",
+      "name": "CGLMP5.SOSFinite.phase_linear_11_15",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear11",
+      "name": "CGLMP5.SOSFinite.phase_linear_11_16",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear11",
+      "name": "CGLMP5.SOSFinite.phase_linear_11_17",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear11",
+      "name": "CGLMP5.SOSFinite.phase_linear_11_18",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear11",
+      "name": "CGLMP5.SOSFinite.phase_linear_11_19",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear11",
+      "name": "CGLMP5.SOSFinite.phase_linear_11_2",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear11",
+      "name": "CGLMP5.SOSFinite.phase_linear_11_20",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear11",
+      "name": "CGLMP5.SOSFinite.phase_linear_11_21",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear11",
+      "name": "CGLMP5.SOSFinite.phase_linear_11_22",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear11",
+      "name": "CGLMP5.SOSFinite.phase_linear_11_23",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear11",
+      "name": "CGLMP5.SOSFinite.phase_linear_11_3",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear11",
+      "name": "CGLMP5.SOSFinite.phase_linear_11_4",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear11",
+      "name": "CGLMP5.SOSFinite.phase_linear_11_5",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear11",
+      "name": "CGLMP5.SOSFinite.phase_linear_11_6",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear11",
+      "name": "CGLMP5.SOSFinite.phase_linear_11_7",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear11",
+      "name": "CGLMP5.SOSFinite.phase_linear_11_8",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear11",
+      "name": "CGLMP5.SOSFinite.phase_linear_11_9",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear12",
+      "name": "CGLMP5.SOSFinite.phase_linear_12_0",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear12",
+      "name": "CGLMP5.SOSFinite.phase_linear_12_1",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear12",
+      "name": "CGLMP5.SOSFinite.phase_linear_12_10",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear12",
+      "name": "CGLMP5.SOSFinite.phase_linear_12_11",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear12",
+      "name": "CGLMP5.SOSFinite.phase_linear_12_12",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear12",
+      "name": "CGLMP5.SOSFinite.phase_linear_12_13",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear12",
+      "name": "CGLMP5.SOSFinite.phase_linear_12_14",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear12",
+      "name": "CGLMP5.SOSFinite.phase_linear_12_15",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear12",
+      "name": "CGLMP5.SOSFinite.phase_linear_12_16",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear12",
+      "name": "CGLMP5.SOSFinite.phase_linear_12_17",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear12",
+      "name": "CGLMP5.SOSFinite.phase_linear_12_18",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear12",
+      "name": "CGLMP5.SOSFinite.phase_linear_12_19",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear12",
+      "name": "CGLMP5.SOSFinite.phase_linear_12_2",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear12",
+      "name": "CGLMP5.SOSFinite.phase_linear_12_20",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear12",
+      "name": "CGLMP5.SOSFinite.phase_linear_12_21",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear12",
+      "name": "CGLMP5.SOSFinite.phase_linear_12_22",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear12",
+      "name": "CGLMP5.SOSFinite.phase_linear_12_23",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear12",
+      "name": "CGLMP5.SOSFinite.phase_linear_12_3",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear12",
+      "name": "CGLMP5.SOSFinite.phase_linear_12_4",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear12",
+      "name": "CGLMP5.SOSFinite.phase_linear_12_5",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear12",
+      "name": "CGLMP5.SOSFinite.phase_linear_12_6",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear12",
+      "name": "CGLMP5.SOSFinite.phase_linear_12_7",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear12",
+      "name": "CGLMP5.SOSFinite.phase_linear_12_8",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear12",
+      "name": "CGLMP5.SOSFinite.phase_linear_12_9",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear13",
+      "name": "CGLMP5.SOSFinite.phase_linear_13_0",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear13",
+      "name": "CGLMP5.SOSFinite.phase_linear_13_1",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear13",
+      "name": "CGLMP5.SOSFinite.phase_linear_13_10",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear13",
+      "name": "CGLMP5.SOSFinite.phase_linear_13_11",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear13",
+      "name": "CGLMP5.SOSFinite.phase_linear_13_12",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear13",
+      "name": "CGLMP5.SOSFinite.phase_linear_13_13",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear13",
+      "name": "CGLMP5.SOSFinite.phase_linear_13_14",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear13",
+      "name": "CGLMP5.SOSFinite.phase_linear_13_15",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear13",
+      "name": "CGLMP5.SOSFinite.phase_linear_13_16",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear13",
+      "name": "CGLMP5.SOSFinite.phase_linear_13_17",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear13",
+      "name": "CGLMP5.SOSFinite.phase_linear_13_18",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear13",
+      "name": "CGLMP5.SOSFinite.phase_linear_13_19",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear13",
+      "name": "CGLMP5.SOSFinite.phase_linear_13_2",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear13",
+      "name": "CGLMP5.SOSFinite.phase_linear_13_20",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear13",
+      "name": "CGLMP5.SOSFinite.phase_linear_13_21",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear13",
+      "name": "CGLMP5.SOSFinite.phase_linear_13_22",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear13",
+      "name": "CGLMP5.SOSFinite.phase_linear_13_23",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear13",
+      "name": "CGLMP5.SOSFinite.phase_linear_13_3",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear13",
+      "name": "CGLMP5.SOSFinite.phase_linear_13_4",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear13",
+      "name": "CGLMP5.SOSFinite.phase_linear_13_5",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear13",
+      "name": "CGLMP5.SOSFinite.phase_linear_13_6",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear13",
+      "name": "CGLMP5.SOSFinite.phase_linear_13_7",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear13",
+      "name": "CGLMP5.SOSFinite.phase_linear_13_8",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear13",
+      "name": "CGLMP5.SOSFinite.phase_linear_13_9",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear14",
+      "name": "CGLMP5.SOSFinite.phase_linear_14_0",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear14",
+      "name": "CGLMP5.SOSFinite.phase_linear_14_1",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear14",
+      "name": "CGLMP5.SOSFinite.phase_linear_14_10",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear14",
+      "name": "CGLMP5.SOSFinite.phase_linear_14_11",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear14",
+      "name": "CGLMP5.SOSFinite.phase_linear_14_12",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear14",
+      "name": "CGLMP5.SOSFinite.phase_linear_14_13",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear14",
+      "name": "CGLMP5.SOSFinite.phase_linear_14_14",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear14",
+      "name": "CGLMP5.SOSFinite.phase_linear_14_15",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear14",
+      "name": "CGLMP5.SOSFinite.phase_linear_14_16",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear14",
+      "name": "CGLMP5.SOSFinite.phase_linear_14_17",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear14",
+      "name": "CGLMP5.SOSFinite.phase_linear_14_18",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear14",
+      "name": "CGLMP5.SOSFinite.phase_linear_14_19",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear14",
+      "name": "CGLMP5.SOSFinite.phase_linear_14_2",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear14",
+      "name": "CGLMP5.SOSFinite.phase_linear_14_20",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear14",
+      "name": "CGLMP5.SOSFinite.phase_linear_14_21",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear14",
+      "name": "CGLMP5.SOSFinite.phase_linear_14_22",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear14",
+      "name": "CGLMP5.SOSFinite.phase_linear_14_23",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear14",
+      "name": "CGLMP5.SOSFinite.phase_linear_14_3",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear14",
+      "name": "CGLMP5.SOSFinite.phase_linear_14_4",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear14",
+      "name": "CGLMP5.SOSFinite.phase_linear_14_5",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear14",
+      "name": "CGLMP5.SOSFinite.phase_linear_14_6",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear14",
+      "name": "CGLMP5.SOSFinite.phase_linear_14_7",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear14",
+      "name": "CGLMP5.SOSFinite.phase_linear_14_8",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear14",
+      "name": "CGLMP5.SOSFinite.phase_linear_14_9",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear15",
+      "name": "CGLMP5.SOSFinite.phase_linear_15_0",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear15",
+      "name": "CGLMP5.SOSFinite.phase_linear_15_1",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear15",
+      "name": "CGLMP5.SOSFinite.phase_linear_15_10",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear15",
+      "name": "CGLMP5.SOSFinite.phase_linear_15_11",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear15",
+      "name": "CGLMP5.SOSFinite.phase_linear_15_12",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear15",
+      "name": "CGLMP5.SOSFinite.phase_linear_15_13",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear15",
+      "name": "CGLMP5.SOSFinite.phase_linear_15_14",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear15",
+      "name": "CGLMP5.SOSFinite.phase_linear_15_15",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear15",
+      "name": "CGLMP5.SOSFinite.phase_linear_15_16",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear15",
+      "name": "CGLMP5.SOSFinite.phase_linear_15_17",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear15",
+      "name": "CGLMP5.SOSFinite.phase_linear_15_18",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear15",
+      "name": "CGLMP5.SOSFinite.phase_linear_15_19",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear15",
+      "name": "CGLMP5.SOSFinite.phase_linear_15_2",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear15",
+      "name": "CGLMP5.SOSFinite.phase_linear_15_20",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear15",
+      "name": "CGLMP5.SOSFinite.phase_linear_15_21",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear15",
+      "name": "CGLMP5.SOSFinite.phase_linear_15_22",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear15",
+      "name": "CGLMP5.SOSFinite.phase_linear_15_23",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear15",
+      "name": "CGLMP5.SOSFinite.phase_linear_15_3",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear15",
+      "name": "CGLMP5.SOSFinite.phase_linear_15_4",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear15",
+      "name": "CGLMP5.SOSFinite.phase_linear_15_5",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear15",
+      "name": "CGLMP5.SOSFinite.phase_linear_15_6",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear15",
+      "name": "CGLMP5.SOSFinite.phase_linear_15_7",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear15",
+      "name": "CGLMP5.SOSFinite.phase_linear_15_8",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear15",
+      "name": "CGLMP5.SOSFinite.phase_linear_15_9",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear16",
+      "name": "CGLMP5.SOSFinite.phase_linear_16_0",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear16",
+      "name": "CGLMP5.SOSFinite.phase_linear_16_1",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear16",
+      "name": "CGLMP5.SOSFinite.phase_linear_16_10",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear16",
+      "name": "CGLMP5.SOSFinite.phase_linear_16_11",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear16",
+      "name": "CGLMP5.SOSFinite.phase_linear_16_12",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear16",
+      "name": "CGLMP5.SOSFinite.phase_linear_16_13",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear16",
+      "name": "CGLMP5.SOSFinite.phase_linear_16_14",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear16",
+      "name": "CGLMP5.SOSFinite.phase_linear_16_15",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear16",
+      "name": "CGLMP5.SOSFinite.phase_linear_16_16",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear16",
+      "name": "CGLMP5.SOSFinite.phase_linear_16_17",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear16",
+      "name": "CGLMP5.SOSFinite.phase_linear_16_18",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear16",
+      "name": "CGLMP5.SOSFinite.phase_linear_16_19",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear16",
+      "name": "CGLMP5.SOSFinite.phase_linear_16_2",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear16",
+      "name": "CGLMP5.SOSFinite.phase_linear_16_20",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear16",
+      "name": "CGLMP5.SOSFinite.phase_linear_16_21",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear16",
+      "name": "CGLMP5.SOSFinite.phase_linear_16_22",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear16",
+      "name": "CGLMP5.SOSFinite.phase_linear_16_23",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear16",
+      "name": "CGLMP5.SOSFinite.phase_linear_16_3",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear16",
+      "name": "CGLMP5.SOSFinite.phase_linear_16_4",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear16",
+      "name": "CGLMP5.SOSFinite.phase_linear_16_5",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear16",
+      "name": "CGLMP5.SOSFinite.phase_linear_16_6",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear16",
+      "name": "CGLMP5.SOSFinite.phase_linear_16_7",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear16",
+      "name": "CGLMP5.SOSFinite.phase_linear_16_8",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear16",
+      "name": "CGLMP5.SOSFinite.phase_linear_16_9",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear17",
+      "name": "CGLMP5.SOSFinite.phase_linear_17_0",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear17",
+      "name": "CGLMP5.SOSFinite.phase_linear_17_1",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear17",
+      "name": "CGLMP5.SOSFinite.phase_linear_17_10",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear17",
+      "name": "CGLMP5.SOSFinite.phase_linear_17_11",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear17",
+      "name": "CGLMP5.SOSFinite.phase_linear_17_12",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear17",
+      "name": "CGLMP5.SOSFinite.phase_linear_17_13",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear17",
+      "name": "CGLMP5.SOSFinite.phase_linear_17_14",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear17",
+      "name": "CGLMP5.SOSFinite.phase_linear_17_15",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear17",
+      "name": "CGLMP5.SOSFinite.phase_linear_17_16",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear17",
+      "name": "CGLMP5.SOSFinite.phase_linear_17_17",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear17",
+      "name": "CGLMP5.SOSFinite.phase_linear_17_18",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear17",
+      "name": "CGLMP5.SOSFinite.phase_linear_17_19",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear17",
+      "name": "CGLMP5.SOSFinite.phase_linear_17_2",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear17",
+      "name": "CGLMP5.SOSFinite.phase_linear_17_20",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear17",
+      "name": "CGLMP5.SOSFinite.phase_linear_17_21",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear17",
+      "name": "CGLMP5.SOSFinite.phase_linear_17_22",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear17",
+      "name": "CGLMP5.SOSFinite.phase_linear_17_23",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear17",
+      "name": "CGLMP5.SOSFinite.phase_linear_17_3",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear17",
+      "name": "CGLMP5.SOSFinite.phase_linear_17_4",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear17",
+      "name": "CGLMP5.SOSFinite.phase_linear_17_5",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear17",
+      "name": "CGLMP5.SOSFinite.phase_linear_17_6",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear17",
+      "name": "CGLMP5.SOSFinite.phase_linear_17_7",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear17",
+      "name": "CGLMP5.SOSFinite.phase_linear_17_8",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear17",
+      "name": "CGLMP5.SOSFinite.phase_linear_17_9",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear18",
+      "name": "CGLMP5.SOSFinite.phase_linear_18_0",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear18",
+      "name": "CGLMP5.SOSFinite.phase_linear_18_1",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear18",
+      "name": "CGLMP5.SOSFinite.phase_linear_18_10",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear18",
+      "name": "CGLMP5.SOSFinite.phase_linear_18_11",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear18",
+      "name": "CGLMP5.SOSFinite.phase_linear_18_12",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear18",
+      "name": "CGLMP5.SOSFinite.phase_linear_18_13",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear18",
+      "name": "CGLMP5.SOSFinite.phase_linear_18_14",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear18",
+      "name": "CGLMP5.SOSFinite.phase_linear_18_15",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear18",
+      "name": "CGLMP5.SOSFinite.phase_linear_18_16",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear18",
+      "name": "CGLMP5.SOSFinite.phase_linear_18_17",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear18",
+      "name": "CGLMP5.SOSFinite.phase_linear_18_18",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear18",
+      "name": "CGLMP5.SOSFinite.phase_linear_18_19",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear18",
+      "name": "CGLMP5.SOSFinite.phase_linear_18_2",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear18",
+      "name": "CGLMP5.SOSFinite.phase_linear_18_20",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear18",
+      "name": "CGLMP5.SOSFinite.phase_linear_18_21",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear18",
+      "name": "CGLMP5.SOSFinite.phase_linear_18_22",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear18",
+      "name": "CGLMP5.SOSFinite.phase_linear_18_23",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear18",
+      "name": "CGLMP5.SOSFinite.phase_linear_18_3",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear18",
+      "name": "CGLMP5.SOSFinite.phase_linear_18_4",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear18",
+      "name": "CGLMP5.SOSFinite.phase_linear_18_5",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear18",
+      "name": "CGLMP5.SOSFinite.phase_linear_18_6",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear18",
+      "name": "CGLMP5.SOSFinite.phase_linear_18_7",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear18",
+      "name": "CGLMP5.SOSFinite.phase_linear_18_8",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear18",
+      "name": "CGLMP5.SOSFinite.phase_linear_18_9",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear19",
+      "name": "CGLMP5.SOSFinite.phase_linear_19_0",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear19",
+      "name": "CGLMP5.SOSFinite.phase_linear_19_1",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear19",
+      "name": "CGLMP5.SOSFinite.phase_linear_19_10",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear19",
+      "name": "CGLMP5.SOSFinite.phase_linear_19_11",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear19",
+      "name": "CGLMP5.SOSFinite.phase_linear_19_12",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear19",
+      "name": "CGLMP5.SOSFinite.phase_linear_19_13",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear19",
+      "name": "CGLMP5.SOSFinite.phase_linear_19_14",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear19",
+      "name": "CGLMP5.SOSFinite.phase_linear_19_15",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear19",
+      "name": "CGLMP5.SOSFinite.phase_linear_19_16",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear19",
+      "name": "CGLMP5.SOSFinite.phase_linear_19_17",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear19",
+      "name": "CGLMP5.SOSFinite.phase_linear_19_18",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear19",
+      "name": "CGLMP5.SOSFinite.phase_linear_19_19",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear19",
+      "name": "CGLMP5.SOSFinite.phase_linear_19_2",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear19",
+      "name": "CGLMP5.SOSFinite.phase_linear_19_20",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear19",
+      "name": "CGLMP5.SOSFinite.phase_linear_19_21",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear19",
+      "name": "CGLMP5.SOSFinite.phase_linear_19_22",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear19",
+      "name": "CGLMP5.SOSFinite.phase_linear_19_23",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear19",
+      "name": "CGLMP5.SOSFinite.phase_linear_19_3",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear19",
+      "name": "CGLMP5.SOSFinite.phase_linear_19_4",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear19",
+      "name": "CGLMP5.SOSFinite.phase_linear_19_5",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear19",
+      "name": "CGLMP5.SOSFinite.phase_linear_19_6",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear19",
+      "name": "CGLMP5.SOSFinite.phase_linear_19_7",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear19",
+      "name": "CGLMP5.SOSFinite.phase_linear_19_8",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear19",
+      "name": "CGLMP5.SOSFinite.phase_linear_19_9",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear01",
+      "name": "CGLMP5.SOSFinite.phase_linear_1_0",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear01",
+      "name": "CGLMP5.SOSFinite.phase_linear_1_1",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear01",
+      "name": "CGLMP5.SOSFinite.phase_linear_1_10",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear01",
+      "name": "CGLMP5.SOSFinite.phase_linear_1_11",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear01",
+      "name": "CGLMP5.SOSFinite.phase_linear_1_12",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear01",
+      "name": "CGLMP5.SOSFinite.phase_linear_1_13",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear01",
+      "name": "CGLMP5.SOSFinite.phase_linear_1_14",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear01",
+      "name": "CGLMP5.SOSFinite.phase_linear_1_15",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear01",
+      "name": "CGLMP5.SOSFinite.phase_linear_1_16",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear01",
+      "name": "CGLMP5.SOSFinite.phase_linear_1_17",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear01",
+      "name": "CGLMP5.SOSFinite.phase_linear_1_18",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear01",
+      "name": "CGLMP5.SOSFinite.phase_linear_1_19",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear01",
+      "name": "CGLMP5.SOSFinite.phase_linear_1_2",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear01",
+      "name": "CGLMP5.SOSFinite.phase_linear_1_20",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear01",
+      "name": "CGLMP5.SOSFinite.phase_linear_1_21",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear01",
+      "name": "CGLMP5.SOSFinite.phase_linear_1_22",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear01",
+      "name": "CGLMP5.SOSFinite.phase_linear_1_23",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear01",
+      "name": "CGLMP5.SOSFinite.phase_linear_1_3",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear01",
+      "name": "CGLMP5.SOSFinite.phase_linear_1_4",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear01",
+      "name": "CGLMP5.SOSFinite.phase_linear_1_5",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear01",
+      "name": "CGLMP5.SOSFinite.phase_linear_1_6",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear01",
+      "name": "CGLMP5.SOSFinite.phase_linear_1_7",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear01",
+      "name": "CGLMP5.SOSFinite.phase_linear_1_8",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear01",
+      "name": "CGLMP5.SOSFinite.phase_linear_1_9",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear02",
+      "name": "CGLMP5.SOSFinite.phase_linear_2_0",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear02",
+      "name": "CGLMP5.SOSFinite.phase_linear_2_1",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear02",
+      "name": "CGLMP5.SOSFinite.phase_linear_2_10",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear02",
+      "name": "CGLMP5.SOSFinite.phase_linear_2_11",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear02",
+      "name": "CGLMP5.SOSFinite.phase_linear_2_12",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear02",
+      "name": "CGLMP5.SOSFinite.phase_linear_2_13",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear02",
+      "name": "CGLMP5.SOSFinite.phase_linear_2_14",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear02",
+      "name": "CGLMP5.SOSFinite.phase_linear_2_15",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear02",
+      "name": "CGLMP5.SOSFinite.phase_linear_2_16",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear02",
+      "name": "CGLMP5.SOSFinite.phase_linear_2_17",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear02",
+      "name": "CGLMP5.SOSFinite.phase_linear_2_18",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear02",
+      "name": "CGLMP5.SOSFinite.phase_linear_2_19",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear02",
+      "name": "CGLMP5.SOSFinite.phase_linear_2_2",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear02",
+      "name": "CGLMP5.SOSFinite.phase_linear_2_20",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear02",
+      "name": "CGLMP5.SOSFinite.phase_linear_2_21",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear02",
+      "name": "CGLMP5.SOSFinite.phase_linear_2_22",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear02",
+      "name": "CGLMP5.SOSFinite.phase_linear_2_23",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear02",
+      "name": "CGLMP5.SOSFinite.phase_linear_2_3",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear02",
+      "name": "CGLMP5.SOSFinite.phase_linear_2_4",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear02",
+      "name": "CGLMP5.SOSFinite.phase_linear_2_5",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear02",
+      "name": "CGLMP5.SOSFinite.phase_linear_2_6",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear02",
+      "name": "CGLMP5.SOSFinite.phase_linear_2_7",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear02",
+      "name": "CGLMP5.SOSFinite.phase_linear_2_8",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear02",
+      "name": "CGLMP5.SOSFinite.phase_linear_2_9",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear03",
+      "name": "CGLMP5.SOSFinite.phase_linear_3_0",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear03",
+      "name": "CGLMP5.SOSFinite.phase_linear_3_1",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear03",
+      "name": "CGLMP5.SOSFinite.phase_linear_3_10",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear03",
+      "name": "CGLMP5.SOSFinite.phase_linear_3_11",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear03",
+      "name": "CGLMP5.SOSFinite.phase_linear_3_12",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear03",
+      "name": "CGLMP5.SOSFinite.phase_linear_3_13",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear03",
+      "name": "CGLMP5.SOSFinite.phase_linear_3_14",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear03",
+      "name": "CGLMP5.SOSFinite.phase_linear_3_15",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear03",
+      "name": "CGLMP5.SOSFinite.phase_linear_3_16",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear03",
+      "name": "CGLMP5.SOSFinite.phase_linear_3_17",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear03",
+      "name": "CGLMP5.SOSFinite.phase_linear_3_18",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear03",
+      "name": "CGLMP5.SOSFinite.phase_linear_3_19",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear03",
+      "name": "CGLMP5.SOSFinite.phase_linear_3_2",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear03",
+      "name": "CGLMP5.SOSFinite.phase_linear_3_20",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear03",
+      "name": "CGLMP5.SOSFinite.phase_linear_3_21",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear03",
+      "name": "CGLMP5.SOSFinite.phase_linear_3_22",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear03",
+      "name": "CGLMP5.SOSFinite.phase_linear_3_23",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear03",
+      "name": "CGLMP5.SOSFinite.phase_linear_3_3",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear03",
+      "name": "CGLMP5.SOSFinite.phase_linear_3_4",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear03",
+      "name": "CGLMP5.SOSFinite.phase_linear_3_5",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear03",
+      "name": "CGLMP5.SOSFinite.phase_linear_3_6",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear03",
+      "name": "CGLMP5.SOSFinite.phase_linear_3_7",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear03",
+      "name": "CGLMP5.SOSFinite.phase_linear_3_8",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear03",
+      "name": "CGLMP5.SOSFinite.phase_linear_3_9",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear04",
+      "name": "CGLMP5.SOSFinite.phase_linear_4_0",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear04",
+      "name": "CGLMP5.SOSFinite.phase_linear_4_1",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear04",
+      "name": "CGLMP5.SOSFinite.phase_linear_4_10",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear04",
+      "name": "CGLMP5.SOSFinite.phase_linear_4_11",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear04",
+      "name": "CGLMP5.SOSFinite.phase_linear_4_12",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear04",
+      "name": "CGLMP5.SOSFinite.phase_linear_4_13",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear04",
+      "name": "CGLMP5.SOSFinite.phase_linear_4_14",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear04",
+      "name": "CGLMP5.SOSFinite.phase_linear_4_15",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear04",
+      "name": "CGLMP5.SOSFinite.phase_linear_4_16",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear04",
+      "name": "CGLMP5.SOSFinite.phase_linear_4_17",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear04",
+      "name": "CGLMP5.SOSFinite.phase_linear_4_18",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear04",
+      "name": "CGLMP5.SOSFinite.phase_linear_4_19",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear04",
+      "name": "CGLMP5.SOSFinite.phase_linear_4_2",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear04",
+      "name": "CGLMP5.SOSFinite.phase_linear_4_20",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear04",
+      "name": "CGLMP5.SOSFinite.phase_linear_4_21",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear04",
+      "name": "CGLMP5.SOSFinite.phase_linear_4_22",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear04",
+      "name": "CGLMP5.SOSFinite.phase_linear_4_23",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear04",
+      "name": "CGLMP5.SOSFinite.phase_linear_4_3",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear04",
+      "name": "CGLMP5.SOSFinite.phase_linear_4_4",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear04",
+      "name": "CGLMP5.SOSFinite.phase_linear_4_5",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear04",
+      "name": "CGLMP5.SOSFinite.phase_linear_4_6",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear04",
+      "name": "CGLMP5.SOSFinite.phase_linear_4_7",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear04",
+      "name": "CGLMP5.SOSFinite.phase_linear_4_8",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear04",
+      "name": "CGLMP5.SOSFinite.phase_linear_4_9",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear05",
+      "name": "CGLMP5.SOSFinite.phase_linear_5_0",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear05",
+      "name": "CGLMP5.SOSFinite.phase_linear_5_1",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear05",
+      "name": "CGLMP5.SOSFinite.phase_linear_5_10",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear05",
+      "name": "CGLMP5.SOSFinite.phase_linear_5_11",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear05",
+      "name": "CGLMP5.SOSFinite.phase_linear_5_12",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear05",
+      "name": "CGLMP5.SOSFinite.phase_linear_5_13",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear05",
+      "name": "CGLMP5.SOSFinite.phase_linear_5_14",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear05",
+      "name": "CGLMP5.SOSFinite.phase_linear_5_15",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear05",
+      "name": "CGLMP5.SOSFinite.phase_linear_5_16",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear05",
+      "name": "CGLMP5.SOSFinite.phase_linear_5_17",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear05",
+      "name": "CGLMP5.SOSFinite.phase_linear_5_18",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear05",
+      "name": "CGLMP5.SOSFinite.phase_linear_5_19",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear05",
+      "name": "CGLMP5.SOSFinite.phase_linear_5_2",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear05",
+      "name": "CGLMP5.SOSFinite.phase_linear_5_20",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear05",
+      "name": "CGLMP5.SOSFinite.phase_linear_5_21",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear05",
+      "name": "CGLMP5.SOSFinite.phase_linear_5_22",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear05",
+      "name": "CGLMP5.SOSFinite.phase_linear_5_23",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear05",
+      "name": "CGLMP5.SOSFinite.phase_linear_5_3",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear05",
+      "name": "CGLMP5.SOSFinite.phase_linear_5_4",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear05",
+      "name": "CGLMP5.SOSFinite.phase_linear_5_5",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear05",
+      "name": "CGLMP5.SOSFinite.phase_linear_5_6",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear05",
+      "name": "CGLMP5.SOSFinite.phase_linear_5_7",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear05",
+      "name": "CGLMP5.SOSFinite.phase_linear_5_8",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear05",
+      "name": "CGLMP5.SOSFinite.phase_linear_5_9",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear06",
+      "name": "CGLMP5.SOSFinite.phase_linear_6_0",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear06",
+      "name": "CGLMP5.SOSFinite.phase_linear_6_1",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear06",
+      "name": "CGLMP5.SOSFinite.phase_linear_6_10",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear06",
+      "name": "CGLMP5.SOSFinite.phase_linear_6_11",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear06",
+      "name": "CGLMP5.SOSFinite.phase_linear_6_12",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear06",
+      "name": "CGLMP5.SOSFinite.phase_linear_6_13",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear06",
+      "name": "CGLMP5.SOSFinite.phase_linear_6_14",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear06",
+      "name": "CGLMP5.SOSFinite.phase_linear_6_15",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear06",
+      "name": "CGLMP5.SOSFinite.phase_linear_6_16",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear06",
+      "name": "CGLMP5.SOSFinite.phase_linear_6_17",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear06",
+      "name": "CGLMP5.SOSFinite.phase_linear_6_18",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear06",
+      "name": "CGLMP5.SOSFinite.phase_linear_6_19",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear06",
+      "name": "CGLMP5.SOSFinite.phase_linear_6_2",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear06",
+      "name": "CGLMP5.SOSFinite.phase_linear_6_20",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear06",
+      "name": "CGLMP5.SOSFinite.phase_linear_6_21",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear06",
+      "name": "CGLMP5.SOSFinite.phase_linear_6_22",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear06",
+      "name": "CGLMP5.SOSFinite.phase_linear_6_23",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear06",
+      "name": "CGLMP5.SOSFinite.phase_linear_6_3",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear06",
+      "name": "CGLMP5.SOSFinite.phase_linear_6_4",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear06",
+      "name": "CGLMP5.SOSFinite.phase_linear_6_5",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear06",
+      "name": "CGLMP5.SOSFinite.phase_linear_6_6",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear06",
+      "name": "CGLMP5.SOSFinite.phase_linear_6_7",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear06",
+      "name": "CGLMP5.SOSFinite.phase_linear_6_8",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear06",
+      "name": "CGLMP5.SOSFinite.phase_linear_6_9",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear07",
+      "name": "CGLMP5.SOSFinite.phase_linear_7_0",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear07",
+      "name": "CGLMP5.SOSFinite.phase_linear_7_1",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear07",
+      "name": "CGLMP5.SOSFinite.phase_linear_7_10",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear07",
+      "name": "CGLMP5.SOSFinite.phase_linear_7_11",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear07",
+      "name": "CGLMP5.SOSFinite.phase_linear_7_12",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear07",
+      "name": "CGLMP5.SOSFinite.phase_linear_7_13",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear07",
+      "name": "CGLMP5.SOSFinite.phase_linear_7_14",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear07",
+      "name": "CGLMP5.SOSFinite.phase_linear_7_15",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear07",
+      "name": "CGLMP5.SOSFinite.phase_linear_7_16",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear07",
+      "name": "CGLMP5.SOSFinite.phase_linear_7_17",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear07",
+      "name": "CGLMP5.SOSFinite.phase_linear_7_18",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear07",
+      "name": "CGLMP5.SOSFinite.phase_linear_7_19",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear07",
+      "name": "CGLMP5.SOSFinite.phase_linear_7_2",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear07",
+      "name": "CGLMP5.SOSFinite.phase_linear_7_20",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear07",
+      "name": "CGLMP5.SOSFinite.phase_linear_7_21",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear07",
+      "name": "CGLMP5.SOSFinite.phase_linear_7_22",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear07",
+      "name": "CGLMP5.SOSFinite.phase_linear_7_23",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear07",
+      "name": "CGLMP5.SOSFinite.phase_linear_7_3",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear07",
+      "name": "CGLMP5.SOSFinite.phase_linear_7_4",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear07",
+      "name": "CGLMP5.SOSFinite.phase_linear_7_5",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear07",
+      "name": "CGLMP5.SOSFinite.phase_linear_7_6",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear07",
+      "name": "CGLMP5.SOSFinite.phase_linear_7_7",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear07",
+      "name": "CGLMP5.SOSFinite.phase_linear_7_8",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear07",
+      "name": "CGLMP5.SOSFinite.phase_linear_7_9",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear08",
+      "name": "CGLMP5.SOSFinite.phase_linear_8_0",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear08",
+      "name": "CGLMP5.SOSFinite.phase_linear_8_1",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear08",
+      "name": "CGLMP5.SOSFinite.phase_linear_8_10",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear08",
+      "name": "CGLMP5.SOSFinite.phase_linear_8_11",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear08",
+      "name": "CGLMP5.SOSFinite.phase_linear_8_12",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear08",
+      "name": "CGLMP5.SOSFinite.phase_linear_8_13",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear08",
+      "name": "CGLMP5.SOSFinite.phase_linear_8_14",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear08",
+      "name": "CGLMP5.SOSFinite.phase_linear_8_15",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear08",
+      "name": "CGLMP5.SOSFinite.phase_linear_8_16",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear08",
+      "name": "CGLMP5.SOSFinite.phase_linear_8_17",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear08",
+      "name": "CGLMP5.SOSFinite.phase_linear_8_18",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear08",
+      "name": "CGLMP5.SOSFinite.phase_linear_8_19",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear08",
+      "name": "CGLMP5.SOSFinite.phase_linear_8_2",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear08",
+      "name": "CGLMP5.SOSFinite.phase_linear_8_20",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear08",
+      "name": "CGLMP5.SOSFinite.phase_linear_8_21",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear08",
+      "name": "CGLMP5.SOSFinite.phase_linear_8_22",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear08",
+      "name": "CGLMP5.SOSFinite.phase_linear_8_23",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear08",
+      "name": "CGLMP5.SOSFinite.phase_linear_8_3",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear08",
+      "name": "CGLMP5.SOSFinite.phase_linear_8_4",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear08",
+      "name": "CGLMP5.SOSFinite.phase_linear_8_5",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear08",
+      "name": "CGLMP5.SOSFinite.phase_linear_8_6",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear08",
+      "name": "CGLMP5.SOSFinite.phase_linear_8_7",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear08",
+      "name": "CGLMP5.SOSFinite.phase_linear_8_8",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear08",
+      "name": "CGLMP5.SOSFinite.phase_linear_8_9",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear09",
+      "name": "CGLMP5.SOSFinite.phase_linear_9_0",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear09",
+      "name": "CGLMP5.SOSFinite.phase_linear_9_1",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear09",
+      "name": "CGLMP5.SOSFinite.phase_linear_9_10",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear09",
+      "name": "CGLMP5.SOSFinite.phase_linear_9_11",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear09",
+      "name": "CGLMP5.SOSFinite.phase_linear_9_12",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear09",
+      "name": "CGLMP5.SOSFinite.phase_linear_9_13",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear09",
+      "name": "CGLMP5.SOSFinite.phase_linear_9_14",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear09",
+      "name": "CGLMP5.SOSFinite.phase_linear_9_15",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear09",
+      "name": "CGLMP5.SOSFinite.phase_linear_9_16",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear09",
+      "name": "CGLMP5.SOSFinite.phase_linear_9_17",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear09",
+      "name": "CGLMP5.SOSFinite.phase_linear_9_18",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear09",
+      "name": "CGLMP5.SOSFinite.phase_linear_9_19",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear09",
+      "name": "CGLMP5.SOSFinite.phase_linear_9_2",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear09",
+      "name": "CGLMP5.SOSFinite.phase_linear_9_20",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear09",
+      "name": "CGLMP5.SOSFinite.phase_linear_9_21",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear09",
+      "name": "CGLMP5.SOSFinite.phase_linear_9_22",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear09",
+      "name": "CGLMP5.SOSFinite.phase_linear_9_23",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear09",
+      "name": "CGLMP5.SOSFinite.phase_linear_9_3",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear09",
+      "name": "CGLMP5.SOSFinite.phase_linear_9_4",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear09",
+      "name": "CGLMP5.SOSFinite.phase_linear_9_5",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear09",
+      "name": "CGLMP5.SOSFinite.phase_linear_9_6",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear09",
+      "name": "CGLMP5.SOSFinite.phase_linear_9_7",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear09",
+      "name": "CGLMP5.SOSFinite.phase_linear_9_8",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseLinear09",
+      "name": "CGLMP5.SOSFinite.phase_linear_9_9",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.AttainmentPhases",
+      "name": "CGLMP5.Attainment.phase_norm",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseBaseChecks",
+      "name": "CGLMP5.SOSFinite.phase_step_0",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseBaseChecks",
+      "name": "CGLMP5.SOSFinite.phase_step_1",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseBaseChecks",
+      "name": "CGLMP5.SOSFinite.phase_step_2",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseBaseChecks",
+      "name": "CGLMP5.SOSFinite.phase_step_3",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseBaseChecks",
+      "name": "CGLMP5.SOSFinite.phase_step_4",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseBaseChecks",
+      "name": "CGLMP5.SOSFinite.phase_step_5",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseBaseChecks",
+      "name": "CGLMP5.SOSFinite.phase_step_6",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseBaseChecks",
+      "name": "CGLMP5.SOSFinite.phase_step_7",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseBaseChecks",
+      "name": "CGLMP5.SOSFinite.phase_step_8",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseBaseChecks",
+      "name": "CGLMP5.SOSFinite.phase_step_9",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseBaseChecks",
+      "name": "CGLMP5.SOSFinite.phase_step_10",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseBaseChecks",
+      "name": "CGLMP5.SOSFinite.phase_step_11",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseBaseChecks",
+      "name": "CGLMP5.SOSFinite.phase_step_12",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseBaseChecks",
+      "name": "CGLMP5.SOSFinite.phase_step_13",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseBaseChecks",
+      "name": "CGLMP5.SOSFinite.phase_step_14",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseBaseChecks",
+      "name": "CGLMP5.SOSFinite.phase_step_15",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseBaseChecks",
+      "name": "CGLMP5.SOSFinite.phase_step_16",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseBaseChecks",
+      "name": "CGLMP5.SOSFinite.phase_step_17",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseBaseChecks",
+      "name": "CGLMP5.SOSFinite.phase_step_18",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.AttainmentPhases",
+      "name": "CGLMP5.Attainment.phase_zero",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.SOSPhaseBaseChecks",
+      "name": "CGLMP5.SOSFinite.phase_zero",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Attainment",
+      "name": "CGLMP5.Attainment.physicalState",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Attainment",
+      "name": "CGLMP5.Attainment.physicalVector",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Strategy",
+      "name": "CGLMP5.quantumValues",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.AttainmentState",
+      "name": "CGLMP5.Attainment.rawState",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Root",
+      "name": "CGLMP5.s",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.CertificateEmbeddingData",
+      "name": "CGLMP5.CertificateSource.sBox",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Root",
+      "name": "CGLMP5.sextic_strictMonoOn",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.Fourier",
+      "name": "CGLMP5.shiftDown",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Events",
+      "name": "CGLMP5.shifted",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Root",
+      "name": "CGLMP5.sin_pi_div_ten",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.CertificateSource",
+      "name": "CGLMP5.CertificateSource.sourceChunkTerms",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.SourceWordBridge",
+      "name": "CGLMP5.CertificateSource.sourceGenerator",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.AttainmentPhases",
+      "name": "CGLMP5.Attainment.star_phase",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.AttainmentState",
+      "name": "CGLMP5.Attainment.state",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Tensor",
+      "name": "CGLMP5.tensorMap",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.CertificateChunks",
+      "name": "CGLMP5.CertificateSource.DecimalChunks.text",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.AttainmentAlgebra",
+      "name": "CGLMP5.Attainment.two_s_mul_f3",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Root",
+      "name": "CGLMP5.u",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.CertificateEmbeddingData",
+      "name": "CGLMP5.CertificateSource.uBox",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Root",
+      "name": "CGLMP5.zeta",
+      "status": "ready",
+      "role": "mapped model/data definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Attainment",
+      "name": "CGLMP5.Attainment.physicalVector_coordinates",
+      "status": "ready",
+      "role": "owner-identified direct semantic bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.Attainment",
+      "name": "CGLMP5.Attainment.physicalVector_inner",
+      "status": "ready",
+      "role": "owner-identified direct semantic bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.TensorFinite",
+      "name": "CGLMP5.tensorEuclideanEquiv_pure",
+      "status": "ready",
+      "role": "owner-identified direct semantic bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.TensorFinite",
+      "name": "CGLMP5.tensorEuclideanEquiv_map_single",
+      "status": "ready",
+      "role": "owner-identified direct semantic bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Events",
+      "name": "CGLMP5.deterministicBehavior",
+      "status": "ready",
+      "role": "owner-identified model definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Events",
+      "name": "CGLMP5.localBehavior",
+      "status": "ready",
+      "role": "owner-identified model definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.StrategyTransport",
+      "name": "CGLMP5.Strategy.transport",
+      "status": "ready",
+      "role": "owner-identified model definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.StrategyTransport",
+      "name": "CGLMP5.Strategy.lift",
+      "status": "ready",
+      "role": "owner-identified model definition type",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.CertificateData",
+      "name": "CGLMP5.CertificateSource.rawTerms_length",
+      "status": "ready",
+      "role": "owner-identified direct semantic bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.SOSIntegerData",
+      "name": "CGLMP5.SOSFinite.all_denominators_positive",
+      "status": "ready",
+      "role": "owner-identified direct semantic bridge",
+      "declaration_kind": "theorem"
+    },
+    {
+      "module": "CGLMP5.Operator",
+      "name": "CGLMP5.POVM",
+      "status": "ready",
+      "role": "model definition type required by statement alignment",
+      "declaration_kind": "structure"
+    },
+    {
+      "module": "CGLMP5.Measurements",
+      "name": "CGLMP5.PVM",
+      "status": "ready",
+      "role": "model definition type required by statement alignment",
+      "declaration_kind": "structure"
+    },
+    {
+      "module": "CGLMP5.Strategy",
+      "name": "CGLMP5.Strategy",
+      "status": "ready",
+      "role": "model definition type required by statement alignment",
+      "declaration_kind": "structure"
+    },
+    {
+      "module": "CGLMP5.WordSyntax",
+      "name": "CGLMP5.Word",
+      "status": "ready",
+      "role": "model definition type required by statement alignment",
+      "declaration_kind": "structure"
+    },
+    {
+      "module": "CGLMP5.POVMTransfer",
+      "name": "CGLMP5.bellOperator",
+      "status": "ready",
+      "role": "model definition type required by statement alignment",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.Root",
+      "name": "CGLMP5.sextic",
+      "status": "ready",
+      "role": "model definition type required by statement alignment",
+      "declaration_kind": "def"
+    },
+    {
+      "module": "CGLMP5.AttainmentSpectralLink",
+      "name": "CGLMP5.Attainment.alice_unitary_matrix",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.AttainmentSpectralLink",
+      "name": "CGLMP5.Attainment.bob_unitary_matrix",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.AttainmentFourier",
+      "name": "CGLMP5.Attainment.localProjection_positive",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.AttainmentSpectralLink",
+      "name": "CGLMP5.Attainment.localSpectral_step",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.AttainmentOverlap",
+      "name": "CGLMP5.Attainment.phase_overlap",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.Attainment",
+      "name": "CGLMP5.Attainment.physicalState_expectation",
+      "status": "ready",
+      "role": "mapped load-bearing theorem/bridge",
+      "declaration_kind": "lemma"
+    },
+    {
+      "module": "CGLMP5.Operator",
+      "name": "CGLMP5.PVM.toPOVM",
+      "status": "ready",
+      "role": "physical PVM to POVM model definition type",
+      "declaration_kind": "def"
+    }
+  ]
+}

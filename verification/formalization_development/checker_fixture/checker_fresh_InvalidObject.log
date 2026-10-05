@@ -1,0 +1,6 @@
+replaying InvalidObject with --fresh
+uncaught exception: while replaying declaration 'TrustFixture.claim':
+(kernel) declaration type mismatch, 'TrustFixture.claim' has type
+  True
+but it is expected to have type
+  False

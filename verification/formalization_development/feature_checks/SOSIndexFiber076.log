@@ -1,0 +1,3 @@
+[limited-build] ticket594 acquired slot1: /workspace/scratch/e6e0818fcb8f/ising_recovery_runtime_20261003T1833Z/lean-4.34.1-linux/bin/lake build CGLMP5.SOSIndexFiber076
+✔ [591/591] Built CGLMP5.SOSIndexFiber076 (1.5s)
+Build completed successfully (591 jobs).

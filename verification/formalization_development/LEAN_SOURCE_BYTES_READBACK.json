@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-04T12:58:22.434682+00:00",
+  "exit": 0,
+  "actual_bytes": 581335,
+  "expected_bytes": 581335,
+  "actual_sha256": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+  "expected_sha256": "1c0708628ca5b89caef11a80d3a5e89f4074a14a26ea5c2d2d92087ffa5f22c2",
+  "stderr": "",
+  "status": "PASS",
+  "scope": "Actual evaluated canonicalSourceBytes exact readback. Separate kernel theorem canonical_source_decode and scientific proof are mandatory."
+}

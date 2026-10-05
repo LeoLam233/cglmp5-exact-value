@@ -1,0 +1,60 @@
+{
+  "kind": "kernel_source_decode_corruption_precompletion_not_final_audit",
+  "old_numerator": "-443361769718167637776732040154369840727074664526786792545102027935284858297055941067844722416239919018873254081734593087273530289680470830548572720637270103123663111570757160846993386200",
+  "new_numerator": "-443361769718167637776732040154369840727074664526786792545102027935284858297055941067844722416239919018873254081734593087273530289680470830548572720637270103123663111570757160846993386199",
+  "original_data_sha256": "09643d4d3ddf01ac4c15e2455b65ad12d542846de611316060577856c1d4f45e",
+  "mutated_data_sha256": "3e7eb3039933dfcc468f29f9bb4ba19c414bac38121a7a0e3c88ebf05aa153bf",
+  "source_sha256": {
+    "CertificateTerm00Data.lean": "09643d4d3ddf01ac4c15e2455b65ad12d542846de611316060577856c1d4f45e",
+    "CertificateChunkData00.lean": "e3deb550c2d5bc366bbee1c60b65bf4cf636e8813d4dcefa0e2ba08a58279c12",
+    "CertificateChunk00C00.lean": "9a6d2607b09379b0b7f2c4a53a106497af24450ab517543533b995e86207b5d5"
+  },
+  "lean_version": "Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+  "lake_manifest_sha256": "96b577b765d936e10a36a561304d42cb13e0a01feec4681ba18c495e03b95116",
+  "results": [
+    {
+      "mode": "original",
+      "passed": true,
+      "runs": [
+        {
+          "module": "CertificateTerm00Data.lean",
+          "exit_code": 0,
+          "seconds": 1.617
+        },
+        {
+          "module": "CertificateChunkData00.lean",
+          "exit_code": 0,
+          "seconds": 3.692
+        },
+        {
+          "module": "CertificateChunk00C00.lean",
+          "exit_code": 0,
+          "seconds": 9.628
+        }
+      ]
+    },
+    {
+      "mode": "mutated",
+      "passed": true,
+      "runs": [
+        {
+          "module": "CertificateTerm00Data.lean",
+          "exit_code": 0,
+          "seconds": 3.3
+        },
+        {
+          "module": "CertificateChunkData00.lean",
+          "exit_code": 0,
+          "seconds": 3.77
+        },
+        {
+          "module": "CertificateChunk00C00.lean",
+          "exit_code": 1,
+          "seconds": 16.984
+        }
+      ]
+    }
+  ],
+  "status": "PASS",
+  "scope": "Source binding only. A distinct actual SOS coefficient corruption test remains required."
+}

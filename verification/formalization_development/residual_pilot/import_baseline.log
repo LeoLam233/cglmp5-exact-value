@@ -1,0 +1,3 @@
+[limited-build] ticket86 acquired slot1: python -c import resource,subprocess,time,json; t=time.monotonic(); p=subprocess.run(["/workspace/scratch/e6e0818fcb8f/ising_recovery_runtime_20261003T1833Z/lean-4.34.1-linux/bin/lake","env","lean","-M","3000","-j","1","CGLMP5/SOSResidualSinglePilotImport.lean"]); print(json.dumps({"returncode":p.returncode,"seconds":time.monotonic()-t,"maxrss_kib":resource.getrusage(resource.RUSAGE_CHILDREN).ru_maxrss}),flush=True); raise SystemExit(p.returncode)
+CGLMP5.SOSFinite.integerNumerator (w : Fin 273) (k : Fin 24) : ℤ
+{"returncode": 0, "seconds": 8.470325203998073, "maxrss_kib": 2448604}

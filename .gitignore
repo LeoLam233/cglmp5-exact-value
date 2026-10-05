@@ -23,3 +23,12 @@ KILL_TESTS.json
 /paper/*.toc
 /paper/.build/
 /paper/rendered/
+
+# Lean-generated products; proof sources and replay receipts are retained separately.
+*.olean
+*.olean.*
+*.ilean
+*.ilean.*
+*.ir
+*.ir.*
+*.c.o
