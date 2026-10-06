@@ -3,8 +3,9 @@
 This is a development/completion-gate harness. It is not an adversarial audit
 and does not by itself establish the scientific theorem. The [current release
 contract](../../RELEASE_v0.2.0.md) distinguishes completed baseline evidence,
-unchanged proof-critical payload and final-commit remote CI/publication gates;
-permitted release-layer changes do not require another local replay or audit.
+unchanged proof-critical payload and lightweight final-commit remote release
+CI/publication gates. Default release CI binds preserved mathematical evidence;
+it does not repeat a full clean build or kernel replay for unchanged payload.
 
 `declaration_inventory.json` lists the actual final roots, semantic bridge endpoints,
 explicitly mapped theorem families, and named model/data definitions. Definition
@@ -28,7 +29,11 @@ parsed axiom sets, missing objects and pending roots. Source mutation during the
 run is explicitly recorded. Existing `.olean` presence or a successful default-
 trust import is not an independent kernel replay of imported declarations.
 
-## Required final clean-candidate stages
+## Retained full-replay inspection procedure
+
+This procedure records the baseline inspection and remains available for a heavy
+diagnostic only if an actual new proof-critical defect or actual proof-critical
+payload change is found. It is not part of default lightweight release CI.
 
 After the candidate has a fresh whole-tree source build, complete the declaration
 inventory, ensure there are no pending items, and capture the complete types and

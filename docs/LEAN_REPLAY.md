@@ -2,9 +2,11 @@
 
 ## Status and scope
 
-The read-only workflow `.github/workflows/lean-verification.yml` implements the
-pinned replay below. Remote execution is established only by a commit-bound CI
-run and its external receipts; this document is not an execution receipt.
+The read-only workflow `.github/workflows/lean-verification.yml` defaults to
+lightweight release-integrity checks and strict binding of the unchanged proof
+payload to preserved mathematical evidence. It does not run the full proof
+replay described below. Actual remote execution is established only by a
+commit-bound CI run and its external receipts; this document is not a receipt.
 
 The validated baseline, commit `67e0426166c622a63e7daae554560e1ece16a3ba`, tree
 `c1a5aa737f6bd7f04ea2bc2c22424dd53bcea281`, has completion evidence covering all
@@ -18,12 +20,16 @@ cancelled before completion; Round 3 was not performed.
 
 Under the [release contract authorized on 6 October 2026](../RELEASE_v0.2.0.md),
 permitted release-layer changes require byte-identical proof-critical payload,
-valid workflow configuration and real remote CI on the final commit, followed by
-annotated publication and downloaded-asset verification. They do not require
-another local whole-project replay or audit sequence. The final Git tree and
-its changed release-layer bytes are not assigned the baseline's audit outcome.
-The technical procedure below remains available for remote CI and independent
-reproduction; a successful run is a completion-gate replay, not an audit round.
+valid workflow configuration and actual lightweight remote release CI on the
+final commit, followed by annotated publication and API asset metadata/digest
+verification against the frozen local inventory. Routine full large-asset
+redownload is not required; concrete integrity concerns trigger readback.
+Both required main-push workflows must pass. No additional local or remote full
+clean build, kernel replay, Round 2 or Round 3 is restarted unless an actual new
+proof-critical defect or actual proof-critical payload change is found. The final
+Git tree and its changed release-layer bytes are not assigned the baseline's
+audit outcome. The retained full-replay procedure is a separately authorized
+diagnostic after such a finding, not an automatic or manual default CI job.
 
 **Historical contract:** the original acceptance plan required three sequential
 adversarial audit rounds passing on one identical final Git tree. That plan is
@@ -31,9 +37,26 @@ preserved in the frozen handoff and original audit records, but the 6 October
 release contract supersedes it for v0.2.0 publication. Historical reports are not
 rewritten to describe cancelled or unperformed rounds as passing.
 
-## Immutable inputs
+The earlier heavyweight [precheck run 37379529190](https://github.com/LeoLam233/cglmp5-exact-value/actions/runs/37379529190)
+and [main run 37397296145](https://github.com/LeoLam233/cglmp5-exact-value/actions/runs/37397296145)
+are both **CANCELLED**, not PASS. Their retained records do not establish success
+for the later final commit containing the lightweight workflow.
 
-The workflow uses the existing repository-pinned checkout and setup-python action
+## Default lightweight release CI
+
+The default workflow executes fast synthetic infrastructure tests, declaration
+mapping, strict proof-payload and complete source-manifest verification, frozen
+historical-input checks, readiness and the production proof-escape scan. Pinned
+`actionlint` checks every workflow. Source packaging reads a `git archive` of the
+exact final commit and authenticates each member's Git blob, mode and SHA-256
+against the source manifest. Runtime/archive installation, dependency-cache
+setup, whole-production clean compilation and full kernel replay are excluded
+from this path. These checks establish final release integrity; the existing
+build, type/axiom and kernel-replay evidence retains its baseline identity.
+
+## Retained full-proof procedure and immutable inputs
+
+The historical full-replay workflow used the repository-pinned checkout and setup-python action
 revisions, an explicitly pinned upload-artifact revision, CPython 3.12 on Linux
 x86-64, and these mathematical/toolchain inputs:
 
@@ -59,7 +82,11 @@ by the pinned official `leanchecker --fresh CGLMP5`. Ordinary frontend import,
 even with `--trust=0`, is not a substitute: a controlled invalid-object fixture
 was accepted by that import path and rejected by the official fresh checker.
 
-## Clean relocated replay
+## Retained clean relocated replay
+
+These commands preserve the full proof-diagnostic procedure. They are not a
+publication prerequisite for unchanged proof-critical payload. Use them only
+under the defect/payload-change condition above.
 
 Start in a clean, separately checked-out candidate Git tree with its frozen tags
 available. Do not copy the development project's `.lake/build` into it. Receipts,
@@ -150,7 +177,8 @@ or dependency roots and linked production Lean sources before any cache cleanup.
 Heavyweight stages use `scripts/limited_build.py`; the source-mutation runner
 already locks each compiler itself and must not be wrapped a second time.
 The overall runner must not itself be wrapped, because that would nest slot locks.
-The CI job runs stages sequentially, allows six hours, and retains failure logs.
+The historical full-replay CI job ran stages sequentially, allowed six hours,
+and retained failure logs; it is not the default release CI path.
 Timeout, resource exhaustion, or a dependency download failure is a failed run,
 never permission to omit a theorem, reduce the Hilbert-space scope, or accept stale
 objects. Public dependency caches reduce disk and CPU needs; they do not replace
@@ -179,12 +207,13 @@ The workflow has only `contents: read`, disables persisted checkout credentials,
 uses no secrets, and contains no push, tag, release, deployment, or publication
 step. Its only upload stores verification logs as a normal Actions run artifact.
 Outputs live under `RUNNER_TEMP`; no receipt is written into the audited Git tree.
-The artifact includes failed readiness and build logs as well as successful
-receipts, when available. Archive/toolchain bytes are not redundantly uploaded.
+Current artifacts retain lightweight integrity/check receipts, including failures.
+Historical full-replay artifacts retain their readiness/build logs and available
+replay receipts. Archive/toolchain bytes are not redundantly uploaded.
 
 Before accepting a candidate, inspect the semantic outputs and exact axiom sets,
 not only process exit codes. A changed tree cannot inherit a whole-tree audit
 claim. For this release, the exhaustive payload comparison must show that all
 proof-critical bytes remain identical to the validated baseline; permitted
-release-layer differences receive final-commit CI and publication verification
+release-layer differences receive lightweight final-commit release CI and publication verification
 under the current contract.

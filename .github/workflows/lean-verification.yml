@@ -1,4 +1,4 @@
-name: Kernel-checked Lean formalization
+name: Validated proof payload and release infrastructure
 on:
   push:
     branches: [main, 'release/**', 'formalization/**']
@@ -12,7 +12,7 @@ concurrency:
 jobs:
   lean:
     runs-on: ubuntu-24.04
-    timeout-minutes: 360
+    timeout-minutes: 30
     env:
       LEAN_NUM_THREADS: '1'
       PYTHONDONTWRITEBYTECODE: '1'
@@ -56,25 +56,86 @@ jobs:
           if [[ -n "$(git status --porcelain=v1 --untracked-files=all)" ]]; then git status --short; exit 1; fi
           python -B scripts/check_lean_completion_readiness.py --output "$RUNNER_TEMP/cglmp5-receipts/READINESS.json"
           python -B scripts/check_source_manifest.py 2>&1 | tee "$RUNNER_TEMP/cglmp5-receipts/source_manifest.log"
-      - name: Install hash-pinned archive reader
-        run: python -m pip install --require-hashes --no-deps -r verification/lean/ci/requirements.txt
-      - name: Fetch exact Lean runtime, manifest dependencies and restricted mathlib cache
-        run: python -B scripts/setup_lean_ci.py --work-dir "$RUNNER_TEMP/cglmp5-runtime"
-      - name: Rebuild every production module and run strict completion gates
+          python -B scripts/check_lean_frozen_inputs.py --output "$RUNNER_TEMP/cglmp5-receipts/FROZEN_INPUTS.json"
+          python -B scripts/check_lean_trust_surface.py --output "$RUNNER_TEMP/cglmp5-receipts/TRUST_SURFACE.json"
+      # Full proof replay remains available in scripts/run_lean_verification.py
+      # and in the prior workflow history. It is not a default release gate:
+      # repeat it only after a new proof-critical defect or payload change.
+      - name: Validate all four workflows with official hash-pinned actionlint
         run: |
           set -euo pipefail
-          python -B scripts/run_lean_verification.py \
-            --output-dir "$RUNNER_TEMP/cglmp5-receipts/replay" \
-            --archive "$RUNNER_TEMP/cglmp5-runtime/lean-4.34.1-linux.tar.zst" \
-            --runtime "$RUNNER_TEMP/cglmp5-runtime/lean-4.34.1-linux"
-      - name: Preserve read-only verification receipts, including failures
+          TOOL_DIR="$RUNNER_TEMP/cglmp5-actionlint"
+          mkdir -p "$TOOL_DIR"
+          curl --fail --location --retry 3 \
+            https://github.com/rhysd/actionlint/releases/download/v1.7.12/actionlint_1.7.12_linux_amd64.tar.gz \
+            --output "$TOOL_DIR/actionlint.tar.gz"
+          echo '8aca8db96f1b94770f1b0d72b6dddcb1ebb8123cb3712530b08cc387b349a3d8  actionlint.tar.gz' \
+            | (cd "$TOOL_DIR" && sha256sum --check --strict)
+          tar -xzf "$TOOL_DIR/actionlint.tar.gz" -C "$TOOL_DIR" actionlint
+          "$TOOL_DIR/actionlint" -version | tee "$RUNNER_TEMP/cglmp5-receipts/actionlint-version.log"
+          "$TOOL_DIR/actionlint" -shellcheck= -pyflakes= -oneline \
+            .github/workflows/lean-verification.yml .github/workflows/verify.yml \
+            .github/workflows/release-v0.1.1.yml .github/workflows/release-v0.2.0.yml \
+            2>&1 | tee "$RUNNER_TEMP/cglmp5-receipts/actionlint.log"
+      - name: Package exact final source and verify every archived byte
+        run: |
+          set -euo pipefail
+          git archive --format=tar --output="$RUNNER_TEMP/cglmp5-source.tar" HEAD
+          python -B - <<'PY'
+          import hashlib, json, os, pathlib, re, subprocess, tarfile
+          state = pathlib.Path(os.environ['RUNNER_TEMP'])
+          archive = state / 'cglmp5-source.tar'
+          tracked = {}
+          for record in subprocess.check_output(['git', 'ls-tree', '-rz', 'HEAD']).split(b'\0'):
+              if not record:
+                  continue
+              meta, name = record.split(b'\t', 1)
+              mode, kind, oid = meta.decode().split()
+              if kind != 'blob' or mode not in ('100644', '100755'):
+                  raise SystemExit('Unsupported source-tree entry: ' + name.decode())
+              tracked[name.decode()] = (mode, oid)
+          checksums = {}
+          manifest_bytes = None
+          with tarfile.open(archive, 'r:') as package:
+              for member in package:
+                  if member.isdir():
+                      continue
+                  if not member.isfile() or member.name not in tracked or member.name in checksums:
+                      raise SystemExit('Unexpected or duplicate archive member: ' + member.name)
+                  data = package.extractfile(member).read()
+                  oid = hashlib.sha1(b'blob ' + str(len(data)).encode() + b'\0' + data).hexdigest()
+                  mode = '100755' if member.mode & 0o111 else '100644'
+                  if (mode, oid) != tracked[member.name]:
+                      raise SystemExit('Archive differs from exact final Git blob: ' + member.name)
+                  checksums[member.name] = hashlib.sha256(data).hexdigest()
+                  if member.name == 'SOURCE_MANIFEST.sha256':
+                      manifest_bytes = data
+          if set(checksums) != set(tracked) or manifest_bytes is None:
+              raise SystemExit('Archive source-file set is incomplete')
+          expected = {}
+          for line in manifest_bytes.decode().splitlines():
+              if line.startswith('#'):
+                  continue
+              match = re.fullmatch(r'([0-9a-f]{64})  (.+)', line)
+              if not match or match[2] in expected:
+                  raise SystemExit('Malformed or duplicate source-manifest entry')
+              expected[match[2]] = match[1]
+          if expected != {p: h for p, h in checksums.items() if p != 'SOURCE_MANIFEST.sha256'}:
+              raise SystemExit('Archived source manifest does not match every packaged byte')
+          result = dict(status='PASS', scope='Source packaging only; no proof replay',
+                        commit=subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip(),
+                        tree=subprocess.check_output(['git', 'rev-parse', 'HEAD^{tree}'], text=True).strip(),
+                        source_files=len(checksums), archive_bytes=archive.stat().st_size,
+                        archive_sha256=hashlib.sha256(archive.read_bytes()).hexdigest(),
+                        source_manifest_sha256=checksums['SOURCE_MANIFEST.sha256'])
+          (state / 'cglmp5-receipts/SOURCE_PACKAGE_READBACK.json').write_text(json.dumps(result, indent=2) + '\n')
+          print(json.dumps(result, indent=2))
+          PY
+      - name: Preserve lightweight release receipts, including failures
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
           name: lean-verification-${{ github.run_id }}-${{ github.run_attempt }}
-          path: |
-            ${{ runner.temp }}/cglmp5-receipts/
-            ${{ runner.temp }}/cglmp5-runtime/*.json
-            ${{ runner.temp }}/cglmp5-runtime/*.log
+          path: ${{ runner.temp }}/cglmp5-receipts/
           if-no-files-found: error
           retention-days: 30

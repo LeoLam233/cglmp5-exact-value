@@ -1,6 +1,6 @@
 # Compact SOS and reflection source map
 
-Status: the actual `CGLMP5.SOS.compact_identity` compiled successfully on 2026-10-04, with all 273 normal-word residuals and 6552 exact integer coordinate equalities. This document records development source alignment. It is not a fresh independent kernel replay or an adversarial audit. The current [release contract](../RELEASE_v0.2.0.md) distinguishes completed baseline evidence, unchanged proof-critical payload and final-commit remote acceptance.
+Status: the actual `CGLMP5.SOS.compact_identity` compiled successfully on 2026-10-04, with all 273 normal-word residuals and 6552 exact integer coordinate equalities. This document records development source alignment. It is not a fresh independent kernel replay or an adversarial audit. The current [release contract](../RELEASE_v0.2.0.md) distinguishes completed baseline evidence, unchanged proof-critical payload and lightweight final-commit remote release acceptance.
 
 ## 1. The public theorem and its represented objects
 
@@ -88,4 +88,4 @@ python scripts/generate_lean_sos_residual_stages.py --check
 
 All three matched the checked production sources during development. The successful but superseded All272 fallback and earlier failed prototypes were preserved outside production. Every remaining production Lean module is subject to the whole-tree build policy, including any module not reachable from the default root.
 
-The actual bounded-operator identity and tensor-POVM upper theorem, physical attainment, supremum/maximality assembly, clean whole-production compilation, genuine fresh kernel replay and source/mutation controls are covered by the validated baseline completion evidence. One formal blind audit round passed; Round 2 was cancelled and Round 3 was not performed. Final release requires proof-critical payload correspondence and the separate remote CI/publication gates. This map alone does not certify those outcomes.
+The actual bounded-operator identity and tensor-POVM upper theorem, physical attainment, supremum/maximality assembly, clean whole-production compilation, genuine fresh kernel replay and source/mutation controls are covered by the validated baseline completion evidence. One formal blind audit round passed; Round 2 was cancelled and Round 3 was not performed. Final release requires proof-critical payload correspondence and the separate lightweight remote release CI/publication gates, without another full clean build or kernel replay for unchanged payload. This map alone does not certify those outcomes.

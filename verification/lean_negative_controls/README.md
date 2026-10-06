@@ -1,6 +1,6 @@
 # Pre-completion semantic mutation controls
 
-These are development tests and completion-gate infrastructure, **not** adversarial audits. The validated baseline completion evidence includes their frozen-candidate replay, including source-binding and actual SOS arithmetic corruption. The [current release contract](../../RELEASE_v0.2.0.md) permits release-layer-only changes without another local replay while requiring unchanged proof-critical payload and real remote CI on the final commit. Historical development receipts below retain their original scope.
+These are development tests and completion-gate infrastructure, **not** adversarial audits. The validated baseline completion evidence includes their frozen-candidate replay, including source-binding and actual SOS arithmetic corruption. The [current release contract](../../RELEASE_v0.2.0.md) permits release-layer-only changes without another local or remote full clean build or kernel replay while requiring unchanged proof-critical payload and actual lightweight remote release CI on the final commit. Historical development receipts below retain their original scope.
 
 ## Executed tests
 
@@ -85,7 +85,7 @@ LEAN_NUM_THREADS=1 python ../scripts/limited_build.py python ../scripts/run_lean
 
 The same output and cleanliness options apply to `run_lean_source_mutations.py` and `run_lean_source_binding_corruption.py`. The source-mutation runner locks each compiler call internally; the source-binding runner, like the fixture runner, should receive one outer shared-slot wrapper.
 
-Successful checks do not by themselves establish release acceptance. The actual SOS coefficient-corruption execution is separately recorded in the baseline completion evidence; final payload correspondence, remote CI and publication remain distinct gates.
+Successful checks do not by themselves establish release acceptance. The actual SOS coefficient-corruption execution is separately recorded in the baseline completion evidence; final payload correspondence, lightweight remote release CI and publication remain distinct gates.
 
 ## Canonical source-binding corruption
 

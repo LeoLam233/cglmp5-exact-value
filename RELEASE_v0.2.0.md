@@ -3,8 +3,13 @@
 This is the release contract authorized on 6 October 2026. It replaces the earlier
 requirement for three completed audits on an identical final Git tree. It permits
 non-proof release, infrastructure and documentation changes while preserving the
-validated proof-critical payload. It is not itself an execution receipt or proof
-of final remote CI or publication.
+validated proof-critical payload. The subsequent clarification on the same date
+defines final remote CI as lightweight release-integrity checks with strict
+binding to preserved mathematical evidence, without a repeated full clean build
+or kernel replay for unchanged proof-critical bytes. Asset integrity is verified
+from each uploaded asset's GitHub API metadata and SHA-256 digest against frozen
+local metadata; full redownload is conditional on an integrity concern. This
+document is not an execution receipt or proof of final remote CI or publication.
 
 ## Fixed theorem
 
@@ -56,6 +61,19 @@ results on the superseded candidate are historical only. Statements in preserved
 reports that Round 2 and Round 3 remain required describe the former contract.
 They are not current release prerequisites.
 
+## Cancelled heavyweight CI history
+
+Both earlier heavyweight workflow runs are terminal **CANCELLED**, not PASS:
+
+- [Precheck run 37379529190](https://github.com/LeoLam233/cglmp5-exact-value/actions/runs/37379529190),
+  on commit `977800fda115c7897655b068cf16e1c001778421`.
+- [Main run 37397296145](https://github.com/LeoLam233/cglmp5-exact-value/actions/runs/37397296145),
+  on commit `a5cc59a17db9354e6d2fde89bb0a707f5faa879c`.
+
+Their retained logs are historical cancellation evidence. Neither run satisfies
+the required final-commit lightweight CI success; that outcome must be established
+by actual runs on the commit containing the updated release workflow.
+
 ## Final acceptance gates
 
 A release is accepted only if its separately hashed receipts establish all of:
@@ -72,27 +90,56 @@ A release is accepted only if its separately hashed receipts establish all of:
    be valid. The final source manifest, pinned scientific inputs and forbidden
    proof-escape scan must pass. No project axiom, `sorry`, `admit`, proof-critical
    `unsafe`, `native_decide`, or substitute theorem may enter the accepted proof.
-3. **Real final-commit remote CI.** The latest completed main-push runs of both
-   `verify.yml` and `lean-verification.yml` must succeed on the exact final
-   integrated commit. Workflow definitions, local checks, runs on older commits
-   and incomplete runs do not satisfy this gate. The final Git tree is recorded
-   separately from the baseline tree and payload digest.
+3. **Lightweight final-commit remote release CI.** The latest completed main-push
+   runs of both `verify.yml` and `lean-verification.yml` must actually succeed on
+   the exact final integrated commit. All workflow configurations must parse and
+   start correctly. Default `lean-verification.yml` checks static integrity,
+   manifests, packaging/release infrastructure and strict payload correspondence
+   to the preserved mathematical evidence; it does not repeat full clean build
+   or kernel replay. Workflow definitions, local checks, runs on older commits
+   and incomplete runs do not satisfy the actual remote-success requirement. The
+   final Git tree is recorded separately from the baseline tree and payload digest.
 4. **Annotated publication.** Create the annotated `v0.2.0` tag on that exact
    commit and the formal GitHub Release. Existing immutable tags and releases
    must not be replaced. Record the tag object, peeled commit and release identity.
-5. **Asset verification.** Upload the source, proof and acceptance assets,
-   redownload them from the release and compare their SHA-256 values.
-   A final remote-verification receipt
-   binds the commit, final tree, annotated tag, CI run identities, release and
-   downloaded assets to the baseline/payload correspondence and actual audit
-   history.
+5. **Asset verification.** Freeze each source/proof/acceptance asset's local
+   filename, exact byte size and SHA-256 before upload. For every release asset,
+   verify the GitHub API name, `state=uploaded`, exact size and usable SHA-256
+   digest against that frozen local metadata, and verify the exact asset count.
+   Matching metadata and digests for every asset establish integrity PASS.
+   Downloading one small critical asset to check the public route is optional.
+   A missing digest, digest/metadata mismatch, abnormal state or concrete
+   integrity concern triggers targeted or full readback of the affected assets;
+   routine full redownload of large assets is not required. The final remote
+   receipt binds the commit, final tree, annotated tag, CI runs, release, complete
+   asset inventory and verified digests to the baseline/payload correspondence
+   and actual audit history.
 
-Permitted release-layer-only changes do not require another local whole-project
-build, kernel replay or audit sequence. They still require the final payload
-comparison and real remote CI. A proof-critical difference fails this contract;
+Permitted release-layer-only changes do not require another local or remote full
+clean build, kernel replay or audit sequence. Full clean build, full kernel replay,
+Round 2 and Round 3 are not restarted unless an actual new proof-critical defect
+or actual proof-critical payload change is found. There is no automatic heavy
+diagnostic job in default release CI. The final payload comparison and actual
+lightweight remote CI remain required. A proof-critical difference fails the
+unchanged-payload acceptance condition;
 it cannot be reclassified as a documentation or packaging change. The final
 entire Git tree is not described as having passed Round 1 or three audit rounds
 when its release-layer bytes differ from the baseline.
+
+## Default release CI scope
+
+`lean-verification.yml` retains fast synthetic preflight tests, declaration
+mapping, strict proof-payload and complete source-manifest checks, frozen
+historical-input checks, readiness and the production proof-escape scan. Pinned
+`actionlint` validates all workflow files. Source packaging is checked by reading
+a `git archive` of the exact final commit and comparing each member's Git blob,
+mode and SHA-256 against the source manifest. Runtime installation, dependency
+cache setup, the whole-production clean build and full kernel replay are absent
+from this default path. The retained full-proof procedure is a separately
+authorized diagnostic only after an actual new proof-critical defect or actual
+proof-critical payload change. A lightweight CI PASS establishes its stated
+release-integrity checks; the mathematical build/replay outcome remains the
+separately recorded baseline evidence.
 
 ## Manual publication boundary
 
@@ -103,8 +150,9 @@ scientific or audit success. The workflow enforces the exact final commit/tree,
 payload correspondence, preserved inputs, source manifest and latest successful
 main-push CI. It refuses any existing tag or release, including a draft without a
 tag. Tag/ref responses and gate receipts remain preserved if a later step fails.
-Asset upload, formal publication and downloaded-byte verification require their
-own successful records. No pending publication outcome is labelled PASS here.
+Asset upload, formal publication and API metadata/digest verification require
+their own successful records. Conditional readback, when triggered, is recorded
+with its actual scope and result. No pending publication outcome is labelled PASS here.
 
 ## Trust and provenance
 

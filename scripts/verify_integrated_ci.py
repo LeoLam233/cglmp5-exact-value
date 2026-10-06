@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-"""Require the latest main-push run of each verification workflow at one commit.
+"""Require the latest main-push release/infrastructure CI at one exact commit.
 
 This read-only receipt gate does not establish the external payload-bound
 acceptance record; its reviewed hash must separately be supplied at release dispatch.
+The Lean-named workflow now checks the validated payload and release infrastructure;
+its success does not assert a repeated clean Lean build or full kernel replay.
 """
 import argparse
 import json
@@ -26,7 +28,7 @@ def verify(runs, commit):
             raise ValueError('Latest integrated CI is not completed successfully: ' + path)
         accepted.append(latest)
     return {'status': 'PASS', 'integrated_commit': commit, 'required_workflows': sorted(REQUIRED),
-            'runs': accepted, 'scope': 'Integrated-commit CI only; external payload-bound acceptance is separate.'}
+            'runs': accepted, 'scope': 'Integrated-commit release/infrastructure CI only; no repeated full proof replay is inferred. External payload-bound acceptance is separate.'}
 
 
 def main():
