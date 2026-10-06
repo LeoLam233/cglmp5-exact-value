@@ -1,7 +1,10 @@
 # Lean declaration dependency/type inspection
 
-This is a development/completion-gate harness. It is not any of the three final
-adversarial audit rounds and does not by itself establish the scientific theorem.
+This is a development/completion-gate harness. It is not an adversarial audit
+and does not by itself establish the scientific theorem. The [current release
+contract](../../RELEASE_v0.2.0.md) distinguishes completed baseline evidence,
+unchanged proof-critical payload and final-commit remote CI/publication gates;
+permitted release-layer changes do not require another local replay or audit.
 
 `declaration_inventory.json` lists the actual final roots, semantic bridge endpoints,
 explicitly mapped theorem families, and named model/data definitions. Definition

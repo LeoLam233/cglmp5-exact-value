@@ -7,11 +7,11 @@ on:
         required: true
         type: string
       expected_tree:
-        description: 'Identical Git tree accepted by all three sequential audit rounds'
+        description: 'Exact final release Git tree; proof payload must match the validated baseline'
         required: true
         type: string
       acceptance_receipt_sha256:
-        description: 'SHA-256 of the externally verified complete acceptance receipt; dispatch only after every gate'
+        description: 'SHA-256 of the reviewed payload-bound acceptance receipt; dispatch only after final-commit CI passes'
         required: true
         type: string
 permissions:
@@ -46,6 +46,8 @@ jobs:
           python3 -B scripts/check_lean_frozen_inputs.py --output "$RUNNER_TEMP/cglmp5-release/FROZEN_INPUTS.json"
           python3 -B scripts/check_source_manifest.py
           python3 -B scripts/check_lean_completion_readiness.py --output "$RUNNER_TEMP/cglmp5-release/READINESS.json"
+          python3 -B scripts/check_release_payload.py --output "$RUNNER_TEMP/cglmp5-release/FINAL_PAYLOAD_CHECK.json"
+          python3 -B scripts/test_release_payload.py
           python3 -B scripts/test_integrated_ci.py
       - name: Require completed CI on the integrated main commit
         env:
@@ -79,7 +81,7 @@ jobs:
             echo 'A v0.2.0 tag or release already exists; refusing replacement or a partial-state retry.' >&2
             exit 1
           fi
-          MESSAGE="CGLMP5 v0.2.0: complete original-scope Lean formalization; three sequential internal hostile audits accepted tree $EXPECTED_TREE. Acceptance receipt SHA-256: $ACCEPTANCE_SHA256."
+          MESSAGE="CGLMP5 v0.2.0: complete original-scope Lean formalization. Final release tree: $EXPECTED_TREE. Proof payload is byte-identical to validated tree c1a5aa737f6bd7f04ea2bc2c22424dd53bcea281 with one completed blind Round 1; Round 2 was cancelled and Round 3 was not performed. Final-commit CI passed. Acceptance receipt SHA-256: $ACCEPTANCE_SHA256."
           gh api --method POST "repos/$GH_REPO/git/tags" \
             -f tag=v0.2.0 -f message="$MESSAGE" -f object="$EXPECTED_COMMIT" -f type=commit \
             > "$STATE/tag-object.json"

@@ -1,6 +1,6 @@
 # Published-statement / Lean alignment
 
-Status: **the complete proof-source theorem family has passed production builds**. This document records scope alignment and is not one of the three mandatory adversarial audits. Completion/replay, audit, CI and publication acceptance are established only by the [same-tree external receipt contract](FORMALIZATION_REPORT.md#external-acceptance-receipt-contract).
+Status: **the complete proof-source theorem family has passed production builds**. This document records scope alignment and is not an adversarial audit. Baseline completion/replay and one formal blind audit round concern commit `67e0426166c622a63e7daae554560e1ece16a3ba`, tree `c1a5aa737f6bd7f04ea2bc2c22424dd53bcea281`. Final release acceptance requires unchanged proof-critical payload plus final-commit CI and publication receipts under the [current external receipt contract](FORMALIZATION_REPORT.md#external-acceptance-receipt-contract).
 
 Controlling sources: frozen v0.1.1 `docs/LEAN_HANDOFF.md`, `paper/main.tex` (Theorem 1 and Sections 2–6), and `artifact_v0.1.1/`. The freeze/toolchain receipts identify that canonical target. The current `paper/` files also retain approved prior-work/bibliography/PDF maintenance from upstream commit `1e3282749c9fce2163aaeb8415d8936db88d43ad`. Its main-text change is the Acín–Durt–Gisin–Latorre prior-work paragraph; the theorem/proof/data sections are unchanged, as recorded in [the editorial integration receipt](docs/CURRENT_MAIN_EDITORIAL_INTEGRATION.json). Current paper bytes are therefore distinguished from the immutable v0.1.1 manuscript bytes. This document does not change the mathematical target.
 
@@ -102,7 +102,7 @@ Thus the proved lower witness is not a 5-dimensional compression substituted for
 
 The production sources name `commuting_pvm_sos_identity`, `commuting_pvm_upper`, `commuting_pvm_state_upper`, `tensor_povm_upper`, `strategy_value_le_mu`, `quantumValues_isGreatest`, `quantumValue_exact` and `cglmp5_exact`. All these OperatorTheorem and Main statements have passed their production builds. The complete [statement family](SOURCE_MAP.md#handoff-layer-9-and-final-theorem-assembly) also includes the checked local bound/local attainer and the checked physical full-space quantum attainer; it is not reduced to the combined `cglmp5_exact` conclusion.
 
-Acceptance of the candidate must be supported by external receipts confirming:
+The validated baseline completion gate is supported by external receipts confirming:
 
 1. the unconditional upper and exact supremum roots are present and whole-tree build succeeds;
 2. literal statement/scope comparison is repeated against the frozen manuscript;
@@ -110,6 +110,6 @@ Acceptance of the candidate must be supported by external receipts confirming:
 4. no forbidden proof placeholders or project-specific axioms are in the production dependency graph;
 5. source binding, exact positivity, same-party word order, common embedding and full-space attainment controls are verified.
 
-Only after that completion gate may the three required final adversarial rounds begin. Final release acceptance additionally requires three sequential external audit reports that each identify and pass the identical final tree. Any source-tree change requires the accepted three-round sequence to concern the new identical tree. Statement comparison itself does not presume those later audits have passed. The [external receipt contract](FORMALIZATION_REPORT.md#external-acceptance-receipt-contract) specifies completion/replay, audit, CI and publication evidence without requiring post-audit source edits.
+One formal blind semantic/source audit round passed on that baseline. Round 2 was cancelled before completion, and Round 3 was not performed. The 6 October 2026 release contract supersedes the earlier three-round requirement and permits non-proof release-layer changes without another local full replay or audit sequence. Final acceptance requires exact proof-critical payload correspondence to the baseline, valid workflow configuration, real remote CI on the final commit and verified publication. The [external receipt contract](FORMALIZATION_REPORT.md#external-acceptance-receipt-contract) distinguishes these scopes; no audit outcome is attributed to changed release-layer bytes.
 
-This alignment document does not establish an audit or release outcome. Those outcomes are established only by the matching external reports and receipts, without post-audit edits to this source tree.
+This alignment document does not establish an audit or release outcome. Those outcomes are established only by the matching external reports and receipts, with the baseline and final release trees identified separately.

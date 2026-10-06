@@ -20,7 +20,7 @@ numerically
 
 A five-dimensional bipartite strategy attains equality. The universal upper bound is carried by an exact 14-term positive noncommutative sum-of-squares certificate.
 
-**Evidence and release scope.** The complete Lean theorem family, exact source binding and explicit physical attainer are described in [FORMALIZATION_REPORT.md](FORMALIZATION_REPORT.md). Acceptance of a v0.2.0 release requires a clean relocated whole-tree build, genuine fresh-environment kernel replay, exact axiom/type inspection, destructive controls, and three sequential hostile audits on one identical source tree, followed by integrated-commit CI and downloaded-asset verification. Those execution results are established by separately hashed release receipts, not by this README. Internal AI verification is not human peer review.
+**Evidence and release scope.** The validated baseline is commit `67e0426166c622a63e7daae554560e1ece16a3ba`, tree `c1a5aa737f6bd7f04ea2bc2c22424dd53bcea281`: 985 production modules built, 835 declaration types/axiom sets inspected, genuine fresh-environment kernel replay and required controls completed, and one formal blind semantic/source audit round passed. Round 2 was cancelled before completion; Round 3 was not performed. The 6 October 2026 release contract permits release-layer changes while requiring byte-identical proof-critical payload, valid workflows, successful real remote CI on the final commit, and verified annotated publication and downloaded assets. The final Git tree is distinguished from the audited baseline. See [FORMALIZATION_REPORT.md](FORMALIZATION_REPORT.md) and [the acceptance contract](RELEASE_v0.2.0.md) for evidence scope and required receipts. Internal AI verification is not human peer review.
 
 ## Lean proof and replay
 
@@ -37,7 +37,7 @@ controls. The original v0.1.1 scientific target is unchanged; no finite-dimensio
 projective-only, pure-state-only or numerical replacement is used.
 
 The historical v0.1.1 checks listed below remain useful provenance. They do not
-substitute for the Lean completion gate or any of the three same-tree audit rounds.
+substitute for the Lean completion evidence, completed blind audit round, or final release gates.
 
 ## Start here
 
@@ -140,7 +140,7 @@ The research and verification workflow was AI-assisted. AI systems are not liste
 
 `v0.1.1` adds the publication manuscript, accepted non-load-bearing Phase-B hardening, and source-bound regression evidence. It leaves the theorem, root polynomial, certificate coefficients, attaining strategy, `artifact_v0.1/`, and the existing `v0.1.0` tag unchanged.
 
-At the historical **v0.1.1** release, Lean formalization had not started. The completed Lean milestone belongs to **v0.2.0** under the same-tree acceptance requirements described above. The [frozen Lean handoff](docs/LEAN_HANDOFF.md) records the original formalization contract.
+At the historical **v0.1.1** release, Lean formalization had not started. The completed Lean milestone belongs to **v0.2.0** under the preserved-payload acceptance requirements described above. The [frozen Lean handoff](docs/LEAN_HANDOFF.md) records the original formalization contract.
 
 ## v0.1.1 evidence discipline
 

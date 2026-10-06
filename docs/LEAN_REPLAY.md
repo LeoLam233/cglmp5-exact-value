@@ -3,22 +3,33 @@
 ## Status and scope
 
 The read-only workflow `.github/workflows/lean-verification.yml` implements the
-pinned replay below. Remote execution and acceptance are established only by
-commit-bound CI runs and the external receipt bundle; this document is not an
-execution receipt. The final roots compiled during development, and the lightweight
-readiness inventory check passed. The strict, clean-candidate pipeline and its
-fresh-environment kernel replay are separate execution gates. The distinct
-actual SOS coefficient-corruption runner has passed a development replay: its original
-six-module numeric path passes, the mutated data/lookup/phase path still passes, and
-the unchanged residual arithmetic rejects the altered coefficient. Its hook is now
-ready; every accepted candidate must rerun it under clean immutable-tree guards.
-The local CI-configuration tests have run; they are not a whole-project replay.
-No final formalization, adversarial-audit, or release PASS follows from those tests.
+pinned replay below. Remote execution is established only by a commit-bound CI
+run and its external receipts; this document is not an execution receipt.
 
-A successful run of this workflow is a **completion-gate replay**, not any of the
-three mandatory sequential adversarial audit rounds. Release remains blocked until
-those rounds pass on the same final Git tree, followed by integrated-commit CI and
-remote release verification.
+The validated baseline, commit `67e0426166c622a63e7daae554560e1ece16a3ba`, tree
+`c1a5aa737f6bd7f04ea2bc2c22424dd53bcea281`, has completion evidence covering all
+985 production modules, 835 exact declaration inspections, genuine
+fresh-environment kernel replay, source binding and required mutation controls.
+That evidence is an explicitly recorded composite of 35 successful original
+stages, one separately completed official kernel replay and four completed
+controls. Interrupted attempts remain preserved and are not counted as success.
+One formal blind semantic/source Round 1 passed on that baseline. Round 2 was
+cancelled before completion; Round 3 was not performed.
+
+Under the [release contract authorized on 6 October 2026](../RELEASE_v0.2.0.md),
+permitted release-layer changes require byte-identical proof-critical payload,
+valid workflow configuration and real remote CI on the final commit, followed by
+annotated publication and downloaded-asset verification. They do not require
+another local whole-project replay or audit sequence. The final Git tree and
+its changed release-layer bytes are not assigned the baseline's audit outcome.
+The technical procedure below remains available for remote CI and independent
+reproduction; a successful run is a completion-gate replay, not an audit round.
+
+**Historical contract:** the original acceptance plan required three sequential
+adversarial audit rounds passing on one identical final Git tree. That plan is
+preserved in the frozen handoff and original audit records, but the 6 October
+release contract supersedes it for v0.2.0 publication. Historical reports are not
+rewritten to describe cancelled or unperformed rounds as passing.
 
 ## Immutable inputs
 
@@ -172,6 +183,8 @@ The artifact includes failed readiness and build logs as well as successful
 receipts, when available. Archive/toolchain bytes are not redundantly uploaded.
 
 Before accepting a candidate, inspect the semantic outputs and exact axiom sets,
-not only process exit codes. A source change invalidates any earlier same-tree
-claim and requires replay of affected gates and audits under the mission's repair
-rule.
+not only process exit codes. A changed tree cannot inherit a whole-tree audit
+claim. For this release, the exhaustive payload comparison must show that all
+proof-critical bytes remain identical to the validated baseline; permitted
+release-layer differences receive final-commit CI and publication verification
+under the current contract.

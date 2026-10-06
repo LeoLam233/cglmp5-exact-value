@@ -1,6 +1,6 @@
 # Pre-completion semantic mutation controls
 
-These are development tests and completion-gate infrastructure. They are **not** any of the three required final adversarial audits. They must be replayed against the final frozen candidate, including both source-binding and actual SOS arithmetic corruption, before the completion gate can pass.
+These are development tests and completion-gate infrastructure, **not** adversarial audits. The validated baseline completion evidence includes their frozen-candidate replay, including source-binding and actual SOS arithmetic corruption. The [current release contract](../../RELEASE_v0.2.0.md) permits release-layer-only changes without another local replay while requiring unchanged proof-critical payload and real remote CI on the final commit. Historical development receipts below retain their original scope.
 
 ## Executed tests
 
@@ -66,9 +66,9 @@ This second runner acquires a shared slot around each compiler call internally. 
 
 Both runners use isolated temporary copies and leave the live proof sources untouched. Import errors, missing objects, unknown identifiers, timeouts, or a failing original baseline do not count as a successful semantic rejection. Expected-failure fixtures are kept outside the production Lean library.
 
-## Remaining hook
+## Completed SOS mutation gate
 
-The corrupted-certificate-coefficient mutation must target the completed exact SOS/canonical-data dependency path. It is intentionally not marked as implemented or passed before `SOS.compact_identity` exists. Final candidate-wide source and axiom checks, relocation replay, and all three adversarial audit rounds remain separate gates.
+The corrupted-certificate-coefficient mutation targets the completed exact SOS/canonical-data dependency path. Its successful execution belongs to the validated baseline completion evidence; earlier development receipts are not relabelled as that result. Source/axiom checks, relocation replay and the completed blind audit round have separate records. Final acceptance follows the preserved-payload contract, with Round 2 cancelled and Round 3 not performed.
 
 ## Frozen-candidate output discipline
 
@@ -85,7 +85,7 @@ LEAN_NUM_THREADS=1 python ../scripts/limited_build.py python ../scripts/run_lean
 
 The same output and cleanliness options apply to `run_lean_source_mutations.py` and `run_lean_source_binding_corruption.py`. The source-mutation runner locks each compiler call internally; the source-binding runner, like the fixture runner, should receive one outer shared-slot wrapper.
 
-Successful checks do not by themselves mark the final gate eligible. The actual SOS coefficient-corruption runner is a separate mandatory frozen replay, and the three final hostile audits are separate work.
+Successful checks do not by themselves establish release acceptance. The actual SOS coefficient-corruption execution is separately recorded in the baseline completion evidence; final payload correspondence, remote CI and publication remain distinct gates.
 
 ## Canonical source-binding corruption
 

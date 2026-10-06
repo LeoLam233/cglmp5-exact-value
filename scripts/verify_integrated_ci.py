@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Require the latest main-push run of each verification workflow at one commit.
 
-This read-only receipt gate does not establish the external three-audit acceptance
-record; the reviewed receipt hash must separately be supplied at release dispatch.
+This read-only receipt gate does not establish the external payload-bound
+acceptance record; its reviewed hash must separately be supplied at release dispatch.
 """
 import argparse
 import json
@@ -26,7 +26,7 @@ def verify(runs, commit):
             raise ValueError('Latest integrated CI is not completed successfully: ' + path)
         accepted.append(latest)
     return {'status': 'PASS', 'integrated_commit': commit, 'required_workflows': sorted(REQUIRED),
-            'runs': accepted, 'scope': 'Integrated-commit CI only; external same-tree acceptance is separate.'}
+            'runs': accepted, 'scope': 'Integrated-commit CI only; external payload-bound acceptance is separate.'}
 
 
 def main():
